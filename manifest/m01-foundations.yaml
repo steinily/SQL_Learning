@@ -1,0 +1,45 @@
+schema_version: 1
+module: M01
+title: Foundations
+priority: P0
+required: true
+status: planned
+documents:
+  - [DBKB-FND-0001, Foundations Overview, overview]
+  - [DBKB-FND-0002, Data Fundamentals, concept]
+  - [DBKB-FND-0003, Database Fundamentals, concept]
+  - [DBKB-FND-0004, Database Management Systems, concept]
+  - [DBKB-FND-0005, Database Models, concept]
+  - [DBKB-FND-0006, Relational Model Fundamentals, concept]
+  - [DBKB-FND-0007, Tables Rows and Columns, concept]
+  - [DBKB-FND-0008, Database Keys, concept]
+  - [DBKB-FND-0009, Relationships, concept]
+  - [DBKB-FND-0010, Referential Integrity, concept]
+  - [DBKB-FND-0011, Constraints, concept]
+  - [DBKB-FND-0012, Data Types, concept]
+  - [DBKB-FND-0013, Exact vs Approximate Numbers, concept]
+  - [DBKB-FND-0014, Character Data and Unicode, concept]
+  - [DBKB-FND-0015, Date and Time Fundamentals, concept]
+  - [DBKB-FND-0016, NULL Fundamentals, concept]
+  - [DBKB-FND-0017, Three-Valued Logic, concept]
+  - [DBKB-FND-0018, Sets, concept]
+  - [DBKB-FND-0019, Relational Algebra Fundamentals, concept]
+  - [DBKB-FND-0020, Set-Based Thinking, concept]
+  - [DBKB-FND-0021, Cardinality, concept]
+  - [DBKB-FND-0022, Selectivity, concept]
+  - [DBKB-FND-0023, Database Schema, concept]
+  - [DBKB-FND-0024, Data Integrity, concept]
+  - [DBKB-FND-0025, Transaction Fundamentals, concept]
+  - [DBKB-FND-0026, ACID, concept]
+  - [DBKB-FND-0027, Concurrency Fundamentals, concept]
+  - [DBKB-FND-0028, Consistency Models, concept]
+  - [DBKB-FND-0029, CAP Theorem Fundamentals, concept]
+  - [DBKB-FND-0030, OLTP vs OLAP, comparison]
+  - [DBKB-FND-0031, Database Workloads, concept]
+  - [DBKB-FND-0032, Database Warehouse Lake and Lakehouse, comparison]
+  - [DBKB-FND-0033, Structured vs Semi-Structured Data, comparison]
+  - [DBKB-FND-0034, Database Abstraction Layers, concept]
+  - [DBKB-FND-0035, Query and Database Object Fundamentals, concept]
+pilot:
+  first_documents: [DBKB-FND-0002, DBKB-FND-0003, DBKB-FND-0006, DBKB-FND-0016, DBKB-FND-0026, DBKB-FND-0029]
+  mass_generation_allowed: false
