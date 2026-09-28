@@ -1,0 +1,30 @@
+schema_version: 1
+id: WP-M01-001
+title: Foundations pilot
+state: PLANNED
+manifest_items:
+  - DBKB-FND-0002
+  - DBKB-FND-0003
+  - DBKB-FND-0006
+  - DBKB-FND-0016
+  - DBKB-FND-0026
+  - DBKB-FND-0029
+dependencies: []
+research_requirements:
+  - Prefer authoritative primary or academic sources.
+  - Record misconceptions for NULL, ACID and CAP.
+  - Do not treat simplified CAP choose-two explanations as sufficient.
+validation_requirements:
+  - metadata
+  - sources
+  - facts
+  - links
+  - terminology
+  - misconception-review
+  - SQL execution where SQL examples are used
+completion_criteria:
+  - All six documents satisfy Document Definition of Done.
+  - Full pipeline produces machine-readable validation reports.
+  - Metrics generator reflects pilot progress without changing baseline scope.
+  - Any architecture defect discovered is resolved through governance.
+rework_cycles: 0
