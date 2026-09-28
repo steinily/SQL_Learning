@@ -1,0 +1,21 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Project Metrics Snapshot",
+  "type":"object",
+  "required":["schema_version","generated_at","baseline_scope","content","verification","qa","release_ready"],
+  "properties":{
+    "schema_version":{"const":1},
+    "generated_at":{"type":"string","format":"date-time"},
+    "baseline_scope":{"type":"object"},
+    "content":{"type":"object"},
+    "verification":{"type":"object"},
+    "qa":{"type":"object"},
+    "execution_validation":{"type":"object"},
+    "knowledge_graph":{"type":"object"},
+    "source_health":{"type":"object"},
+    "knowledge_debt":{"type":"object"},
+    "technical_debt":{"type":"object"},
+    "release_ready":{"type":"boolean"}
+  },
+  "additionalProperties":false
+}
