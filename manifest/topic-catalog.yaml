@@ -1,0 +1,80 @@
+schema_version: 1
+catalog_version: "1.0"
+purpose: canonical V1 topic-family catalog
+modules:
+  M01:
+    families: [data fundamentals, database fundamentals, relational model, integrity and constraints, data types, null and three-valued logic, relational algebra, cardinality and selectivity, transactions and ACID, consistency and CAP, OLTP and OLAP, workloads and data platforms, abstraction and query fundamentals]
+  M02:
+    families: [SQL language and statement anatomy, SELECT and FROM, filtering and predicates, ordering and row limiting, expressions and operators, type conversion, DISTINCT, basic aggregation, basic joins, INSERT UPDATE DELETE, DDL fundamentals]
+  M03:
+    families: [advanced aggregation, join patterns, self joins, semi and anti joins, subqueries, correlated subqueries, EXISTS, set operations, CASE, CTE, recursive CTE, derived tables, views, temporary objects, NULL-safe patterns, duplicate handling, relational division]
+  M04:
+    families: [window functions, ranking, navigation functions, window frames, running and moving aggregates, gaps and islands, grouping sets rollup cube, hierarchy processing, lateral and apply, advanced JSON, advanced date time, dynamic SQL, UPSERT, MERGE, bulk modification]
+  M05:
+    families: [conceptual logical physical modeling, ER modeling, cardinality and optionality, normalization, denormalization, key strategies, UUID, lookup and reference data, audit and soft delete, temporal modeling, hierarchy patterns, polymorphic relationships, multi-tenancy, EAV, modeling anti-patterns]
+  M06:
+    families: [physical table design, constraints and referential actions, identity and sequences, generated columns, views and materialized views, index overview, schemas and namespaces, storage and tablespaces, partitioning, dependencies, naming and ownership, relational design patterns]
+  M07:
+    families: [transaction lifecycle, savepoints, ACID deep dive, isolation levels, read and write anomalies, locking and blocking, deadlocks, MVCC and snapshots, optimistic and pessimistic concurrency, transaction boundaries, retries and idempotency]
+  M08:
+    families: [index fundamentals, B-tree and hash, clustered concepts, composite indexes, covering indexes, filtered partial and expression indexes, specialized indexes, selectivity and cardinality, scans and seeks, maintenance and bloat, write cost, over indexing, index design workflow]
+  M09:
+    families: [performance methodology and baselines, optimizer and execution plans, EXPLAIN, scan types, join algorithms, statistics and cardinality estimation, cost estimation, SARGability, implicit conversions, pushdown, rewrites, parameterization and plan caching, memory and spills, parallelism, pagination, N+1 and batching, partition pruning, materialization, CPU IO memory cache]
+  M10:
+    families: [parser binder planner optimizer executor, pages blocks heap and tuples, buffer pool, WAL and transaction log, checkpoints and recovery, MVCC internals, lock manager, statistics internals, index internals and page splits, vacuum garbage collection, storage engines, row and column storage, compression]
+  M11:
+    families: [PostgreSQL architecture, databases schemas roles, PostgreSQL types, identity sequences constraints, indexes and BRIN GIN GiST, JSONB and arrays, SQL specifics, transactions MVCC locking, VACUUM autovacuum ANALYZE, EXPLAIN and statistics, WAL replication partitioning, materialized views extensions, pg_stat observability, backup PITR, security performance errors]
+  M12:
+    families: [SQL Server architecture, databases schemas and T-SQL, data types identity sequences, clustered nonclustered included filtered indexes, statistics and execution plans, optimizer plan cache parameter sniffing, transactions isolation locking row versioning, tempdb, temporary tables and table variables, CTE APPLY MERGE, procedures functions triggers, Agent, Query Store and DMVs, backup HA security performance errors]
+  M13:
+    families: [MySQL architecture and dialect, data types and AUTO_INCREMENT, InnoDB, indexes, transactions MVCC locking, EXPLAIN optimizer statistics, generated columns JSON, CTE windows, replication partitioning, backup performance security, MariaDB divergence, common errors]
+  M14:
+    families: [SQLite architecture, embedded use, storage, type affinity, transactions concurrency and locking, WAL mode, indexes, query planner, JSON, limitations, use cases, backup]
+  M15:
+    families: [Oracle architecture, Oracle SQL, PL SQL overview, data types, sequences identity, transactions, indexes, optimizer plans, tablespaces, partitioning, security, terminology]
+  M16:
+    families: [deployment and configuration, connections sessions pooling, users roles, storage and capacity, statistics and index maintenance, cleanup, upgrades patching, configuration management, automation jobs, environment separation, production change management, runbooks]
+  M17:
+    families: [authentication authorization, permissions least privilege, SQL injection and parameterization, dynamic SQL security, secrets TLS encryption, row and column security, masking anonymization pseudonymization, auditing, sensitive data classification, hardening, technical privacy]
+  M18:
+    families: [observability fundamentals, metrics logs traces, query statistics and slow logs, sessions connections locks blocking deadlocks, CPU memory IO cache, storage and replication, latency throughput baselines, SLI SLO, dashboards alerts, anomaly and capacity monitoring, incident diagnostics]
+  M19:
+    families: [database test strategy, unit integration SQL testing, constraint transaction migration and quality testing, regression, fixtures seed synthetic data, isolation and mocking boundaries, performance load stress concurrency testing, contract testing, deterministic and negative testing]
+  M20:
+    families: [schema versioning, compatibility, breaking changes, expand contract, zero downtime, column table type constraint index changes, data migrations and backfills, dual reads writes, rollback, validation, large-table migration, safety classification and anti-patterns]
+  M21:
+    families: [availability and HA, redundancy replication failover, backup types, logical physical backup, restore PITR, RPO RTO, disaster recovery, backup verification, restore and DR testing, failure scenarios and runbooks]
+  M22:
+    families: [pipeline fundamentals, ETL ELT, batch streaming, ingestion extraction transformation enrichment validation loading, incremental processing and refresh, idempotency retries backfills checkpoints, reliability dependencies orchestration, late and duplicate data, replay and observability]
+  M23:
+    families: [database integration, files APIs REST GraphQL, messaging events polling CDC, synchronization, import export, batch interfaces, data contracts, error retry reconciliation, integration patterns and anti-patterns]
+  M24:
+    families: [events messages topics partitions offsets, producer consumer groups, ordering and delivery semantics, CDC and log-based CDC, replay, event time processing time, late events, schema evolution, Kafka fundamentals, Debezium fundamentals]
+  M25:
+    families: [warehouse and OLAP, dimensional modeling, facts dimensions grain, star snowflake, conformed dimensions, SCD types, fact types, date dimensions, surrogate keys, marts semantic layer metrics aggregation, warehouse ETL ELT, analytical queries]
+  M26:
+    families: [row vs columnar, serialization compression, CSV JSON XML Parquet Avro ORC, schema evolution, file partitioning and sizing, encoding, splittability, format selection and interoperability]
+  M27:
+    families: [quality dimensions, profiling validation rules, duplicate and missing data, anomalies, reconciliation, metrics monitoring gates, root cause and incident handling]
+  M28:
+    families: [technical business operational metadata, dictionary catalog discovery, lineage and column lineage, impact analysis, metadata management ownership and schema metadata, metadata quality, automated lineage limitations]
+  M29:
+    families: [master and reference data, MDM, golden record, entity resolution, matching deduplication survivorship, hierarchies identifiers ownership synchronization, quality and lifecycle]
+  M30:
+    families: [distributed fundamentals, replication models, partitioning sharding hashing, quorum consensus, distributed transactions and 2PC, consistency eventual consistency CAP PACELC, conflict resolution, failure modes split brain and lag]
+  M31:
+    families: [NoSQL overview, document key-value wide-column graph time-series search vector multi-model, access-pattern modeling, MongoDB Redis Cassandra Neo4j Elasticsearch OpenSearch InfluxDB and vector database fundamentals]
+  M32:
+    families: [operational analytical architecture, warehouse lake lakehouse, lambda kappa medallion, data mesh and fabric, centralized decentralized, batch streaming, integration architecture, ADRs, trade-offs and anti-patterns]
+  M33:
+    families: [data schema API and event contracts, producer consumer responsibility, compatibility versioning registry, breaking changes, contract testing, ownership SLA SLO and evolution]
+  M34:
+    families: [DBaaS and managed databases, storage compute separation, serverless data, scaling HA backup security networking, cloud migration and cost, RDS Aurora Azure SQL Azure PostgreSQL Cloud SQL BigQuery Snowflake Databricks]
+  M35:
+    families: [SQL recipes, performance recipes, data cleanup, troubleshooting slow queries indexes blocking deadlocks CPU IO connections logs replication migrations, SQL database and modeling anti-patterns]
+  M36:
+    families: [performance transaction modeling migration ETL quality warehouse CDC backup security case studies, beginner intermediate advanced exercises, cheat sheets, database SQL vendor and data-engineering learning paths]
+cross_cutting:
+  glossary: generated_from_canonical_metadata
+  comparison_matrix: cross_vendor_reference_projection
+  error_kb: [postgresql, sqlserver, mysql, mariadb, sqlite, oracle]
