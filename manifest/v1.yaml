@@ -1,0 +1,55 @@
+schema_version: 1
+manifest_version: "1.0"
+status: frozen
+project: data-database-engineering-kb
+baseline_scope: v1
+language:
+  content: hu
+  technical_terms: en
+reference_engines:
+  primary: [postgresql, sqlserver]
+  secondary: [mysql]
+modules:
+  - {id: M01, title: Foundations, priority: P0, target_docs: 35}
+  - {id: M02, title: SQL Fundamentals, priority: P0, target_docs: 22}
+  - {id: M03, title: Intermediate SQL, priority: P0, target_docs: 28}
+  - {id: M04, title: Advanced SQL, priority: P0, target_docs: 28}
+  - {id: M05, title: Data Modeling, priority: P0, target_docs: 25}
+  - {id: M06, title: Relational Database Engineering, priority: P0, target_docs: 20}
+  - {id: M07, title: Transactions and Concurrency, priority: P0, target_docs: 25}
+  - {id: M08, title: Indexing, priority: P0, target_docs: 25}
+  - {id: M09, title: Query Performance and Optimization, priority: P0, target_docs: 35}
+  - {id: M10, title: Database Internals, priority: P0, target_docs: 25}
+  - {id: M11, title: PostgreSQL, priority: P0, target_docs: 40}
+  - {id: M12, title: SQL Server and T-SQL, priority: P0, target_docs: 40}
+  - {id: M13, title: MySQL and MariaDB, priority: P1, target_docs: 30}
+  - {id: M14, title: SQLite, priority: P1, target_docs: 14}
+  - {id: M15, title: Oracle Fundamentals, priority: P2, target_docs: 14}
+  - {id: M16, title: Database Operations and Administration, priority: P0, target_docs: 20}
+  - {id: M17, title: Security Privacy and Compliance Engineering, priority: P0, target_docs: 25}
+  - {id: M18, title: Observability and Monitoring, priority: P0, target_docs: 22}
+  - {id: M19, title: Testing and Validation, priority: P0, target_docs: 20}
+  - {id: M20, title: Migration and Schema Evolution, priority: P0, target_docs: 22}
+  - {id: M21, title: Reliability Backup and Disaster Recovery, priority: P1, target_docs: 18}
+  - {id: M22, title: Data Engineering Fundamentals, priority: P1, target_docs: 25}
+  - {id: M23, title: Data Integration, priority: P1, target_docs: 18}
+  - {id: M24, title: Streaming CDC and Messaging, priority: P1, target_docs: 20}
+  - {id: M25, title: Data Warehousing and Analytics, priority: P1, target_docs: 22}
+  - {id: M26, title: Data Storage and File Formats, priority: P1, target_docs: 16}
+  - {id: M27, title: Data Quality, priority: P1, target_docs: 18}
+  - {id: M28, title: Metadata Catalog and Lineage, priority: P1, target_docs: 15}
+  - {id: M29, title: Master and Reference Data, priority: P1, target_docs: 14}
+  - {id: M30, title: Distributed Data Systems, priority: P2, target_docs: 20}
+  - {id: M31, title: NoSQL, priority: P2, target_docs: 25}
+  - {id: M32, title: Data Architecture, priority: P1, target_docs: 16}
+  - {id: M33, title: Data Contracts and Interfaces, priority: P1, target_docs: 13}
+  - {id: M34, title: Cloud Data Platforms, priority: P2, target_docs: 18}
+  - {id: M35, title: Recipes Troubleshooting and Anti-Patterns, priority: P0, target_docs: 60}
+  - {id: M36, title: Case Studies Exercises Reference and Learning Paths, priority: P1, target_docs: 85}
+release_targets:
+  validated_scenarios_min: 50
+  glossary_terms_target: [500, 800]
+  executable_tests_target_min: 1000
+scope_control:
+  discovered_topic_default: BACKLOG
+  automatic_scope_expansion: false
