@@ -1,0 +1,19 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Research Package",
+  "type":"object",
+  "required":["schema_version","id","topic","verified_concepts","sources","cautions"],
+  "properties":{
+    "schema_version":{"const":1},
+    "id":{"type":"string","pattern":"^RP-[A-Z0-9]+-[0-9]{4}$"},
+    "topic":{"type":"string"},
+    "verified_concepts":{"type":"array","items":{"type":"string"}},
+    "dialect_differences":{"type":"array","items":{"type":"string"}},
+    "version_sensitive_claims":{"type":"array","items":{"type":"string"}},
+    "misconceptions":{"type":"array","items":{"type":"string"}},
+    "candidate_examples":{"type":"array","items":{"type":"string"}},
+    "sources":{"type":"array","items":{"type":"string"}},
+    "cautions":{"type":"array","items":{"type":"string"}}
+  },
+  "additionalProperties":false
+}
