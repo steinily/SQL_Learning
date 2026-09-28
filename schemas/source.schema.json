@@ -1,0 +1,19 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Evidence Source",
+  "type":"object",
+  "required":["schema_version","id","title","publisher","source_class","url","retrieved_at"],
+  "properties":{
+    "schema_version":{"const":1},
+    "id":{"type":"string","pattern":"^SRC-[0-9]{6}$"},
+    "title":{"type":"string","minLength":1},
+    "publisher":{"type":"string","minLength":1},
+    "source_class":{"enum":["S1-primary","S2-authoritative-secondary","S3-reputable-secondary","S4-community"]},
+    "url":{"type":"string","format":"uri"},
+    "technology":{"type":"string"},
+    "version":{"type":"string"},
+    "retrieved_at":{"type":"string","format":"date"},
+    "notes":{"type":"string"}
+  },
+  "additionalProperties":false
+}
