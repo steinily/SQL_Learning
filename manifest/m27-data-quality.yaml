@@ -1,0 +1,25 @@
+schema_version: 1
+module: M27
+title: Data Quality
+priority: P1
+required: true
+status: in_progress
+documents:
+  - [DBKB-DQ-0001, Data Quality Overview, overview]
+  - [DBKB-DQ-0002, Data Quality Dimensions, concept]
+  - [DBKB-DQ-0003, Data Quality Rules and Expectations, technology]
+  - [DBKB-DQ-0004, Data Profiling, technology]
+  - [DBKB-DQ-0005, Completeness and Null Quality, technology]
+  - [DBKB-DQ-0006, Uniqueness and Duplicate Quality, technology]
+  - [DBKB-DQ-0007, Accuracy and Validity, concept]
+  - [DBKB-DQ-0008, Consistency and Reconciliation, playbook]
+  - [DBKB-DQ-0009, Timeliness and Freshness, technology]
+  - [DBKB-DQ-0010, Data Quality Monitoring, technology]
+  - [DBKB-DQ-0011, Data Quality Incident Response, playbook]
+  - [DBKB-DQ-0012, Remediation and Quarantine, playbook]
+  - [DBKB-DQ-0013, Data Quality SLAs, concept]
+  - [DBKB-DQ-0014, Data Quality Testing, playbook]
+  - [DBKB-DQ-0015, Data Quality Governance, playbook]
+  - [DBKB-DQ-0016, Data Quality Troubleshooting, troubleshooting]
+  - [DBKB-DQ-0017, Data Quality Runbook, playbook]
+  - [DBKB-DQ-0018, Data Quality Exercise, exercise]

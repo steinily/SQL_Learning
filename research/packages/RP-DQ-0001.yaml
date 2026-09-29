@@ -1,0 +1,25 @@
+schema_version: 1
+id: RP-DQ-0001
+topic: M27 data quality
+status: READY
+verified_concepts:
+  - Data quality is a measurable, context-dependent property of data against declared rules, dimensions, consumers and time windows.
+  - Data quality validation requires reproducible expectations, ownership, severity, remediation and evidence of actual execution.
+claims:
+  - claim: Great Expectations documents expectations, validations and checkpoints for data quality workflows.
+    evidence_level: E2
+    sources: [SRC-000077]
+    state: VERIFIED
+    context: Official Great Expectations documentation.
+  - claim: dbt documents configurable data tests for models and sources.
+    evidence_level: E2
+    sources: [SRC-000078]
+    state: VERIFIED
+    context: Official dbt documentation.
+  - claim: Data quality and interoperability concepts require context-specific dimensions and controls.
+    evidence_level: E2
+    sources: [SRC-000079]
+    state: VERIFIED
+    context: NIST Big Data Interoperability Framework.
+cautions: [A passing rule set does not prove business correctness or untested data windows.]
+sources: [SRC-000077, SRC-000078, SRC-000079]

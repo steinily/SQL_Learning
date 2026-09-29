@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M27-001
+title: Data quality foundations and profiling
+state: DONE
+manifest_items: [DBKB-DQ-0001, DBKB-DQ-0002, DBKB-DQ-0003, DBKB-DQ-0004, DBKB-DQ-0005, DBKB-DQ-0006]
+dependencies: [WP-M26-003]
+research_requirements: [quality overview, dimensions, expectations, profiling, completeness, nulls, uniqueness and duplicates]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Six documents satisfy Document Definition of Done]
+rework_cycles: 0

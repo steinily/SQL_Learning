@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000078
+title: dbt Documentation Testing and Data Quality
+publisher: dbt Labs
+source_class: S1-primary
+url: https://docs.getdbt.com/docs/build/tests
+technology: dbt
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Data tests, generic and singular tests, sources, models and test configuration.
+notes: Test behavior depends on adapter, warehouse and dbt version.

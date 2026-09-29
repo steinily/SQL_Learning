@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000077
+title: Great Expectations Documentation
+publisher: Great Expectations
+source_class: S1-primary
+url: https://docs.greatexpectations.io/docs/
+technology: data-quality
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Data expectations, validation, checkpoints, profiling and data quality documentation.
+notes: Expectation APIs and integrations vary by Great Expectations version.
