@@ -3,7 +3,7 @@ module: M26
 title: Data Storage and File Formats
 priority: P1
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-STOR-0001, Data Storage and File Formats Overview, overview]
   - [DBKB-STOR-0002, Row and Column Storage, comparison]

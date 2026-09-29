@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M26-003
+title: Storage lifecycle interoperability and assurance
+state: DONE
+manifest_items: [DBKB-STOR-0012, DBKB-STOR-0013, DBKB-STOR-0014, DBKB-STOR-0015, DBKB-STOR-0016]
+dependencies: [WP-M26-002]
+research_requirements: [object storage layout, lifecycle, interoperability, testing and exercise design]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
