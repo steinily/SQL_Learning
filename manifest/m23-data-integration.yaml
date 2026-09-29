@@ -3,7 +3,7 @@ module: M23
 title: Data Integration
 priority: P1
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-INTG-0001, Data Integration Overview, overview]
   - [DBKB-INTG-0002, Integration Patterns, comparison]
