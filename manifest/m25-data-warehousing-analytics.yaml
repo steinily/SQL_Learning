@@ -1,0 +1,29 @@
+schema_version: 1
+module: M25
+title: Data Warehousing and Analytics
+priority: P1
+required: true
+status: in_progress
+documents:
+  - [DBKB-WH-0001, Data Warehousing and Analytics Overview, overview]
+  - [DBKB-WH-0002, Dimensional Modeling, concept]
+  - [DBKB-WH-0003, Facts and Dimensions, concept]
+  - [DBKB-WH-0004, Star and Snowflake Schemas, comparison]
+  - [DBKB-WH-0005, Slowly Changing Dimensions, technology]
+  - [DBKB-WH-0006, Surrogate Keys and Business Keys, concept]
+  - [DBKB-WH-0007, Warehouse Loading Patterns, playbook]
+  - [DBKB-WH-0008, OLAP and Analytical Queries, technology]
+  - [DBKB-WH-0009, Semantic Layer, concept]
+  - [DBKB-WH-0010, Data Marts, technology]
+  - [DBKB-WH-0011, Warehouse Partitioning, technology]
+  - [DBKB-WH-0012, Clustering and File Layout, technology]
+  - [DBKB-WH-0013, Aggregate Tables and Materialized Views, technology]
+  - [DBKB-WH-0014, BI and Dashboard Data Models, playbook]
+  - [DBKB-WH-0015, Metrics and Measures, concept]
+  - [DBKB-WH-0016, Analytical Query Optimization, technology]
+  - [DBKB-WH-0017, Incremental Warehouse Models, playbook]
+  - [DBKB-WH-0018, Warehouse Snapshots and Time Travel, technology]
+  - [DBKB-WH-0019, Warehouse Governance, playbook]
+  - [DBKB-WH-0020, Warehouse Security, technology]
+  - [DBKB-WH-0021, Warehouse Testing, playbook]
+  - [DBKB-WH-0022, Warehouse Exercise, exercise]

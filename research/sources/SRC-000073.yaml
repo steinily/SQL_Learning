@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000073
+title: Apache Iceberg Documentation
+publisher: Apache Software Foundation
+source_class: S1-primary
+url: https://iceberg.apache.org/docs/latest/
+technology: apache-iceberg
+version: latest documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Analytics table format, snapshots, schema/partition evolution, transactions and catalog integration.
+notes: Feature support and isolation depend on engine, catalog and Iceberg version.

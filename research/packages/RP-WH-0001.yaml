@@ -1,0 +1,25 @@
+schema_version: 1
+id: RP-WH-0001
+topic: M25 data warehousing and analytics
+status: READY
+verified_concepts:
+  - Data warehouses organize analytical data for repeatable dimensions, facts, workloads, governance and consumer semantics.
+  - Columnar files and table formats provide capabilities only in combination with the target engine, catalog and workload.
+claims:
+  - claim: Apache Spark documents SQL and distributed analytical processing concepts.
+    evidence_level: E2
+    sources: [SRC-000066]
+    state: VERIFIED
+    context: Official Apache Spark documentation.
+  - claim: Apache Parquet documents columnar storage and schema/encoding concepts used in analytical workloads.
+    evidence_level: E2
+    sources: [SRC-000068]
+    state: VERIFIED
+    context: Official Apache Parquet documentation.
+  - claim: Apache Iceberg documents snapshots, schema/partition evolution and table-level analytics capabilities.
+    evidence_level: E2
+    sources: [SRC-000073]
+    state: VERIFIED
+    context: Official Apache Iceberg documentation.
+cautions: [Warehouse performance, isolation, freshness and semantic correctness require target engine and workload evidence.]
+sources: [SRC-000066, SRC-000068, SRC-000073]

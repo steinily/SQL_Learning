@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M25-001
+title: Warehouse modeling and loading foundations
+state: DONE
+manifest_items: [DBKB-WH-0001, DBKB-WH-0002, DBKB-WH-0003, DBKB-WH-0004, DBKB-WH-0005, DBKB-WH-0006, DBKB-WH-0007]
+dependencies: [WP-M24-003]
+research_requirements: [warehouse overview, dimensional modeling, facts, dimensions, schema patterns, SCD, keys and loading]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
