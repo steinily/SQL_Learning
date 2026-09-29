@@ -3,7 +3,7 @@ module: M14
 title: SQLite
 priority: P1
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-SQ-0001, SQLite Overview, overview]
   - [DBKB-SQ-0002, SQLite Architecture, concept]

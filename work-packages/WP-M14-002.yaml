@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M14-002
+title: SQLite operations and advanced behavior
+state: DONE
+manifest_items: [DBKB-SQ-0008, DBKB-SQ-0009, DBKB-SQ-0010, DBKB-SQ-0011, DBKB-SQ-0012, DBKB-SQ-0013, DBKB-SQ-0014]
+dependencies: [WP-M14-001]
+research_requirements: [locking, foreign keys, indexes, query planner, backup, limits and exercise design]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
