@@ -1,0 +1,20 @@
+schema_version: 1
+id: RP-OPS-0001
+topic: M16 database operations and administration
+status: READY
+verified_concepts:
+  - Database administration is a controlled lifecycle covering configuration, security, capacity, maintenance, backup and change operations.
+  - Operational procedures are engine and version specific and require environment evidence before production execution.
+claims:
+  - claim: Official database documentation covers administration, configuration, maintenance, backup and upgrade concerns.
+    evidence_level: E2
+    sources: [SRC-000049]
+    state: VERIFIED
+    context: Official PostgreSQL, Microsoft SQL Server and MySQL administration documentation.
+  - claim: Operational runbooks should specify prechecks, change steps, verification and rollback or escalation.
+    evidence_level: E2
+    sources: [SRC-000049]
+    state: VERIFIED
+    context: Operational guidance synthesized from vendor administration documentation.
+cautions: [Commands, defaults, privileges, downtime and rollback behavior vary by engine and version.]
+sources: [SRC-000049]

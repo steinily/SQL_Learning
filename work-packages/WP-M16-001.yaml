@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M16-001
+title: Operations foundations and lifecycle
+state: DONE
+manifest_items: [DBKB-OPS-0001, DBKB-OPS-0002, DBKB-OPS-0003, DBKB-OPS-0004, DBKB-OPS-0005, DBKB-OPS-0006, DBKB-OPS-0007]
+dependencies: [WP-M14-002]
+research_requirements: [administration lifecycle, installation, configuration, privileges, storage and backup]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
