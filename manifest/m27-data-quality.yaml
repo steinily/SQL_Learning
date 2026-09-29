@@ -3,7 +3,7 @@ module: M27
 title: Data Quality
 priority: P1
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-DQ-0001, Data Quality Overview, overview]
   - [DBKB-DQ-0002, Data Quality Dimensions, concept]

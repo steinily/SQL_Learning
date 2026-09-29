@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M27-003
+title: Data quality governance and assurance
+state: DONE
+manifest_items: [DBKB-DQ-0013, DBKB-DQ-0014, DBKB-DQ-0015, DBKB-DQ-0016, DBKB-DQ-0017, DBKB-DQ-0018]
+dependencies: [WP-M27-002]
+research_requirements: [quality SLAs, testing, governance, troubleshooting, runbooks and exercise design]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Six documents satisfy Document Definition of Done]
+rework_cycles: 0
