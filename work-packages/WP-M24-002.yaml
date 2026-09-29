@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M24-002
+title: Streaming guarantees CDC and joins
+state: DONE
+manifest_items: [DBKB-STREAM-0008, DBKB-STREAM-0009, DBKB-STREAM-0010, DBKB-STREAM-0011, DBKB-STREAM-0012, DBKB-STREAM-0013, DBKB-STREAM-0014]
+dependencies: [WP-M24-001]
+research_requirements: [checkpoints, state, delivery guarantees, CDC architecture, snapshots, schema evolution, joins and backpressure]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
