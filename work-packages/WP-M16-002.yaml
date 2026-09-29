@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M16-002
+title: Recovery maintenance and change operations
+state: DONE
+manifest_items: [DBKB-OPS-0008, DBKB-OPS-0009, DBKB-OPS-0010, DBKB-OPS-0011, DBKB-OPS-0012, DBKB-OPS-0013, DBKB-OPS-0014]
+dependencies: [WP-M16-001]
+research_requirements: [restore, maintenance, patching, connection pools, scheduling, runbooks and change management]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
