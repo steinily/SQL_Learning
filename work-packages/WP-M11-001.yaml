@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M11-001
+title: PostgreSQL foundations
+state: DONE
+manifest_items: [DBKB-PG-0001, DBKB-PG-0002, DBKB-PG-0003, DBKB-PG-0004, DBKB-PG-0005, DBKB-PG-0006, DBKB-PG-0007]
+dependencies: [WP-M10-004]
+research_requirements: [architecture, installation, configuration, roles, databases, schemas and objects]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
