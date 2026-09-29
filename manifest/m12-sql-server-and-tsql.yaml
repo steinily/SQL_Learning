@@ -3,7 +3,7 @@ module: M12
 title: SQL Server and T-SQL
 priority: P0
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-SS-0001, SQL Server Overview, overview]
   - [DBKB-SS-0002, SQL Server Architecture, concept]

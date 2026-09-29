@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M12-006
+title: SQL Server governance and practice closure
+state: DONE
+manifest_items: [DBKB-SS-0036, DBKB-SS-0037, DBKB-SS-0038, DBKB-SS-0039, DBKB-SS-0040]
+dependencies: [WP-M12-005]
+research_requirements: [exercise, decision records, incident response, upgrade and review checklists]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Five documents satisfy Document Definition of Done and M12 is complete]
+rework_cycles: 0
