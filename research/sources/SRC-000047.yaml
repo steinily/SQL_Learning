@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000047
+title: MariaDB Server Documentation
+publisher: MariaDB
+source_class: S1-primary
+url: https://mariadb.com/kb/en/documentation/
+technology: mariadb
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: MariaDB SQL, storage engines, replication, security and operations.
+notes: MariaDB behavior is not assumed identical to MySQL; version and edition scope is required.

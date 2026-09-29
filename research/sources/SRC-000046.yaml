@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000046
+title: MySQL 8.4 Reference Manual
+publisher: Oracle MySQL
+source_class: S1-primary
+url: https://dev.mysql.com/doc/refman/8.4/en/
+technology: mysql
+version: "8.4"
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: MySQL SQL language, server architecture, data types, transactions, indexes, replication, backup and administration.
+notes: MySQL-specific claims must be checked against the target 8.4 edition and configuration.

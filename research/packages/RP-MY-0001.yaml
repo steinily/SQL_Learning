@@ -1,0 +1,20 @@
+schema_version: 1
+id: RP-MY-0001
+topic: M13 MySQL and MariaDB foundations
+status: READY
+verified_concepts:
+  - MySQL and MariaDB have related but non-identical SQL, storage engine and operational behavior.
+  - Version and SQL mode are part of every MySQL compatibility claim.
+claims:
+  - claim: The MySQL Reference Manual documents server architecture, SQL syntax, data types, InnoDB, transactions and administration.
+    evidence_level: E2
+    sources: [SRC-000046]
+    state: VERIFIED
+    context: MySQL 8.4 official documentation.
+  - claim: MariaDB documentation is a separate authoritative source and behavior must not be assumed identical to MySQL.
+    evidence_level: E2
+    sources: [SRC-000047]
+    state: VERIFIED
+    context: MariaDB official documentation.
+cautions: [Version, SQL mode, storage engine and fork differences must be explicit.]
+sources: [SRC-000046, SRC-000047]

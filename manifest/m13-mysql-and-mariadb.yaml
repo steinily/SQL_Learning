@@ -1,0 +1,37 @@
+schema_version: 1
+module: M13
+title: MySQL and MariaDB
+priority: P1
+required: true
+status: in_progress
+documents:
+  - [DBKB-MY-0001, MySQL and MariaDB Overview, overview]
+  - [DBKB-MY-0002, MySQL Architecture, concept]
+  - [DBKB-MY-0003, Installation and Configuration, tutorial]
+  - [DBKB-MY-0004, Databases and Schemas, concept]
+  - [DBKB-MY-0005, MySQL Security, concept]
+  - [DBKB-MY-0006, SQL Modes, technology]
+  - [DBKB-MY-0007, MySQL Data Types, reference]
+  - [DBKB-MY-0008, JSON Data, technology]
+  - [DBKB-MY-0009, Temporal Data Types, technology]
+  - [DBKB-MY-0010, Stored Programs, technology]
+  - [DBKB-MY-0011, Events and Triggers, technology]
+  - [DBKB-MY-0012, Views, concept]
+  - [DBKB-MY-0013, InnoDB, technology]
+  - [DBKB-MY-0014, MySQL Indexes, technology]
+  - [DBKB-MY-0015, Partitioning, technology]
+  - [DBKB-MY-0016, Optimizer and EXPLAIN, concept]
+  - [DBKB-MY-0017, Transactions, concept]
+  - [DBKB-MY-0018, Isolation and Locking, technology]
+  - [DBKB-MY-0019, Binary Log, technology]
+  - [DBKB-MY-0020, Replication, technology]
+  - [DBKB-MY-0021, Group Replication, technology]
+  - [DBKB-MY-0022, Backup and Restore, playbook]
+  - [DBKB-MY-0023, Recovery, concept]
+  - [DBKB-MY-0024, Performance Schema, technology]
+  - [DBKB-MY-0025, Slow Query Log, technology]
+  - [DBKB-MY-0026, MySQL Monitoring, reference]
+  - [DBKB-MY-0027, MySQL Performance, playbook]
+  - [DBKB-MY-0028, MySQL Anti-Patterns, troubleshooting]
+  - [DBKB-MY-0029, MySQL Exercise, exercise]
+  - [DBKB-MY-0030, MySQL Review Checklist, playbook]

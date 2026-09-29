@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M13-001
+title: MySQL and MariaDB foundations
+state: DONE
+manifest_items: [DBKB-MY-0001, DBKB-MY-0002, DBKB-MY-0003, DBKB-MY-0004, DBKB-MY-0005, DBKB-MY-0006, DBKB-MY-0007]
+dependencies: [WP-M12-006]
+research_requirements: [architecture, installation, schemas, security, SQL modes and data types]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
