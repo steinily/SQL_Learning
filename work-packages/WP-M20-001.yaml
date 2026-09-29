@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M20-001
+title: Migration foundations and compatibility
+state: DONE
+manifest_items: [DBKB-MIG-0001, DBKB-MIG-0002, DBKB-MIG-0003, DBKB-MIG-0004, DBKB-MIG-0005, DBKB-MIG-0006, DBKB-MIG-0007]
+dependencies: [WP-M19-003]
+research_requirements: [migration strategy, versioning, expand-contract, compatibility, DDL locking and online changes]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0

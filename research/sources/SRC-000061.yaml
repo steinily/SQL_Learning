@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000061
+title: Microsoft SQL Server Database Engine DDL and Deployment Documentation
+publisher: Microsoft
+source_class: S1-primary
+url: https://learn.microsoft.com/en-us/sql/relational-databases/tables/modify-columns-database-engine
+technology: sql-server-schema-evolution
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: SQL Server schema modification, deployment and compatibility considerations.
+notes: Locking, online operations and supported syntax vary by SQL Server version and edition.

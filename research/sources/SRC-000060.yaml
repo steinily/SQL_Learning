@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000060
+title: PostgreSQL SQL Commands and Upgrade Documentation
+publisher: PostgreSQL Global Development Group
+source_class: S1-primary
+url: https://www.postgresql.org/docs/current/sql-commands.html
+technology: schema-evolution
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: DDL commands, transactions, ALTER behavior, compatibility and upgrade-related database changes.
+notes: Locking, rewrite and compatibility behavior is command and version specific.

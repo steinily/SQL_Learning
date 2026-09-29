@@ -1,0 +1,20 @@
+schema_version: 1
+id: RP-MIG-0001
+topic: M20 migration and schema evolution
+status: READY
+verified_concepts:
+  - Schema evolution is a controlled change to database structure, data, contracts and operational behavior.
+  - Migration safety depends on engine/version behavior, lock and rewrite cost, compatibility windows, rollback or roll-forward design and evidence.
+claims:
+  - claim: Official PostgreSQL, SQL Server and MySQL documentation describes engine-specific DDL and schema modification behavior.
+    evidence_level: E2
+    sources: [SRC-000060, SRC-000061, SRC-000062]
+    state: VERIFIED
+    context: Official vendor documentation.
+  - claim: Online or low-lock schema change behavior is operation, storage engine, version and edition dependent.
+    evidence_level: E2
+    sources: [SRC-000060, SRC-000061, SRC-000062]
+    state: VERIFIED
+    context: Vendor-specific DDL documentation.
+cautions: [Never infer zero-downtime, instant or rollback guarantees without target-engine execution evidence.]
+sources: [SRC-000060, SRC-000061, SRC-000062]

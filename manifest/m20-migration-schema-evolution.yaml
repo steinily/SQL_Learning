@@ -1,0 +1,29 @@
+schema_version: 1
+module: M20
+title: Migration and Schema Evolution
+priority: P0
+required: true
+status: in_progress
+documents:
+  - [DBKB-MIG-0001, Migration and Schema Evolution Overview, overview]
+  - [DBKB-MIG-0002, Migration Strategy, playbook]
+  - [DBKB-MIG-0003, Versioned Migrations, technology]
+  - [DBKB-MIG-0004, Expand and Contract, concept]
+  - [DBKB-MIG-0005, Backward Compatible Changes, concept]
+  - [DBKB-MIG-0006, DDL Locking and Rewrite Risk, technology]
+  - [DBKB-MIG-0007, Online Schema Change, technology]
+  - [DBKB-MIG-0008, Data Backfill, playbook]
+  - [DBKB-MIG-0009, Dual Write and Dual Read, concept]
+  - [DBKB-MIG-0010, Feature Flags for Schema Changes, technology]
+  - [DBKB-MIG-0011, Migration Rollback and Roll-forward, playbook]
+  - [DBKB-MIG-0012, Migration Observability, technology]
+  - [DBKB-MIG-0013, Migration Testing, playbook]
+  - [DBKB-MIG-0014, Deployment Ordering, concept]
+  - [DBKB-MIG-0015, Cross-Engine Migration, comparison]
+  - [DBKB-MIG-0016, Zero Downtime Caveats, troubleshooting]
+  - [DBKB-MIG-0017, Schema Drift Detection, technology]
+  - [DBKB-MIG-0018, Migration Governance, playbook]
+  - [DBKB-MIG-0019, Migration Troubleshooting, troubleshooting]
+  - [DBKB-MIG-0020, Legacy Schema Modernization, case-study]
+  - [DBKB-MIG-0021, Migration Evidence Pack, reference]
+  - [DBKB-MIG-0022, Migration Exercise, exercise]

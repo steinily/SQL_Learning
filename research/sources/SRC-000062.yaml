@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000062
+title: MySQL ALTER TABLE Documentation
+publisher: Oracle Corporation
+source_class: S1-primary
+url: https://dev.mysql.com/doc/refman/8.4/en/alter-table.html
+technology: mysql-schema-evolution
+version: MySQL 8.4 reference documentation
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: MySQL ALTER TABLE algorithms, locking, instant/in-place operations and table changes.
+notes: Algorithm and lock behavior depends on operation, storage engine and version.
