@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M11-003
+title: PostgreSQL programming and security
+state: DONE
+manifest_items: [DBKB-PG-0015, DBKB-PG-0016, DBKB-PG-0017, DBKB-PG-0018, DBKB-PG-0019, DBKB-PG-0020, DBKB-PG-0021]
+dependencies: [WP-M11-002]
+research_requirements: [PL/pgSQL, routines, triggers, views, FDWs, security and row-level security]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
