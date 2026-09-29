@@ -3,7 +3,7 @@ module: M17
 title: Security Privacy and Compliance Engineering
 priority: P0
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-SEC-0001, Security Privacy and Compliance Overview, overview]
   - [DBKB-SEC-0002, Database Threat Modeling, concept]

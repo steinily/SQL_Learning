@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M17-003
+title: Compliance controls, assurance and response
+state: DONE
+manifest_items: [DBKB-SEC-0015, DBKB-SEC-0016, DBKB-SEC-0017, DBKB-SEC-0018, DBKB-SEC-0019, DBKB-SEC-0020, DBKB-SEC-0021, DBKB-SEC-0022, DBKB-SEC-0023, DBKB-SEC-0024, DBKB-SEC-0025]
+dependencies: [WP-M17-002]
+research_requirements: [audit logging, control mapping, PCI DSS, GDPR, vulnerability management, incident response, third-party access, testing and evidence]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Eleven documents satisfy Document Definition of Done]
+rework_cycles: 0
