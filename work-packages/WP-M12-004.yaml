@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M12-004
+title: SQL Server performance transactions and HA
+state: DONE
+manifest_items: [DBKB-SS-0022, DBKB-SS-0023, DBKB-SS-0024, DBKB-SS-0025, DBKB-SS-0026, DBKB-SS-0027, DBKB-SS-0028]
+dependencies: [WP-M12-003]
+research_requirements: [Query Store, plans, transactions, isolation, locks, Always On and backup]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0

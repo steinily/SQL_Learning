@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "document_id": "DBKB-SS-0016",
-  "run_id": "audit-6ee23067fc71",
-  "document_sha256": "12d7cea365370d6ed09f90c54f8a4a69d19762749163f53489a3a53543dd1426",
+  "document_id": "DBKB-SS-0024",
+  "run_id": "audit-c6aa10b4c0e4",
+  "document_sha256": "a7bb05372915d45805d57ab6be8a2b5b0f9d69d04af8e9b7dd7bc3cba1aa7625",
   "dimensions": {
     "content": "PASS",
     "sources": "PASS",
@@ -19,5 +19,5 @@
     "docmost_compatibility": "PASS"
   },
   "findings": [],
-  "executed_at": "2026-09-29T12:13:37.804790+00:00"
+  "executed_at": "2026-09-29T12:13:37.804325+00:00"
 }
