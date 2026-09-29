@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M11-006
+title: PostgreSQL governance and practice closure
+state: DONE
+manifest_items: [DBKB-PG-0036, DBKB-PG-0037, DBKB-PG-0038, DBKB-PG-0039, DBKB-PG-0040]
+dependencies: [WP-M11-005]
+research_requirements: [practice, decision records, incident response, upgrade and review checklists]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Five documents satisfy Document Definition of Done and M11 is complete]
+rework_cycles: 0
