@@ -1,0 +1,20 @@
+schema_version: 1
+id: RP-INT-0001
+topic: M10 database internals
+status: READY
+verified_concepts:
+  - PostgreSQL storage, WAL, vacuum and recovery behavior is documented as version-sensitive implementation detail.
+  - Internal observations require engine-specific instrumentation and evidence.
+claims:
+  - claim: PostgreSQL documents WAL as the mechanism used for crash recovery and durability.
+    evidence_level: E2
+    sources: [SRC-000014]
+    state: VERIFIED
+    context: PostgreSQL 18 official documentation.
+  - claim: PostgreSQL documents routine vacuuming, visibility maps and storage internals as operational mechanisms.
+    evidence_level: E2
+    sources: [SRC-000014]
+    state: VERIFIED
+    context: PostgreSQL 18 official documentation.
+cautions: [Internal structure and behavior are PostgreSQL-version-specific; no production internals claim without runtime evidence.]
+sources: [SRC-000014]

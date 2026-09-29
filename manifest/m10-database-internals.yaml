@@ -1,0 +1,32 @@
+schema_version: 1
+module: M10
+title: Database Internals
+priority: P0
+required: true
+status: in_progress
+documents:
+  - [DBKB-INT-0001, Database Internals Overview, overview]
+  - [DBKB-INT-0002, Storage Engine Concepts, concept]
+  - [DBKB-INT-0003, Pages and Tuples, technology]
+  - [DBKB-INT-0004, Heap Storage, technology]
+  - [DBKB-INT-0005, Write Ahead Logging, technology]
+  - [DBKB-INT-0006, Checkpoints and Recovery, technology]
+  - [DBKB-INT-0007, Buffer Pool, concept]
+  - [DBKB-INT-0008, Shared Buffers, technology]
+  - [DBKB-INT-0009, MVCC Internals, technology]
+  - [DBKB-INT-0010, Transaction IDs, technology]
+  - [DBKB-INT-0011, Vacuum Internals, technology]
+  - [DBKB-INT-0012, Visibility Map, technology]
+  - [DBKB-INT-0013, Free Space Map, technology]
+  - [DBKB-INT-0014, TOAST Storage, technology]
+  - [DBKB-INT-0015, Table and Index Bloat, troubleshooting]
+  - [DBKB-INT-0016, WAL Archiving, technology]
+  - [DBKB-INT-0017, Crash Recovery, technology]
+  - [DBKB-INT-0018, Replication Internals, technology]
+  - [DBKB-INT-0019, Checksum and Corruption, troubleshooting]
+  - [DBKB-INT-0020, Storage Parameters, reference]
+  - [DBKB-INT-0021, System Catalogs, technology]
+  - [DBKB-INT-0022, Statistics Internals, technology]
+  - [DBKB-INT-0023, Memory Contexts, technology]
+  - [DBKB-INT-0024, Internals Troubleshooting, playbook]
+  - [DBKB-INT-0025, Internals Exercise, exercise]
