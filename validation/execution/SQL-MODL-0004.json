@@ -5,7 +5,7 @@
   "environment": "sqlite-local",
   "engine": "sqlite",
   "engine_version": "3.46.1",
-  "executed_at": "2026-09-29T13:04:11.385419+00:00",
+  "executed_at": "2026-09-29T13:09:20.093943+00:00",
   "statement_sha256": "bb9d71476d287bf1d31dc88f76f92f8b1c2ee1ac0d4fab226673c94930a03df0",
   "status": "PASS",
   "actual_error_class": "IntegrityError",
