@@ -1,0 +1,32 @@
+schema_version: 1
+module: M08
+title: Indexing
+priority: P0
+required: true
+status: in_progress
+documents:
+  - [DBKB-IDX-0001, Indexing Overview, overview]
+  - [DBKB-IDX-0002, Why Indexes Matter, concept]
+  - [DBKB-IDX-0003, B-tree Indexes, technology]
+  - [DBKB-IDX-0004, Hash Indexes, technology]
+  - [DBKB-IDX-0005, Composite Indexes, concept]
+  - [DBKB-IDX-0006, Covering Indexes, concept]
+  - [DBKB-IDX-0007, Partial Indexes, technology]
+  - [DBKB-IDX-0008, Expression Indexes, technology]
+  - [DBKB-IDX-0009, Unique Indexes, concept]
+  - [DBKB-IDX-0010, Index Selectivity, concept]
+  - [DBKB-IDX-0011, Cardinality and Statistics, concept]
+  - [DBKB-IDX-0012, Index Maintenance, operations]
+  - [DBKB-IDX-0013, Index Bloat, troubleshooting]
+  - [DBKB-IDX-0014, Concurrent Index Builds, technology]
+  - [DBKB-IDX-0015, Clustered Indexes, comparison]
+  - [DBKB-IDX-0016, Heap and Index-Only Scans, technology]
+  - [DBKB-IDX-0017, Bitmap Index Scans, technology]
+  - [DBKB-IDX-0018, Multi-Column Statistics, technology]
+  - [DBKB-IDX-0019, Foreign Key Indexing, concept]
+  - [DBKB-IDX-0020, Indexing for ORDER BY, concept]
+  - [DBKB-IDX-0021, Indexing for Joins, concept]
+  - [DBKB-IDX-0022, Index Anti-Patterns, troubleshooting]
+  - [DBKB-IDX-0023, Index Review Checklist, checklist]
+  - [DBKB-IDX-0024, Indexing Exercise, exercise]
+  - [DBKB-IDX-0025, Indexing Decision Record, playbook]

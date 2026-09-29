@@ -1,0 +1,20 @@
+schema_version: 1
+id: RP-IDX-0001
+topic: M08 indexing
+status: READY
+verified_concepts:
+  - Index access methods have different predicate and ordering capabilities.
+  - Index design trades read performance for write and storage cost.
+claims:
+  - claim: PostgreSQL documents index types, multicolumn indexes, partial indexes and index-only scans.
+    evidence_level: E2
+    sources: [SRC-000014]
+    state: VERIFIED
+    context: PostgreSQL 18 official documentation.
+  - claim: Index design involves write and storage trade-offs and should be validated with query plans.
+    evidence_level: E2
+    sources: [SRC-000014]
+    state: VERIFIED
+    context: PostgreSQL 18 official documentation.
+cautions: [Exact planner behavior depends on PostgreSQL version, statistics and data distribution.]
+sources: [SRC-000014]
