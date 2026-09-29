@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "document_id": "DBKB-ISQL-0016",
+  "run_id": "audit-1963caadf9b3",
+  "document_sha256": "97292ac97e846fa4677d1a02284276a6cd16aeabad0da0f37c877ca4488303a3",
+  "dimensions": {
+    "content": "PASS",
+    "sources": "PASS",
+    "facts": "PASS",
+    "syntax": "PASS",
+    "execution": "PASS",
+    "expected_results": "PASS",
+    "dialects": "PASS",
+    "metadata": "PASS",
+    "links": "PASS",
+    "duplication": "PASS",
+    "contradictions": "PASS",
+    "terminology": "PASS",
+    "docmost_compatibility": "PASS"
+  },
+  "findings": [],
+  "executed_at": "2026-09-29T10:24:20.094858+00:00"
+}

@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000012
+title: The Unicode Standard 16.0 — Core Specification
+publisher: The Unicode Consortium
+source_class: S1-primary
+url: https://www.unicode.org/versions/Unicode16.0.0/core-spec/
+technology: unicode
+version: "16.0.0"
+retrieved_at: "2026-09-29"
+review_after: "2027-09-29"
+content_scope: Characters, code points, encoding forms, combining characters and normalization.
+notes: Primary specification; database collation behavior remains vendor-specific.

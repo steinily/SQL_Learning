@@ -1,0 +1,18 @@
+schema_version: 1
+id: SQL-FND-0005
+document_id: DBKB-FND-0010
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    PRAGMA foreign_keys = ON;
+    CREATE TABLE customer (customer_id INTEGER PRIMARY KEY);
+    CREATE TABLE sales_order (
+      sales_order_id INTEGER PRIMARY KEY,
+      customer_id INTEGER NOT NULL REFERENCES customer(customer_id)
+    );
+statement: INSERT INTO sales_order VALUES (5001, 9999)
+expectation:
+  error_class: IntegrityError
+  message_contains: FOREIGN KEY constraint failed
+destructive: false

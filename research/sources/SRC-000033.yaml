@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000033
+title: PostgreSQL 18 Documentation — Subquery Expressions
+publisher: PostgreSQL Global Development Group
+source_class: S1-primary
+url: https://www.postgresql.org/docs/18/functions-subquery.html
+technology: postgresql
+version: "18"
+retrieved_at: "2026-09-29"
+review_after: "2027-09-29"
+content_scope: EXISTS IN NOT IN ANY ALL scalar and row subquery behavior including NULL.
+notes: Optimization details are not inferred from logical semantics.

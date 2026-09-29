@@ -1,0 +1,14 @@
+schema_version: 1
+id: WP-M03-002
+title: Subqueries and set operations
+state: DONE
+manifest_items: [DBKB-ISQL-0008, DBKB-ISQL-0009, DBKB-ISQL-0010, DBKB-ISQL-0011, DBKB-ISQL-0012, DBKB-ISQL-0013, DBKB-ISQL-0014, DBKB-ISQL-0015, DBKB-ISQL-0016, DBKB-ISQL-0017]
+dependencies: [WP-M03-001]
+research_requirements:
+  - Verify EXISTS IN NOT IN UNION INTERSECT and EXCEPT semantics from official sources.
+  - Include explicit NULL and duplicate cases.
+validation_requirements: [metadata, sources, facts, links, dialects, SQL execution]
+completion_criteria:
+  - Ten documents satisfy Document Definition of Done.
+  - Negative NULL cases have execution evidence.
+rework_cycles: 0

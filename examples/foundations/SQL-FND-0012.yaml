@@ -1,0 +1,20 @@
+schema_version: 1
+id: SQL-FND-0012
+document_id: DBKB-FND-0025
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE account (account_id INTEGER PRIMARY KEY, balance INTEGER NOT NULL);
+    INSERT INTO account VALUES (1, 100);
+    BEGIN;
+    UPDATE account SET balance = 120 WHERE account_id = 1;
+    COMMIT;
+    BEGIN;
+    UPDATE account SET balance = 999 WHERE account_id = 1;
+    ROLLBACK;
+statement: SELECT account_id, balance FROM account
+expectation:
+  rows:
+    - [1, 120]
+destructive: false

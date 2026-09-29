@@ -1,0 +1,18 @@
+schema_version: 1
+id: SQL-MODL-0005
+document_id: DBKB-MODL-0005
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    PRAGMA foreign_keys = ON;
+    CREATE TABLE customer (customer_id INTEGER PRIMARY KEY, customer_name TEXT NOT NULL);
+    CREATE TABLE sales_order (order_id INTEGER PRIMARY KEY, customer_id INTEGER NOT NULL REFERENCES customer(customer_id));
+    CREATE TABLE order_line (order_id INTEGER, line_no INTEGER, quantity INTEGER NOT NULL, PRIMARY KEY (order_id, line_no), FOREIGN KEY (order_id) REFERENCES sales_order(order_id));
+    INSERT INTO customer VALUES (10, 'Ada');
+    INSERT INTO sales_order VALUES (100, 10);
+    INSERT INTO order_line VALUES (100, 1, 2);
+statement: SELECT c.customer_name, o.order_id, l.line_no, l.quantity FROM customer AS c JOIN sales_order AS o ON o.customer_id = c.customer_id JOIN order_line AS l ON l.order_id = o.order_id
+expectation:
+  rows: [[Ada, 100, 1, 2]]
+destructive: false

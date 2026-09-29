@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000022
+title: PostgreSQL 18 Documentation — Queries Overview
+publisher: PostgreSQL Global Development Group
+source_class: S1-primary
+url: https://www.postgresql.org/docs/18/queries-overview.html
+technology: postgresql
+version: "18"
+retrieved_at: "2026-09-29"
+review_after: "2027-09-29"
+content_scope: Query definition, SELECT anatomy, table expressions and result retrieval.
+notes: Syntax examples are PostgreSQL 18; core concepts are labelled separately.

@@ -1,0 +1,35 @@
+schema_version: 1
+module: M03
+title: Intermediate SQL
+priority: P0
+required: true
+status: complete
+documents:
+  - [DBKB-ISQL-0001, Intermediate SQL Overview, overview]
+  - [DBKB-ISQL-0002, Advanced Aggregation Patterns, concept]
+  - [DBKB-ISQL-0003, Conditional Aggregation, concept]
+  - [DBKB-ISQL-0004, Multi-Column Grouping, concept]
+  - [DBKB-ISQL-0005, Join Pattern Selection, concept]
+  - [DBKB-ISQL-0006, Self Joins, concept]
+  - [DBKB-ISQL-0007, Semi Joins, concept]
+  - [DBKB-ISQL-0008, Anti Joins, concept]
+  - [DBKB-ISQL-0009, Subquery Fundamentals, concept]
+  - [DBKB-ISQL-0010, Scalar Subqueries, concept]
+  - [DBKB-ISQL-0011, Multi-Row Subqueries, concept]
+  - [DBKB-ISQL-0012, Correlated Subqueries, concept]
+  - [DBKB-ISQL-0013, EXISTS, concept]
+  - [DBKB-ISQL-0014, NOT EXISTS and NOT IN, comparison]
+  - [DBKB-ISQL-0015, UNION and UNION ALL, concept]
+  - [DBKB-ISQL-0016, INTERSECT and EXCEPT, concept]
+  - [DBKB-ISQL-0017, Set Operation Compatibility, concept]
+  - [DBKB-ISQL-0018, CASE Expressions, concept]
+  - [DBKB-ISQL-0019, COALESCE and NULLIF, concept]
+  - [DBKB-ISQL-0020, CTE Fundamentals, concept]
+  - [DBKB-ISQL-0021, Multiple CTEs, concept]
+  - [DBKB-ISQL-0022, Recursive CTE Fundamentals and Safety, concept]
+  - [DBKB-ISQL-0023, Derived Tables, concept]
+  - [DBKB-ISQL-0024, Views, concept]
+  - [DBKB-ISQL-0025, Temporary Objects, concept]
+  - [DBKB-ISQL-0026, NULL-Safe Query Patterns, concept]
+  - [DBKB-ISQL-0027, Duplicate Handling, concept]
+  - [DBKB-ISQL-0028, Relational Division, concept]

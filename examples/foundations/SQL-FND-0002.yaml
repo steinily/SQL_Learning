@@ -1,0 +1,17 @@
+schema_version: 1
+id: SQL-FND-0002
+document_id: DBKB-FND-0016
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE customer (
+      customer_id INTEGER PRIMARY KEY,
+      phone_number VARCHAR(30)
+    );
+    INSERT INTO customer VALUES (1, '+36-1-555-0101'), (2, NULL);
+statement: SELECT COUNT(phone_number), COUNT(*) FROM customer
+expectation:
+  rows:
+    - [1, 2]
+destructive: false

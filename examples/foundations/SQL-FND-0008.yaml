@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-FND-0008
+document_id: DBKB-FND-0017
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - CREATE TABLE t (v INTEGER); INSERT INTO t VALUES (1), (2), (NULL);
+statement: SELECT v FROM t WHERE v <> 1 OR v IS NULL ORDER BY v IS NOT NULL, v
+expectation:
+  rows:
+    - [null]
+    - [2]
+destructive: false

@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ASQL-0018
+document_id: DBKB-ASQL-0018
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE event (event_id INTEGER PRIMARY KEY, payload TEXT);
+    INSERT INTO event VALUES (1, '{"sku":"A","quantity":3}');
+statement: SELECT json_extract(payload, '$.sku'), json_extract(payload, '$.quantity') FROM event
+expectation:
+  rows: [[A, 3]]
+destructive: false

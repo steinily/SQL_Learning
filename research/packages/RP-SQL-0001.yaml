@@ -1,0 +1,44 @@
+schema_version: 1
+id: RP-SQL-0001
+topic: M02 SQL query fundamentals
+status: READY
+verified_concepts:
+  - SELECT produces a result from a select list and optional table/filter/sort clauses.
+  - FROM forms table expressions; WHERE retains rows whose predicate is true.
+  - ORDER BY is required for guaranteed result ordering and deterministic row limiting.
+  - Expressions, aliases and conversion semantics require dialect and type context.
+claims:
+  - claim: PostgreSQL SELECT supports select-list expressions, table expressions and optional sorting.
+    evidence_level: E2
+    sources: [SRC-000022, SRC-000024]
+    state: VERIFIED
+    context: PostgreSQL 18.
+  - claim: PostgreSQL returns unspecified row order unless ORDER BY explicitly defines it.
+    evidence_level: E2
+    sources: [SRC-000025]
+    state: VERIFIED
+    context: PostgreSQL 18.
+  - claim: PostgreSQL LIMIT/OFFSET needs unique predictable ordering for stable page subsets.
+    evidence_level: E2
+    sources: [SRC-000026]
+    state: VERIFIED
+    context: PostgreSQL 18 LIMIT syntax.
+  - claim: T-SQL SELECT exposes SELECT, FROM, WHERE, GROUP BY, HAVING and ORDER BY clauses with product-specific additions.
+    evidence_level: E2
+    sources: [SRC-000028]
+    state: VERIFIED
+    context: Current Microsoft applies-to matrix.
+dialect_differences:
+  - PostgreSQL/SQLite use LIMIT; SQL Server supports TOP and OFFSET FETCH in different positions.
+  - Conversion, concatenation, alias visibility and NULL ordering vary by engine.
+version_sensitive_claims:
+  - PostgreSQL claims use version 18; SQL Server claims use current documentation retrieved 2026-09-29.
+misconceptions:
+  - Written clause order is not a promise of physical execution order.
+  - LIMIT without a unique ORDER BY does not define a stable page.
+candidate_examples:
+  - SELECT projection/filter/order over Atlas tiny.
+  - Explicit CAST and NULL-safe predicate examples.
+sources: [SRC-000022, SRC-000024, SRC-000025, SRC-000026, SRC-000028]
+cautions:
+  - Portable examples are executed only in the declared SQLite subset until primary engines are available.

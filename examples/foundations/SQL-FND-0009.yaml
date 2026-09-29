@@ -1,0 +1,25 @@
+schema_version: 1
+id: SQL-FND-0009
+document_id: DBKB-FND-0019
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE customer (customer_id INTEGER PRIMARY KEY, customer_code VARCHAR(20));
+    CREATE TABLE sales_order (
+      sales_order_id INTEGER PRIMARY KEY,
+      customer_id INTEGER REFERENCES customer(customer_id),
+      status VARCHAR(20)
+    );
+    INSERT INTO customer VALUES (1, 'CUST-ALPHA'), (2, 'CUST-BETA');
+    INSERT INTO sales_order VALUES (10, 1, 'NEW'), (11, 2, 'SHIPPED');
+statement: |
+  SELECT c.customer_code, o.sales_order_id
+  FROM customer AS c
+  JOIN sales_order AS o ON o.customer_id = c.customer_id
+  WHERE o.status = 'NEW'
+  ORDER BY o.sales_order_id
+expectation:
+  rows:
+    - [CUST-ALPHA, 10]
+destructive: false

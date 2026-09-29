@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "document_id": "DBKB-FND-0025",
+  "run_id": "audit-758db2f2868d",
+  "document_sha256": "c2ea0f7957c4c93190e38a784342651e3ccf07830fa6245e26936bb1edb7d22c",
+  "dimensions": {
+    "content": "PASS",
+    "sources": "PASS",
+    "facts": "PASS",
+    "syntax": "PASS",
+    "execution": "PASS",
+    "expected_results": "PASS",
+    "dialects": "PASS",
+    "metadata": "PASS",
+    "links": "PASS",
+    "duplication": "PASS",
+    "contradictions": "PASS",
+    "terminology": "PASS",
+    "docmost_compatibility": "PASS"
+  },
+  "findings": [],
+  "executed_at": "2026-09-29T10:24:20.088947+00:00"
+}

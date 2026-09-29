@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M05-002
+title: Key reference temporal and tenancy patterns
+state: DONE
+manifest_items: [DBKB-MODL-0008, DBKB-MODL-0009, DBKB-MODL-0010, DBKB-MODL-0011, DBKB-MODL-0012, DBKB-MODL-0013, DBKB-MODL-0014]
+dependencies: [WP-M05-001]
+research_requirements: [key type, reference data, audit, temporal, hierarchy, polymorphism and tenancy trade-offs]
+validation_requirements: [metadata, sources, facts, links, dialects, SQL execution]
+completion_criteria: [Seven documents satisfy Document Definition of Done, tenant-isolation example passes]
+rework_cycles: 0

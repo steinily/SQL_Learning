@@ -1,0 +1,15 @@
+schema_version: 1
+id: SQL-SQL-0012
+document_id: DBKB-SQL-0012
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE sales_order (order_id INTEGER PRIMARY KEY, customer_id INTEGER NOT NULL);
+    INSERT INTO sales_order VALUES (1, 10), (2, 10), (3, 20);
+statement: SELECT DISTINCT customer_id FROM sales_order ORDER BY customer_id
+expectation:
+  rows:
+    - [10]
+    - [20]
+destructive: false

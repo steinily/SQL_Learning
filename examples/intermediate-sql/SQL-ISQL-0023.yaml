@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ISQL-0023
+document_id: DBKB-ISQL-0023
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE sales_order (customer_id INTEGER, amount INTEGER);
+    INSERT INTO sales_order VALUES (10, 40), (10, 70), (20, 90);
+statement: SELECT d.customer_id, d.total FROM (SELECT customer_id, SUM(amount) AS total FROM sales_order GROUP BY customer_id) AS d WHERE d.total >= 100 ORDER BY d.customer_id
+expectation:
+  rows: [[10, 110]]
+destructive: false

@@ -1,0 +1,25 @@
+schema_version: 1
+id: WP-M02-001
+title: SQL query fundamentals
+state: DONE
+manifest_items:
+  - DBKB-SQL-0001
+  - DBKB-SQL-0002
+  - DBKB-SQL-0003
+  - DBKB-SQL-0004
+  - DBKB-SQL-0005
+  - DBKB-SQL-0006
+  - DBKB-SQL-0007
+  - DBKB-SQL-0008
+  - DBKB-SQL-0009
+  - DBKB-SQL-0010
+  - DBKB-SQL-0011
+dependencies: [WP-M01-004]
+research_requirements:
+  - Verify current PostgreSQL 18 and SQL Server syntax from official documentation.
+  - Keep portable core and vendor row-limiting/type-conversion syntax separate.
+validation_requirements: [metadata, sources, facts, links, dialects, SQL execution]
+completion_criteria:
+  - Eleven documents satisfy Document Definition of Done.
+  - Every runnable query has actual expected-result evidence.
+rework_cycles: 0

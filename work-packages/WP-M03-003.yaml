@@ -1,0 +1,14 @@
+schema_version: 1
+id: WP-M03-003
+title: Expressions CTEs and reusable query objects
+state: DONE
+manifest_items: [DBKB-ISQL-0018, DBKB-ISQL-0019, DBKB-ISQL-0020, DBKB-ISQL-0021, DBKB-ISQL-0022, DBKB-ISQL-0023, DBKB-ISQL-0024, DBKB-ISQL-0025]
+dependencies: [WP-M03-002]
+research_requirements:
+  - Verify conditional expression CTE recursive query view and temporary-table semantics.
+  - Scope lifecycle and materialization claims by vendor and version.
+validation_requirements: [metadata, sources, facts, links, dialects, SQL execution]
+completion_criteria:
+  - Eight documents satisfy Document Definition of Done.
+  - Recursive example has an explicit termination guard.
+rework_cycles: 0

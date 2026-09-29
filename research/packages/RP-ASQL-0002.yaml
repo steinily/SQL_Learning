@@ -1,0 +1,34 @@
+schema_version: 1
+id: RP-ASQL-0002
+topic: M04 grouping lateral hierarchy and JSON temporal patterns
+status: READY
+verified_concepts:
+  - Advanced analytical shapes require explicit grouping and correlation boundaries.
+  - JSON and temporal operations are strongly engine and version dependent.
+claims:
+  - claim: PostgreSQL table expressions support LATERAL references to preceding FROM items.
+    evidence_level: E2
+    sources: [SRC-000036]
+    state: VERIFIED
+    context: PostgreSQL 18.
+  - claim: PostgreSQL 18 exposes documented JSON extraction construction and aggregation operations.
+    evidence_level: E2
+    sources: [SRC-000041]
+    state: VERIFIED
+    context: PostgreSQL 18.
+  - claim: PostgreSQL 18 documents temporal arithmetic extraction truncation and timezone operations.
+    evidence_level: E2
+    sources: [SRC-000042]
+    state: VERIFIED
+    context: PostgreSQL 18.
+dialect_differences:
+  - APPLY JSON functions temporal buckets and grouping extensions vary substantially.
+version_sensitive_claims:
+  - SQL JSON inventories and time-bucketing functions are version-sensitive.
+misconceptions:
+  - JSON text extraction is not automatically typed comparison.
+candidate_examples:
+  - SQLite-labelled JSON extraction and temporal examples only where runtime support exists.
+sources: [SRC-000032, SRC-000036, SRC-000041, SRC-000042]
+cautions:
+  - Timezone daylight-saving and calendar interval cases need explicit tests.

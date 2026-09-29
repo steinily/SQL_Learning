@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "example_id": "SQL-SQL-0022",
+  "document_id": "DBKB-SQL-0022",
+  "environment": "sqlite-local",
+  "engine": "sqlite",
+  "engine_version": "3.46.1",
+  "executed_at": "2026-09-29T10:24:22.680320+00:00",
+  "statement_sha256": "135614d82fd42ef04e73da0a3a9c564e98fd5df6e73ba3f12c05f41b7982c0c8",
+  "status": "PASS",
+  "actual_rows": [
+    [
+      1,
+      "Ada"
+    ]
+  ]
+}

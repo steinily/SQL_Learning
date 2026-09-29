@@ -1,0 +1,14 @@
+schema_version: 1
+id: SQL-SQL-0015
+document_id: DBKB-SQL-0015
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE sales_order (order_id INTEGER PRIMARY KEY, customer_id INTEGER NOT NULL, status TEXT NOT NULL);
+    INSERT INTO sales_order VALUES (1, 10, 'OPEN'), (2, 10, 'OPEN'), (3, 20, 'OPEN'), (4, 20, 'CLOSED');
+statement: SELECT customer_id, COUNT(*) AS open_count FROM sales_order WHERE status = 'OPEN' GROUP BY customer_id HAVING COUNT(*) >= 2 ORDER BY customer_id
+expectation:
+  rows:
+    - [10, 2]
+destructive: false

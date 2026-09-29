@@ -1,0 +1,14 @@
+schema_version: 1
+id: SQL-SQL-0013
+document_id: DBKB-SQL-0013
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE payment (payment_id INTEGER PRIMARY KEY, amount INTEGER);
+    INSERT INTO payment VALUES (1, 30), (2, NULL), (3, 70);
+statement: SELECT COUNT(*) AS rows_seen, COUNT(amount) AS known_amounts, SUM(amount) AS total_amount FROM payment
+expectation:
+  rows:
+    - [3, 2, 100]
+destructive: false

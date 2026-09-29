@@ -1,0 +1,34 @@
+schema_version: 1
+id: RP-ISQL-0002
+topic: M03 subqueries and set operations
+status: READY
+verified_concepts:
+  - Subqueries can be scalar multi-row or correlated according to their context.
+  - Set operations combine union-compatible query results with explicit duplicate semantics.
+claims:
+  - claim: PostgreSQL documents EXISTS IN NOT IN ANY ALL and single-row comparison subquery forms.
+    evidence_level: E2
+    sources: [SRC-000033]
+    state: VERIFIED
+    context: PostgreSQL 18.
+  - claim: PostgreSQL UNION INTERSECT and EXCEPT require equal column counts and compatible corresponding types.
+    evidence_level: E2
+    sources: [SRC-000034]
+    state: VERIFIED
+    context: PostgreSQL 18.
+  - claim: UNION removes duplicates unless ALL is specified while INTERSECT and EXCEPT likewise have ALL variants.
+    evidence_level: E2
+    sources: [SRC-000034]
+    state: VERIFIED
+    context: PostgreSQL 18.
+dialect_differences:
+  - EXCEPT may be named MINUS in other products and ALL variant support differs.
+version_sensitive_claims:
+  - Type resolution and set-operation feature support are engine/version-sensitive.
+misconceptions:
+  - NOT IN with a nullable subquery is not generally equivalent to NOT EXISTS.
+candidate_examples:
+  - Positive and negative EXISTS cases plus NULL-bearing NOT IN counterexample.
+sources: [SRC-000033, SRC-000034]
+cautions:
+  - Parenthesize combined set operations when precedence matters.

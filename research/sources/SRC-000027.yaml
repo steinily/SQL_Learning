@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000027
+title: PostgreSQL 18 Documentation — Aggregate Functions
+publisher: PostgreSQL Global Development Group
+source_class: S1-primary
+url: https://www.postgresql.org/docs/18/functions-aggregate.html
+technology: postgresql
+version: "18"
+retrieved_at: "2026-09-29"
+review_after: "2027-09-29"
+content_scope: General aggregates, NULL inputs, empty-set behavior and ordered aggregates.
+notes: Aggregate inventory and ordering syntax are vendor/version-sensitive.

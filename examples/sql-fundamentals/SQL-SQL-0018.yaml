@@ -1,0 +1,18 @@
+schema_version: 1
+id: SQL-SQL-0018
+document_id: DBKB-SQL-0018
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE customer (customer_id INTEGER PRIMARY KEY, customer_name TEXT NOT NULL);
+    CREATE TABLE sales_order (order_id INTEGER PRIMARY KEY, customer_id INTEGER NOT NULL);
+    INSERT INTO customer VALUES (10, 'Ada'), (20, 'Linus'), (30, 'Grace');
+    INSERT INTO sales_order VALUES (1, 10), (2, 10), (3, 20);
+statement: SELECT c.customer_id, COUNT(o.order_id) AS order_count FROM customer AS c LEFT JOIN sales_order AS o ON o.customer_id = c.customer_id GROUP BY c.customer_id ORDER BY c.customer_id
+expectation:
+  rows:
+    - [10, 2]
+    - [20, 1]
+    - [30, 0]
+destructive: false

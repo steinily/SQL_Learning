@@ -1,0 +1,15 @@
+schema_version: 1
+id: SQL-FND-0010
+document_id: DBKB-FND-0018
+dialect: portable
+environment: sqlite-local
+setup:
+  - CREATE TABLE a (v INTEGER); INSERT INTO a VALUES (1), (2), (2);
+  - CREATE TABLE b (v INTEGER); INSERT INTO b VALUES (2), (3);
+statement: SELECT v FROM a UNION SELECT v FROM b ORDER BY v
+expectation:
+  rows:
+    - [1]
+    - [2]
+    - [3]
+destructive: false

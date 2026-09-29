@@ -1,0 +1,14 @@
+schema_version: 1
+id: SQL-RDBE-0006
+document_id: DBKB-RDBE-0006
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE customer (id INTEGER PRIMARY KEY, name TEXT, active INTEGER);
+    INSERT INTO customer VALUES (1, 'Ada', 1), (2, 'Linus', 0);
+    CREATE VIEW active_customer AS SELECT id, name FROM customer WHERE active = 1;
+statement: SELECT id, name FROM active_customer
+expectation:
+  rows: [[1, Ada]]
+destructive: false

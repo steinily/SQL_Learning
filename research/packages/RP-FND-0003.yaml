@@ -1,0 +1,58 @@
+schema_version: 1
+id: RP-FND-0003
+topic: M01 types logic and set operations
+status: READY
+verified_concepts:
+  - Data types define representation and operations but business domains may require further constraints.
+  - Exact decimal and approximate binary floating-point types have different correctness properties.
+  - Unicode characters, code points, encoding forms and user-perceived graphemes are distinct layers.
+  - Date/time values require explicit instant, civil-time and time-zone interpretation.
+  - SQL predicates can evaluate to true, false or unknown.
+  - Relational/set operations compose relation-like results, while SQL may retain duplicates unless requested otherwise.
+claims:
+  - claim: PostgreSQL numeric/decimal are exact types while real/double precision are inexact floating-point types.
+    evidence_level: E2
+    sources: [SRC-000010]
+    state: VERIFIED
+    context: PostgreSQL 18 exactness and precision behavior.
+  - claim: PostgreSQL character limits are expressed in characters and byte length can differ under multibyte encodings.
+    evidence_level: E2
+    sources: [SRC-000011]
+    state: VERIFIED
+    context: PostgreSQL 18 character types.
+  - claim: Unicode distinguishes code points, encoding forms, combining characters and normalization forms.
+    evidence_level: E2
+    sources: [SRC-000012]
+    state: VERIFIED
+    context: Unicode 16.0 core specification.
+  - claim: PostgreSQL date/time interpretation depends on type and time-zone/input context.
+    evidence_level: E2
+    sources: [SRC-000013]
+    state: VERIFIED
+    context: PostgreSQL 18 date/time types.
+  - claim: SQL logical operations use three-valued truth tables including unknown/null.
+    evidence_level: E2
+    sources: [SRC-000005]
+    state: VERIFIED
+    context: PostgreSQL 18 official truth tables.
+  - claim: Codd's relational model defines operations over relations and addresses redundancy and consistency.
+    evidence_level: E2
+    sources: [SRC-000002]
+    state: VERIFIED
+    context: Original relational-model paper.
+dialect_differences:
+  - Date/time, string, collation, floating-point and duplicate semantics need engine-specific validation.
+version_sensitive_claims:
+  - PostgreSQL type details are pinned to version 18; Unicode claims are pinned to 16.0.
+misconceptions:
+  - Character count, code-point count, grapheme count and byte length are not interchangeable.
+  - Floating-point display similarity does not prove exact equality.
+  - UNKNOWN is not automatically TRUE in WHERE filtering.
+candidate_examples:
+  - Exact decimal versus floating-point comparison.
+  - Three-valued logic table.
+  - UNION versus UNION ALL duplicate behavior.
+sources: [SRC-000002, SRC-000005, SRC-000010, SRC-000011, SRC-000012, SRC-000013]
+cautions:
+  - SQLite dynamic typing is not evidence for PostgreSQL or SQL Server type enforcement.
+  - Portable examples cover only the declared expression subset.

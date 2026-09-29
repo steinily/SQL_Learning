@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ASQL-0007
+document_id: DBKB-ASQL-0007
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE account_event (event_id INTEGER PRIMARY KEY, account_id INTEGER, event_time TEXT, amount INTEGER);
+    INSERT INTO account_event VALUES (1, 10, '2026-09-28', 100), (2, 10, '2026-09-29', 130), (3, 20, '2026-09-29', 50);
+statement: SELECT event_id, LAG(amount) OVER (PARTITION BY account_id ORDER BY event_time, event_id), amount - LAG(amount) OVER (PARTITION BY account_id ORDER BY event_time, event_id) FROM account_event ORDER BY account_id, event_time, event_id
+expectation:
+  rows: [[1, null, null], [2, 100, 30], [3, null, null]]
+destructive: false

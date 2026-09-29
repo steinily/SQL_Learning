@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M05-003
+title: Advanced modeling patterns and governance
+state: DONE
+manifest_items: [DBKB-MODL-0015, DBKB-MODL-0016, DBKB-MODL-0017, DBKB-MODL-0018, DBKB-MODL-0019, DBKB-MODL-0020, DBKB-MODL-0021, DBKB-MODL-0022, DBKB-MODL-0023, DBKB-MODL-0024, DBKB-MODL-0025]
+dependencies: [WP-M05-002]
+research_requirements: [EAV, anti-pattern, grain, key, constraints, ownership, evolution and review evidence]
+validation_requirements: [metadata, sources, facts, links, dialects, SQL execution]
+completion_criteria: [Eleven documents satisfy Document Definition of Done, M05 reaches 25 of 25]
+rework_cycles: 0

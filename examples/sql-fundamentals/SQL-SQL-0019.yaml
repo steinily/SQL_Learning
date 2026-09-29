@@ -1,0 +1,21 @@
+schema_version: 1
+id: SQL-SQL-0019
+document_id: DBKB-SQL-0019
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE size_option (size_code TEXT PRIMARY KEY);
+    CREATE TABLE color_option (color_code TEXT PRIMARY KEY);
+    INSERT INTO size_option VALUES ('S'), ('M');
+    INSERT INTO color_option VALUES ('B'), ('G'), ('R');
+statement: SELECT s.size_code, c.color_code FROM size_option AS s CROSS JOIN color_option AS c ORDER BY s.size_code, c.color_code
+expectation:
+  rows:
+    - [M, B]
+    - [M, G]
+    - [M, R]
+    - [S, B]
+    - [S, G]
+    - [S, R]
+destructive: false

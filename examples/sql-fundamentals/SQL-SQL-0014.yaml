@@ -1,0 +1,15 @@
+schema_version: 1
+id: SQL-SQL-0014
+document_id: DBKB-SQL-0014
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE sales_order (order_id INTEGER PRIMARY KEY, customer_id INTEGER NOT NULL);
+    INSERT INTO sales_order VALUES (1, 10), (2, 10), (3, 20);
+statement: SELECT customer_id, COUNT(*) AS order_count FROM sales_order GROUP BY customer_id ORDER BY customer_id
+expectation:
+  rows:
+    - [10, 2]
+    - [20, 1]
+destructive: false

@@ -1,0 +1,40 @@
+schema_version: 1
+id: RP-ISQL-0003
+topic: M03 expressions CTEs views and temporary objects
+status: READY
+verified_concepts:
+  - CASE COALESCE and NULLIF express conditional and null-handling logic.
+  - CTEs name auxiliary statements within one statement; recursive CTEs need termination reasoning.
+  - Views name reusable queries while temporary-table lifecycle is session and product specific.
+claims:
+  - claim: PostgreSQL WITH defines auxiliary statements used by a primary statement.
+    evidence_level: E2
+    sources: [SRC-000032]
+    state: VERIFIED
+    context: PostgreSQL 18.
+  - claim: PostgreSQL recursive WITH permits a query to reference its own output.
+    evidence_level: E2
+    sources: [SRC-000032]
+    state: VERIFIED
+    context: PostgreSQL 18.
+  - claim: PostgreSQL views name a query and can be referenced like a table.
+    evidence_level: E2
+    sources: [SRC-000037]
+    state: VERIFIED
+    context: PostgreSQL 18 tutorial scope.
+  - claim: PostgreSQL temporary tables use a special schema and are automatically dropped at session end unless earlier lifecycle applies.
+    evidence_level: E2
+    sources: [SRC-000038]
+    state: VERIFIED
+    context: PostgreSQL 18; not generalized to other engines.
+dialect_differences:
+  - CTE materialization view updatability and temporary-object namespace/lifecycle vary.
+version_sensitive_claims:
+  - PostgreSQL materialization controls and temporary-table options are version-specific.
+misconceptions:
+  - A CTE is not universally an optimization fence or materialized object.
+candidate_examples:
+  - Recursive integer sequence with explicit bound and view lifecycle in SQLite.
+sources: [SRC-000032, SRC-000035, SRC-000036, SRC-000037, SRC-000038]
+cautions:
+  - Recursive production queries need cycle and resource guards.

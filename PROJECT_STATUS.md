@@ -1,23 +1,39 @@
+<!-- GENERATED: scripts/generate_metrics.py; DO NOT EDIT -->
 # Project Status
 
-> Generated-status placeholder. This file becomes generator-owned when the metrics engine is implemented.
+Generated at: `2026-09-29T10:24:25.714361+00:00`
 
-## Baseline
+## Baseline scope
 
-- Architecture version: 1.0
-- Architecture: FROZEN
-- Manifest version: 1.0
-- Topic-family manifest: FROZEN
-- Maintained content: bootstrap only
-- M01 pilot: not started
-- Mass generation: disabled
+- Architecture: **v1.0 — FROZEN**
+- Manifest: **v1.0 — FROZEN**
+- Modules: **36**
+- Target documents: **918**
+- Registered documents: **158** (17.21%)
 
-## Current phase
+## Content and verification
 
-Repository bootstrap → schema validation → manifest expansion → M01 pilot.
+- Authored documents: **158** (17.21%)
+- Fully verified documents: **158** (17.21%)
+- Publishable documents: **158**
+- Execution-PASS document reports: **87 / 1000 minimum**
+
+## QA
+
+- BLOCKER: **0**
+- CRITICAL: **0**
+- MAJOR: **0**
+- MINOR: **0**
+- INFO: **0**
+
+## Debt and blockers
+
+- Unverified authored documents: **0**
+- Unregistered baseline documents: **760**
+- Live Docmost publish: **BLOCKED_CREDENTIALS_OR_API_NOT_CONFIGURED**
 
 ## Release readiness
 
 **NOT READY**
 
-This is expected. Architecture and scope are defined, but content, evidence, executable validation, Atlas fixtures and Docmost synchronization are not yet implemented.
+This result is produced by deterministic gates; it is not a project-health opinion.

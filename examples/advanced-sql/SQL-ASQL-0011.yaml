@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ASQL-0011
+document_id: DBKB-ASQL-0011
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE daily_metric (metric_day INTEGER PRIMARY KEY, amount INTEGER);
+    INSERT INTO daily_metric VALUES (1, 10), (2, 20), (3, 30), (4, 40);
+statement: SELECT metric_day, ROUND(AVG(amount) OVER (ORDER BY metric_day ROWS BETWEEN 2 PRECEDING AND CURRENT ROW), 2) FROM daily_metric ORDER BY metric_day
+expectation:
+  rows: [[1, 10.0], [2, 15.0], [3, 20.0], [4, 30.0]]
+destructive: false

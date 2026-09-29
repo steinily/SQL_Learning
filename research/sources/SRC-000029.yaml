@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000029
+title: FROM clause plus JOIN APPLY PIVOT (Transact-SQL)
+publisher: Microsoft
+source_class: S1-primary
+url: https://learn.microsoft.com/en-us/sql/t-sql/queries/from-transact-sql?view=sql-server-ver17
+technology: sqlserver
+version: SQL Server 2025 (17.x) documentation view
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Table sources and logical INNER, OUTER and CROSS joins.
+notes: APPLY and PIVOT are outside M02 fundamentals scope.

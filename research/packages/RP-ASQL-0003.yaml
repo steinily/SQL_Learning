@@ -1,0 +1,35 @@
+schema_version: 1
+id: RP-ASQL-0003
+topic: M04 dynamic SQL upsert merge and bulk modification
+status: READY
+verified_concepts:
+  - Dynamic values should be bound separately while identifiers require allowlisting and safe quoting.
+  - Upsert correctness depends on an explicit conflict identity.
+  - MERGE branch behavior and concurrency are product-specific.
+claims:
+  - claim: PostgreSQL PL pgSQL EXECUTE supports parameter values separately from dynamic command text.
+    evidence_level: E2
+    sources: [SRC-000045]
+    state: VERIFIED
+    context: PostgreSQL 18 PL pgSQL.
+  - claim: PostgreSQL ON CONFLICT selects an alternative action through an arbiter unique constraint or index and guarantees an atomic insert-or-update outcome for DO UPDATE absent independent errors.
+    evidence_level: E2
+    sources: [SRC-000043]
+    state: VERIFIED
+    context: PostgreSQL 18.
+  - claim: PostgreSQL MERGE can conditionally insert update or delete rows in one statement.
+    evidence_level: E2
+    sources: [SRC-000044]
+    state: VERIFIED
+    context: PostgreSQL 18.
+dialect_differences:
+  - ON CONFLICT MERGE OUTPUT RETURNING and dynamic execution syntax are vendor-specific.
+version_sensitive_claims:
+  - PostgreSQL 18 RETURNING and MERGE branch capabilities are pinned to version 18.
+misconceptions:
+  - MERGE is not automatically race-free or logically correct without source uniqueness and concurrency analysis.
+candidate_examples:
+  - SQLite ON CONFLICT example with declared SQLite scope and isolated bulk update.
+sources: [SRC-000043, SRC-000044, SRC-000045]
+cautions:
+  - Bulk modification requires preview affected-row assertion transaction and recovery plan.

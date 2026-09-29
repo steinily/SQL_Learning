@@ -1,0 +1,11 @@
+schema_version: 1
+id: SRC-000020
+title: Data Classification Concepts and Considerations for Improving Data Protection
+publisher: National Institute of Standards and Technology
+source_class: S1-primary
+url: https://nvlpubs.nist.gov/nistpubs/ir/2023/NIST.IR.8496.ipd.pdf
+technology: data-classification
+version: NIST IR 8496 initial public draft
+retrieved_at: "2026-09-29"
+content_scope: Structured, unstructured and semi-structured data terminology and examples.
+notes: Draft status is explicit; only definitional context is used.

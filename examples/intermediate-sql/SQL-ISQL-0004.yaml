@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ISQL-0004
+document_id: DBKB-ISQL-0004
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE sales_order (order_day TEXT, region_code TEXT, amount INTEGER);
+    INSERT INTO sales_order VALUES ('2026-09-28', 'E', 10), ('2026-09-28', 'E', 20), ('2026-09-28', 'W', 5), ('2026-09-29', 'E', 7);
+statement: SELECT order_day, region_code, SUM(amount) FROM sales_order GROUP BY order_day, region_code ORDER BY order_day, region_code
+expectation:
+  rows: [['2026-09-28', E, 30], ['2026-09-28', W, 5], ['2026-09-29', E, 7]]
+destructive: false

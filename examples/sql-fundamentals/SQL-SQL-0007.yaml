@@ -1,0 +1,14 @@
+schema_version: 1
+id: SQL-SQL-0007
+document_id: DBKB-SQL-0007
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE sample (sample_id INTEGER PRIMARY KEY, measured_value INTEGER);
+    INSERT INTO sample VALUES (1, NULL), (2, 10);
+statement: SELECT sample_id, measured_value IS NULL AS is_missing FROM sample WHERE measured_value IS NULL ORDER BY sample_id
+expectation:
+  rows:
+    - [1, 1]
+destructive: false

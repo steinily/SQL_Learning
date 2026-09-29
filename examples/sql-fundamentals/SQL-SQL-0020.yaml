@@ -1,0 +1,14 @@
+schema_version: 1
+id: SQL-SQL-0020
+document_id: DBKB-SQL-0020
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE customer (customer_id INTEGER PRIMARY KEY, customer_name TEXT NOT NULL);
+    INSERT INTO customer (customer_id, customer_name) VALUES (101, 'Ada');
+statement: SELECT customer_id, customer_name FROM customer
+expectation:
+  rows:
+    - [101, Ada]
+destructive: false

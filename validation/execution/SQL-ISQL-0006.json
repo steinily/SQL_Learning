@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "example_id": "SQL-ISQL-0006",
+  "document_id": "DBKB-ISQL-0006",
+  "environment": "sqlite-local",
+  "engine": "sqlite",
+  "engine_version": "3.46.1",
+  "executed_at": "2026-09-29T10:24:22.539391+00:00",
+  "statement_sha256": "56272201d023ba17e9537466f68e36cf8c4c3ff22a02ba1be8075d350a51f228",
+  "status": "PASS",
+  "actual_rows": [
+    [
+      "Ada",
+      null
+    ],
+    [
+      "Linus",
+      "Ada"
+    ],
+    [
+      "Grace",
+      "Ada"
+    ]
+  ]
+}

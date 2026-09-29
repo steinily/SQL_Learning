@@ -1,0 +1,24 @@
+schema_version: 1
+id: SQL-FND-0001
+document_id: DBKB-FND-0006
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE customer (
+      customer_code VARCHAR(20) PRIMARY KEY,
+      customer_name VARCHAR(100) NOT NULL,
+      country_code CHAR(2) NOT NULL
+    );
+    INSERT INTO customer VALUES
+      ('CUST-ALPHA', 'Alpha Components', 'HU'),
+      ('CUST-BETA', 'Beta Industrial', 'DE');
+statement: |
+  SELECT customer_code, customer_name
+  FROM customer
+  WHERE country_code = 'HU'
+  ORDER BY customer_code
+expectation:
+  rows:
+    - [CUST-ALPHA, Alpha Components]
+destructive: false

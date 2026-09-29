@@ -1,0 +1,14 @@
+schema_version: 1
+id: SQL-SQL-0006
+document_id: DBKB-SQL-0006
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE sales_order (order_id INTEGER PRIMARY KEY, status TEXT NOT NULL, amount INTEGER NOT NULL);
+    INSERT INTO sales_order VALUES (1, 'OPEN', 50), (2, 'OPEN', 150), (3, 'CLOSED', 200);
+statement: SELECT order_id FROM sales_order WHERE status = 'OPEN' AND amount >= 100 ORDER BY order_id
+expectation:
+  rows:
+    - [2]
+destructive: false

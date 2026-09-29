@@ -1,0 +1,11 @@
+schema_version: 1
+id: SRC-000002
+title: A Relational Model of Data for Large Shared Data Banks
+publisher: IBM Research / Communications of the ACM
+source_class: S1-primary
+url: https://research.ibm.com/publications/a-relational-model-of-data-for-large-shared-data-banks
+technology: relational-model
+version: original 1970 publication
+retrieved_at: "2026-09-29"
+content_scope: Primary paper introducing the relational model, n-ary relations and data independence motivation.
+notes: Historical primary source; modern SQL products are implementations, not identical to the mathematical model.

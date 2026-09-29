@@ -1,0 +1,14 @@
+schema_version: 1
+id: SQL-ASQL-0023
+document_id: DBKB-ASQL-0023
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE inventory (sku TEXT PRIMARY KEY, quantity INTEGER NOT NULL);
+    INSERT INTO inventory VALUES ('A', 2);
+    INSERT INTO inventory (sku, quantity) VALUES ('A', 3) ON CONFLICT(sku) DO UPDATE SET quantity = inventory.quantity + excluded.quantity;
+statement: SELECT sku, quantity FROM inventory
+expectation:
+  rows: [[A, 5]]
+destructive: false

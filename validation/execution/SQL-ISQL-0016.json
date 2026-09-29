@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "example_id": "SQL-ISQL-0016",
+  "document_id": "DBKB-ISQL-0016",
+  "environment": "sqlite-local",
+  "engine": "sqlite",
+  "engine_version": "3.46.1",
+  "executed_at": "2026-09-29T10:24:22.583359+00:00",
+  "statement_sha256": "ede29beab29eee1ff036e7e16038367ba8fba9c4245f609ff35eb040f34ce662",
+  "status": "PASS",
+  "actual_rows": [
+    [
+      "common",
+      10
+    ],
+    [
+      "common",
+      20
+    ],
+    [
+      "missing",
+      30
+    ]
+  ]
+}

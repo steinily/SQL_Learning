@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000003
+title: PostgreSQL 18 Documentation — SQL Concepts
+publisher: PostgreSQL Global Development Group
+source_class: S1-primary
+url: https://www.postgresql.org/docs/18/tutorial-concepts.html
+technology: postgresql
+version: "18"
+retrieved_at: "2026-09-29"
+review_after: "2027-09-29"
+content_scope: RDBMS, relation/table, rows, named columns, types and unordered rows.
+notes: Vendor documentation used for concrete SQL-system behavior; not a substitute for the formal model.

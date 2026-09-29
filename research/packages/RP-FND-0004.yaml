@@ -1,0 +1,64 @@
+schema_version: 1
+id: RP-FND-0004
+topic: M01 measurement transactions and platforms
+status: READY
+verified_concepts:
+  - Cardinality is a count; selectivity is a filtering proportion used in estimation contexts.
+  - A schema can mean a logical description broadly and a namespace concretely in PostgreSQL.
+  - Transaction and concurrency guarantees must name boundaries, isolation and failure behavior.
+  - Consistency is a family of precisely scoped guarantees, not a single universal strength label.
+  - OLTP and OLAP describe workload tendencies rather than immutable product categories.
+  - Warehouse, lake and lakehouse designs differ in governance, formats and workload emphasis.
+  - Application database APIs abstract connection/cursor/result mechanics without erasing database semantics.
+claims:
+  - claim: PostgreSQL row estimation relates estimated rows to relation cardinality and predicate selectivity.
+    evidence_level: E2
+    sources: [SRC-000015]
+    state: VERIFIED
+    context: PostgreSQL 18 planner examples.
+  - claim: PostgreSQL concurrency control coordinates simultaneous data access while maintaining integrity.
+    evidence_level: E2
+    sources: [SRC-000014]
+    state: VERIFIED
+    context: PostgreSQL 18 concurrency chapter.
+  - claim: Cosmos DB documents distinct strong, bounded-staleness, session, consistent-prefix and eventual guarantees.
+    evidence_level: E2
+    sources: [SRC-000018]
+    state: VERIFIED
+    context: Concrete current product model, not universal taxonomy.
+  - claim: OLTP typically records day-to-day business interactions while OLAP emphasizes complex read-heavy analysis.
+    evidence_level: E1
+    sources: [SRC-000016, SRC-000017]
+    state: VERIFIED
+    context: Microsoft Azure Architecture Center workload guidance.
+  - claim: Microsoft Fabric positions Warehouse for governed SQL workloads and Lakehouse for varied formats and big-data processing.
+    evidence_level: E2
+    sources: [SRC-000019]
+    state: VERIFIED
+    context: Vendor implementation example.
+  - claim: PEP 249 standardizes common connection, cursor, execution and result conventions for Python database modules.
+    evidence_level: E2
+    sources: [SRC-000021]
+    state: VERIFIED
+    context: Python DB-API 2.0 abstraction.
+  - claim: A PostgreSQL query uses SELECT to request data and can compose base tables, joins and subqueries in table expressions.
+    evidence_level: E2
+    sources: [SRC-000022]
+    state: VERIFIED
+    context: PostgreSQL 18 query overview.
+dialect_differences:
+  - Schema/object hierarchy, transaction defaults and query syntax vary across vendors.
+version_sensitive_claims:
+  - All vendor pages use the explicit retrieval date and product/version context recorded by source.
+misconceptions:
+  - Low selectivity and high selectivity terminology is sometimes used inconsistently; always state the ratio.
+  - OLTP and OLAP are not mutually exclusive product labels.
+  - An ORM or driver does not remove transaction, type or query-cost semantics.
+candidate_examples:
+  - Cardinality and selectivity calculation over Atlas tiny.
+  - Transaction commit and rollback boundary.
+  - Parameter-bound query through Python DB-API.
+sources: [SRC-000014, SRC-000015, SRC-000016, SRC-000017, SRC-000018, SRC-000019, SRC-000020, SRC-000021, SRC-000022, SRC-000023]
+cautions:
+  - Performance ratios are illustrative unless measured in a declared environment.
+  - Platform terms are explained conceptually; vendor-specific service guarantees remain version-sensitive.

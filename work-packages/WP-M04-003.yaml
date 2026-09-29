@@ -1,0 +1,14 @@
+schema_version: 1
+id: WP-M04-003
+title: JSON temporal and dynamic SQL
+state: DONE
+manifest_items: [DBKB-ASQL-0018, DBKB-ASQL-0019, DBKB-ASQL-0020, DBKB-ASQL-0021, DBKB-ASQL-0022]
+dependencies: [WP-M04-002]
+research_requirements:
+  - Verify JSON and temporal functions for the declared engine/version.
+  - Separate parameterized values from allowlisted dynamic identifiers.
+validation_requirements: [metadata, sources, facts, links, dialects, SQL execution]
+completion_criteria:
+  - Five documents satisfy Document Definition of Done.
+  - Dynamic SQL guidance includes injection-negative cases.
+rework_cycles: 0

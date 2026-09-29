@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ISQL-0026
+document_id: DBKB-ISQL-0026
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE pair (pair_id INTEGER PRIMARY KEY, a INTEGER, b INTEGER);
+    INSERT INTO pair VALUES (1, 10, 10), (2, NULL, NULL), (3, 10, NULL), (4, 10, 20);
+statement: SELECT pair_id FROM pair WHERE (a = b) OR (a IS NULL AND b IS NULL) ORDER BY pair_id
+expectation:
+  rows: [[1], [2]]
+destructive: false

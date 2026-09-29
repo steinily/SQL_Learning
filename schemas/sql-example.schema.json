@@ -1,0 +1,21 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Executable SQL Example",
+  "type":"object",
+  "required":["schema_version","id","document_id","dialect","environment","setup","statement","expectation"],
+  "properties":{
+    "schema_version":{"const":1},
+    "id":{"type":"string","pattern":"^SQL-[A-Z0-9]+-[0-9]{4}$"},
+    "document_id":{"type":"string","pattern":"^DBKB-[A-Z0-9]+-[0-9]{4}$"},
+    "dialect":{"enum":["portable","postgresql","sqlserver","mysql","sqlite"]},
+    "environment":{"enum":["sqlite-local","postgresql-container","sqlserver-container","mysql-container"]},
+    "setup":{"type":"array","items":{"type":"string"}},
+    "statement":{"type":"string","minLength":1},
+    "expectation":{"oneOf":[
+      {"type":"object","required":["rows"],"properties":{"rows":{"type":"array","items":{"type":"array"}}},"additionalProperties":false},
+      {"type":"object","required":["error_class"],"properties":{"error_class":{"type":"string","minLength":1},"message_contains":{"type":"string"},"after_error":{"type":"object","required":["statement","rows"],"properties":{"statement":{"type":"string","minLength":1},"rows":{"type":"array","items":{"type":"array"}}},"additionalProperties":false}},"additionalProperties":false}
+    ]},
+    "destructive":{"type":"boolean","default":false}
+  },
+  "additionalProperties":false
+}

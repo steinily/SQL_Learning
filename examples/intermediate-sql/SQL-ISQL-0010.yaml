@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ISQL-0010
+document_id: DBKB-ISQL-0010
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE product (product_id INTEGER PRIMARY KEY, unit_price INTEGER);
+    INSERT INTO product VALUES (1, 10), (2, 20), (3, 30);
+statement: SELECT product_id, unit_price, (SELECT AVG(unit_price) FROM product) FROM product ORDER BY product_id
+expectation:
+  rows: [[1, 10, 20.0], [2, 20, 20.0], [3, 30, 20.0]]
+destructive: false

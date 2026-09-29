@@ -1,0 +1,14 @@
+schema_version: 1
+id: WP-M03-001
+title: Intermediate aggregation and join patterns
+state: DONE
+manifest_items: [DBKB-ISQL-0001, DBKB-ISQL-0002, DBKB-ISQL-0003, DBKB-ISQL-0004, DBKB-ISQL-0005, DBKB-ISQL-0006, DBKB-ISQL-0007]
+dependencies: [WP-M02-002]
+research_requirements:
+  - Verify aggregation and logical join semantics from official PostgreSQL 18 documentation.
+  - Separate logical pattern claims from optimizer implementation claims.
+validation_requirements: [metadata, sources, facts, links, dialects, SQL execution]
+completion_criteria:
+  - Seven documents satisfy Document Definition of Done.
+  - Every runnable query has actual expected-result evidence.
+rework_cycles: 0

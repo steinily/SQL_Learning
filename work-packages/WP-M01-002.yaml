@@ -1,0 +1,22 @@
+schema_version: 1
+id: WP-M01-002
+title: Foundations structures and integrity
+state: DONE
+manifest_items:
+  - DBKB-FND-0001
+  - DBKB-FND-0004
+  - DBKB-FND-0005
+  - DBKB-FND-0007
+  - DBKB-FND-0008
+  - DBKB-FND-0009
+  - DBKB-FND-0010
+  - DBKB-FND-0011
+dependencies: [WP-M01-001]
+research_requirements:
+  - Use Codd's primary paper and current PostgreSQL 18 official documentation.
+  - Separate the formal relational model from SQL implementation behavior.
+validation_requirements: [metadata, sources, facts, links, terminology, SQL execution]
+completion_criteria:
+  - All eight documents satisfy Document Definition of Done.
+  - Constraint examples have actual expected-result and expected-error evidence.
+rework_cycles: 0

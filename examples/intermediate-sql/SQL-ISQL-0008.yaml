@@ -1,0 +1,15 @@
+schema_version: 1
+id: SQL-ISQL-0008
+document_id: DBKB-ISQL-0008
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE customer (customer_id INTEGER PRIMARY KEY);
+    CREATE TABLE sales_order (order_id INTEGER PRIMARY KEY, customer_id INTEGER);
+    INSERT INTO customer VALUES (10), (20), (30);
+    INSERT INTO sales_order VALUES (1, 10), (2, 20);
+statement: SELECT c.customer_id FROM customer AS c WHERE NOT EXISTS (SELECT 1 FROM sales_order AS o WHERE o.customer_id = c.customer_id) ORDER BY c.customer_id
+expectation:
+  rows: [[30]]
+destructive: false

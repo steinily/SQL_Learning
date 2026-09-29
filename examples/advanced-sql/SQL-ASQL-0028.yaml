@@ -1,0 +1,14 @@
+schema_version: 1
+id: SQL-ASQL-0028
+document_id: DBKB-ASQL-0028
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE account (account_id INTEGER PRIMARY KEY, balance INTEGER NOT NULL);
+    INSERT INTO account VALUES (1, 100);
+    UPDATE account SET balance = balance + 25 WHERE account_id = 1;
+statement: SELECT account_id, balance FROM account
+expectation:
+  rows: [[1, 125]]
+destructive: true

@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000043
+title: PostgreSQL 18 Documentation — INSERT
+publisher: PostgreSQL Global Development Group
+source_class: S1-primary
+url: https://www.postgresql.org/docs/18/sql-insert.html
+technology: postgresql
+version: "18"
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: INSERT ON CONFLICT conflict targets atomic outcome privileges and RETURNING.
+notes: ON CONFLICT is PostgreSQL-specific syntax and limitations are version-sensitive.

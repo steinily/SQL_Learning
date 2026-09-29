@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M06-001
+title: Relational physical design
+state: DONE
+manifest_items: [DBKB-RDBE-0001, DBKB-RDBE-0002, DBKB-RDBE-0003, DBKB-RDBE-0004, DBKB-RDBE-0005, DBKB-RDBE-0006, DBKB-RDBE-0007]
+dependencies: [WP-M05-003]
+research_requirements: [physical table design, constraints, identity, generated columns, views and indexes from official engine documentation]
+validation_requirements: [metadata, sources, facts, links, dialects, SQL execution]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0

@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000018
+title: Consistency levels in Azure Cosmos DB
+publisher: Microsoft
+source_class: S1-primary
+url: https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-levels
+technology: azure-cosmos-db
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Strong, bounded staleness, session, consistent prefix and eventual consistency guarantees.
+notes: Concrete five-level model belongs to Cosmos DB; it illustrates why consistency must be named precisely.

@@ -30,3 +30,10 @@ Facts: sales, production, inventory, quality, shipments.
 ## Planned event families
 
 order.created, order.updated, production.started, production.completed, inventory.received, inventory.consumed, quality.failed, shipment.created and shipment.delivered.
+
+## Implemented V1 slice
+
+The versioned `v1/` tree implements the tiny organization/customer/product/order slice.
+`fixtures/atlas-tiny.sql` is deterministic and constrained; deliberate quality defects are
+isolated under `dirty/`. Run `.venv/bin/python scripts/atlas_validate.py` to execute the
+fixture, foreign-key checks and stable assertions in an in-memory SQLite environment.

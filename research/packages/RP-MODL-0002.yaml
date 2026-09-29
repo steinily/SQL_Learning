@@ -1,0 +1,24 @@
+schema_version: 1
+id: RP-MODL-0002
+topic: M05 key temporal hierarchy and tenancy patterns
+status: READY
+verified_concepts:
+  - Key choice, temporal meaning and tenant boundary are business contracts.
+  - Hierarchy and polymorphism require explicit integrity and query rules.
+claims:
+  - claim: PostgreSQL date/time types and timezone context affect temporal representation and interpretation.
+    evidence_level: E2
+    sources: [SRC-000013]
+    state: VERIFIED
+    context: PostgreSQL 18.
+  - claim: Unicode code points and encoding forms are distinct from database collation and business identity.
+    evidence_level: E2
+    sources: [SRC-000012, SRC-000011]
+    state: VERIFIED
+    context: Unicode 16 and PostgreSQL 18 character documentation.
+dialect_differences: [UUID generation, temporal types, row-level security and hierarchy features vary.]
+version_sensitive_claims: [Temporal and type feature inventories are version-sensitive.]
+misconceptions: [UUID is not automatically a business key; soft delete is not retention compliance.]
+candidate_examples: [Tenant-keyed rows, effective-date interval and parent-child constraints.]
+sources: [SRC-000012, SRC-000013, SRC-000009]
+cautions: [Timezone, tenant isolation and history retention need threat and failure analysis.]

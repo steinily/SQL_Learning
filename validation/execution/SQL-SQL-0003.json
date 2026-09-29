@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "example_id": "SQL-SQL-0003",
+  "document_id": "DBKB-SQL-0003",
+  "environment": "sqlite-local",
+  "engine": "sqlite",
+  "engine_version": "3.46.1",
+  "executed_at": "2026-09-29T10:24:22.631440+00:00",
+  "statement_sha256": "126604e627dabb6f8ed0175e00c5e74ea290b4cbadf0b39cdad7eb6c99b6f313",
+  "status": "PASS",
+  "actual_rows": [
+    [
+      1,
+      "Cable",
+      20
+    ],
+    [
+      2,
+      "Adapter",
+      35
+    ]
+  ]
+}

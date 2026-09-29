@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "example_id": "SQL-FND-0004",
+  "document_id": "DBKB-FND-0007",
+  "environment": "sqlite-local",
+  "engine": "sqlite",
+  "engine_version": "3.46.1",
+  "executed_at": "2026-09-29T10:24:22.487130+00:00",
+  "statement_sha256": "c7f7a15fac15dc3212494ca43ac3b1fc11ff66f93c6033bd00c818e3b70b4b7f",
+  "status": "PASS",
+  "actual_rows": [
+    [
+      1001,
+      "Bearing 6204"
+    ]
+  ]
+}

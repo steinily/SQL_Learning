@@ -1,0 +1,29 @@
+schema_version: 1
+id: RP-ISQL-0001
+topic: M03 aggregation and join patterns
+status: READY
+verified_concepts:
+  - Grouping defines result grain and conditional expressions can feed aggregates.
+  - Logical joins and existence patterns preserve different output cardinalities.
+claims:
+  - claim: PostgreSQL table expressions include joined tables subqueries and grouping operations.
+    evidence_level: E2
+    sources: [SRC-000036]
+    state: VERIFIED
+    context: PostgreSQL 18.
+  - claim: PostgreSQL EXISTS tests whether a subquery returns at least one row and does not depend on its select-list values.
+    evidence_level: E2
+    sources: [SRC-000033]
+    state: VERIFIED
+    context: PostgreSQL 18.
+dialect_differences:
+  - Optimizer recognition of semi and anti joins is implementation-specific.
+version_sensitive_claims:
+  - Physical join implementation and accepted grouping extensions are version-sensitive.
+misconceptions:
+  - A logical semi join does not multiply a left row when multiple right matches exist.
+candidate_examples:
+  - Conditional aggregation and self-join hierarchy examples.
+sources: [SRC-000027, SRC-000033, SRC-000036]
+cautions:
+  - Validate grain before aggregating joined data.

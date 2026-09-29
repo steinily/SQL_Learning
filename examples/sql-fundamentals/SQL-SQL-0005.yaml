@@ -1,0 +1,15 @@
+schema_version: 1
+id: SQL-SQL-0005
+document_id: DBKB-SQL-0005
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE order_line (line_id INTEGER PRIMARY KEY, quantity INTEGER NOT NULL, unit_price INTEGER NOT NULL);
+    INSERT INTO order_line VALUES (1, 2, 20), (2, 3, 15);
+statement: SELECT line_id, quantity * unit_price AS line_total FROM order_line ORDER BY line_id
+expectation:
+  rows:
+    - [1, 40]
+    - [2, 45]
+destructive: false

@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ISQL-0025
+document_id: DBKB-ISQL-0025
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TEMPORARY TABLE selected_customer (customer_id INTEGER PRIMARY KEY);
+    INSERT INTO selected_customer VALUES (10), (20);
+statement: SELECT customer_id FROM selected_customer ORDER BY customer_id
+expectation:
+  rows: [[10], [20]]
+destructive: true

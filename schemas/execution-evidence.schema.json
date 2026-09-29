@@ -1,0 +1,21 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"SQL Execution Evidence",
+  "type":"object",
+  "required":["schema_version","example_id","document_id","status","environment","engine","engine_version","executed_at","statement_sha256"],
+  "properties":{
+    "schema_version":{"const":1},
+    "example_id":{"type":"string"},
+    "document_id":{"type":"string"},
+    "status":{"enum":["PASS","FAIL","NOT_RUN","BLOCKED"]},
+    "environment":{"type":"string"},
+    "engine":{"type":"string"},
+    "engine_version":{"type":"string"},
+    "executed_at":{"type":"string","format":"date-time"},
+    "statement_sha256":{"type":"string","pattern":"^[a-f0-9]{64}$"},
+    "actual_rows":{"type":"array","items":{"type":"array"}},
+    "actual_error_class":{"type":"string"},
+    "message":{"type":"string"}
+  },
+  "additionalProperties":false
+}

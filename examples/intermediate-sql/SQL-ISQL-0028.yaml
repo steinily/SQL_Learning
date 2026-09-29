@@ -1,0 +1,17 @@
+schema_version: 1
+id: SQL-ISQL-0028
+document_id: DBKB-ISQL-0028
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE customer (customer_id INTEGER PRIMARY KEY);
+    CREATE TABLE required_product (product_id INTEGER PRIMARY KEY);
+    CREATE TABLE purchase (customer_id INTEGER, product_id INTEGER);
+    INSERT INTO customer VALUES (10), (20);
+    INSERT INTO required_product VALUES (1), (2);
+    INSERT INTO purchase VALUES (10, 1), (10, 2), (10, 2), (20, 1);
+statement: SELECT c.customer_id FROM customer AS c WHERE NOT EXISTS (SELECT 1 FROM required_product AS r WHERE NOT EXISTS (SELECT 1 FROM purchase AS p WHERE p.customer_id = c.customer_id AND p.product_id = r.product_id)) ORDER BY c.customer_id
+expectation:
+  rows: [[10]]
+destructive: false

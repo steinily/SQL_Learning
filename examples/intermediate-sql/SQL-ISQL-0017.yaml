@@ -1,0 +1,15 @@
+schema_version: 1
+id: SQL-ISQL-0017
+document_id: DBKB-ISQL-0017
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE current_order (customer_id INTEGER);
+    CREATE TABLE archived_order (customer_id TEXT);
+    INSERT INTO current_order VALUES (10), (20);
+    INSERT INTO archived_order VALUES ('30');
+statement: SELECT customer_id FROM current_order UNION ALL SELECT CAST(customer_id AS INTEGER) FROM archived_order ORDER BY customer_id
+expectation:
+  rows: [[10], [20], [30]]
+destructive: false

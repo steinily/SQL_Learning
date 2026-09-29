@@ -1,0 +1,71 @@
+schema_version: 1
+id: RP-FND-0001
+topic: M01 Foundations pilot
+status: READY
+verified_concepts:
+  - Data and database are related but not synonymous; a database is an organized repository managed in context.
+  - A relational model is based on n-ary relations and aims to separate logical use from physical representation.
+  - SQL tables expose named columns and rows; row order is not guaranteed without explicit ordering.
+  - NULL participates in SQL three-valued logic as unknown in documented logical and comparison operations.
+  - Transactions group work into an atomic unit with explicit commit or rollback boundaries.
+  - ACID names atomicity, consistency, isolation and durability as distinct properties.
+  - The formal CAP impossibility result applies to its defined asynchronous distributed-system model.
+claims:
+  - claim: A database is a repository of information or data and is not necessarily relational.
+    evidence_level: E1
+    sources: [SRC-000001]
+    state: VERIFIED
+    context: Broad NIST glossary definition.
+  - claim: Codd's relational model is based on n-ary relations and motivated data independence from internal representation.
+    evidence_level: E2
+    sources: [SRC-000002]
+    state: VERIFIED
+    context: Original 1970 paper and IBM Research abstract.
+  - claim: In PostgreSQL, tables are named row collections with named typed columns and no implicit row order.
+    evidence_level: E2
+    sources: [SRC-000003]
+    state: VERIFIED
+    context: PostgreSQL 18; the row-order rule is also a key SQL practice.
+  - claim: Ordinary PostgreSQL comparisons with NULL return NULL/unknown and NULL tests use IS NULL or IS NOT NULL.
+    evidence_level: E2
+    sources: [SRC-000004]
+    state: VERIFIED
+    context: PostgreSQL 18 documented behavior.
+  - claim: SQL logical operators use true, false and unknown/null truth tables.
+    evidence_level: E2
+    sources: [SRC-000005]
+    state: VERIFIED
+    context: PostgreSQL 18 documentation.
+  - claim: A PostgreSQL transaction block uses BEGIN and COMMIT, while ROLLBACK cancels its changes.
+    evidence_level: E2
+    sources: [SRC-000006]
+    state: VERIFIED
+    context: PostgreSQL 18 tutorial behavior.
+  - claim: ACID expands to atomicity, consistency, isolation and durability.
+    evidence_level: E1
+    sources: [SRC-000007, SRC-000006]
+    state: VERIFIED
+    context: General transaction vocabulary with a PostgreSQL implementation example.
+  - claim: Gilbert and Lynch prove that consistency, availability and partition tolerance cannot all be guaranteed in the paper's asynchronous network model.
+    evidence_level: E2
+    sources: [SRC-000008]
+    state: VERIFIED
+    context: Preserve the paper's definitions of atomic consistency, availability and partition tolerance.
+dialect_differences:
+  - BEGIN/COMMIT/ROLLBACK examples are verified against PostgreSQL 18; portable examples are separately executed with SQLite where semantics align.
+  - NULL-safe equality syntax varies by engine; the pilot does not claim universal syntax beyond IS NULL/IS NOT NULL.
+version_sensitive_claims:
+  - PostgreSQL examples and behavior are pinned to major version 18.
+misconceptions:
+  - NULL is not a value that should be tested with equality; it marks missing/unknown information in these examples.
+  - ACID consistency does not mean every business rule is automatically encoded or enforced by the DBMS.
+  - CAP is not an unrestricted instruction to choose any two properties for every system at all times.
+candidate_examples:
+  - NULL filtering and aggregate behavior on a two-row fixture.
+  - Atomic transfer rollback using a constraint failure in an isolated SQLite fixture.
+  - Relational projection and selection over Atlas tiny tables.
+sources: [SRC-000001, SRC-000002, SRC-000003, SRC-000004, SRC-000005, SRC-000006, SRC-000007, SRC-000008]
+cautions:
+  - Mathematical relations and SQL tables are related abstractions, not exact synonyms.
+  - CAP consistency means atomic/linearizable consistency in the formal paper, not ACID consistency.
+  - SQLite execution evidence validates only examples declared portable or SQLite-specific.

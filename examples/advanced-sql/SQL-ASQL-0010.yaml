@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ASQL-0010
+document_id: DBKB-ASQL-0010
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE transaction_entry (entry_id INTEGER PRIMARY KEY, account_id INTEGER, amount INTEGER);
+    INSERT INTO transaction_entry VALUES (1, 10, 10), (2, 10, 20), (3, 10, -5), (4, 20, 7);
+statement: SELECT entry_id, account_id, SUM(amount) OVER (PARTITION BY account_id ORDER BY entry_id ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) FROM transaction_entry ORDER BY account_id, entry_id
+expectation:
+  rows: [[1, 10, 10], [2, 10, 30], [3, 10, 25], [4, 20, 7]]
+destructive: false

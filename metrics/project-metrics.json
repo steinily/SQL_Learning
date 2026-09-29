@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-29T10:24:25.714361+00:00",
+  "baseline_scope": {
+    "name": "v1",
+    "modules": 36,
+    "target_documents": 918,
+    "registered_documents": 158,
+    "registration_percent": 17.21,
+    "priority_targets": {
+      "P0": 517,
+      "P1": 324,
+      "P2": 77
+    },
+    "priority_authored": {
+      "P0": 158
+    }
+  },
+  "content": {
+    "authored_documents": 158,
+    "progress_percent": 17.21,
+    "status": {
+      "verified": 158
+    },
+    "maturity": {
+      "complete": 158
+    },
+    "publishable_documents": 158
+  },
+  "verification": {
+    "states": {
+      "fully-verified": 158
+    },
+    "fully_verified": 158,
+    "progress_percent": 17.21
+  },
+  "qa": {
+    "findings_by_severity": {
+      "BLOCKER": 0,
+      "CRITICAL": 0,
+      "MAJOR": 0,
+      "MINOR": 0,
+      "INFO": 0
+    },
+    "blocking_findings": 0
+  },
+  "execution_validation": {
+    "passing_document_reports": 87,
+    "target_min": 1000
+  },
+  "knowledge_graph": {
+    "prerequisite_edges": 269,
+    "cycles": 0
+  },
+  "source_health": {
+    "research_packages": 17,
+    "source_records": 45
+  },
+  "knowledge_debt": {
+    "unverified_documents": 0,
+    "unregistered_baseline_documents": 760
+  },
+  "technical_debt": {
+    "blocking_tooling_findings": 0,
+    "live_docmost_publish": "BLOCKED_CREDENTIALS_OR_API_NOT_CONFIGURED"
+  },
+  "release_ready": false
+}

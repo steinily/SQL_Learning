@@ -1,0 +1,27 @@
+schema_version: 1
+module: M06
+title: Relational Database Engineering
+priority: P0
+required: true
+status: complete
+documents:
+  - [DBKB-RDBE-0001, Relational Database Engineering Overview, overview]
+  - [DBKB-RDBE-0002, Physical Table Design, concept]
+  - [DBKB-RDBE-0003, Constraints and Referential Actions, concept]
+  - [DBKB-RDBE-0004, Identity and Sequences, concept]
+  - [DBKB-RDBE-0005, Generated Columns, concept]
+  - [DBKB-RDBE-0006, Views and Materialized Views, comparison]
+  - [DBKB-RDBE-0007, Index Overview, concept]
+  - [DBKB-RDBE-0008, Schemas and Namespaces, concept]
+  - [DBKB-RDBE-0009, Storage and Tablespaces, concept]
+  - [DBKB-RDBE-0010, Partitioning Fundamentals, concept]
+  - [DBKB-RDBE-0011, Partition Keys and Boundaries, concept]
+  - [DBKB-RDBE-0012, Object Dependencies, concept]
+  - [DBKB-RDBE-0013, Naming and Ownership, concept]
+  - [DBKB-RDBE-0014, Relational Design Patterns, concept]
+  - [DBKB-RDBE-0015, Safe DDL Changes, playbook]
+  - [DBKB-RDBE-0016, Constraint Migration, playbook]
+  - [DBKB-RDBE-0017, View Contract Design, concept]
+  - [DBKB-RDBE-0018, Partition Maintenance, playbook]
+  - [DBKB-RDBE-0019, Schema Ownership Review, concept]
+  - [DBKB-RDBE-0020, Relational Engineering Exercise, exercise]

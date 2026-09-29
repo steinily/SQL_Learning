@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ISQL-0027
+document_id: DBKB-ISQL-0027
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE source_record (record_id INTEGER PRIMARY KEY, business_key TEXT);
+    INSERT INTO source_record VALUES (1, 'A'), (2, 'A'), (3, 'B'), (4, 'C'), (5, 'C'), (6, 'C');
+statement: SELECT business_key, COUNT(*) FROM source_record GROUP BY business_key HAVING COUNT(*) > 1 ORDER BY business_key
+expectation:
+  rows: [[A, 2], [C, 3]]
+destructive: false

@@ -1,0 +1,11 @@
+schema_version: 1
+id: SRC-000017
+title: Online Analytical Processing (OLAP)
+publisher: Microsoft Azure Architecture Center
+source_class: S1-primary
+url: https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-analytical-processing
+technology: azure-architecture
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Analytical workload, semantic modeling, heavy-read patterns and OLTP separation.
+notes: Product examples are vendor-specific; workload concepts are used generically.

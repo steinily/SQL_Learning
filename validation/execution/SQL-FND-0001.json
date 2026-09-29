@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "example_id": "SQL-FND-0001",
+  "document_id": "DBKB-FND-0006",
+  "environment": "sqlite-local",
+  "engine": "sqlite",
+  "engine_version": "3.46.1",
+  "executed_at": "2026-09-29T10:24:22.472789+00:00",
+  "statement_sha256": "a9ad4439b747a42577cf22500a7b85f23105550b3f8c8b51685d47e4757a7958",
+  "status": "PASS",
+  "actual_rows": [
+    [
+      "CUST-ALPHA",
+      "Alpha Components"
+    ]
+  ]
+}

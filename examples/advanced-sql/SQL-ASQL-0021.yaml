@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ASQL-0021
+document_id: DBKB-ASQL-0021
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE event (event_id INTEGER PRIMARY KEY, occurred_at TEXT);
+    INSERT INTO event VALUES (1, '2026-08-31T23:00:00'), (2, '2026-09-01T00:00:00'), (3, '2026-09-20T12:00:00');
+statement: SELECT substr(occurred_at, 1, 7), COUNT(*) FROM event GROUP BY substr(occurred_at, 1, 7) ORDER BY 1
+expectation:
+  rows: [['2026-08', 1], ['2026-09', 2]]
+destructive: false

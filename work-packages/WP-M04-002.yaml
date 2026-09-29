@@ -1,0 +1,14 @@
+schema_version: 1
+id: WP-M04-002
+title: Analytical and relational advanced patterns
+state: DONE
+manifest_items: [DBKB-ASQL-0012, DBKB-ASQL-0013, DBKB-ASQL-0014, DBKB-ASQL-0015, DBKB-ASQL-0016, DBKB-ASQL-0017]
+dependencies: [WP-M04-001]
+research_requirements:
+  - Verify grouping-set LATERAL and recursive-query semantics from official sources.
+  - Scope APPLY as T-SQL and LATERAL as PostgreSQL terminology.
+validation_requirements: [metadata, sources, facts, links, dialects, SQL execution]
+completion_criteria:
+  - Six documents satisfy Document Definition of Done.
+  - Portable or engine-labelled examples pass.
+rework_cycles: 0

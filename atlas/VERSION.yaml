@@ -1,0 +1,10 @@
+schema_version: 1
+atlas_version: "1.0.0"
+seed: 20260929
+datasets:
+  atlas-tiny: "1.0.0"
+  atlas-dirty: "1.0.0"
+generation:
+  deterministic: true
+  timezone: UTC
+  locale: en_US_POSIX

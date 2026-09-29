@@ -1,0 +1,16 @@
+schema_version: 1
+id: SQL-SQL-0008
+document_id: DBKB-SQL-0008
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE customer (customer_id INTEGER PRIMARY KEY, created_day TEXT NOT NULL);
+    INSERT INTO customer VALUES (1, '2026-09-28'), (2, '2026-09-29'), (3, '2026-09-29');
+statement: SELECT customer_id, created_day FROM customer ORDER BY created_day DESC, customer_id ASC
+expectation:
+  rows:
+    - [2, '2026-09-29']
+    - [3, '2026-09-29']
+    - [1, '2026-09-28']
+destructive: false

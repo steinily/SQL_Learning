@@ -1,0 +1,14 @@
+schema_version: 1
+id: WP-M04-004
+title: Upsert merge and bulk modification
+state: DONE
+manifest_items: [DBKB-ASQL-0023, DBKB-ASQL-0024, DBKB-ASQL-0025, DBKB-ASQL-0026, DBKB-ASQL-0027, DBKB-ASQL-0028]
+dependencies: [WP-M04-003]
+research_requirements:
+  - Verify ON CONFLICT and MERGE behavior against PostgreSQL 18 reference documentation.
+  - Require uniqueness concurrency transaction and row-count safety analysis.
+validation_requirements: [metadata, sources, facts, links, dialects, SQL execution]
+completion_criteria:
+  - Six documents satisfy Document Definition of Done.
+  - M04 reaches 28 of 28 required documents with no blocking findings.
+rework_cycles: 0

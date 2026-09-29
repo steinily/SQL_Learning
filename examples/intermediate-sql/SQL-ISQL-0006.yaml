@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ISQL-0006
+document_id: DBKB-ISQL-0006
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE employee (employee_id INTEGER PRIMARY KEY, employee_name TEXT, manager_id INTEGER);
+    INSERT INTO employee VALUES (1, 'Ada', NULL), (2, 'Linus', 1), (3, 'Grace', 1);
+statement: SELECT e.employee_name, m.employee_name FROM employee AS e LEFT JOIN employee AS m ON m.employee_id = e.manager_id ORDER BY e.employee_id
+expectation:
+  rows: [[Ada, null], [Linus, Ada], [Grace, Ada]]
+destructive: false

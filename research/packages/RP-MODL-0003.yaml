@@ -1,0 +1,24 @@
+schema_version: 1
+id: RP-MODL-0003
+topic: M05 governance and advanced modeling patterns
+status: READY
+verified_concepts:
+  - EAV, polymorphism and denormalization trade queryability for flexibility or write simplicity.
+  - Model review needs ownership, grain, constraints, lifecycle and compatibility evidence.
+claims:
+  - claim: Database constraints are tests that valid inserted or updated rows must satisfy.
+    evidence_level: E2
+    sources: [SRC-000009]
+    state: VERIFIED
+    context: PostgreSQL 18.
+  - claim: OLTP data shape and transactional workload characteristics influence relational model choices.
+    evidence_level: E2
+    sources: [SRC-000016]
+    state: VERIFIED
+    context: Microsoft Azure Architecture Center.
+dialect_differences: [Constraint enforcement timing, schema ownership and migration capabilities vary.]
+version_sensitive_claims: [Product-specific constraint and workload guidance requires review.]
+misconceptions: [A flexible EAV schema removes the need for data contracts; a surrogate key removes natural identity.]
+candidate_examples: [Model review checklist and constrained reference data fixture.]
+sources: [SRC-000009, SRC-000016]
+cautions: [Do not encode a production case study without evidence.]

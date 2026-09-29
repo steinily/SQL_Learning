@@ -1,0 +1,15 @@
+schema_version: 1
+id: SQL-MODL-0014
+document_id: DBKB-MODL-0014
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE tenant (tenant_id INTEGER PRIMARY KEY);
+    CREATE TABLE order_record (tenant_id INTEGER, order_id INTEGER, amount INTEGER, PRIMARY KEY (tenant_id, order_id), FOREIGN KEY (tenant_id) REFERENCES tenant(tenant_id));
+    INSERT INTO tenant VALUES (10), (20);
+    INSERT INTO order_record VALUES (10, 1, 100), (20, 1, 200);
+statement: SELECT order_id, amount FROM order_record WHERE tenant_id = 10 ORDER BY order_id
+expectation:
+  rows: [[1, 100]]
+destructive: false

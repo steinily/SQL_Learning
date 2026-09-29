@@ -1,0 +1,15 @@
+schema_version: 1
+id: SQL-SQL-0003
+document_id: DBKB-SQL-0003
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE product (product_id INTEGER PRIMARY KEY, product_name TEXT NOT NULL, unit_price INTEGER NOT NULL);
+    INSERT INTO product VALUES (1, 'Cable', 20), (2, 'Adapter', 35);
+statement: SELECT product_id, product_name, unit_price FROM product ORDER BY product_id
+expectation:
+  rows:
+    - [1, Cable, 20]
+    - [2, Adapter, 35]
+destructive: false

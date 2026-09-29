@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000007
+title: ACID properties of transactions
+publisher: IBM
+source_class: S1-primary
+url: https://www.ibm.com/docs/en/cics-tx/11.1.0?topic=processing-acid-properties-transactions
+technology: cics-tx
+version: "11.1.0"
+retrieved_at: "2026-09-29"
+review_after: "2027-09-29"
+content_scope: Definitions of atomicity, consistency, isolation and durability.
+notes: Official product documentation; used for the four-property vocabulary, not cross-engine guarantees.

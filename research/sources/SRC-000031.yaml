@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000031
+title: PostgreSQL 18 Documentation — Data Manipulation
+publisher: PostgreSQL Global Development Group
+source_class: S1-primary
+url: https://www.postgresql.org/docs/18/dml.html
+technology: postgresql
+version: "18"
+retrieved_at: "2026-09-29"
+review_after: "2027-09-29"
+content_scope: INSERT, UPDATE, DELETE and returning modified rows.
+notes: RETURNING details are vendor-specific and deferred beyond the portable core.

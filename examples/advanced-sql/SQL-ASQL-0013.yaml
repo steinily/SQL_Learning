@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ASQL-0013
+document_id: DBKB-ASQL-0013
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE sequence_value (v INTEGER PRIMARY KEY);
+    INSERT INTO sequence_value VALUES (1), (2), (3), (5), (6), (9);
+statement: WITH previous AS (SELECT v, LAG(v) OVER (ORDER BY v) AS previous_v FROM sequence_value), flagged AS (SELECT v, CASE WHEN previous_v = v - 1 THEN 0 ELSE 1 END AS new_island FROM previous), grouped AS (SELECT v, SUM(new_island) OVER (ORDER BY v ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS island_id FROM flagged) SELECT MIN(v), MAX(v), COUNT(*) FROM grouped GROUP BY island_id ORDER BY MIN(v)
+expectation:
+  rows: [[1, 3, 3], [5, 6, 2], [9, 9, 1]]
+destructive: false

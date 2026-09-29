@@ -1,0 +1,14 @@
+schema_version: 1
+id: SQL-ISQL-0024
+document_id: DBKB-ISQL-0024
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE customer (customer_id INTEGER PRIMARY KEY, customer_name TEXT, status TEXT);
+    INSERT INTO customer VALUES (1, 'Ada', 'ACTIVE'), (2, 'Linus', 'INACTIVE');
+    CREATE VIEW active_customer AS SELECT customer_id, customer_name FROM customer WHERE status = 'ACTIVE';
+statement: SELECT customer_id, customer_name FROM active_customer ORDER BY customer_id
+expectation:
+  rows: [[1, Ada]]
+destructive: true

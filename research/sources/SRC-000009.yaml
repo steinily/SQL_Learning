@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000009
+title: PostgreSQL 18 Documentation — Constraints
+publisher: PostgreSQL Global Development Group
+source_class: S1-primary
+url: https://www.postgresql.org/docs/18/ddl-constraints.html
+technology: postgresql
+version: "18"
+retrieved_at: "2026-09-29"
+review_after: "2027-09-29"
+content_scope: CHECK, NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY and referential actions.
+notes: Version-specific details remain labelled PostgreSQL 18.

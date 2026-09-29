@@ -1,0 +1,10 @@
+schema_version: 1
+id: SRC-000001
+title: Database — CSRC Glossary
+publisher: National Institute of Standards and Technology
+source_class: S1-primary
+url: https://csrc.nist.gov/glossary/term/Database
+retrieved_at: "2026-09-29"
+review_after: "2027-09-29"
+content_scope: General database definition with links to originating NIST publications.
+notes: Definition is intentionally broad and includes non-relational repositories.

@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ASQL-0008
+document_id: DBKB-ASQL-0008
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE account_event (event_id INTEGER PRIMARY KEY, account_id INTEGER, amount INTEGER);
+    INSERT INTO account_event VALUES (1, 10, 100), (2, 10, 130), (3, 20, 50);
+statement: SELECT event_id, FIRST_VALUE(amount) OVER (PARTITION BY account_id ORDER BY event_id ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING), LAST_VALUE(amount) OVER (PARTITION BY account_id ORDER BY event_id ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) FROM account_event ORDER BY event_id
+expectation:
+  rows: [[1, 100, 130], [2, 100, 130], [3, 50, 50]]
+destructive: false

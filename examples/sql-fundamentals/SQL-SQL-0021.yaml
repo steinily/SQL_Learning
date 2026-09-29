@@ -1,0 +1,17 @@
+schema_version: 1
+id: SQL-SQL-0021
+document_id: DBKB-SQL-0021
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE customer (customer_id INTEGER PRIMARY KEY, status TEXT NOT NULL);
+    INSERT INTO customer VALUES (1, 'ACTIVE'), (2, 'ACTIVE'), (3, 'ACTIVE');
+    UPDATE customer SET status = 'INACTIVE' WHERE customer_id = 2;
+    DELETE FROM customer WHERE customer_id = 3;
+statement: SELECT customer_id, status FROM customer ORDER BY customer_id
+expectation:
+  rows:
+    - [1, ACTIVE]
+    - [2, INACTIVE]
+destructive: true

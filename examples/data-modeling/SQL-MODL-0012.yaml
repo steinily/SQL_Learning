@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-MODL-0012
+document_id: DBKB-MODL-0012
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE node (node_id INTEGER PRIMARY KEY, parent_id INTEGER REFERENCES node(node_id), node_name TEXT NOT NULL);
+    INSERT INTO node VALUES (1, NULL, 'root'), (2, 1, 'child');
+statement: WITH RECURSIVE tree(node_id, depth) AS (SELECT node_id, 0 FROM node WHERE parent_id IS NULL UNION ALL SELECT n.node_id, t.depth + 1 FROM node n JOIN tree t ON n.parent_id = t.node_id) SELECT node_id, depth FROM tree ORDER BY node_id
+expectation:
+  rows: [[1, 0], [2, 1]]
+destructive: false

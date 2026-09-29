@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000026
+title: PostgreSQL 18 Documentation — LIMIT and OFFSET
+publisher: PostgreSQL Global Development Group
+source_class: S1-primary
+url: https://www.postgresql.org/docs/18/queries-limit.html
+technology: postgresql
+version: "18"
+retrieved_at: "2026-09-29"
+review_after: "2027-09-29"
+content_scope: LIMIT/OFFSET behavior, deterministic ordering requirement and large-offset cost.
+notes: LIMIT syntax is not portable to SQL Server TOP/OFFSET FETCH.

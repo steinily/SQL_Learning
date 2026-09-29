@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000041
+title: PostgreSQL 18 Documentation — JSON Functions and Operators
+publisher: PostgreSQL Global Development Group
+source_class: S1-primary
+url: https://www.postgresql.org/docs/18/functions-json.html
+technology: postgresql
+version: "18"
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: JSON and JSONB extraction construction aggregation and SQL JSON features.
+notes: Operator inventories and SQL JSON support are version-sensitive.

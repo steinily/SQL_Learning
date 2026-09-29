@@ -1,0 +1,14 @@
+schema_version: 1
+id: SQL-RDBE-0007
+document_id: DBKB-RDBE-0007
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE event (id INTEGER PRIMARY KEY, tenant_id INTEGER, event_code TEXT);
+    CREATE INDEX event_tenant_code_idx ON event(tenant_id, event_code);
+    INSERT INTO event VALUES (1, 10, 'LOGIN');
+statement: SELECT id FROM event WHERE tenant_id = 10 AND event_code = 'LOGIN'
+expectation:
+  rows: [[1]]
+destructive: false

@@ -1,0 +1,15 @@
+schema_version: 1
+id: SQL-ISQL-0021
+document_id: DBKB-ISQL-0021
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE sales_order (order_id INTEGER PRIMARY KEY, customer_id INTEGER);
+    CREATE TABLE order_line (order_id INTEGER, amount INTEGER);
+    INSERT INTO sales_order VALUES (1, 10), (2, 10), (3, 20);
+    INSERT INTO order_line VALUES (1, 20), (1, 30), (2, 10), (3, 40);
+statement: WITH order_totals AS (SELECT order_id, SUM(amount) AS order_total FROM order_line GROUP BY order_id), customer_totals AS (SELECT o.customer_id, SUM(t.order_total) AS total FROM sales_order AS o JOIN order_totals AS t ON t.order_id = o.order_id GROUP BY o.customer_id) SELECT customer_id, total FROM customer_totals ORDER BY customer_id
+expectation:
+  rows: [[10, 60], [20, 40]]
+destructive: false

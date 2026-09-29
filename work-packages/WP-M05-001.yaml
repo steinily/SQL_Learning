@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M05-001
+title: Modeling foundations and normalization
+state: DONE
+manifest_items: [DBKB-MODL-0001, DBKB-MODL-0002, DBKB-MODL-0003, DBKB-MODL-0004, DBKB-MODL-0005, DBKB-MODL-0006, DBKB-MODL-0007]
+dependencies: [WP-M04-004]
+research_requirements: [conceptual logical physical separation, ER cardinality, normalization and key semantics from authoritative sources]
+validation_requirements: [metadata, sources, facts, links, dialects, SQL execution]
+completion_criteria: [Seven documents satisfy Document Definition of Done, normalization fixture proves dependency and constraint behavior]
+rework_cycles: 0

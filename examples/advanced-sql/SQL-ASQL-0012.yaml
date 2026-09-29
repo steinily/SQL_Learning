@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ASQL-0012
+document_id: DBKB-ASQL-0012
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE sales_order (order_id INTEGER PRIMARY KEY, customer_id INTEGER, amount INTEGER);
+    INSERT INTO sales_order VALUES (1, 10, 100), (2, 10, 200), (3, 10, 150), (4, 20, 40), (5, 20, 50);
+statement: WITH ranked AS (SELECT order_id, customer_id, amount, ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY amount DESC, order_id) AS rn FROM sales_order) SELECT customer_id, order_id, amount FROM ranked WHERE rn <= 2 ORDER BY customer_id, rn
+expectation:
+  rows: [[10, 2, 200], [10, 3, 150], [20, 5, 50], [20, 4, 40]]
+destructive: false

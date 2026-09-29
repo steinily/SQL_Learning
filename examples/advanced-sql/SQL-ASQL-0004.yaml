@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ASQL-0004
+document_id: DBKB-ASQL-0004
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE customer_event (event_id INTEGER PRIMARY KEY, customer_id INTEGER, event_time TEXT);
+    INSERT INTO customer_event VALUES (1, 10, '2026-09-29T10:00:00'), (2, 10, '2026-09-29T10:00:00'), (3, 20, '2026-09-29T09:00:00');
+statement: SELECT event_id, customer_id, ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY event_time DESC, event_id DESC) FROM customer_event ORDER BY customer_id, 3
+expectation:
+  rows: [[2, 10, 1], [1, 10, 2], [3, 20, 1]]
+destructive: false

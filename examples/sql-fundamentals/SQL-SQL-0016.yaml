@@ -1,0 +1,18 @@
+schema_version: 1
+id: SQL-SQL-0016
+document_id: DBKB-SQL-0016
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    PRAGMA foreign_keys = ON;
+    CREATE TABLE customer (customer_id INTEGER PRIMARY KEY, customer_name TEXT NOT NULL);
+    CREATE TABLE sales_order (order_id INTEGER PRIMARY KEY, customer_id INTEGER NOT NULL REFERENCES customer(customer_id));
+    INSERT INTO customer VALUES (10, 'Ada'), (20, 'Linus');
+    INSERT INTO sales_order VALUES (1, 10), (2, 20);
+statement: SELECT o.order_id, c.customer_name FROM sales_order AS o JOIN customer AS c ON c.customer_id = o.customer_id ORDER BY o.order_id
+expectation:
+  rows:
+    - [1, Ada]
+    - [2, Linus]
+destructive: false

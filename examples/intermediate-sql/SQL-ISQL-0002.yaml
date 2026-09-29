@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ISQL-0002
+document_id: DBKB-ISQL-0002
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE order_line (order_id INTEGER, quantity INTEGER, unit_price INTEGER);
+    INSERT INTO order_line VALUES (1, 2, 20), (2, 3, 20);
+statement: WITH order_totals AS (SELECT order_id, SUM(quantity * unit_price) AS order_total FROM order_line GROUP BY order_id) SELECT AVG(order_total) FROM order_totals
+expectation:
+  rows: [[50.0]]
+destructive: false

@@ -27,3 +27,10 @@ def test_m01_registry_has_35_unique_documents():
 def test_codex_contract_exists():
     assert (ROOT / "CODEX.md").is_file()
     assert "Do not stop after M01" in (ROOT / "CODEX.md").read_text(encoding="utf-8")
+
+
+def test_all_work_packages_validate():
+    schema = json.loads((ROOT / "schemas/work-package.schema.json").read_text(encoding="utf-8"))
+    validator = Draft202012Validator(schema)
+    for path in (ROOT / "work-packages").glob("*.yaml"):
+        validator.validate(yaml.safe_load(path.read_text(encoding="utf-8")))

@@ -1,0 +1,21 @@
+schema_version: 1
+environments:
+  sqlite-local:
+    engine: sqlite
+    purpose: portable and SQLite-semantics checks only
+    available: true
+  postgresql-container:
+    engine: postgresql
+    purpose: primary reference engine
+    available: false
+    blocked_reason: Image/runtime bootstrap is not yet configured.
+  sqlserver-container:
+    engine: sqlserver
+    purpose: primary reference engine
+    available: false
+    blocked_reason: Image/runtime and license acceptance are not yet configured.
+  mysql-container:
+    engine: mysql
+    purpose: secondary reference engine
+    available: false
+    blocked_reason: Image/runtime bootstrap is not yet configured.

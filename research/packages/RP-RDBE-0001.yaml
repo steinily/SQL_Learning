@@ -1,0 +1,24 @@
+schema_version: 1
+id: RP-RDBE-0001
+topic: M06 relational database engineering
+status: READY
+verified_concepts:
+  - Physical design maps model contracts to engine objects and operational lifecycle.
+  - Constraints, views, indexes and partitions require explicit ownership and migration policy.
+claims:
+  - claim: PostgreSQL CREATE TABLE supports table constraints, generated identity, partitioning and storage-related options documented by version.
+    evidence_level: E2
+    sources: [SRC-000009, SRC-000038]
+    state: VERIFIED
+    context: PostgreSQL 18.
+  - claim: Relational workload characteristics influence physical engineering choices.
+    evidence_level: E2
+    sources: [SRC-000016]
+    state: VERIFIED
+    context: Microsoft Azure Architecture Center.
+dialect_differences: [Tablespaces, generated columns, partition syntax and index capabilities vary by engine.]
+version_sensitive_claims: [PostgreSQL storage and partition features are version-sensitive.]
+misconceptions: [An index is not free, and a view is not automatically materialized.]
+candidate_examples: [Constrained table, view contract and isolated DDL migration fixtures.]
+sources: [SRC-000009, SRC-000016, SRC-000038]
+cautions: [DDL can lock, rewrite or invalidate dependent objects.]

@@ -1,0 +1,11 @@
+schema_version: 1
+id: SQL-SQL-0011
+document_id: DBKB-SQL-0011
+dialect: portable
+environment: sqlite-local
+setup: []
+statement: SELECT CAST('42' AS INTEGER) AS parsed_value
+expectation:
+  rows:
+    - [42]
+destructive: false

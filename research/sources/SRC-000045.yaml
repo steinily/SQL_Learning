@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000045
+title: PostgreSQL 18 Documentation — PL pgSQL Statements
+publisher: PostgreSQL Global Development Group
+source_class: S1-primary
+url: https://www.postgresql.org/docs/18/plpgsql-statements.html
+technology: postgresql
+version: "18"
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Dynamic command execution parameter binding identifier quoting and result handling.
+notes: PL pgSQL EXECUTE syntax is not portable client-side dynamic SQL.

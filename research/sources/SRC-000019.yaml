@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000019
+title: Data storage options in Microsoft Fabric
+publisher: Microsoft
+source_class: S1-primary
+url: https://learn.microsoft.com/en-us/fabric/fundamentals/store-data
+technology: microsoft-fabric
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Warehouse and Lakehouse positioning, schema management and varied data format use.
+notes: Used as a vendor implementation example, not as a universal definition.

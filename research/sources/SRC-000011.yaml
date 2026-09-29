@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000011
+title: PostgreSQL 18 Documentation — Character Types
+publisher: PostgreSQL Global Development Group
+source_class: S1-primary
+url: https://www.postgresql.org/docs/18/datatype-character.html
+technology: postgresql
+version: "18"
+retrieved_at: "2026-09-29"
+review_after: "2027-09-29"
+content_scope: char, varchar, text, character versus byte length and database character set.
+notes: Collation and encoding behavior needs separate context.

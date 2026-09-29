@@ -1,0 +1,18 @@
+schema_version: 1
+id: SQL-SQL-0017
+document_id: DBKB-SQL-0017
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE customer (customer_id INTEGER PRIMARY KEY, customer_name TEXT NOT NULL);
+    CREATE TABLE sales_order (order_id INTEGER PRIMARY KEY, customer_id INTEGER NOT NULL);
+    INSERT INTO customer VALUES (10, 'Ada'), (20, 'Linus');
+    INSERT INTO sales_order VALUES (1, 10), (2, 10), (3, 20);
+statement: SELECT o.order_id, c.customer_name FROM sales_order AS o INNER JOIN customer AS c ON c.customer_id = o.customer_id ORDER BY o.order_id
+expectation:
+  rows:
+    - [1, Ada]
+    - [2, Ada]
+    - [3, Linus]
+destructive: false

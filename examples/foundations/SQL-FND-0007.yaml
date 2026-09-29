@@ -1,0 +1,11 @@
+schema_version: 1
+id: SQL-FND-0007
+document_id: DBKB-FND-0013
+dialect: sqlite
+environment: sqlite-local
+setup: []
+statement: SELECT (0.1 + 0.2) = 0.3
+expectation:
+  rows:
+    - [0]
+destructive: false

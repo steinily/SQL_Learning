@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ASQL-0002
+document_id: DBKB-ASQL-0002
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE employee (employee_id INTEGER PRIMARY KEY, department_id INTEGER, salary INTEGER);
+    INSERT INTO employee VALUES (1, 10, 100), (2, 10, 200), (3, 20, 50);
+statement: SELECT employee_id, department_id, salary, AVG(salary) OVER (PARTITION BY department_id) FROM employee ORDER BY employee_id
+expectation:
+  rows: [[1, 10, 100, 150.0], [2, 10, 200, 150.0], [3, 20, 50, 50.0]]
+destructive: false

@@ -1,0 +1,34 @@
+schema_version: 1
+id: RP-ASQL-0001
+topic: M04 window functions and analytical patterns
+status: READY
+verified_concepts:
+  - Window functions retain input row identity while calculating over related rows.
+  - Partition ordering peer groups and frames are separate semantic dimensions.
+claims:
+  - claim: PostgreSQL window functions require OVER and do not collapse rows like ordinary aggregates.
+    evidence_level: E2
+    sources: [SRC-000039, SRC-000040]
+    state: VERIFIED
+    context: PostgreSQL 18.
+  - claim: PostgreSQL ranking functions give the same answer to rows in a peer group according to their definition.
+    evidence_level: E2
+    sources: [SRC-000039]
+    state: VERIFIED
+    context: PostgreSQL 18.
+  - claim: PostgreSQL last_value uses the current window frame and its default frame can be unhelpful.
+    evidence_level: E2
+    sources: [SRC-000039]
+    state: VERIFIED
+    context: PostgreSQL 18.
+dialect_differences:
+  - Frame types exclusions and null-treatment options vary by engine/version.
+version_sensitive_claims:
+  - PostgreSQL 18 implements RESPECT NULLS behavior for listed navigation/value functions.
+misconceptions:
+  - Window ORDER BY does not guarantee final presentation order.
+candidate_examples:
+  - Ranking navigation running and moving calculations with tie cases.
+sources: [SRC-000039, SRC-000040]
+cautions:
+  - Deterministic row numbering needs a unique tie-breaker.

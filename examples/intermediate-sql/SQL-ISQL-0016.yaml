@@ -1,0 +1,15 @@
+schema_version: 1
+id: SQL-ISQL-0016
+document_id: DBKB-ISQL-0016
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE expected_customer (customer_id INTEGER);
+    CREATE TABLE actual_customer (customer_id INTEGER);
+    INSERT INTO expected_customer VALUES (10), (20), (30);
+    INSERT INTO actual_customer VALUES (10), (20), (40);
+statement: SELECT 'common', customer_id FROM (SELECT customer_id FROM expected_customer INTERSECT SELECT customer_id FROM actual_customer) UNION ALL SELECT 'missing', customer_id FROM (SELECT customer_id FROM expected_customer EXCEPT SELECT customer_id FROM actual_customer) ORDER BY 1, 2
+expectation:
+  rows: [[common, 10], [common, 20], [missing, 30]]
+destructive: false

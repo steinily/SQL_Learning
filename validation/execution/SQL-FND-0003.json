@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "example_id": "SQL-FND-0003",
+  "document_id": "DBKB-FND-0026",
+  "environment": "sqlite-local",
+  "engine": "sqlite",
+  "engine_version": "3.46.1",
+  "executed_at": "2026-09-29T10:24:22.483436+00:00",
+  "statement_sha256": "567697b73cd311c4223671c51e409103264b12fef924bece74631ea4a57af2a7",
+  "status": "PASS",
+  "actual_error_class": "IntegrityError",
+  "message": "CHECK constraint failed: balance >= 0",
+  "actual_rows": [
+    [
+      1,
+      100
+    ],
+    [
+      2,
+      100
+    ]
+  ]
+}

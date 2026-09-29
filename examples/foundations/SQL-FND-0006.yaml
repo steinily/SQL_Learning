@@ -1,0 +1,21 @@
+schema_version: 1
+id: SQL-FND-0006
+document_id: DBKB-FND-0011
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE product (
+      product_id INTEGER PRIMARY KEY,
+      list_price DECIMAL(12, 2) NOT NULL CHECK (list_price >= 0)
+    );
+    INSERT INTO product VALUES (1, 12.50);
+statement: INSERT INTO product VALUES (2, -1.00)
+expectation:
+  error_class: IntegrityError
+  message_contains: CHECK constraint failed
+  after_error:
+    statement: SELECT product_id, list_price FROM product ORDER BY product_id
+    rows:
+      - [1, 12.5]
+destructive: false

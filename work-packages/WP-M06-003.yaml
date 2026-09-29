@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M06-003
+title: Relational change and governance playbooks
+state: DONE
+manifest_items: [DBKB-RDBE-0015, DBKB-RDBE-0016, DBKB-RDBE-0017, DBKB-RDBE-0018, DBKB-RDBE-0019, DBKB-RDBE-0020]
+dependencies: [WP-M06-002]
+research_requirements: [safe DDL, constraint migration, view contracts, partition maintenance and review evidence]
+validation_requirements: [metadata, sources, facts, links, dialects, SQL execution]
+completion_criteria: [Six documents satisfy Document Definition of Done, M06 reaches 20 of 20]
+rework_cycles: 0

@@ -1,0 +1,10 @@
+schema_version: 1
+id: SQL-ASQL-0020
+document_id: DBKB-ASQL-0020
+dialect: sqlite
+environment: sqlite-local
+setup: []
+statement: SELECT julianday('2026-10-02') - julianday('2026-09-29')
+expectation:
+  rows: [[3.0]]
+destructive: false

@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M06-002
+title: Namespace storage and partitioning
+state: DONE
+manifest_items: [DBKB-RDBE-0008, DBKB-RDBE-0009, DBKB-RDBE-0010, DBKB-RDBE-0011, DBKB-RDBE-0012, DBKB-RDBE-0013, DBKB-RDBE-0014]
+dependencies: [WP-M06-001]
+research_requirements: [schema namespace storage tablespace partition and dependency semantics]
+validation_requirements: [metadata, sources, facts, links, dialects, SQL execution]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0

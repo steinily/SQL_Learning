@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000028
+title: SELECT (Transact-SQL)
+publisher: Microsoft
+source_class: S1-primary
+url: https://learn.microsoft.com/sql/t-sql/queries/select-transact-sql/
+technology: sqlserver
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: SELECT clauses, logical processing and T-SQL query syntax.
+notes: Applies-to matrix must be checked for individual Microsoft platforms.

@@ -1,0 +1,25 @@
+schema_version: 1
+id: WP-M02-002
+title: SQL grouping joins and modification
+state: DONE
+manifest_items:
+  - DBKB-SQL-0012
+  - DBKB-SQL-0013
+  - DBKB-SQL-0014
+  - DBKB-SQL-0015
+  - DBKB-SQL-0016
+  - DBKB-SQL-0017
+  - DBKB-SQL-0018
+  - DBKB-SQL-0019
+  - DBKB-SQL-0020
+  - DBKB-SQL-0021
+  - DBKB-SQL-0022
+dependencies: [WP-M02-001]
+research_requirements:
+  - Verify aggregate, join, DML and DDL behavior against official primary documentation.
+  - Include negative safety cases for broad UPDATE and DELETE.
+validation_requirements: [metadata, sources, facts, links, dialects, SQL execution]
+completion_criteria:
+  - Eleven documents satisfy Document Definition of Done.
+  - M02 reaches 22 of 22 required documents with no blocking findings.
+rework_cycles: 0

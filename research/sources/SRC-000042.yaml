@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000042
+title: PostgreSQL 18 Documentation — Date Time Functions and Operators
+publisher: PostgreSQL Global Development Group
+source_class: S1-primary
+url: https://www.postgresql.org/docs/18/functions-datetime.html
+technology: postgresql
+version: "18"
+retrieved_at: "2026-09-29"
+review_after: "2027-09-29"
+content_scope: Temporal arithmetic extraction truncation bucketing timezone and current time.
+notes: Calendar interval and timezone behavior require explicit context.

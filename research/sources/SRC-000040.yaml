@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000040
+title: PostgreSQL 18 Tutorial — Window Functions
+publisher: PostgreSQL Global Development Group
+source_class: S1-primary
+url: https://www.postgresql.org/docs/18/tutorial-window.html
+technology: postgresql
+version: "18"
+retrieved_at: "2026-09-29"
+review_after: "2027-09-29"
+content_scope: OVER PARTITION BY ORDER BY row preservation peer behavior and named windows.
+notes: Detailed frame syntax is sourced separately from the function reference.

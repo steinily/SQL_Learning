@@ -1,0 +1,24 @@
+schema_version: 1
+id: RP-MODL-0001
+topic: M05 modeling foundations
+status: READY
+verified_concepts:
+  - A model records entities, attributes, relationships, grain and integrity rules.
+  - Normalization reduces update anomalies; denormalization is an explicit workload trade-off.
+claims:
+  - claim: PostgreSQL primary key and unique constraints define uniqueness while foreign keys define referential relationships.
+    evidence_level: E2
+    sources: [SRC-000009]
+    state: VERIFIED
+    context: PostgreSQL 18 constraint documentation.
+  - claim: Data types constrain representation but do not by themselves express every business invariant.
+    evidence_level: E2
+    sources: [SRC-000010, SRC-000011]
+    state: VERIFIED
+    context: PostgreSQL 18 type documentation.
+dialect_differences: [Constraint deferrability, generated identity and type names vary by engine.]
+version_sensitive_claims: [PostgreSQL-specific constraint and type details are version-sensitive.]
+misconceptions: [Normalization is not identical to having many tables; denormalization is not automatically faster.]
+candidate_examples: [Normalized order header/line schema with explicit foreign key.]
+sources: [SRC-000009, SRC-000010, SRC-000011]
+cautions: [Model grain before selecting keys or indexes.]

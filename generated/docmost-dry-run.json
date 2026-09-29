@@ -1,0 +1,800 @@
+{
+  "schema_version": 1,
+  "mode": "DRY_RUN",
+  "operations": [
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0001",
+      "path": "content/04-advanced-sql/advanced-sql-overview.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0002",
+      "path": "content/04-advanced-sql/window-function-fundamentals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0003",
+      "path": "content/04-advanced-sql/window-partitioning-and-ordering.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0004",
+      "path": "content/04-advanced-sql/row-number.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0005",
+      "path": "content/04-advanced-sql/rank-and-dense-rank.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0006",
+      "path": "content/04-advanced-sql/percentile-ranking-functions.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0007",
+      "path": "content/04-advanced-sql/lag-and-lead.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0008",
+      "path": "content/04-advanced-sql/first-last-nth-value.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0009",
+      "path": "content/04-advanced-sql/window-frames.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0010",
+      "path": "content/04-advanced-sql/running-aggregates.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0011",
+      "path": "content/04-advanced-sql/moving-aggregates.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0012",
+      "path": "content/04-advanced-sql/top-n-per-group.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0013",
+      "path": "content/04-advanced-sql/gaps-and-islands.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0014",
+      "path": "content/04-advanced-sql/grouping-sets.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0015",
+      "path": "content/04-advanced-sql/rollup-and-cube.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0016",
+      "path": "content/04-advanced-sql/hierarchy-processing-patterns.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0017",
+      "path": "content/04-advanced-sql/lateral-and-apply.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0018",
+      "path": "content/04-advanced-sql/advanced-json-querying.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0019",
+      "path": "content/04-advanced-sql/json-construction-and-aggregation.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0020",
+      "path": "content/04-advanced-sql/advanced-date-and-time-arithmetic.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0021",
+      "path": "content/04-advanced-sql/temporal-bucketing.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0022",
+      "path": "content/04-advanced-sql/dynamic-sql-safety.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0023",
+      "path": "content/04-advanced-sql/upsert-patterns.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0024",
+      "path": "content/04-advanced-sql/postgresql-on-conflict.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0025",
+      "path": "content/04-advanced-sql/merge-fundamentals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0026",
+      "path": "content/04-advanced-sql/merge-safety-and-concurrency.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0027",
+      "path": "content/04-advanced-sql/bulk-modification-patterns.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ASQL-0028",
+      "path": "content/04-advanced-sql/modification-result-capture.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0001",
+      "path": "content/01-foundations/foundations-overview.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0002",
+      "path": "content/01-foundations/data-fundamentals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0003",
+      "path": "content/01-foundations/database-fundamentals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0004",
+      "path": "content/01-foundations/database-management-systems.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0005",
+      "path": "content/01-foundations/database-models.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0006",
+      "path": "content/01-foundations/relational-model-fundamentals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0007",
+      "path": "content/01-foundations/tables-rows-and-columns.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0008",
+      "path": "content/01-foundations/database-keys.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0009",
+      "path": "content/01-foundations/relationships.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0010",
+      "path": "content/01-foundations/referential-integrity.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0011",
+      "path": "content/01-foundations/constraints.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0012",
+      "path": "content/01-foundations/data-types.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0013",
+      "path": "content/01-foundations/exact-vs-approximate-numbers.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0014",
+      "path": "content/01-foundations/character-data-and-unicode.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0015",
+      "path": "content/01-foundations/date-and-time-fundamentals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0016",
+      "path": "content/01-foundations/null-fundamentals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0017",
+      "path": "content/01-foundations/three-valued-logic.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0018",
+      "path": "content/01-foundations/sets.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0019",
+      "path": "content/01-foundations/relational-algebra-fundamentals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0020",
+      "path": "content/01-foundations/set-based-thinking.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0021",
+      "path": "content/01-foundations/cardinality.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0022",
+      "path": "content/01-foundations/selectivity.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0023",
+      "path": "content/01-foundations/database-schema.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0024",
+      "path": "content/01-foundations/data-integrity.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0025",
+      "path": "content/01-foundations/transaction-fundamentals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0026",
+      "path": "content/01-foundations/acid.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0027",
+      "path": "content/01-foundations/concurrency-fundamentals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0028",
+      "path": "content/01-foundations/consistency-models.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0029",
+      "path": "content/01-foundations/cap-theorem-fundamentals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0030",
+      "path": "content/01-foundations/oltp-vs-olap.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0031",
+      "path": "content/01-foundations/database-workloads.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0032",
+      "path": "content/01-foundations/database-warehouse-lake-and-lakehouse.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0033",
+      "path": "content/01-foundations/structured-vs-semi-structured-data.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0034",
+      "path": "content/01-foundations/database-abstraction-layers.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-FND-0035",
+      "path": "content/01-foundations/query-and-database-object-fundamentals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0001",
+      "path": "content/03-intermediate-sql/intermediate-sql-overview.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0002",
+      "path": "content/03-intermediate-sql/advanced-aggregation-patterns.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0003",
+      "path": "content/03-intermediate-sql/conditional-aggregation.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0004",
+      "path": "content/03-intermediate-sql/multi-column-grouping.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0005",
+      "path": "content/03-intermediate-sql/join-pattern-selection.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0006",
+      "path": "content/03-intermediate-sql/self-joins.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0007",
+      "path": "content/03-intermediate-sql/semi-joins.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0008",
+      "path": "content/03-intermediate-sql/anti-joins.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0009",
+      "path": "content/03-intermediate-sql/subquery-fundamentals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0010",
+      "path": "content/03-intermediate-sql/scalar-subqueries.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0011",
+      "path": "content/03-intermediate-sql/multi-row-subqueries.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0012",
+      "path": "content/03-intermediate-sql/correlated-subqueries.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0013",
+      "path": "content/03-intermediate-sql/exists.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0014",
+      "path": "content/03-intermediate-sql/not-exists-and-not-in.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0015",
+      "path": "content/03-intermediate-sql/union-and-union-all.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0016",
+      "path": "content/03-intermediate-sql/intersect-and-except.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0017",
+      "path": "content/03-intermediate-sql/set-operation-compatibility.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0018",
+      "path": "content/03-intermediate-sql/case-expressions.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0019",
+      "path": "content/03-intermediate-sql/coalesce-and-nullif.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0020",
+      "path": "content/03-intermediate-sql/cte-fundamentals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0021",
+      "path": "content/03-intermediate-sql/multiple-ctes.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0022",
+      "path": "content/03-intermediate-sql/recursive-cte-fundamentals-and-safety.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0023",
+      "path": "content/03-intermediate-sql/derived-tables.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0024",
+      "path": "content/03-intermediate-sql/views.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0025",
+      "path": "content/03-intermediate-sql/temporary-objects.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0026",
+      "path": "content/03-intermediate-sql/null-safe-query-patterns.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0027",
+      "path": "content/03-intermediate-sql/duplicate-handling.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-ISQL-0028",
+      "path": "content/03-intermediate-sql/relational-division.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0001",
+      "path": "content/05-data-modeling/data-modeling-overview.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0002",
+      "path": "content/05-data-modeling/conceptual-logical-physical-modeling.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0003",
+      "path": "content/05-data-modeling/er-modeling.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0004",
+      "path": "content/05-data-modeling/cardinality-and-optionality.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0005",
+      "path": "content/05-data-modeling/normalization.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0006",
+      "path": "content/05-data-modeling/denormalization.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0007",
+      "path": "content/05-data-modeling/key-strategies.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0008",
+      "path": "content/05-data-modeling/uuid-keys.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0009",
+      "path": "content/05-data-modeling/lookup-and-reference-data.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0010",
+      "path": "content/05-data-modeling/audit-columns-and-soft-delete.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0011",
+      "path": "content/05-data-modeling/temporal-modeling.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0012",
+      "path": "content/05-data-modeling/hierarchy-modeling.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0013",
+      "path": "content/05-data-modeling/polymorphic-relationships.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0014",
+      "path": "content/05-data-modeling/multi-tenancy-models.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0015",
+      "path": "content/05-data-modeling/entity-attribute-value-modeling.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0016",
+      "path": "content/05-data-modeling/data-modeling-anti-patterns.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0017",
+      "path": "content/05-data-modeling/business-grain-and-identity.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0018",
+      "path": "content/05-data-modeling/natural-and-surrogate-keys.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0019",
+      "path": "content/05-data-modeling/constraints-as-model-contracts.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0020",
+      "path": "content/05-data-modeling/relationship-tables.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0021",
+      "path": "content/05-data-modeling/subtype-and-supertype-modeling.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0022",
+      "path": "content/05-data-modeling/data-ownership-and-stewardship.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0023",
+      "path": "content/05-data-modeling/schema-evolution-and-compatibility.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0024",
+      "path": "content/05-data-modeling/model-review-checklist.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MODL-0025",
+      "path": "content/05-data-modeling/data-modeling-exercise.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-RDBE-0001",
+      "path": "content/06-relational-database-engineering/relational-database-engineering-overview.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-RDBE-0002",
+      "path": "content/06-relational-database-engineering/physical-table-design.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-RDBE-0003",
+      "path": "content/06-relational-database-engineering/constraints-and-referential-actions.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-RDBE-0004",
+      "path": "content/06-relational-database-engineering/identity-and-sequences.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-RDBE-0005",
+      "path": "content/06-relational-database-engineering/generated-columns.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-RDBE-0006",
+      "path": "content/06-relational-database-engineering/views-and-materialized-views.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-RDBE-0007",
+      "path": "content/06-relational-database-engineering/index-overview.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-RDBE-0008",
+      "path": "content/06-relational-database-engineering/schemas-and-namespaces.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-RDBE-0009",
+      "path": "content/06-relational-database-engineering/storage-and-tablespaces.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-RDBE-0010",
+      "path": "content/06-relational-database-engineering/partitioning-fundamentals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-RDBE-0011",
+      "path": "content/06-relational-database-engineering/partition-keys-and-boundaries.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-RDBE-0012",
+      "path": "content/06-relational-database-engineering/object-dependencies.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-RDBE-0013",
+      "path": "content/06-relational-database-engineering/naming-and-ownership.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-RDBE-0014",
+      "path": "content/06-relational-database-engineering/relational-design-patterns.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-RDBE-0015",
+      "path": "content/06-relational-database-engineering/safe-ddl-changes.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-RDBE-0016",
+      "path": "content/06-relational-database-engineering/constraint-migration.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-RDBE-0017",
+      "path": "content/06-relational-database-engineering/view-contract-design.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-RDBE-0018",
+      "path": "content/06-relational-database-engineering/partition-maintenance.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-RDBE-0019",
+      "path": "content/06-relational-database-engineering/schema-ownership-review.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-RDBE-0020",
+      "path": "content/06-relational-database-engineering/relational-engineering-exercise.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0001",
+      "path": "content/02-sql-fundamentals/sql-fundamentals-overview.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0002",
+      "path": "content/02-sql-fundamentals/sql-language-and-statement-anatomy.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0003",
+      "path": "content/02-sql-fundamentals/select-fundamentals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0004",
+      "path": "content/02-sql-fundamentals/from-and-table-expressions.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0005",
+      "path": "content/02-sql-fundamentals/column-expressions-and-aliases.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0006",
+      "path": "content/02-sql-fundamentals/filtering-with-where.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0007",
+      "path": "content/02-sql-fundamentals/predicates-and-comparison-logic.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0008",
+      "path": "content/02-sql-fundamentals/ordering-with-order-by.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0009",
+      "path": "content/02-sql-fundamentals/row-limiting.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0010",
+      "path": "content/02-sql-fundamentals/expressions-and-operators.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0011",
+      "path": "content/02-sql-fundamentals/type-conversion.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0012",
+      "path": "content/02-sql-fundamentals/distinct.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0013",
+      "path": "content/02-sql-fundamentals/aggregate-functions.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0014",
+      "path": "content/02-sql-fundamentals/group-by.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0015",
+      "path": "content/02-sql-fundamentals/having.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0016",
+      "path": "content/02-sql-fundamentals/join-fundamentals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0017",
+      "path": "content/02-sql-fundamentals/inner-join.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0018",
+      "path": "content/02-sql-fundamentals/outer-join.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0019",
+      "path": "content/02-sql-fundamentals/cross-join.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0020",
+      "path": "content/02-sql-fundamentals/insert.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0021",
+      "path": "content/02-sql-fundamentals/update-and-delete.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQL-0022",
+      "path": "content/02-sql-fundamentals/ddl-fundamentals.md"
+    }
+  ],
+  "counts": {
+    "CREATE": 158
+  },
+  "live_publish": "BLOCKED_CREDENTIALS_OR_API_NOT_CONFIGURED"
+}

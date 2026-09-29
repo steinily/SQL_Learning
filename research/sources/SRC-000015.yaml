@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000015
+title: PostgreSQL 18 Documentation — Row Estimation Examples
+publisher: PostgreSQL Global Development Group
+source_class: S1-primary
+url: https://www.postgresql.org/docs/18/row-estimation-examples.html
+technology: postgresql
+version: "18"
+retrieved_at: "2026-09-29"
+review_after: "2027-09-29"
+content_scope: Relation cardinality, predicate selectivity and estimated row calculation.
+notes: Estimation algorithms and defaults are version-sensitive.

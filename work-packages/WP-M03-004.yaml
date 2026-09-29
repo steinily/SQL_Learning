@@ -1,0 +1,14 @@
+schema_version: 1
+id: WP-M03-004
+title: NULL duplicate and relational division patterns
+state: DONE
+manifest_items: [DBKB-ISQL-0026, DBKB-ISQL-0027, DBKB-ISQL-0028]
+dependencies: [WP-M03-003]
+research_requirements:
+  - Ground NULL and duplicate behavior in official SQL engine documentation.
+  - Validate relational-division patterns against positive empty and missing cases.
+validation_requirements: [metadata, sources, facts, links, dialects, SQL execution]
+completion_criteria:
+  - Three documents satisfy Document Definition of Done.
+  - M03 reaches 28 of 28 required documents with no blocking findings.
+rework_cycles: 0

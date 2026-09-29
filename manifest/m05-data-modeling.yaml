@@ -1,0 +1,32 @@
+schema_version: 1
+module: M05
+title: Data Modeling
+priority: P0
+required: true
+status: complete
+documents:
+  - [DBKB-MODL-0001, Data Modeling Overview, overview]
+  - [DBKB-MODL-0002, Conceptual Logical and Physical Modeling, concept]
+  - [DBKB-MODL-0003, ER Modeling, concept]
+  - [DBKB-MODL-0004, Cardinality and Optionality, concept]
+  - [DBKB-MODL-0005, Normalization, concept]
+  - [DBKB-MODL-0006, Denormalization, concept]
+  - [DBKB-MODL-0007, Key Strategies, concept]
+  - [DBKB-MODL-0008, UUID Keys, technology]
+  - [DBKB-MODL-0009, Lookup and Reference Data, concept]
+  - [DBKB-MODL-0010, Audit Columns and Soft Delete, concept]
+  - [DBKB-MODL-0011, Temporal Modeling, concept]
+  - [DBKB-MODL-0012, Hierarchy Modeling, concept]
+  - [DBKB-MODL-0013, Polymorphic Relationships, comparison]
+  - [DBKB-MODL-0014, Multi-Tenancy Models, concept]
+  - [DBKB-MODL-0015, Entity-Attribute-Value Modeling, comparison]
+  - [DBKB-MODL-0016, Data Modeling Anti-Patterns, troubleshooting]
+  - [DBKB-MODL-0017, Business Grain and Identity, concept]
+  - [DBKB-MODL-0018, Natural and Surrogate Keys, comparison]
+  - [DBKB-MODL-0019, Constraints as Model Contracts, concept]
+  - [DBKB-MODL-0020, Relationship Tables, concept]
+  - [DBKB-MODL-0021, Subtype and Supertype Modeling, concept]
+  - [DBKB-MODL-0022, Data Ownership and Stewardship, concept]
+  - [DBKB-MODL-0023, Schema Evolution and Compatibility, concept]
+  - [DBKB-MODL-0024, Model Review Checklist, concept]
+  - [DBKB-MODL-0025, Data Modeling Exercise, exercise]

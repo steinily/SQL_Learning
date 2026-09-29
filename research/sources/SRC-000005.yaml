@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000005
+title: PostgreSQL 18 Documentation — Logical Operators
+publisher: PostgreSQL Global Development Group
+source_class: S1-primary
+url: https://www.postgresql.org/docs/18/functions-logical.html
+technology: postgresql
+version: "18"
+retrieved_at: "2026-09-29"
+review_after: "2027-09-29"
+content_scope: SQL three-valued logic and truth tables for AND, OR and NOT.
+notes: Official vendor truth tables aligned with the documented SQL logic model.

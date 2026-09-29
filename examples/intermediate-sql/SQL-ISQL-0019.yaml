@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ISQL-0019
+document_id: DBKB-ISQL-0019
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE metric (metric_id INTEGER PRIMARY KEY, revenue INTEGER, units INTEGER);
+    INSERT INTO metric VALUES (1, 100, 4), (2, 50, 0);
+statement: SELECT metric_id, 1.0 * revenue / NULLIF(units, 0) FROM metric ORDER BY metric_id
+expectation:
+  rows: [[1, 25.0], [2, null]]
+destructive: false

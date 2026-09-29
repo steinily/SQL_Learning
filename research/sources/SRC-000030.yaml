@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000030
+title: Transact-SQL statements
+publisher: Microsoft
+source_class: S1-primary
+url: https://learn.microsoft.com/sql/t-sql/statements/statements
+technology: sqlserver
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: DDL and DML statement categories and responsibilities.
+notes: Product-specific statement inventory; generic categories are separately explained.

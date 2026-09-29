@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000014
+title: PostgreSQL 18 Documentation — Concurrency Control and Transaction Isolation
+publisher: PostgreSQL Global Development Group
+source_class: S1-primary
+url: https://www.postgresql.org/docs/18/mvcc.html
+technology: postgresql
+version: "18"
+retrieved_at: "2026-09-29"
+review_after: "2027-09-29"
+content_scope: Concurrent sessions, isolation, locking, deadlocks, consistency checks and retries.
+notes: PostgreSQL-specific implementation is not generalized to every DBMS.

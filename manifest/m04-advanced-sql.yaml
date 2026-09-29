@@ -1,0 +1,35 @@
+schema_version: 1
+module: M04
+title: Advanced SQL
+priority: P0
+required: true
+status: complete
+documents:
+  - [DBKB-ASQL-0001, Advanced SQL Overview, overview]
+  - [DBKB-ASQL-0002, Window Function Fundamentals, concept]
+  - [DBKB-ASQL-0003, Window Partitioning and Ordering, concept]
+  - [DBKB-ASQL-0004, ROW_NUMBER, concept]
+  - [DBKB-ASQL-0005, RANK and DENSE_RANK, comparison]
+  - [DBKB-ASQL-0006, Percentile Ranking Functions, concept]
+  - [DBKB-ASQL-0007, LAG and LEAD, concept]
+  - [DBKB-ASQL-0008, FIRST_VALUE LAST_VALUE and NTH_VALUE, concept]
+  - [DBKB-ASQL-0009, Window Frames, concept]
+  - [DBKB-ASQL-0010, Running Aggregates, concept]
+  - [DBKB-ASQL-0011, Moving Aggregates, concept]
+  - [DBKB-ASQL-0012, Top N per Group, recipe]
+  - [DBKB-ASQL-0013, Gaps and Islands, recipe]
+  - [DBKB-ASQL-0014, GROUPING SETS, concept]
+  - [DBKB-ASQL-0015, ROLLUP and CUBE, comparison]
+  - [DBKB-ASQL-0016, Hierarchy Processing Patterns, concept]
+  - [DBKB-ASQL-0017, LATERAL and APPLY, comparison]
+  - [DBKB-ASQL-0018, Advanced JSON Querying, concept]
+  - [DBKB-ASQL-0019, JSON Construction and Aggregation, concept]
+  - [DBKB-ASQL-0020, Advanced Date and Time Arithmetic, concept]
+  - [DBKB-ASQL-0021, Temporal Bucketing, concept]
+  - [DBKB-ASQL-0022, Dynamic SQL Safety, concept]
+  - [DBKB-ASQL-0023, UPSERT Patterns, concept]
+  - [DBKB-ASQL-0024, PostgreSQL ON CONFLICT, technology]
+  - [DBKB-ASQL-0025, MERGE Fundamentals, concept]
+  - [DBKB-ASQL-0026, MERGE Safety and Concurrency, concept]
+  - [DBKB-ASQL-0027, Bulk Modification Patterns, concept]
+  - [DBKB-ASQL-0028, Modification Result Capture, concept]

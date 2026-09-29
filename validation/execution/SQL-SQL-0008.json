@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "example_id": "SQL-SQL-0008",
+  "document_id": "DBKB-SQL-0008",
+  "environment": "sqlite-local",
+  "engine": "sqlite",
+  "engine_version": "3.46.1",
+  "executed_at": "2026-09-29T10:24:22.641076+00:00",
+  "statement_sha256": "2bb82cd49a77107b406c937de79c8174b5d3e89a10937ddf6a886409fb5370b3",
+  "status": "PASS",
+  "actual_rows": [
+    [
+      2,
+      "2026-09-29"
+    ],
+    [
+      3,
+      "2026-09-29"
+    ],
+    [
+      1,
+      "2026-09-28"
+    ]
+  ]
+}

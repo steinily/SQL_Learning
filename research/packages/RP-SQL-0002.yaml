@@ -1,0 +1,46 @@
+schema_version: 1
+id: RP-SQL-0002
+topic: M02 grouping joins and modification
+status: READY
+verified_concepts:
+  - DISTINCT removes duplicate result rows but does not guarantee order.
+  - Aggregate functions reduce groups; GROUP BY defines grouping keys and HAVING filters groups.
+  - Logical join type defines matched/unmatched row preservation independently of physical algorithm.
+  - INSERT, UPDATE and DELETE modify rows; DDL defines structures.
+claims:
+  - claim: PostgreSQL aggregate functions have documented NULL and empty-input behavior.
+    evidence_level: E2
+    sources: [SRC-000027]
+    state: VERIFIED
+    context: PostgreSQL 18.
+  - claim: SQL Server distinguishes logical INNER OUTER CROSS joins from physical join implementation.
+    evidence_level: E2
+    sources: [SRC-000029]
+    state: VERIFIED
+    context: SQL Server 17.x documentation view.
+  - claim: PostgreSQL documents INSERT UPDATE and DELETE as data-manipulation operations.
+    evidence_level: E2
+    sources: [SRC-000031]
+    state: VERIFIED
+    context: PostgreSQL 18.
+  - claim: Microsoft classifies CREATE ALTER DROP as DDL and INSERT UPDATE DELETE as DML.
+    evidence_level: E1
+    sources: [SRC-000030]
+    state: VERIFIED
+    context: Current Transact-SQL statement documentation.
+dialect_differences:
+  - FULL OUTER JOIN is not supported by every local/embedded engine version; examples declare environment.
+  - DML result-returning syntax and DDL transaction behavior vary.
+version_sensitive_claims:
+  - Aggregate inventories, join extensions and DML/DDL syntax are version-sensitive.
+misconceptions:
+  - DISTINCT is not a substitute for correct join cardinality.
+  - A LEFT JOIN can become inner-like if a right-side filter is placed in WHERE.
+  - UPDATE or DELETE without WHERE is syntactically valid and potentially destructive.
+candidate_examples:
+  - Group aggregates and HAVING over Atlas orders.
+  - Inner, left outer and cross join row-count assertions.
+  - Transaction-isolated INSERT UPDATE DELETE with expected final state.
+sources: [SRC-000009, SRC-000027, SRC-000029, SRC-000030, SRC-000031]
+cautions:
+  - Destructive examples remain isolated and opt-in; the harness uses ephemeral in-memory databases.

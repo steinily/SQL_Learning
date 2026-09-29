@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ISQL-0018
+document_id: DBKB-ISQL-0018
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE payment (payment_id INTEGER PRIMARY KEY, amount INTEGER);
+    INSERT INTO payment VALUES (1, 99), (2, 100), (3, 1000);
+statement: SELECT payment_id, CASE WHEN amount >= 1000 THEN 'large' WHEN amount >= 100 THEN 'medium' ELSE 'small' END FROM payment ORDER BY payment_id
+expectation:
+  rows: [[1, small], [2, medium], [3, large]]
+destructive: false

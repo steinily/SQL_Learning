@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-MODL-0011
+document_id: DBKB-MODL-0011
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE price_history (product_id INTEGER, valid_from TEXT, valid_to TEXT, price INTEGER);
+    INSERT INTO price_history VALUES (1, '2026-01-01', '2026-06-01', 10), (1, '2026-06-01', NULL, 12);
+statement: SELECT price FROM price_history WHERE product_id = 1 AND valid_from <= '2026-09-29' AND (valid_to > '2026-09-29' OR valid_to IS NULL)
+expectation:
+  rows: [[12]]
+destructive: false

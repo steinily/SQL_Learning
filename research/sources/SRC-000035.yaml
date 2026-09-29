@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000035
+title: PostgreSQL 18 Documentation — Conditional Expressions
+publisher: PostgreSQL Global Development Group
+source_class: S1-primary
+url: https://www.postgresql.org/docs/18/functions-conditional.html
+technology: postgresql
+version: "18"
+retrieved_at: "2026-09-29"
+review_after: "2027-09-29"
+content_scope: CASE COALESCE NULLIF GREATEST and LEAST semantics and type resolution context.
+notes: Evaluation-order caveats remain scoped to the documented PostgreSQL behavior.

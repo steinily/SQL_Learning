@@ -1,0 +1,16 @@
+schema_version: 1
+id: SQL-RDBE-0003
+document_id: DBKB-RDBE-0003
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    PRAGMA foreign_keys = ON;
+    CREATE TABLE parent (id INTEGER PRIMARY KEY);
+    CREATE TABLE child (id INTEGER PRIMARY KEY, parent_id INTEGER NOT NULL REFERENCES parent(id));
+    INSERT INTO parent VALUES (1);
+    INSERT INTO child VALUES (10, 1);
+statement: SELECT child.id, child.parent_id FROM child
+expectation:
+  rows: [[10, 1]]
+destructive: false

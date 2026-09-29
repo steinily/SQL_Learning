@@ -2,12 +2,20 @@
   "$schema":"https://json-schema.org/draft/2020-12/schema",
   "title":"Research Package",
   "type":"object",
-  "required":["schema_version","id","topic","verified_concepts","sources","cautions"],
+  "required":["schema_version","id","topic","status","verified_concepts","claims","sources","cautions"],
   "properties":{
     "schema_version":{"const":1},
     "id":{"type":"string","pattern":"^RP-[A-Z0-9]+-[0-9]{4}$"},
     "topic":{"type":"string"},
+    "status":{"enum":["RESEARCHING","READY","VERIFY_REQUIRED","SOURCE_CONFLICT","VERSION_UNCONFIRMED","BLOCKED"]},
     "verified_concepts":{"type":"array","items":{"type":"string"}},
+    "claims":{"type":"array","items":{"type":"object","required":["claim","evidence_level","sources","state"],"properties":{
+      "claim":{"type":"string","minLength":1},
+      "evidence_level":{"enum":["E1","E2","E3"]},
+      "sources":{"type":"array","minItems":1,"items":{"type":"string","pattern":"^SRC-[0-9]{6}$"}},
+      "state":{"enum":["VERIFIED","VERIFY_REQUIRED","SOURCE_CONFLICT","VERSION_UNCONFIRMED","EXECUTION_NOT_TESTED"]},
+      "context":{"type":"string"}
+    },"additionalProperties":false}},
     "dialect_differences":{"type":"array","items":{"type":"string"}},
     "version_sensitive_claims":{"type":"array","items":{"type":"string"}},
     "misconceptions":{"type":"array","items":{"type":"string"}},

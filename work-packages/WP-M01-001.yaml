@@ -1,7 +1,7 @@
 schema_version: 1
 id: WP-M01-001
 title: Foundations pilot
-state: PLANNED
+state: DONE
 manifest_items:
   - DBKB-FND-0002
   - DBKB-FND-0003

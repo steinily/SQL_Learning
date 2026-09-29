@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ASQL-0006
+document_id: DBKB-ASQL-0006
+dialect: sqlite
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE result (result_id INTEGER PRIMARY KEY, score INTEGER);
+    INSERT INTO result VALUES (1, 10), (2, 20), (3, 20), (4, 40);
+statement: SELECT result_id, score, ROUND(CUME_DIST() OVER (ORDER BY score), 2) FROM result ORDER BY score, result_id
+expectation:
+  rows: [[1, 10, 0.25], [2, 20, 0.75], [3, 20, 0.75], [4, 40, 1.0]]
+destructive: false

@@ -1,0 +1,22 @@
+schema_version: 1
+id: WP-M01-003
+title: Foundations types logic and set operations
+state: DONE
+manifest_items:
+  - DBKB-FND-0012
+  - DBKB-FND-0013
+  - DBKB-FND-0014
+  - DBKB-FND-0015
+  - DBKB-FND-0017
+  - DBKB-FND-0018
+  - DBKB-FND-0019
+  - DBKB-FND-0020
+dependencies: [WP-M01-001]
+research_requirements:
+  - Pin vendor claims to PostgreSQL 18 and Unicode claims to Unicode 16.0.
+  - Keep exact and approximate numeric behavior distinct.
+validation_requirements: [metadata, sources, facts, links, terminology, SQL execution]
+completion_criteria:
+  - All eight documents satisfy Document Definition of Done.
+  - Portable truth-table and set-operation examples execute with expected results.
+rework_cycles: 0

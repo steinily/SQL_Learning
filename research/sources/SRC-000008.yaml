@@ -1,0 +1,11 @@
+schema_version: 1
+id: SRC-000008
+title: Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services
+publisher: ACM SIGACT / authors Seth Gilbert and Nancy Lynch
+source_class: S1-primary
+url: https://www.cs.princeton.edu/courses/archive/spring21/cos418/papers/cap.pdf
+technology: distributed-systems
+version: 2002 paper
+retrieved_at: "2026-09-29"
+content_scope: Formal asynchronous-network model, definitions and proof underlying the CAP theorem.
+notes: Primary paper mirrored by Princeton University; scope and definitions must be preserved when cited.

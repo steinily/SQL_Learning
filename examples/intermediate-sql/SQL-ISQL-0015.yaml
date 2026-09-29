@@ -1,0 +1,15 @@
+schema_version: 1
+id: SQL-ISQL-0015
+document_id: DBKB-ISQL-0015
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE source_a (code TEXT);
+    CREATE TABLE source_b (code TEXT);
+    INSERT INTO source_a VALUES ('A'), ('B');
+    INSERT INTO source_b VALUES ('B'), ('C');
+statement: SELECT (SELECT COUNT(*) FROM (SELECT code FROM source_a UNION ALL SELECT code FROM source_b)), (SELECT COUNT(*) FROM (SELECT code FROM source_a UNION SELECT code FROM source_b))
+expectation:
+  rows: [[4, 3]]
+destructive: false

@@ -1,0 +1,29 @@
+schema_version: 1
+module: M02
+title: SQL Fundamentals
+priority: P0
+required: true
+status: complete
+documents:
+  - [DBKB-SQL-0001, SQL Fundamentals Overview, overview]
+  - [DBKB-SQL-0002, SQL Language and Statement Anatomy, concept]
+  - [DBKB-SQL-0003, SELECT Fundamentals, concept]
+  - [DBKB-SQL-0004, FROM and Table Expressions, concept]
+  - [DBKB-SQL-0005, Column Expressions and Aliases, concept]
+  - [DBKB-SQL-0006, Filtering with WHERE, concept]
+  - [DBKB-SQL-0007, Predicates and Comparison Logic, concept]
+  - [DBKB-SQL-0008, Ordering with ORDER BY, concept]
+  - [DBKB-SQL-0009, Row Limiting, concept]
+  - [DBKB-SQL-0010, Expressions and Operators, concept]
+  - [DBKB-SQL-0011, Type Conversion, concept]
+  - [DBKB-SQL-0012, DISTINCT, concept]
+  - [DBKB-SQL-0013, Aggregate Functions, concept]
+  - [DBKB-SQL-0014, GROUP BY, concept]
+  - [DBKB-SQL-0015, HAVING, concept]
+  - [DBKB-SQL-0016, Join Fundamentals, concept]
+  - [DBKB-SQL-0017, INNER JOIN, concept]
+  - [DBKB-SQL-0018, OUTER JOIN, concept]
+  - [DBKB-SQL-0019, CROSS JOIN, concept]
+  - [DBKB-SQL-0020, INSERT, concept]
+  - [DBKB-SQL-0021, UPDATE and DELETE, concept]
+  - [DBKB-SQL-0022, DDL Fundamentals, concept]

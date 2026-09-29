@@ -1,0 +1,45 @@
+schema_version: 1
+id: RP-FND-0002
+topic: M01 structures and integrity
+status: READY
+verified_concepts:
+  - A DBMS manages definition, access, integrity, concurrency and recovery capabilities around databases.
+  - Formal relation terminology and SQL table terminology require an explicit abstraction boundary.
+  - Keys identify rows logically; PostgreSQL primary keys enforce unique and non-null values.
+  - Foreign keys maintain referential integrity between referencing and referenced rows.
+  - Constraints express enforceable subsets of business rules but do not invent undeclared invariants.
+claims:
+  - claim: Codd introduced a model based on n-ary relations to improve independence from internal representation.
+    evidence_level: E2
+    sources: [SRC-000002]
+    state: VERIFIED
+    context: Original relational-model paper.
+  - claim: PostgreSQL tables contain named typed columns and rows have no implicit order.
+    evidence_level: E2
+    sources: [SRC-000003]
+    state: VERIFIED
+    context: PostgreSQL 18 concepts.
+  - claim: PostgreSQL primary keys require unique non-null values and foreign keys enforce matches to referenced keys.
+    evidence_level: E2
+    sources: [SRC-000009]
+    state: VERIFIED
+    context: PostgreSQL 18 constraint semantics.
+  - claim: CHECK, NOT NULL, UNIQUE, PRIMARY KEY and FOREIGN KEY protect different integrity dimensions.
+    evidence_level: E2
+    sources: [SRC-000009]
+    state: VERIFIED
+    context: PostgreSQL 18; vendor extensions are labelled.
+dialect_differences:
+  - Constraint syntax is portable only within the explicitly exercised subset; referential actions and NULL uniqueness need vendor review.
+version_sensitive_claims:
+  - PostgreSQL constraint implementation notes are pinned to version 18.
+misconceptions:
+  - A primary key is not merely an index.
+  - A relationship in a conceptual model is not enforced until represented by an appropriate physical constraint or protocol.
+candidate_examples:
+  - Composite primary and foreign key acceptance and rejection.
+  - CHECK plus NOT NULL expected-error tests.
+sources: [SRC-000002, SRC-000003, SRC-000009, SRC-000023]
+cautions:
+  - Formal relational rules and product behavior are not interchangeable.
+  - Constraint coverage is limited to declared and supported predicates.

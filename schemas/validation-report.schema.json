@@ -7,6 +7,7 @@
     "schema_version":{"const":1},
     "document_id":{"type":"string"},
     "run_id":{"type":"string"},
+    "document_sha256":{"type":"string","pattern":"^[a-f0-9]{64}$"},
     "dimensions":{"type":"object","additionalProperties":{"enum":["PASS","FAIL","N/A","NOT_RUN","BLOCKED"]}},
     "findings":{"type":"array","items":{"type":"object","required":["severity","message"],"properties":{
       "severity":{"enum":["BLOCKER","CRITICAL","MAJOR","MINOR","INFO"]},

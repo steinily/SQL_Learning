@@ -1,0 +1,30 @@
+schema_version: 1
+id: RP-ISQL-0004
+topic: M03 NULL duplicate and relational division patterns
+status: READY
+verified_concepts:
+  - NULL requires explicit three-valued-logic-aware patterns.
+  - Duplicate treatment depends on declared grain and business identity.
+  - Relational division asks which entities satisfy every required condition.
+claims:
+  - claim: PostgreSQL NOT IN can evaluate to NULL when no equal row exists and a right-side value is NULL.
+    evidence_level: E2
+    sources: [SRC-000033]
+    state: VERIFIED
+    context: PostgreSQL 18.
+  - claim: PostgreSQL set operations define explicit duplicate elimination and ALL behavior.
+    evidence_level: E2
+    sources: [SRC-000034]
+    state: VERIFIED
+    context: PostgreSQL 18.
+dialect_differences:
+  - Null-safe equality syntax and duplicate-removal extensions vary by engine.
+version_sensitive_claims:
+  - Vendor-specific null-safe operators are version-sensitive.
+misconceptions:
+  - COALESCE to a sentinel is not safe unless the sentinel is outside the domain by constraint.
+candidate_examples:
+  - Double-NOT-EXISTS relational division with empty and missing cases.
+sources: [SRC-000033, SRC-000034, SRC-000035]
+cautions:
+  - Deduplication without a deterministic survivor rule can discard arbitrary data.

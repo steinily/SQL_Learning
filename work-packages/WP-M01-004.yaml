@@ -1,0 +1,27 @@
+schema_version: 1
+id: WP-M01-004
+title: Foundations measurement transactions and platforms
+state: DONE
+manifest_items:
+  - DBKB-FND-0021
+  - DBKB-FND-0022
+  - DBKB-FND-0023
+  - DBKB-FND-0024
+  - DBKB-FND-0025
+  - DBKB-FND-0027
+  - DBKB-FND-0028
+  - DBKB-FND-0030
+  - DBKB-FND-0031
+  - DBKB-FND-0032
+  - DBKB-FND-0033
+  - DBKB-FND-0034
+  - DBKB-FND-0035
+dependencies: [WP-M01-001, WP-M01-002, WP-M01-003]
+research_requirements:
+  - Use official current sources for consistency levels and platform terminology.
+  - Treat workload labels as characteristics, not universal product categories.
+validation_requirements: [metadata, sources, facts, links, terminology, SQL execution]
+completion_criteria:
+  - All thirteen documents satisfy Document Definition of Done.
+  - M01 reaches 35 of 35 required documents with no blocking findings.
+rework_cycles: 0

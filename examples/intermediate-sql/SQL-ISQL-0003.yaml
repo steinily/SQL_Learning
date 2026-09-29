@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-ISQL-0003
+document_id: DBKB-ISQL-0003
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE sales_order (customer_id INTEGER, status TEXT);
+    INSERT INTO sales_order VALUES (10, 'OPEN'), (10, 'CLOSED'), (10, 'OPEN'), (20, 'CLOSED');
+statement: SELECT customer_id, SUM(CASE WHEN status = 'OPEN' THEN 1 ELSE 0 END), SUM(CASE WHEN status = 'CLOSED' THEN 1 ELSE 0 END) FROM sales_order GROUP BY customer_id ORDER BY customer_id
+expectation:
+  rows: [[10, 2, 1], [20, 0, 1]]
+destructive: false

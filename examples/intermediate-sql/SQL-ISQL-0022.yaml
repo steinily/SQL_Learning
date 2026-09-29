@@ -1,0 +1,10 @@
+schema_version: 1
+id: SQL-ISQL-0022
+document_id: DBKB-ISQL-0022
+dialect: sqlite
+environment: sqlite-local
+setup: []
+statement: WITH RECURSIVE numbers(n) AS (VALUES (1) UNION ALL SELECT n + 1 FROM numbers WHERE n < 5) SELECT n FROM numbers ORDER BY n
+expectation:
+  rows: [[1], [2], [3], [4], [5]]
+destructive: false

@@ -1,0 +1,19 @@
+schema_version: 1
+id: SQL-FND-0004
+document_id: DBKB-FND-0007
+dialect: portable
+environment: sqlite-local
+setup:
+  - |
+    CREATE TABLE product (
+      product_id INTEGER PRIMARY KEY,
+      sku VARCHAR(30) NOT NULL UNIQUE,
+      product_name VARCHAR(200) NOT NULL,
+      unit_price DECIMAL(12, 2) NOT NULL CHECK (unit_price >= 0)
+    );
+    INSERT INTO product VALUES (1001, 'BRG-6204', 'Bearing 6204', 12.50);
+statement: SELECT product_id, product_name FROM product ORDER BY product_id
+expectation:
+  rows:
+    - [1001, Bearing 6204]
+destructive: false

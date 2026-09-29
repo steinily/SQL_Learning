@@ -13,6 +13,8 @@
     "technology":{"type":"string"},
     "version":{"type":"string"},
     "retrieved_at":{"type":"string","format":"date"},
+    "review_after":{"type":"string","format":"date"},
+    "content_scope":{"type":"string"},
     "notes":{"type":"string"}
   },
   "additionalProperties":false
