@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M19-003
+title: Migration evidence and continuous validation
+state: DONE
+manifest_items: [DBKB-TEST-0015, DBKB-TEST-0016, DBKB-TEST-0017, DBKB-TEST-0018, DBKB-TEST-0019, DBKB-TEST-0020]
+dependencies: [WP-M19-002]
+research_requirements: [migration testing, evidence provenance, test data management, CI gates, troubleshooting and exercise design]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Six documents satisfy Document Definition of Done]
+rework_cycles: 0

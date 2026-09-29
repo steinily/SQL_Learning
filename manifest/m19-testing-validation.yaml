@@ -3,7 +3,7 @@ module: M19
 title: Testing and Validation
 priority: P0
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-TEST-0001, Testing and Validation Overview, overview]
   - [DBKB-TEST-0002, Test Strategy for Databases, playbook]
