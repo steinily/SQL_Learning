@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000069
+title: Apache Kafka Documentation
+publisher: Apache Software Foundation
+source_class: S1-primary
+url: https://kafka.apache.org/documentation/
+technology: apache-kafka
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Event streaming, topics, partitions, producers, consumers, delivery semantics and connectors.
+notes: Delivery and ordering behavior is topic, partition, client and version dependent.

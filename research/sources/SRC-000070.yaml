@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000070
+title: Debezium Documentation
+publisher: Red Hat and Debezium Contributors
+source_class: S1-primary
+url: https://debezium.io/documentation/
+technology: debezium
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Change data capture connectors, event envelopes, snapshots, offsets and schema changes.
+notes: Connector and source database behavior varies by Debezium and engine version.

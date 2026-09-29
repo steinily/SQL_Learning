@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000071
+title: Apache Avro Documentation
+publisher: Apache Software Foundation
+source_class: S1-primary
+url: https://avro.apache.org/docs/
+technology: avro
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Schema-based serialization, schema resolution, encoding and data exchange.
+notes: Compatibility behavior depends on schema evolution rules and implementation version.

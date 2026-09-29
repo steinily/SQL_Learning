@@ -1,20 +1,25 @@
 schema_version: 1
 id: RP-INT-0001
-topic: M10 database internals
+topic: M23 data integration
 status: READY
 verified_concepts:
-  - PostgreSQL storage, WAL, vacuum and recovery behavior is documented as version-sensitive implementation detail.
-  - Internal observations require engine-specific instrumentation and evidence.
+  - Data integration connects systems through APIs, files, events, CDC and shared contracts with explicit delivery and failure semantics.
+  - Integration correctness depends on schema evolution, identity, ordering, retries, deduplication and observability.
 claims:
-  - claim: PostgreSQL documents WAL as the mechanism used for crash recovery and durability.
+  - claim: Apache Kafka documents partitioned event streaming, producer/consumer behavior and delivery semantics.
     evidence_level: E2
-    sources: [SRC-000014]
+    sources: [SRC-000069]
     state: VERIFIED
-    context: PostgreSQL 18 official documentation.
-  - claim: PostgreSQL documents routine vacuuming, visibility maps and storage internals as operational mechanisms.
+    context: Official Apache Kafka documentation.
+  - claim: Debezium documents CDC connectors, snapshots, offsets, event envelopes and schema changes.
     evidence_level: E2
-    sources: [SRC-000014]
+    sources: [SRC-000070]
     state: VERIFIED
-    context: PostgreSQL 18 official documentation.
-cautions: [Internal structure and behavior are PostgreSQL-version-specific; no production internals claim without runtime evidence.]
-sources: [SRC-000014]
+    context: Official Debezium documentation.
+  - claim: Apache Avro documents schema-based serialization and schema resolution.
+    evidence_level: E2
+    sources: [SRC-000071]
+    state: VERIFIED
+    context: Official Apache Avro documentation.
+cautions: [Exactly-once, ordering, replay, compatibility and delivery guarantees require target connector/client execution evidence.]
+sources: [SRC-000069, SRC-000070, SRC-000071]

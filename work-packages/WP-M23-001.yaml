@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M23-001
+title: Integration patterns and change data movement
+state: DONE
+manifest_items: [DBKB-INTG-0001, DBKB-INTG-0002, DBKB-INTG-0003, DBKB-INTG-0004, DBKB-INTG-0005, DBKB-INTG-0006]
+dependencies: [WP-M22-003]
+research_requirements: [integration overview, patterns, APIs, files, events and CDC]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Six documents satisfy Document Definition of Done]
+rework_cycles: 0

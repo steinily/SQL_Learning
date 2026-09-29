@@ -1,0 +1,25 @@
+schema_version: 1
+module: M23
+title: Data Integration
+priority: P1
+required: true
+status: in_progress
+documents:
+  - [DBKB-INTG-0001, Data Integration Overview, overview]
+  - [DBKB-INTG-0002, Integration Patterns, comparison]
+  - [DBKB-INTG-0003, API Integration, technology]
+  - [DBKB-INTG-0004, File Based Integration, technology]
+  - [DBKB-INTG-0005, Event Driven Integration, technology]
+  - [DBKB-INTG-0006, Change Data Capture, technology]
+  - [DBKB-INTG-0007, Schema Registry and Serialization, technology]
+  - [DBKB-INTG-0008, Data Mapping and Transformation, playbook]
+  - [DBKB-INTG-0009, Deduplication and Idempotency, concept]
+  - [DBKB-INTG-0010, Ordering and Delivery Semantics, concept]
+  - [DBKB-INTG-0011, Error Queues and Replay, playbook]
+  - [DBKB-INTG-0012, Integration Security, technology]
+  - [DBKB-INTG-0013, Integration Observability, technology]
+  - [DBKB-INTG-0014, Data Reconciliation, playbook]
+  - [DBKB-INTG-0015, Integration Testing, playbook]
+  - [DBKB-INTG-0016, Integration Troubleshooting, troubleshooting]
+  - [DBKB-INTG-0017, Integration Runbook, playbook]
+  - [DBKB-INTG-0018, Data Integration Exercise, exercise]
