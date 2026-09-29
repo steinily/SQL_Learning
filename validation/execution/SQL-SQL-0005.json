@@ -5,7 +5,7 @@
   "environment": "sqlite-local",
   "engine": "sqlite",
   "engine_version": "3.46.1",
-  "executed_at": "2026-09-29T13:09:20.204232+00:00",
+  "executed_at": "2026-09-29T13:15:39.289258+00:00",
   "statement_sha256": "5bd0bbc8567ec5ae3b117e985cdeec13fd8a07a126003ef9616f8fdbdb9d3e48",
   "status": "PASS",
   "actual_rows": [
