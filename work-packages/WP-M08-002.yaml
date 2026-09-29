@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M08-002
+title: Index design patterns
+state: READY
+manifest_items: [DBKB-IDX-0008, DBKB-IDX-0009, DBKB-IDX-0010, DBKB-IDX-0011, DBKB-IDX-0012, DBKB-IDX-0013]
+dependencies: [WP-M08-001]
+research_requirements: [expression, unique and statistics-aware index design]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Six documents satisfy Document Definition of Done]
+rework_cycles: 0
