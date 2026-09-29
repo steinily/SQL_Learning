@@ -1,0 +1,20 @@
+schema_version: 1
+id: RP-SQ-0001
+topic: M14 SQLite foundations
+status: READY
+verified_concepts:
+  - SQLite is an embedded database engine with a file-based architecture and engine-specific typing/locking semantics.
+  - SQLite WAL, foreign key enforcement and backup behavior require explicit runtime configuration and verification.
+claims:
+  - claim: SQLite documentation defines its architecture, SQL language, transactions, WAL, typing and file format.
+    evidence_level: E2
+    sources: [SRC-000048]
+    state: VERIFIED
+    context: SQLite official documentation.
+  - claim: SQLite is not equivalent to a client/server database for concurrency and operational topology.
+    evidence_level: E2
+    sources: [SRC-000048]
+    state: VERIFIED
+    context: SQLite official documentation.
+cautions: [Compile options, journal mode, foreign key pragma and application access pattern affect behavior.]
+sources: [SRC-000048]

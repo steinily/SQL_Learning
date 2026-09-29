@@ -1,15 +1,58 @@
 {
   "schema_version": 1,
   "document_id": "REPOSITORY",
-  "run_id": "repo-4f53cda18c2b",
+  "run_id": "repo-fd2a6f9560b0",
   "dimensions": {
     "schemas": "PASS",
     "manifests": "PASS",
     "metadata": "PASS",
     "links": "PASS",
     "knowledge_graph": "PASS",
-    "release_gate": "PASS"
+    "release_gate": "FAIL"
   },
-  "findings": [],
-  "executed_at": "2026-09-29T12:29:45.491085+00:00"
+  "findings": [
+    {
+      "severity": "BLOCKER",
+      "code": "STALE_VALIDATION_REPORT",
+      "message": "DBKB-SQ-0002",
+      "evidence": "content/14-sqlite/sqlite-architecture.md"
+    },
+    {
+      "severity": "BLOCKER",
+      "code": "STALE_VALIDATION_REPORT",
+      "message": "DBKB-SQ-0003",
+      "evidence": "content/14-sqlite/sqlite-file-format.md"
+    },
+    {
+      "severity": "BLOCKER",
+      "code": "STALE_VALIDATION_REPORT",
+      "message": "DBKB-SQ-0001",
+      "evidence": "content/14-sqlite/sqlite-overview.md"
+    },
+    {
+      "severity": "BLOCKER",
+      "code": "STALE_VALIDATION_REPORT",
+      "message": "DBKB-SQ-0005",
+      "evidence": "content/14-sqlite/sqlite-sql-dialect.md"
+    },
+    {
+      "severity": "BLOCKER",
+      "code": "STALE_VALIDATION_REPORT",
+      "message": "DBKB-SQ-0006",
+      "evidence": "content/14-sqlite/sqlite-transactions.md"
+    },
+    {
+      "severity": "BLOCKER",
+      "code": "STALE_VALIDATION_REPORT",
+      "message": "DBKB-SQ-0004",
+      "evidence": "content/14-sqlite/sqlite-typing.md"
+    },
+    {
+      "severity": "BLOCKER",
+      "code": "STALE_VALIDATION_REPORT",
+      "message": "DBKB-SQ-0007",
+      "evidence": "content/14-sqlite/sqlite-wal-mode.md"
+    }
+  ],
+  "executed_at": "2026-09-29T12:32:26.909866+00:00"
 }

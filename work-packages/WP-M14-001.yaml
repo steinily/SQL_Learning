@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M14-001
+title: SQLite foundations
+state: DONE
+manifest_items: [DBKB-SQ-0001, DBKB-SQ-0002, DBKB-SQ-0003, DBKB-SQ-0004, DBKB-SQ-0005, DBKB-SQ-0006, DBKB-SQ-0007]
+dependencies: [WP-M13-005]
+research_requirements: [architecture, file format, typing, dialect, transactions and WAL]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0

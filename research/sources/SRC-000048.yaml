@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000048
+title: SQLite Documentation
+publisher: SQLite Consortium
+source_class: S1-primary
+url: https://www.sqlite.org/docs.html
+technology: sqlite
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: SQLite architecture, file format, SQL language, transactions, WAL, typing, indexes and administration.
+notes: SQLite-specific claims must be scoped to the documented SQLite version and compile/runtime configuration.

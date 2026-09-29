@@ -1,0 +1,21 @@
+schema_version: 1
+module: M14
+title: SQLite
+priority: P1
+required: true
+status: in_progress
+documents:
+  - [DBKB-SQ-0001, SQLite Overview, overview]
+  - [DBKB-SQ-0002, SQLite Architecture, concept]
+  - [DBKB-SQ-0003, SQLite File Format, technology]
+  - [DBKB-SQ-0004, SQLite Typing, concept]
+  - [DBKB-SQ-0005, SQLite SQL Dialect, reference]
+  - [DBKB-SQ-0006, SQLite Transactions, concept]
+  - [DBKB-SQ-0007, SQLite WAL Mode, technology]
+  - [DBKB-SQ-0008, SQLite Locking, technology]
+  - [DBKB-SQ-0009, SQLite Foreign Keys, technology]
+  - [DBKB-SQ-0010, SQLite Indexes, technology]
+  - [DBKB-SQ-0011, SQLite Query Planner, concept]
+  - [DBKB-SQ-0012, SQLite Backup, playbook]
+  - [DBKB-SQ-0013, SQLite Limitations, comparison]
+  - [DBKB-SQ-0014, SQLite Exercise, exercise]
