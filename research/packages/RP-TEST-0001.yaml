@@ -1,0 +1,25 @@
+schema_version: 1
+id: RP-TEST-0001
+topic: M19 testing and validation
+status: READY
+verified_concepts:
+  - Database validation requires explicit scope, deterministic fixtures, expected outcomes and evidence of actual execution.
+  - Security and destructive tests require authorization, isolation, rollback or cleanup and a documented failure interpretation.
+claims:
+  - claim: NIST provides a structured approach for planning, conducting and reporting technical security testing.
+    evidence_level: E2
+    sources: [SRC-000057]
+    state: VERIFIED
+    context: NIST SP 800-115.
+  - claim: PostgreSQL regression testing compares actual behavior with expected outputs under a test harness.
+    evidence_level: E2
+    sources: [SRC-000058]
+    state: VERIFIED
+    context: Official PostgreSQL documentation.
+  - claim: SQL Server validation must be scoped to the supported release, deployment model and selected tooling.
+    evidence_level: E2
+    sources: [SRC-000059]
+    state: VERIFIED
+    context: Official Microsoft documentation.
+cautions: [A passing test suite does not prove untested environments, workloads, versions or operational procedures.]
+sources: [SRC-000057, SRC-000058, SRC-000059]

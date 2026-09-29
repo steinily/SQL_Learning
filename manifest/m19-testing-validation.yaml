@@ -1,0 +1,27 @@
+schema_version: 1
+module: M19
+title: Testing and Validation
+priority: P0
+required: true
+status: in_progress
+documents:
+  - [DBKB-TEST-0001, Testing and Validation Overview, overview]
+  - [DBKB-TEST-0002, Test Strategy for Databases, playbook]
+  - [DBKB-TEST-0003, Test Pyramid for Data Systems, concept]
+  - [DBKB-TEST-0004, Deterministic Test Fixtures, technology]
+  - [DBKB-TEST-0005, Unit Testing SQL Logic, technology]
+  - [DBKB-TEST-0006, Integration Testing Databases, technology]
+  - [DBKB-TEST-0007, Regression Testing, playbook]
+  - [DBKB-TEST-0008, Contract Testing Data Interfaces, technology]
+  - [DBKB-TEST-0009, Schema Validation Testing, technology]
+  - [DBKB-TEST-0010, Data Quality Assertions, technology]
+  - [DBKB-TEST-0011, Performance Testing Databases, playbook]
+  - [DBKB-TEST-0012, Concurrency Testing, playbook]
+  - [DBKB-TEST-0013, Failure and Recovery Testing, playbook]
+  - [DBKB-TEST-0014, Security Testing Databases, playbook]
+  - [DBKB-TEST-0015, Migration Testing, playbook]
+  - [DBKB-TEST-0016, Test Evidence and Provenance, reference]
+  - [DBKB-TEST-0017, Test Data Management, playbook]
+  - [DBKB-TEST-0018, CI Database Gates, technology]
+  - [DBKB-TEST-0019, Validation Troubleshooting, troubleshooting]
+  - [DBKB-TEST-0020, Testing and Validation Exercise, exercise]

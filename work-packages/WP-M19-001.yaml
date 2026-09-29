@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M19-001
+title: Testing foundations and deterministic validation
+state: DONE
+manifest_items: [DBKB-TEST-0001, DBKB-TEST-0002, DBKB-TEST-0003, DBKB-TEST-0004, DBKB-TEST-0005, DBKB-TEST-0006, DBKB-TEST-0007]
+dependencies: [WP-M18-003]
+research_requirements: [testing strategy, test pyramid, fixtures, unit, integration and regression testing]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0

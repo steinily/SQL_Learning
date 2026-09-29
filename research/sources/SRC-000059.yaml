@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000059
+title: Microsoft SQL Server Testing and Validation Documentation
+publisher: Microsoft
+source_class: S1-primary
+url: https://learn.microsoft.com/en-us/sql/relational-databases/
+technology: sql-server-testing
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: SQL Server database development, testing, deployment and validation practices.
+notes: Tooling and supported features vary by SQL Server release and deployment model.

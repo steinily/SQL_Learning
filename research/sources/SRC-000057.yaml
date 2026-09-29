@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000057
+title: NIST SP 800-115 Technical Guide to Information Security Testing and Assessment
+publisher: National Institute of Standards and Technology
+source_class: S1-primary
+url: https://csrc.nist.gov/publications/detail/sp/800-115/final
+technology: testing-validation
+version: final publication
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Security test planning, technical testing techniques, findings and assessment reporting.
+notes: Test authorization, scope and safety constraints are mandatory for production-like systems.
