@@ -319,6 +319,131 @@
     },
     {
       "operation": "CREATE",
+      "id": "DBKB-IDX-0001",
+      "path": "content/08-indexing/indexing-overview.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0002",
+      "path": "content/08-indexing/why-indexes-matter.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0003",
+      "path": "content/08-indexing/b-tree-indexes.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0004",
+      "path": "content/08-indexing/hash-indexes.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0005",
+      "path": "content/08-indexing/composite-indexes.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0006",
+      "path": "content/08-indexing/covering-indexes.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0007",
+      "path": "content/08-indexing/partial-indexes.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0008",
+      "path": "content/08-indexing/expression-indexes.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0009",
+      "path": "content/08-indexing/unique-indexes.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0010",
+      "path": "content/08-indexing/index-selectivity.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0011",
+      "path": "content/08-indexing/cardinality-and-statistics.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0012",
+      "path": "content/08-indexing/index-maintenance.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0013",
+      "path": "content/08-indexing/index-bloat.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0014",
+      "path": "content/08-indexing/concurrent-index-builds.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0015",
+      "path": "content/08-indexing/clustered-indexes.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0016",
+      "path": "content/08-indexing/heap-and-index-only-scans.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0017",
+      "path": "content/08-indexing/bitmap-index-scans.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0018",
+      "path": "content/08-indexing/multi-column-statistics.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0019",
+      "path": "content/08-indexing/foreign-key-indexing.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0020",
+      "path": "content/08-indexing/indexing-for-order-by.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0021",
+      "path": "content/08-indexing/indexing-for-joins.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0022",
+      "path": "content/08-indexing/index-anti-patterns.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0023",
+      "path": "content/08-indexing/index-review-checklist.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0024",
+      "path": "content/08-indexing/indexing-exercise.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-IDX-0025",
+      "path": "content/08-indexing/indexing-decision-record.md"
+    },
+    {
+      "operation": "CREATE",
       "id": "DBKB-ISQL-0001",
       "path": "content/03-intermediate-sql/intermediate-sql-overview.md"
     },
@@ -919,7 +1044,7 @@
     }
   ],
   "counts": {
-    "CREATE": 183
+    "CREATE": 208
   },
   "live_publish": "BLOCKED_CREDENTIALS_OR_API_NOT_CONFIGURED"
 }

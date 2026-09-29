@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M08-004
+title: Index review and practice
+state: DONE
+manifest_items: [DBKB-IDX-0020, DBKB-IDX-0021, DBKB-IDX-0022, DBKB-IDX-0023, DBKB-IDX-0024, DBKB-IDX-0025]
+dependencies: [WP-M08-003]
+research_requirements: [ordering, joins, anti-patterns and review practices]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Six documents satisfy Document Definition of Done]
+rework_cycles: 0

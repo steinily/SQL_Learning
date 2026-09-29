@@ -3,7 +3,7 @@ module: M08
 title: Indexing
 priority: P0
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-IDX-0001, Indexing Overview, overview]
   - [DBKB-IDX-0002, Why Indexes Matter, concept]
@@ -27,6 +27,6 @@ documents:
   - [DBKB-IDX-0020, Indexing for ORDER BY, concept]
   - [DBKB-IDX-0021, Indexing for Joins, concept]
   - [DBKB-IDX-0022, Index Anti-Patterns, troubleshooting]
-  - [DBKB-IDX-0023, Index Review Checklist, checklist]
+  - [DBKB-IDX-0023, Index Review Checklist, playbook]
   - [DBKB-IDX-0024, Indexing Exercise, exercise]
   - [DBKB-IDX-0025, Indexing Decision Record, playbook]
