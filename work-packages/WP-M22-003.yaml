@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M22-003
+title: Data pipeline operations and assurance
+state: DONE
+manifest_items: [DBKB-DE-0015, DBKB-DE-0016, DBKB-DE-0017, DBKB-DE-0018, DBKB-DE-0019, DBKB-DE-0020, DBKB-DE-0021, DBKB-DE-0022, DBKB-DE-0023, DBKB-DE-0024, DBKB-DE-0025]
+dependencies: [WP-M22-002]
+research_requirements: [retries, backpressure, ingestion, reprocessing, observability, security, cost, testing and runbooks]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Eleven documents satisfy Document Definition of Done]
+rework_cycles: 0

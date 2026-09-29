@@ -3,7 +3,7 @@ module: M22
 title: Data Engineering Fundamentals
 priority: P1
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-DE-0001, Data Engineering Fundamentals Overview, overview]
   - [DBKB-DE-0002, Data Pipeline Concepts, concept]
