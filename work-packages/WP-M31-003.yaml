@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M31-003
+title: NoSQL replication and operations
+state: DONE
+manifest_items: [DBKB-NOSQL-0011, DBKB-NOSQL-0012, DBKB-NOSQL-0013, DBKB-NOSQL-0014, DBKB-NOSQL-0015]
+dependencies: [WP-M31-002]
+research_requirements: [replication, partitioning, query patterns, schema evolution, backup restore]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
