@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M21-003
+title: Recovery assurance and resilience operations
+state: DONE
+manifest_items: [DBKB-DR-0013, DBKB-DR-0014, DBKB-DR-0015, DBKB-DR-0016, DBKB-DR-0017, DBKB-DR-0018]
+dependencies: [WP-M21-002]
+research_requirements: [recovery observability, regional resilience, data loss assessment, governance, evidence and exercise design]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Six documents satisfy Document Definition of Done]
+rework_cycles: 0

@@ -3,7 +3,7 @@ module: M21
 title: Reliability Backup and Disaster Recovery
 priority: P1
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-DR-0001, Reliability Backup and Disaster Recovery Overview, overview]
   - [DBKB-DR-0002, Business Impact and Recovery Objectives, concept]
