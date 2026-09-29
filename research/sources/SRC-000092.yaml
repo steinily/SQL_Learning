@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000092
+title: The Open Group Architecture Framework Standard
+publisher: The Open Group
+source_class: S1-primary
+url: https://pubs.opengroup.org/togaf-standard/
+technology: togaf
+version: current standard on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Enterprise architecture domains, governance, capability and architecture development concepts.
+notes: Formal method details depend on the referenced TOGAF edition.

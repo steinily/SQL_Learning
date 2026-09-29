@@ -1,0 +1,23 @@
+schema_version: 1
+module: M32
+title: Data Architecture
+priority: P1
+required: true
+status: in_progress
+documents:
+  - [DBKB-DARCH-0001, Data Architecture Overview, overview]
+  - [DBKB-DARCH-0002, Data Architecture Principles, concept]
+  - [DBKB-DARCH-0003, Architecture Domains and Boundaries, concept]
+  - [DBKB-DARCH-0004, Data Lifecycle Architecture, technology]
+  - [DBKB-DARCH-0005, Architecture Decision Records, playbook]
+  - [DBKB-DARCH-0006, Data Platform Architecture, technology]
+  - [DBKB-DARCH-0007, Data Mesh Architecture, technology]
+  - [DBKB-DARCH-0008, Data Lakehouse Architecture, technology]
+  - [DBKB-DARCH-0009, Data Product Architecture, technology]
+  - [DBKB-DARCH-0010, Data Architecture Governance, playbook]
+  - [DBKB-DARCH-0011, Data Architecture Security, technology]
+  - [DBKB-DARCH-0012, Data Architecture Observability, technology]
+  - [DBKB-DARCH-0013, Data Architecture Troubleshooting, troubleshooting]
+  - [DBKB-DARCH-0014, Data Architecture Exercise, exercise]
+  - [DBKB-DARCH-0015, Data Architecture Reference, reference]
+  - [DBKB-DARCH-0016, Architecture Anti-Patterns, error]

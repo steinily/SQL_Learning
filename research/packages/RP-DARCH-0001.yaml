@@ -1,0 +1,26 @@
+schema_version: 1
+id: RP-DARCH-0001
+topic: data architecture
+status: READY
+verified_concepts:
+  - Enterprise architecture separates concerns across business, data, application and technology domains.
+  - DCAT provides interoperable concepts for catalogs, datasets, distributions and data services.
+  - Data mesh guidance emphasizes domain ownership, data products, federated governance and self-service platform capabilities.
+claims:
+  - claim: The Open Group TOGAF standard covers architecture domains and architecture governance concepts.
+    evidence_level: E2
+    sources: [SRC-000092]
+    state: VERIFIED
+    context: Official Open Group standard.
+  - claim: W3C DCAT defines catalog, dataset, distribution and data service concepts.
+    evidence_level: E2
+    sources: [SRC-000093]
+    state: VERIFIED
+    context: W3C Recommendation.
+  - claim: AWS Prescriptive Guidance describes data mesh domains, data products, federated governance and self-service platform concepts.
+    evidence_level: E2
+    sources: [SRC-000094]
+    state: VERIFIED
+    context: Official AWS guidance; architecture is not mandatory for every organization.
+cautions: [Architecture patterns require organizational context, non-functional requirements and explicit ownership; cloud guidance must not be treated as universal standard.]
+sources: [SRC-000092, SRC-000093, SRC-000094]

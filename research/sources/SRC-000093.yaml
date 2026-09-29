@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000093
+title: W3C Data Catalog Vocabulary (DCAT)
+publisher: W3C
+source_class: S1-primary
+url: https://www.w3.org/TR/vocab-dcat-3/
+technology: dcat
+version: W3C Recommendation
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Dataset, distribution, catalog, service and data catalog interoperability vocabulary.
+notes: Profile extensions and implementation support vary.

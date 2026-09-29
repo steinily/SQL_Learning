@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M32-001
+title: Data architecture foundations
+state: DONE
+manifest_items: [DBKB-DARCH-0001, DBKB-DARCH-0002, DBKB-DARCH-0003, DBKB-DARCH-0004, DBKB-DARCH-0005]
+dependencies: [WP-M31-005]
+research_requirements: [enterprise architecture domains, data catalog vocabulary, data mesh guidance]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0

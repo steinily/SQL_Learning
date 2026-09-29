@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000094
+title: AWS Prescriptive Guidance Data Mesh Fundamentals
+publisher: Amazon Web Services
+source_class: S1-primary
+url: https://docs.aws.amazon.com/prescriptive-guidance/latest/modern-data-architectures/data-mesh.html
+technology: data-mesh
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Data product, domain ownership, federated governance and self-service platform concepts.
+notes: Cloud implementation guidance is not a vendor-neutral architecture requirement.
