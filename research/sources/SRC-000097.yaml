@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000097
+title: CloudEvents Specification
+publisher: CNCF Cloud Native Computing Foundation
+source_class: S1-primary
+url: https://cloudevents.io/
+technology: cloudevents
+version: current specification on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Event envelope attributes, context, data and protocol bindings.
+notes: SDK and protocol support varies by implementation.

@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M33-001
+title: Data contract foundations
+state: DONE
+manifest_items: [DBKB-CONTRACT-0001, DBKB-CONTRACT-0002, DBKB-CONTRACT-0003, DBKB-CONTRACT-0004, DBKB-CONTRACT-0005]
+dependencies: [WP-M32-004]
+research_requirements: [OpenAPI, AsyncAPI, CloudEvents, schema contracts]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0

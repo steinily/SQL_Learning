@@ -1,0 +1,26 @@
+schema_version: 1
+id: RP-CONTRACT-0001
+topic: data contracts and interfaces
+status: READY
+verified_concepts:
+  - OpenAPI describes HTTP API operations, schemas, parameters and responses.
+  - AsyncAPI describes message-driven channels, operations, messages and bindings.
+  - CloudEvents standardizes event context attributes and data envelopes.
+claims:
+  - claim: OpenAPI Specification defines reusable descriptions for HTTP APIs, schemas and operations.
+    evidence_level: E2
+    sources: [SRC-000095]
+    state: VERIFIED
+    context: Official OpenAPI Specification.
+  - claim: AsyncAPI Specification defines channels, operations, messages, servers and bindings for event-driven APIs.
+    evidence_level: E2
+    sources: [SRC-000096]
+    state: VERIFIED
+    context: Official AsyncAPI Specification.
+  - claim: CloudEvents defines interoperable event context attributes and data envelope concepts.
+    evidence_level: E2
+    sources: [SRC-000097]
+    state: VERIFIED
+    context: Official CloudEvents specification.
+cautions: [A specification is not automatically enforced; compatibility, governance and consumer testing require tooling and execution evidence.]
+sources: [SRC-000095, SRC-000096, SRC-000097]

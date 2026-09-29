@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000096
+title: AsyncAPI Specification
+publisher: AsyncAPI Initiative
+source_class: S1-primary
+url: https://www.asyncapi.com/docs/reference/specification/latest
+technology: asyncapi
+version: current specification on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Message-driven API channels, operations, messages, schemas, servers and bindings.
+notes: Protocol binding support varies by tooling and version.

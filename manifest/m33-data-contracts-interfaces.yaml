@@ -1,0 +1,20 @@
+schema_version: 1
+module: M33
+title: Data Contracts and Interfaces
+priority: P1
+required: true
+status: in_progress
+documents:
+  - [DBKB-CONTRACT-0001, Data Contracts Overview, overview]
+  - [DBKB-CONTRACT-0002, Contract Schemas, concept]
+  - [DBKB-CONTRACT-0003, OpenAPI Contracts, technology]
+  - [DBKB-CONTRACT-0004, AsyncAPI Contracts, technology]
+  - [DBKB-CONTRACT-0005, CloudEvents Contracts, technology]
+  - [DBKB-CONTRACT-0006, Compatibility and Versioning, playbook]
+  - [DBKB-CONTRACT-0007, Contract Testing, technology]
+  - [DBKB-CONTRACT-0008, Consumer-Driven Contracts, technology]
+  - [DBKB-CONTRACT-0009, Contract Governance, playbook]
+  - [DBKB-CONTRACT-0010, Contract Security, technology]
+  - [DBKB-CONTRACT-0011, Contract Troubleshooting, troubleshooting]
+  - [DBKB-CONTRACT-0012, Contract Exercise, exercise]
+  - [DBKB-CONTRACT-0013, Contract Reference, reference]

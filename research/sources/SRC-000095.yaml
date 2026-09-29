@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000095
+title: OpenAPI Specification
+publisher: OpenAPI Initiative
+source_class: S1-primary
+url: https://spec.openapis.org/oas/latest.html
+technology: openapi
+version: current specification on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: HTTP API description, operations, parameters, schemas, responses and security.
+notes: Exact feature support depends on tooling and specification version.
