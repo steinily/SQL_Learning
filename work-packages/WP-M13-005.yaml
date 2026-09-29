@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M13-005
+title: MySQL practice and review closure
+state: DONE
+manifest_items: [DBKB-MY-0029, DBKB-MY-0030]
+dependencies: [WP-M13-004]
+research_requirements: [exercise and review checklist for MySQL/MariaDB operations]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Two documents satisfy Document Definition of Done and M13 is complete]
+rework_cycles: 0

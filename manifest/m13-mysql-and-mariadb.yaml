@@ -3,7 +3,7 @@ module: M13
 title: MySQL and MariaDB
 priority: P1
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-MY-0001, MySQL and MariaDB Overview, overview]
   - [DBKB-MY-0002, MySQL Architecture, concept]
