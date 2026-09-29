@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M09-001
+title: Query plan foundations
+state: DONE
+manifest_items: [DBKB-PERF-0001, DBKB-PERF-0002, DBKB-PERF-0003, DBKB-PERF-0004, DBKB-PERF-0005, DBKB-PERF-0006, DBKB-PERF-0007]
+dependencies: [WP-M08-004]
+research_requirements: [EXPLAIN, execution plans, cost model and scan operators from authoritative sources]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0

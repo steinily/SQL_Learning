@@ -1,0 +1,42 @@
+schema_version: 1
+module: M09
+title: Query Performance and Optimization
+priority: P0
+required: true
+status: in_progress
+documents:
+  - [DBKB-PERF-0001, Query Performance Overview, overview]
+  - [DBKB-PERF-0002, EXPLAIN Fundamentals, concept]
+  - [DBKB-PERF-0003, EXPLAIN ANALYZE, technology]
+  - [DBKB-PERF-0004, Query Plan Nodes, reference]
+  - [DBKB-PERF-0005, Cost Model, concept]
+  - [DBKB-PERF-0006, Sequential Scans, concept]
+  - [DBKB-PERF-0007, Index Scans, concept]
+  - [DBKB-PERF-0008, Bitmap Scans, concept]
+  - [DBKB-PERF-0009, Nested Loop Joins, technology]
+  - [DBKB-PERF-0010, Hash Joins, technology]
+  - [DBKB-PERF-0011, Merge Joins, technology]
+  - [DBKB-PERF-0012, Join Order, concept]
+  - [DBKB-PERF-0013, Cardinality Estimation Errors, troubleshooting]
+  - [DBKB-PERF-0014, Parameter Sensitivity, troubleshooting]
+  - [DBKB-PERF-0015, Sargability, concept]
+  - [DBKB-PERF-0016, CTE Materialization, technology]
+  - [DBKB-PERF-0017, Subquery Optimization, concept]
+  - [DBKB-PERF-0018, Sort and Hash Memory, concept]
+  - [DBKB-PERF-0019, Parallel Query, technology]
+  - [DBKB-PERF-0020, Partition Pruning, technology]
+  - [DBKB-PERF-0021, Predicate Pushdown, concept]
+  - [DBKB-PERF-0022, Plan Regression, troubleshooting]
+  - [DBKB-PERF-0023, Query Tuning Workflow, playbook]
+  - [DBKB-PERF-0024, Performance Baselines, concept]
+  - [DBKB-PERF-0025, Query Monitoring, technology]
+  - [DBKB-PERF-0026, Slow Query Analysis, troubleshooting]
+  - [DBKB-PERF-0027, Plan Cache, technology]
+  - [DBKB-PERF-0028, Prepared Statements, concept]
+  - [DBKB-PERF-0029, Query Hints, comparison]
+  - [DBKB-PERF-0030, Performance Anti-Patterns, troubleshooting]
+  - [DBKB-PERF-0031, Query Tuning Exercise, exercise]
+  - [DBKB-PERF-0032, Plan Reading Exercise, exercise]
+  - [DBKB-PERF-0033, Performance Decision Record, playbook]
+  - [DBKB-PERF-0034, Performance Incident Runbook, playbook]
+  - [DBKB-PERF-0035, Optimization Review Checklist, playbook]
