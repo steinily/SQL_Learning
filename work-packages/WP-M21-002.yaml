@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M21-002
+title: Recovery operations and resilience testing
+state: DONE
+manifest_items: [DBKB-DR-0007, DBKB-DR-0008, DBKB-DR-0009, DBKB-DR-0010, DBKB-DR-0011, DBKB-DR-0012]
+dependencies: [WP-M21-001]
+research_requirements: [recovery runbooks, immutability, retention, dependencies, failover/failback and DR testing]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Six documents satisfy Document Definition of Done]
+rework_cycles: 0
