@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000068
+title: Apache Parquet Documentation
+publisher: Apache Software Foundation
+source_class: S1-primary
+url: https://parquet.apache.org/docs/
+technology: parquet
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Columnar storage format, schema, encoding, compression and interoperability.
+notes: Reader/writer feature support can vary by implementation and version.

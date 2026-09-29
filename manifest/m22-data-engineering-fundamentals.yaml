@@ -1,0 +1,32 @@
+schema_version: 1
+module: M22
+title: Data Engineering Fundamentals
+priority: P1
+required: true
+status: in_progress
+documents:
+  - [DBKB-DE-0001, Data Engineering Fundamentals Overview, overview]
+  - [DBKB-DE-0002, Data Pipeline Concepts, concept]
+  - [DBKB-DE-0003, Batch and Streaming Processing, comparison]
+  - [DBKB-DE-0004, ETL and ELT, comparison]
+  - [DBKB-DE-0005, Workflow Orchestration, technology]
+  - [DBKB-DE-0006, Data Partitioning, technology]
+  - [DBKB-DE-0007, Idempotent Data Pipelines, concept]
+  - [DBKB-DE-0008, Data Lineage Fundamentals, concept]
+  - [DBKB-DE-0009, Data Lake and Lakehouse Concepts, concept]
+  - [DBKB-DE-0010, Columnar Storage, technology]
+  - [DBKB-DE-0011, Parquet Fundamentals, technology]
+  - [DBKB-DE-0012, Distributed Processing, technology]
+  - [DBKB-DE-0013, Spark SQL Fundamentals, technology]
+  - [DBKB-DE-0014, Pipeline Scheduling, technology]
+  - [DBKB-DE-0015, Retries and Backpressure, concept]
+  - [DBKB-DE-0016, Data Ingestion Patterns, playbook]
+  - [DBKB-DE-0017, Batch Reprocessing, playbook]
+  - [DBKB-DE-0018, Data Engineering Observability, technology]
+  - [DBKB-DE-0019, Pipeline Security, technology]
+  - [DBKB-DE-0020, Cost and Capacity Planning, concept]
+  - [DBKB-DE-0021, Data Engineering Testing, playbook]
+  - [DBKB-DE-0022, Pipeline Troubleshooting, troubleshooting]
+  - [DBKB-DE-0023, Data Engineering Runbook, playbook]
+  - [DBKB-DE-0024, Data Pipeline Exercise, exercise]
+  - [DBKB-DE-0025, Data Engineering Reference, reference]

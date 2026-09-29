@@ -1,0 +1,25 @@
+schema_version: 1
+id: RP-DE-0001
+topic: M22 data engineering fundamentals
+status: READY
+verified_concepts:
+  - Data engineering systems move, transform, schedule, store and validate data with explicit contracts and operational evidence.
+  - Distributed processing, orchestration and file-format behavior are implementation and version sensitive.
+claims:
+  - claim: Apache Spark documents distributed processing, SQL and batch/stream execution concepts.
+    evidence_level: E2
+    sources: [SRC-000066]
+    state: VERIFIED
+    context: Official Apache Spark documentation.
+  - claim: Apache Airflow documents DAG-based workflow orchestration, scheduling and task dependencies.
+    evidence_level: E2
+    sources: [SRC-000067]
+    state: VERIFIED
+    context: Official Apache Airflow documentation.
+  - claim: Apache Parquet documents a column-oriented interoperable storage format and schema/encoding concepts.
+    evidence_level: E2
+    sources: [SRC-000068]
+    state: VERIFIED
+    context: Official Apache Parquet documentation.
+cautions: [Performance, exactly-once, cost and delivery guarantees require target implementation and workload evidence.]
+sources: [SRC-000066, SRC-000067, SRC-000068]

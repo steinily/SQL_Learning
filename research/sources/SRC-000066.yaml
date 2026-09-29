@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000066
+title: Apache Spark Documentation
+publisher: Apache Software Foundation
+source_class: S1-primary
+url: https://spark.apache.org/docs/latest/
+technology: apache-spark
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Distributed data processing, SQL, batch/stream execution, partitioning and fault-tolerant computation.
+notes: Execution behavior and APIs vary by Spark release and deployment mode.

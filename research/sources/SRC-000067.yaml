@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000067
+title: Apache Airflow Documentation
+publisher: Apache Software Foundation
+source_class: S1-primary
+url: https://airflow.apache.org/docs/
+technology: apache-airflow
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Workflow orchestration, DAGs, scheduling, task dependencies, retries and operational practices.
+notes: Operator behavior, executors and provider integrations vary by Airflow version.

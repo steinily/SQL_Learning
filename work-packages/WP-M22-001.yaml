@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M22-001
+title: Data engineering pipeline foundations
+state: DONE
+manifest_items: [DBKB-DE-0001, DBKB-DE-0002, DBKB-DE-0003, DBKB-DE-0004, DBKB-DE-0005, DBKB-DE-0006, DBKB-DE-0007]
+dependencies: [WP-M21-003]
+research_requirements: [data pipelines, batch/stream, ETL/ELT, orchestration, partitioning and idempotency]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
