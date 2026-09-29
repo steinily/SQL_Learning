@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M33-003
+title: Contract assurance and closure
+state: DONE
+manifest_items: [DBKB-CONTRACT-0011, DBKB-CONTRACT-0012, DBKB-CONTRACT-0013]
+dependencies: [WP-M33-002]
+research_requirements: [troubleshooting, exercise assessment, reference checklist]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Three documents satisfy Document Definition of Done and M33 manifest is complete]
+rework_cycles: 0

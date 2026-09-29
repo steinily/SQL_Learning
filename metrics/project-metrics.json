@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T16:04:56.727417+00:00",
+  "generated_at": "2026-09-29T16:06:11.019269+00:00",
   "baseline_scope": {
     "name": "v1",
     "modules": 36,
@@ -14,28 +14,28 @@
     },
     "priority_authored": {
       "P0": 457,
-      "P1": 236,
+      "P1": 239,
       "P2": 45
     }
   },
   "content": {
-    "authored_documents": 738,
-    "progress_percent": 80.39,
+    "authored_documents": 741,
+    "progress_percent": 80.72,
     "status": {
-      "verified": 738
+      "verified": 741
     },
     "maturity": {
       "complete": 385,
-      "draft": 353
+      "draft": 356
     },
     "publishable_documents": 385
   },
   "verification": {
     "states": {
-      "fully-verified": 738
+      "fully-verified": 741
     },
-    "fully_verified": 738,
-    "progress_percent": 80.39
+    "fully_verified": 741,
+    "progress_percent": 80.72
   },
   "qa": {
     "findings_by_severity": {
@@ -52,7 +52,7 @@
     "target_min": 1000
   },
   "knowledge_graph": {
-    "prerequisite_edges": 915,
+    "prerequisite_edges": 918,
     "cycles": 0
   },
   "source_health": {

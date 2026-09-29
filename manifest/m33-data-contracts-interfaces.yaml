@@ -3,7 +3,7 @@ module: M33
 title: Data Contracts and Interfaces
 priority: P1
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-CONTRACT-0001, Data Contracts Overview, overview]
   - [DBKB-CONTRACT-0002, Contract Schemas, concept]
