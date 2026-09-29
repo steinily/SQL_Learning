@@ -3,7 +3,7 @@ module: M25
 title: Data Warehousing and Analytics
 priority: P1
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-WH-0001, Data Warehousing and Analytics Overview, overview]
   - [DBKB-WH-0002, Dimensional Modeling, concept]

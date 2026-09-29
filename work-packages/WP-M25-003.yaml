@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M25-003
+title: Warehouse metrics governance and assurance
+state: DONE
+manifest_items: [DBKB-WH-0015, DBKB-WH-0016, DBKB-WH-0017, DBKB-WH-0018, DBKB-WH-0019, DBKB-WH-0020, DBKB-WH-0021, DBKB-WH-0022]
+dependencies: [WP-M25-002]
+research_requirements: [metrics, query optimization, incremental models, snapshots, governance, security, testing and exercise design]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Eight documents satisfy Document Definition of Done]
+rework_cycles: 0
