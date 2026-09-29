@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M12-002
+title: T-SQL programming objects
+state: DONE
+manifest_items: [DBKB-SS-0008, DBKB-SS-0009, DBKB-SS-0010, DBKB-SS-0011, DBKB-SS-0012, DBKB-SS-0013, DBKB-SS-0014]
+dependencies: [WP-M12-001]
+research_requirements: [T-SQL data types, variables, control flow, routines, triggers and views]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
