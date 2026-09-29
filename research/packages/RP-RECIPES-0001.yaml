@@ -1,0 +1,16 @@
+schema_version: 1
+id: RP-RECIPES-0001
+topic: database recipes troubleshooting and anti-patterns
+status: READY
+verified_concepts:
+  - Operational recipes must state scope, prerequisites, evidence, rollback and verification steps.
+  - Troubleshooting must map symptoms to observable evidence and safe remediation.
+  - Anti-patterns require detection signals, risk context and bounded remediation.
+claims:
+  - claim: Repository vendor and standards research packages provide authoritative implementation references for SQL, data, security, operations and architecture topics.
+    evidence_level: E2
+    sources: [SRC-000001, SRC-000086, SRC-000098]
+    state: VERIFIED
+    context: Existing official source records in this repository.
+cautions: [Recipe execution and benchmark status must reflect actual runs; vendor behavior remains version-sensitive.]
+sources: [SRC-000001, SRC-000086, SRC-000098]

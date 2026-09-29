@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M35-001
+title: Recipes foundation
+state: DONE
+manifest_items: [DBKB-REC-0001, DBKB-REC-0002, DBKB-REC-0003, DBKB-REC-0004, DBKB-REC-0005]
+dependencies: [WP-M34-004]
+research_requirements: [SQL recipes, safe execution, evidence and rollback]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
