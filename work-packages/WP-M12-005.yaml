@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M12-005
+title: SQL Server operations and practice
+state: DONE
+manifest_items: [DBKB-SS-0029, DBKB-SS-0030, DBKB-SS-0031, DBKB-SS-0032, DBKB-SS-0033, DBKB-SS-0034, DBKB-SS-0035]
+dependencies: [WP-M12-004]
+research_requirements: [recovery models, Agent, Extended Events, monitoring, performance, anti-patterns and exercises]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
