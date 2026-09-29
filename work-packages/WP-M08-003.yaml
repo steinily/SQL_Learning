@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M08-003
+title: Operational and access path indexing
+state: READY
+manifest_items: [DBKB-IDX-0014, DBKB-IDX-0015, DBKB-IDX-0016, DBKB-IDX-0017, DBKB-IDX-0018, DBKB-IDX-0019]
+dependencies: [WP-M08-002]
+research_requirements: [concurrent builds, scan types and referential indexing]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Six documents satisfy Document Definition of Done]
+rework_cycles: 0
