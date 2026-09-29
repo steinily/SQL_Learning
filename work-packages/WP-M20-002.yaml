@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M20-002
+title: Data movement rollout and migration assurance
+state: DONE
+manifest_items: [DBKB-MIG-0008, DBKB-MIG-0009, DBKB-MIG-0010, DBKB-MIG-0011, DBKB-MIG-0012, DBKB-MIG-0013, DBKB-MIG-0014]
+dependencies: [WP-M20-001]
+research_requirements: [backfill, dual read/write, feature flags, rollback, observability, testing and deployment ordering]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
