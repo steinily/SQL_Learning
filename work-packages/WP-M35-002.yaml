@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M35-002
+title: Core operational recipes
+state: DONE
+manifest_items: [DBKB-REC-0006, DBKB-REC-0007, DBKB-REC-0008, DBKB-REC-0009, DBKB-REC-0010]
+dependencies: [WP-M35-001]
+research_requirements: [indexes, backup, migration, security, observability]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
