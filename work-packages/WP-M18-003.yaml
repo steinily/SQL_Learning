@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M18-003
+title: Observability operations and assurance
+state: DONE
+manifest_items: [DBKB-OBS-0015, DBKB-OBS-0016, DBKB-OBS-0017, DBKB-OBS-0018, DBKB-OBS-0019, DBKB-OBS-0020, DBKB-OBS-0021, DBKB-OBS-0022]
+dependencies: [WP-M18-002]
+research_requirements: [freshness, dashboards, incident telemetry, observability security, cardinality, synthetic checks, runbooks and exercise design]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Eight documents satisfy Document Definition of Done]
+rework_cycles: 0

@@ -3,7 +3,7 @@ module: M18
 title: Observability and Monitoring
 priority: P0
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-OBS-0001, Observability and Monitoring Overview, overview]
   - [DBKB-OBS-0002, Metrics Logs and Traces, concept]
