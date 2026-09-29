@@ -709,6 +709,181 @@
     },
     {
       "operation": "CREATE",
+      "id": "DBKB-PERF-0001",
+      "path": "content/09-query-performance-and-optimization/query-performance-overview.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0002",
+      "path": "content/09-query-performance-and-optimization/explain-fundamentals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0003",
+      "path": "content/09-query-performance-and-optimization/explain-analyze.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0004",
+      "path": "content/09-query-performance-and-optimization/query-plan-nodes.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0005",
+      "path": "content/09-query-performance-and-optimization/cost-model.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0006",
+      "path": "content/09-query-performance-and-optimization/sequential-scans.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0007",
+      "path": "content/09-query-performance-and-optimization/index-scans.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0008",
+      "path": "content/09-query-performance-and-optimization/bitmap-scans.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0009",
+      "path": "content/09-query-performance-and-optimization/nested-loop-joins.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0010",
+      "path": "content/09-query-performance-and-optimization/hash-joins.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0011",
+      "path": "content/09-query-performance-and-optimization/merge-joins.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0012",
+      "path": "content/09-query-performance-and-optimization/join-order.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0013",
+      "path": "content/09-query-performance-and-optimization/cardinality-estimation-errors.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0014",
+      "path": "content/09-query-performance-and-optimization/parameter-sensitivity.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0015",
+      "path": "content/09-query-performance-and-optimization/sargability.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0016",
+      "path": "content/09-query-performance-and-optimization/cte-materialization.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0017",
+      "path": "content/09-query-performance-and-optimization/subquery-optimization.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0018",
+      "path": "content/09-query-performance-and-optimization/sort-and-hash-memory.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0019",
+      "path": "content/09-query-performance-and-optimization/parallel-query.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0020",
+      "path": "content/09-query-performance-and-optimization/partition-pruning.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0021",
+      "path": "content/09-query-performance-and-optimization/predicate-pushdown.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0022",
+      "path": "content/09-query-performance-and-optimization/plan-regression.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0023",
+      "path": "content/09-query-performance-and-optimization/query-tuning-workflow.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0024",
+      "path": "content/09-query-performance-and-optimization/performance-baselines.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0025",
+      "path": "content/09-query-performance-and-optimization/query-monitoring.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0026",
+      "path": "content/09-query-performance-and-optimization/slow-query-analysis.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0027",
+      "path": "content/09-query-performance-and-optimization/plan-cache.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0028",
+      "path": "content/09-query-performance-and-optimization/prepared-statements.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0029",
+      "path": "content/09-query-performance-and-optimization/query-hints.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0030",
+      "path": "content/09-query-performance-and-optimization/performance-anti-patterns.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0031",
+      "path": "content/09-query-performance-and-optimization/query-tuning-exercise.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0032",
+      "path": "content/09-query-performance-and-optimization/plan-reading-exercise.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0033",
+      "path": "content/09-query-performance-and-optimization/performance-decision-record.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0034",
+      "path": "content/09-query-performance-and-optimization/performance-incident-runbook.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PERF-0035",
+      "path": "content/09-query-performance-and-optimization/optimization-review-checklist.md"
+    },
+    {
+      "operation": "CREATE",
       "id": "DBKB-RDBE-0001",
       "path": "content/06-relational-database-engineering/relational-database-engineering-overview.md"
     },
@@ -1044,7 +1219,7 @@
     }
   ],
   "counts": {
-    "CREATE": 208
+    "CREATE": 243
   },
   "live_publish": "BLOCKED_CREDENTIALS_OR_API_NOT_CONFIGURED"
 }

@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M09-005
+title: Optimization governance and practice
+state: DONE
+manifest_items: [DBKB-PERF-0029, DBKB-PERF-0030, DBKB-PERF-0031, DBKB-PERF-0032, DBKB-PERF-0033, DBKB-PERF-0034, DBKB-PERF-0035]
+dependencies: [WP-M09-004]
+research_requirements: [hints, anti-patterns, exercises, decision records and incident review]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done and M09 is complete]
+rework_cycles: 0

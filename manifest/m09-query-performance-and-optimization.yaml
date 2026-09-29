@@ -3,7 +3,7 @@ module: M09
 title: Query Performance and Optimization
 priority: P0
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-PERF-0001, Query Performance Overview, overview]
   - [DBKB-PERF-0002, EXPLAIN Fundamentals, concept]
