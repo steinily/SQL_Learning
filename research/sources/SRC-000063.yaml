@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000063
+title: PostgreSQL Backup and Restore
+publisher: PostgreSQL Global Development Group
+source_class: S1-primary
+url: https://www.postgresql.org/docs/current/backup.html
+technology: backup-recovery
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: SQL dumps, file-system backup, continuous archiving, point-in-time recovery and recovery planning.
+notes: Recovery options and procedures are version, topology and storage dependent.

@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000065
+title: Microsoft SQL Server Backup and Restore Documentation
+publisher: Microsoft
+source_class: S1-primary
+url: https://learn.microsoft.com/en-us/sql/relational-databases/backup-restore/
+technology: sql-server-recovery
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: SQL Server backup types, restore sequences, recovery models and disaster recovery concepts.
+notes: Features and recovery behavior vary by SQL Server edition, version and availability topology.

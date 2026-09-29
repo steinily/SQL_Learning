@@ -1,0 +1,20 @@
+schema_version: 1
+id: RP-DR-0001
+topic: M21 reliability backup and disaster recovery
+status: READY
+verified_concepts:
+  - Recovery design combines business impact, RPO/RTO, backup/replication mechanisms, dependencies, runbooks and tested restoration.
+  - A successful backup or replica state does not by itself prove recoverability; restore and failover tests provide execution evidence.
+claims:
+  - claim: PostgreSQL and SQL Server documentation define backup, restore and point-in-time or recovery-model concepts.
+    evidence_level: E2
+    sources: [SRC-000063, SRC-000065]
+    state: VERIFIED
+    context: Official vendor recovery documentation.
+  - claim: NIST contingency planning guidance structures recovery priorities, alternate processing and plan testing.
+    evidence_level: E2
+    sources: [SRC-000064]
+    state: VERIFIED
+    context: NIST SP 800-34 Rev. 1.
+cautions: [RPO/RTO, topology, storage durability, dependency order and legal retention require system-specific validation.]
+sources: [SRC-000063, SRC-000064, SRC-000065]

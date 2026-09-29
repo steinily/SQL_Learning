@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M21-001
+title: Recovery objectives and backup foundations
+state: DONE
+manifest_items: [DBKB-DR-0001, DBKB-DR-0002, DBKB-DR-0003, DBKB-DR-0004, DBKB-DR-0005, DBKB-DR-0006]
+dependencies: [WP-M20-003]
+research_requirements: [reliability, business impact, RPO/RTO, backup, restore, PITR and HA/DR comparison]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Six documents satisfy Document Definition of Done]
+rework_cycles: 0

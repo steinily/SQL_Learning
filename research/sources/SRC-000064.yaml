@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000064
+title: NIST SP 800-34 Rev. 1 Contingency Planning Guide
+publisher: National Institute of Standards and Technology
+source_class: S1-primary
+url: https://csrc.nist.gov/publications/detail/sp/800-34/rev-1/final
+technology: disaster-recovery
+version: Revision 1
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Information system contingency planning, recovery priorities, alternate processing and plan testing.
+notes: Recovery objectives and controls must be tailored to business impact and system dependencies.

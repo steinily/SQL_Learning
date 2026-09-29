@@ -1,0 +1,25 @@
+schema_version: 1
+module: M21
+title: Reliability Backup and Disaster Recovery
+priority: P1
+required: true
+status: in_progress
+documents:
+  - [DBKB-DR-0001, Reliability Backup and Disaster Recovery Overview, overview]
+  - [DBKB-DR-0002, Business Impact and Recovery Objectives, concept]
+  - [DBKB-DR-0003, Backup Strategy, playbook]
+  - [DBKB-DR-0004, Restore Strategy, playbook]
+  - [DBKB-DR-0005, Point in Time Recovery, technology]
+  - [DBKB-DR-0006, High Availability and Disaster Recovery, comparison]
+  - [DBKB-DR-0007, Recovery Runbooks, playbook]
+  - [DBKB-DR-0008, Backup Immutability and Security, technology]
+  - [DBKB-DR-0009, Backup Retention and Legal Hold, playbook]
+  - [DBKB-DR-0010, Recovery Dependencies, concept]
+  - [DBKB-DR-0011, Failover and Failback, playbook]
+  - [DBKB-DR-0012, Disaster Recovery Testing, playbook]
+  - [DBKB-DR-0013, Recovery Observability, technology]
+  - [DBKB-DR-0014, Regional and Zonal Resilience, concept]
+  - [DBKB-DR-0015, Data Loss Assessment, troubleshooting]
+  - [DBKB-DR-0016, Recovery Governance, playbook]
+  - [DBKB-DR-0017, Recovery Evidence Pack, reference]
+  - [DBKB-DR-0018, Disaster Recovery Exercise, exercise]
