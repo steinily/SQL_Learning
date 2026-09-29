@@ -3,7 +3,7 @@ module: M32
 title: Data Architecture
 priority: P1
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-DARCH-0001, Data Architecture Overview, overview]
   - [DBKB-DARCH-0002, Data Architecture Principles, concept]

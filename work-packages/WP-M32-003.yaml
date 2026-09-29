@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M32-003
+title: Data architecture assurance
+state: DONE
+manifest_items: [DBKB-DARCH-0011, DBKB-DARCH-0012, DBKB-DARCH-0013, DBKB-DARCH-0014, DBKB-DARCH-0015]
+dependencies: [WP-M32-002]
+research_requirements: [security, observability, troubleshooting, exercise, reference checklist]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0

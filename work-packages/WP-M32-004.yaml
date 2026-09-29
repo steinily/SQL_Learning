@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M32-004
+title: Data architecture closure
+state: DONE
+manifest_items: [DBKB-DARCH-0016]
+dependencies: [WP-M32-003]
+research_requirements: [architecture anti-patterns, detection and remediation]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Final document satisfies Document Definition of Done and M32 manifest is complete]
+rework_cycles: 0
