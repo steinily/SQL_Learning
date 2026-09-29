@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M17-001
+title: Security foundations and secure database access
+state: DONE
+manifest_items: [DBKB-SEC-0001, DBKB-SEC-0002, DBKB-SEC-0003, DBKB-SEC-0004, DBKB-SEC-0005, DBKB-SEC-0006, DBKB-SEC-0007]
+dependencies: [WP-M16-003]
+research_requirements: [security foundations, threat modeling, identity, authorization, least privilege, secrets and encryption]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0

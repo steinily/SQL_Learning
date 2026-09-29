@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000053
+title: PCI DSS v4.0.1
+publisher: PCI Security Standards Council
+source_class: S1-primary
+url: https://www.pcisecuritystandards.org/standards/pci-dss/
+technology: compliance
+version: 4.0.1
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Payment account data security requirements, access control, logging, vulnerability management and testing.
+notes: Applicability depends on payment-card environment scope and assessor interpretation.

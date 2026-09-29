@@ -1,0 +1,25 @@
+schema_version: 1
+id: RP-SEC-0001
+topic: M17 security privacy and compliance engineering
+status: READY
+verified_concepts:
+  - Database security requires layered identity, authorization, encryption, secure query construction, audit and operational controls.
+  - Privacy and compliance controls must be mapped to applicable data, processing purpose, scope and evidence rather than treated as generic labels.
+claims:
+  - claim: NIST security and privacy control families provide a structured basis for access, audit, configuration and system integrity controls.
+    evidence_level: E2
+    sources: [SRC-000050]
+    state: VERIFIED
+    context: NIST SP 800-53 Rev. 5.
+  - claim: Parameterized queries, allow-list validation and least privilege are primary SQL injection prevention controls.
+    evidence_level: E2
+    sources: [SRC-000051]
+    state: VERIFIED
+    context: OWASP SQL Injection Prevention Cheat Sheet.
+  - claim: GDPR and PCI DSS obligations depend on processing and cardholder-data scope and require documented controls and evidence.
+    evidence_level: E2
+    sources: [SRC-000052, SRC-000053]
+    state: VERIFIED
+    context: Official legal and standards texts.
+cautions: [Legal applicability, control tailoring, threat models and vendor capabilities require context-specific review.]
+sources: [SRC-000050, SRC-000051, SRC-000052, SRC-000053]

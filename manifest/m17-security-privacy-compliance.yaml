@@ -1,0 +1,32 @@
+schema_version: 1
+module: M17
+title: Security Privacy and Compliance Engineering
+priority: P0
+required: true
+status: in_progress
+documents:
+  - [DBKB-SEC-0001, Security Privacy and Compliance Overview, overview]
+  - [DBKB-SEC-0002, Database Threat Modeling, concept]
+  - [DBKB-SEC-0003, Authentication and Identity, technology]
+  - [DBKB-SEC-0004, Authorization and Access Control, technology]
+  - [DBKB-SEC-0005, Least Privilege, concept]
+  - [DBKB-SEC-0006, Secrets Management, playbook]
+  - [DBKB-SEC-0007, Encryption at Rest and in Transit, technology]
+  - [DBKB-SEC-0008, SQL Injection Prevention, technology]
+  - [DBKB-SEC-0009, Row Level Security, technology]
+  - [DBKB-SEC-0010, Data Masking and Tokenization, technology]
+  - [DBKB-SEC-0011, Privacy by Design, concept]
+  - [DBKB-SEC-0012, Personal Data Classification, reference]
+  - [DBKB-SEC-0013, Data Retention and Deletion, playbook]
+  - [DBKB-SEC-0014, Data Subject Rights Operations, playbook]
+  - [DBKB-SEC-0015, Security Logging and Audit, technology]
+  - [DBKB-SEC-0016, Compliance Control Mapping, playbook]
+  - [DBKB-SEC-0017, PCI DSS Database Controls, technology]
+  - [DBKB-SEC-0018, GDPR Database Controls, technology]
+  - [DBKB-SEC-0019, Vulnerability Management, playbook]
+  - [DBKB-SEC-0020, Patch and Configuration Security, playbook]
+  - [DBKB-SEC-0021, Security Incident Response, playbook]
+  - [DBKB-SEC-0022, Third Party Access, technology]
+  - [DBKB-SEC-0023, Database Security Testing, playbook]
+  - [DBKB-SEC-0024, Compliance Evidence Pack, playbook]
+  - [DBKB-SEC-0025, Security Privacy Exercise, exercise]

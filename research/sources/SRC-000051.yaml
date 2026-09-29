@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000051
+title: OWASP SQL Injection Prevention Cheat Sheet
+publisher: OWASP Foundation
+source_class: S1-primary
+url: https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html
+technology: application-security
+version: current guidance on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Parameterized queries, safe stored procedures, allow-list validation and least privilege for SQL injection prevention.
+notes: Guidance is framework and database independent only where explicitly stated.

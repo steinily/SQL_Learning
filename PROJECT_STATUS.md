@@ -1,7 +1,7 @@
 <!-- GENERATED: scripts/generate_metrics.py; DO NOT EDIT -->
 # Project Status
 
-Generated at: `2026-09-29T12:41:35.365519+00:00`
+Generated at: `2026-09-29T12:44:02.418023+00:00`
 
 ## Baseline scope
 
@@ -9,12 +9,12 @@ Generated at: `2026-09-29T12:41:35.365519+00:00`
 - Manifest: **v1.0 — FROZEN**
 - Modules: **36**
 - Target documents: **918**
-- Registered documents: **412** (44.88%)
+- Registered documents: **437** (47.6%)
 
 ## Content and verification
 
-- Authored documents: **412** (44.88%)
-- Fully verified documents: **412** (44.88%)
+- Authored documents: **419** (45.64%)
+- Fully verified documents: **419** (45.64%)
 - Publishable documents: **385**
 - Execution-PASS document reports: **89 / 1000 minimum**
 
@@ -29,7 +29,7 @@ Generated at: `2026-09-29T12:41:35.365519+00:00`
 ## Debt and blockers
 
 - Unverified authored documents: **0**
-- Unregistered baseline documents: **506**
+- Unregistered baseline documents: **481**
 - Live Docmost publish: **BLOCKED_CREDENTIALS_OR_API_NOT_CONFIGURED**
 
 ## Release readiness

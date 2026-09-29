@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000050
+title: NIST SP 800-53 Rev. 5 Security and Privacy Controls
+publisher: National Institute of Standards and Technology
+source_class: S1-primary
+url: https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final
+technology: security-privacy
+version: Revision 5
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Security and privacy control families, access control, audit, identification, configuration and system integrity.
+notes: Controls must be tailored to system context and applicable organizational risk.
