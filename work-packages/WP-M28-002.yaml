@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M28-002
+title: Metadata classification and lineage quality
+state: DONE
+manifest_items: [DBKB-META-0006, DBKB-META-0007, DBKB-META-0008, DBKB-META-0009, DBKB-META-0010]
+dependencies: [WP-M28-001]
+research_requirements: [tags, domains, glossary, technical/business lineage, OpenLineage and metadata quality]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
