@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M10-004
+title: Internals statistics and practice
+state: DONE
+manifest_items: [DBKB-INT-0022, DBKB-INT-0023, DBKB-INT-0024, DBKB-INT-0025]
+dependencies: [WP-M10-003]
+research_requirements: [statistics internals, memory contexts, troubleshooting and exercises]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Four documents satisfy Document Definition of Done and M10 is complete]
+rework_cycles: 0

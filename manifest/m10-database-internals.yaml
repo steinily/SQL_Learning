@@ -3,7 +3,7 @@ module: M10
 title: Database Internals
 priority: P0
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-INT-0001, Database Internals Overview, overview]
   - [DBKB-INT-0002, Storage Engine Concepts, concept]
