@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M34-002
+title: Cloud security reliability and FinOps
+state: DONE
+manifest_items: [DBKB-CLOUD-0006, DBKB-CLOUD-0007, DBKB-CLOUD-0008, DBKB-CLOUD-0009, DBKB-CLOUD-0010]
+dependencies: [WP-M34-001]
+research_requirements: [IAM, networking, FinOps, reliability, observability]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
