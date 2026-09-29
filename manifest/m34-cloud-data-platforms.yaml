@@ -1,0 +1,25 @@
+schema_version: 1
+module: M34
+title: Cloud Data Platforms
+priority: P2
+required: true
+status: in_progress
+documents:
+  - [DBKB-CLOUD-0001, Cloud Data Platforms Overview, overview]
+  - [DBKB-CLOUD-0002, Managed Storage and Compute, concept]
+  - [DBKB-CLOUD-0003, Cloud Data Lakes, technology]
+  - [DBKB-CLOUD-0004, Cloud Data Warehouses, technology]
+  - [DBKB-CLOUD-0005, Cloud Data Governance, technology]
+  - [DBKB-CLOUD-0006, Cloud IAM and Security, technology]
+  - [DBKB-CLOUD-0007, Cloud Networking for Data, technology]
+  - [DBKB-CLOUD-0008, Cloud Cost and FinOps, playbook]
+  - [DBKB-CLOUD-0009, Cloud Data Reliability, playbook]
+  - [DBKB-CLOUD-0010, Cloud Data Observability, technology]
+  - [DBKB-CLOUD-0011, Cloud Data Migration, playbook]
+  - [DBKB-CLOUD-0012, Cloud Data Sharing, technology]
+  - [DBKB-CLOUD-0013, Cloud Data Troubleshooting, troubleshooting]
+  - [DBKB-CLOUD-0014, Cloud Data Exercise, exercise]
+  - [DBKB-CLOUD-0015, Cloud Data Reference, reference]
+  - [DBKB-CLOUD-0016, Cloud Data Anti-Patterns, error]
+  - [DBKB-CLOUD-0017, Multi-Cloud Data Architecture, technology]
+  - [DBKB-CLOUD-0018, Cloud Data Platform Case Study, case-study]

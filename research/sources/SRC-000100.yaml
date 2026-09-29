@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000100
+title: Snowflake Documentation
+publisher: Snowflake
+source_class: S1-primary
+url: https://docs.snowflake.com/
+technology: snowflake
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Cloud data platform, virtual warehouses, governance, sharing and data lifecycle.
+notes: Features, editions and costs vary by account and release.

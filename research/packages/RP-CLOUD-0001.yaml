@@ -1,0 +1,25 @@
+schema_version: 1
+id: RP-CLOUD-0001
+topic: cloud data platforms
+status: READY
+verified_concepts:
+  - Cloud data platforms combine managed storage, compute, catalog/governance, security and observability capabilities.
+  - AWS, BigQuery and Snowflake expose product-specific controls and deployment/cost semantics.
+claims:
+  - claim: AWS analytics documentation covers cloud data lake, catalog, processing and analytics services.
+    evidence_level: E2
+    sources: [SRC-000098]
+    state: VERIFIED
+    context: Official AWS documentation.
+  - claim: BigQuery documentation covers cloud warehouse storage, partitioning, security and operations concepts.
+    evidence_level: E2
+    sources: [SRC-000099]
+    state: VERIFIED
+    context: Official Google Cloud documentation.
+  - claim: Snowflake documentation covers virtual warehouses, data platform governance and sharing capabilities.
+    evidence_level: E2
+    sources: [SRC-000100]
+    state: VERIFIED
+    context: Official Snowflake documentation.
+cautions: [Cloud service feature, region, edition, quota, SLA and pricing details are version- and account-sensitive; benchmark claims require execution evidence.]
+sources: [SRC-000098, SRC-000099, SRC-000100]

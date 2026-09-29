@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000099
+title: Google Cloud BigQuery Documentation
+publisher: Google Cloud
+source_class: S1-primary
+url: https://cloud.google.com/bigquery/docs
+technology: google-bigquery
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Cloud data warehouse, storage, partitioning, security, governance and operations.
+notes: Feature and pricing behavior are release- and region-sensitive.

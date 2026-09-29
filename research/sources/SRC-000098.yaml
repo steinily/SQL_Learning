@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000098
+title: AWS Analytics and Data Services Documentation
+publisher: Amazon Web Services
+source_class: S1-primary
+url: https://docs.aws.amazon.com/analytics/
+technology: aws-data-platform
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Cloud data lake, catalog, governance, processing and analytics service capabilities.
+notes: Service behavior and regional availability are release-sensitive.
