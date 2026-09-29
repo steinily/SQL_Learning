@@ -1,0 +1,20 @@
+schema_version: 1
+id: RP-SS-0001
+topic: M12 SQL Server and T-SQL foundations
+status: READY
+verified_concepts:
+  - SQL Server and T-SQL behavior is vendor- and version-specific and must be sourced from Microsoft Learn.
+  - SQL Server operational claims require platform, version and configuration context.
+claims:
+  - claim: Microsoft documents SELECT, FROM/JOIN and T-SQL statement syntax for SQL Server.
+    evidence_level: E2
+    sources: [SRC-000028, SRC-000029, SRC-000030]
+    state: VERIFIED
+    context: Microsoft Learn SQL Server documentation.
+  - claim: SQL Server feature behavior must be checked against the applies-to/version matrix.
+    evidence_level: E2
+    sources: [SRC-000028]
+    state: VERIFIED
+    context: Microsoft Learn documentation scope.
+cautions: [Do not generalize SQL Server behavior to PostgreSQL or other engines; verify the target SQL Server version.]
+sources: [SRC-000028, SRC-000029, SRC-000030]

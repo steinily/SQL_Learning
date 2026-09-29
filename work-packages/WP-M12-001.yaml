@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M12-001
+title: SQL Server and T-SQL foundations
+state: DONE
+manifest_items: [DBKB-SS-0001, DBKB-SS-0002, DBKB-SS-0003, DBKB-SS-0004, DBKB-SS-0005, DBKB-SS-0006, DBKB-SS-0007]
+dependencies: [WP-M11-006]
+research_requirements: [SQL Server architecture, configuration, security and T-SQL SELECT fundamentals]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
