@@ -1,7 +1,7 @@
 <!-- GENERATED: scripts/generate_metrics.py; DO NOT EDIT -->
 # Project Status
 
-Generated at: `2026-09-29T10:38:15.942916+00:00`
+Generated at: `2026-09-29T10:38:57.602396+00:00`
 
 ## Baseline scope
 
@@ -20,7 +20,7 @@ Generated at: `2026-09-29T10:38:15.942916+00:00`
 
 ## QA
 
-- BLOCKER: **3**
+- BLOCKER: **0**
 - CRITICAL: **0**
 - MAJOR: **0**
 - MINOR: **0**

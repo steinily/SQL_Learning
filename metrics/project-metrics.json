@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T10:38:15.942916+00:00",
+  "generated_at": "2026-09-29T10:38:57.602396+00:00",
   "baseline_scope": {
     "name": "v1",
     "modules": 36,
@@ -36,13 +36,13 @@
   },
   "qa": {
     "findings_by_severity": {
-      "BLOCKER": 3,
+      "BLOCKER": 0,
       "CRITICAL": 0,
       "MAJOR": 0,
       "MINOR": 0,
       "INFO": 0
     },
-    "blocking_findings": 3
+    "blocking_findings": 0
   },
   "execution_validation": {
     "passing_document_reports": 89,
@@ -61,7 +61,7 @@
     "unregistered_baseline_documents": 710
   },
   "technical_debt": {
-    "blocking_tooling_findings": 3,
+    "blocking_tooling_findings": 0,
     "live_docmost_publish": "BLOCKED_CREDENTIALS_OR_API_NOT_CONFIGURED"
   },
   "release_ready": false
