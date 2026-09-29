@@ -1,0 +1,21 @@
+schema_version: 1
+module: M29
+title: Master and Reference Data
+priority: P1
+required: true
+status: in_progress
+documents:
+  - [DBKB-MDM-0001, Master and Reference Data Overview, overview]
+  - [DBKB-MDM-0002, Master Data Concepts, concept]
+  - [DBKB-MDM-0003, Reference Data Concepts, concept]
+  - [DBKB-MDM-0004, Golden Records, technology]
+  - [DBKB-MDM-0005, Identifiers and Matching, technology]
+  - [DBKB-MDM-0006, Hierarchies and Taxonomies, technology]
+  - [DBKB-MDM-0007, Survivorship Rules, playbook]
+  - [DBKB-MDM-0008, Master Data Governance, playbook]
+  - [DBKB-MDM-0009, Reference Data Lifecycle, playbook]
+  - [DBKB-MDM-0010, Master Data Integration, technology]
+  - [DBKB-MDM-0011, Master Data Quality, technology]
+  - [DBKB-MDM-0012, Master Data Security, technology]
+  - [DBKB-MDM-0013, Master Data Troubleshooting, troubleshooting]
+  - [DBKB-MDM-0014, Master and Reference Data Exercise, exercise]

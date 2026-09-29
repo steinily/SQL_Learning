@@ -1,0 +1,25 @@
+schema_version: 1
+id: RP-MDM-0001
+topic: M29 master and reference data
+status: READY
+verified_concepts:
+  - Master data identifies and governs durable business entities, while reference data supplies controlled values and mappings used across systems.
+  - Golden records, identifiers, hierarchies, stewardship and synchronization require explicit ownership, survivorship and change evidence.
+claims:
+  - claim: W3C SKOS defines concepts, concept schemes, labels and broader/narrower semantic relationships for controlled vocabularies.
+    evidence_level: E2
+    sources: [SRC-000083]
+    state: VERIFIED
+    context: W3C SKOS Recommendation.
+  - claim: ISO 8000 provides a standards context for data quality and master-data concepts.
+    evidence_level: E2
+    sources: [SRC-000084]
+    state: VERIFIED
+    context: ISO 8000 series reference.
+  - claim: OpenMetadata documents entities, ownership, domains, tags and glossary governance workflows.
+    evidence_level: E2
+    sources: [SRC-000085]
+    state: VERIFIED
+    context: Official OpenMetadata documentation.
+cautions: [Survivorship, matching, legal identity and stewardship rules are domain-specific and require business-owner review.]
+sources: [SRC-000083, SRC-000084, SRC-000085]

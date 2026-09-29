@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000083
+title: W3C SKOS Simple Knowledge Organization System
+publisher: World Wide Web Consortium
+source_class: S1-primary
+url: https://www.w3.org/TR/skos-reference/
+technology: reference-data
+version: Recommendation
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Concepts, concept schemes, labels, notation, broader/narrower and semantic relationships for controlled vocabularies.
+notes: Domain governance and identifier policy must be added for operational master/reference data use.

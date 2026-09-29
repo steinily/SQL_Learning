@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M29-001
+title: Master reference and golden record foundations
+state: DONE
+manifest_items: [DBKB-MDM-0001, DBKB-MDM-0002, DBKB-MDM-0003, DBKB-MDM-0004, DBKB-MDM-0005]
+dependencies: [WP-M28-003]
+research_requirements: [master/reference concepts, golden records, identifiers and matching]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0

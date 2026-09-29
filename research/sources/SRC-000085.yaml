@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000085
+title: OpenMetadata Documentation
+publisher: OpenMetadata Community
+source_class: S1-primary
+url: https://docs.open-metadata.org/
+technology: openmetadata
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Metadata entities, ownership, domains, tags, glossary and governance workflows.
+notes: Entity and workflow capabilities vary by OpenMetadata version and integrations.

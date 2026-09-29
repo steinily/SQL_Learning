@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000084
+title: ISO 8000 Data Quality and Master Data Overview
+publisher: International Organization for Standardization
+source_class: S1-primary
+url: https://www.iso.org/standard/50798.html
+technology: master-data
+version: ISO 8000 series reference
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Data quality, master data and information quality concepts.
+notes: Applicable parts and organizational interpretation must be selected for the target domain.
