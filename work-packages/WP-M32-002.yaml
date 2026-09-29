@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M32-002
+title: Data platform and product architecture
+state: DONE
+manifest_items: [DBKB-DARCH-0006, DBKB-DARCH-0007, DBKB-DARCH-0008, DBKB-DARCH-0009, DBKB-DARCH-0010]
+dependencies: [WP-M32-001]
+research_requirements: [platform, data mesh, lakehouse, data product, governance]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
