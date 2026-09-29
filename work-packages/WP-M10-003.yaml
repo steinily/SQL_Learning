@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M10-003
+title: Recovery replication and catalogs
+state: DONE
+manifest_items: [DBKB-INT-0015, DBKB-INT-0016, DBKB-INT-0017, DBKB-INT-0018, DBKB-INT-0019, DBKB-INT-0020, DBKB-INT-0021]
+dependencies: [WP-M10-002]
+research_requirements: [bloat, WAL archiving, crash recovery, replication, checksums, storage parameters and catalogs]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
