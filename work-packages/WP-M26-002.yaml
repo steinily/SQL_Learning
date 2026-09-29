@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M26-002
+title: Semi-structured formats and storage lifecycle
+state: DONE
+manifest_items: [DBKB-STOR-0007, DBKB-STOR-0008, DBKB-STOR-0009, DBKB-STOR-0010, DBKB-STOR-0011]
+dependencies: [WP-M26-001]
+research_requirements: [JSON, CSV, compression, encoding, schema evolution and compaction]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
