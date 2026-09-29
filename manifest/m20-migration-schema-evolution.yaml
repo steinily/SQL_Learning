@@ -3,7 +3,7 @@ module: M20
 title: Migration and Schema Evolution
 priority: P0
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-MIG-0001, Migration and Schema Evolution Overview, overview]
   - [DBKB-MIG-0002, Migration Strategy, playbook]

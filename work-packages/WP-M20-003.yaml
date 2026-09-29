@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M20-003
+title: Migration governance drift and completion evidence
+state: DONE
+manifest_items: [DBKB-MIG-0015, DBKB-MIG-0016, DBKB-MIG-0017, DBKB-MIG-0018, DBKB-MIG-0019, DBKB-MIG-0020, DBKB-MIG-0021, DBKB-MIG-0022]
+dependencies: [WP-M20-002]
+research_requirements: [cross-engine behavior, downtime caveats, drift, governance, troubleshooting, modernization and evidence]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Eight documents satisfy Document Definition of Done]
+rework_cycles: 0
