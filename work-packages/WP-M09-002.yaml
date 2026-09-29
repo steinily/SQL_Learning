@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M09-002
+title: Join algorithms and estimation
+state: DONE
+manifest_items: [DBKB-PERF-0008, DBKB-PERF-0009, DBKB-PERF-0010, DBKB-PERF-0011, DBKB-PERF-0012, DBKB-PERF-0013, DBKB-PERF-0014]
+dependencies: [WP-M09-001]
+research_requirements: [join nodes, join order, cardinality estimation and parameter behavior]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
