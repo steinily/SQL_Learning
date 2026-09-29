@@ -3,7 +3,7 @@ module: M11
 title: PostgreSQL
 priority: P0
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-PG-0001, PostgreSQL Overview, overview]
   - [DBKB-PG-0002, PostgreSQL Architecture, concept]

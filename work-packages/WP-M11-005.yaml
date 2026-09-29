@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M11-005
+title: PostgreSQL reliability and practice
+state: DONE
+manifest_items: [DBKB-PG-0029, DBKB-PG-0030, DBKB-PG-0031, DBKB-PG-0032, DBKB-PG-0033, DBKB-PG-0034, DBKB-PG-0035]
+dependencies: [WP-M11-004]
+research_requirements: [streaming replication, HA, backup/restore, PITR, performance, anti-patterns and exercises]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
