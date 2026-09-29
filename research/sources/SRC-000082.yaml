@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000082
+title: DataHub Documentation
+publisher: DataHub Project
+source_class: S1-primary
+url: https://docs.datahub.com/
+technology: datahub
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Metadata ingestion, datasets, ownership, tags, lineage, domains and governance workflows.
+notes: Metadata model and ingestion capabilities vary by DataHub version and source plugin.

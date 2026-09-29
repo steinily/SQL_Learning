@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000080
+title: OpenLineage Documentation
+publisher: OpenLineage Community
+source_class: S1-primary
+url: https://openlineage.io/docs/
+technology: openlineage
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: OpenLineage event model, jobs, runs, datasets, facets and lineage integration.
+notes: Client, integration and facet support varies by implementation and version.

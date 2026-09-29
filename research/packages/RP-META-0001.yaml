@@ -1,0 +1,25 @@
+schema_version: 1
+id: RP-META-0001
+topic: M28 metadata catalog and lineage
+status: READY
+verified_concepts:
+  - Metadata catalogs organize technical and business context, ownership, classifications, quality, lifecycle and lineage for discoverability and governance.
+  - Provenance and lineage records require stable identities, event context, source/version information and freshness expectations.
+claims:
+  - claim: OpenLineage documents jobs, runs, datasets and extensible facets for lineage events.
+    evidence_level: E2
+    sources: [SRC-000080]
+    state: VERIFIED
+    context: Official OpenLineage documentation.
+  - claim: W3C PROV-O defines provenance entities, activities, agents and relations.
+    evidence_level: E2
+    sources: [SRC-000081]
+    state: VERIFIED
+    context: W3C Recommendation.
+  - claim: DataHub documents metadata ingestion, ownership, tags, domains and lineage workflows.
+    evidence_level: E2
+    sources: [SRC-000082]
+    state: VERIFIED
+    context: Official DataHub documentation.
+cautions: [Catalog completeness, lineage accuracy and freshness depend on integration coverage and metadata ownership.]
+sources: [SRC-000080, SRC-000081, SRC-000082]

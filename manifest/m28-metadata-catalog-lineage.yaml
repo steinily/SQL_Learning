@@ -1,0 +1,22 @@
+schema_version: 1
+module: M28
+title: Metadata Catalog and Lineage
+priority: P1
+required: true
+status: in_progress
+documents:
+  - [DBKB-META-0001, Metadata Catalog and Lineage Overview, overview]
+  - [DBKB-META-0002, Technical Metadata, concept]
+  - [DBKB-META-0003, Business Metadata, concept]
+  - [DBKB-META-0004, Metadata Catalog, technology]
+  - [DBKB-META-0005, Data Ownership and Stewardship, playbook]
+  - [DBKB-META-0006, Tags Domains and Glossary, technology]
+  - [DBKB-META-0007, Technical Lineage, technology]
+  - [DBKB-META-0008, Business Lineage, concept]
+  - [DBKB-META-0009, Provenance and OpenLineage, technology]
+  - [DBKB-META-0010, Metadata Quality, playbook]
+  - [DBKB-META-0011, Catalog Security, technology]
+  - [DBKB-META-0012, Metadata Lifecycle, playbook]
+  - [DBKB-META-0013, Lineage Troubleshooting, troubleshooting]
+  - [DBKB-META-0014, Metadata Governance Runbook, playbook]
+  - [DBKB-META-0015, Metadata and Lineage Exercise, exercise]

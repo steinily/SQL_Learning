@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000081
+title: W3C PROV-O Recommendation
+publisher: World Wide Web Consortium
+source_class: S1-primary
+url: https://www.w3.org/TR/prov-o/
+technology: provenance
+version: Recommendation
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Provenance ontology concepts for entities, activities, agents and relations.
+notes: Domain-specific profiles and implementation mappings are required for operational use.

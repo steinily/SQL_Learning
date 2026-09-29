@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M28-001
+title: Metadata catalog foundations and stewardship
+state: DONE
+manifest_items: [DBKB-META-0001, DBKB-META-0002, DBKB-META-0003, DBKB-META-0004, DBKB-META-0005]
+dependencies: [WP-M27-003]
+research_requirements: [metadata overview, technical/business metadata, catalog and ownership]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
