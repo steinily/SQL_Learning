@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M24-003
+title: Streaming recovery security and assurance
+state: DONE
+manifest_items: [DBKB-STREAM-0015, DBKB-STREAM-0016, DBKB-STREAM-0017, DBKB-STREAM-0018, DBKB-STREAM-0019, DBKB-STREAM-0020]
+dependencies: [WP-M24-002]
+research_requirements: [replay, recovery, security, observability, testing, troubleshooting and exercise design]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Six documents satisfy Document Definition of Done]
+rework_cycles: 0

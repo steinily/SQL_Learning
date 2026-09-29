@@ -3,7 +3,7 @@ module: M24
 title: Streaming CDC and Messaging
 priority: P1
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-STREAM-0001, Streaming CDC and Messaging Overview, overview]
   - [DBKB-STREAM-0002, Streaming Concepts, concept]
