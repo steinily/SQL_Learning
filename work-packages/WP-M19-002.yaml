@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M19-002
+title: Contract quality performance and resilience testing
+state: DONE
+manifest_items: [DBKB-TEST-0008, DBKB-TEST-0009, DBKB-TEST-0010, DBKB-TEST-0011, DBKB-TEST-0012, DBKB-TEST-0013, DBKB-TEST-0014]
+dependencies: [WP-M19-001]
+research_requirements: [contract tests, schema validation, data quality, performance, concurrency, recovery and security testing]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
