@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M18-001
+title: Observability foundations and signal collection
+state: DONE
+manifest_items: [DBKB-OBS-0001, DBKB-OBS-0002, DBKB-OBS-0003, DBKB-OBS-0004, DBKB-OBS-0005, DBKB-OBS-0006, DBKB-OBS-0007]
+dependencies: [WP-M17-003]
+research_requirements: [observability model, signal types, database monitoring, OpenTelemetry, Prometheus, golden signals and SLOs]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0

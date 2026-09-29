@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000055
+title: OpenTelemetry Documentation
+publisher: OpenTelemetry Authors
+source_class: S1-primary
+url: https://opentelemetry.io/docs/
+technology: observability
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Metrics, logs, traces, semantic conventions, collection and context propagation.
+notes: Instrumentation and collector capabilities vary by language, component and deployment version.

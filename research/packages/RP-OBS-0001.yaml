@@ -1,0 +1,25 @@
+schema_version: 1
+id: RP-OBS-0001
+topic: M18 observability and monitoring
+status: READY
+verified_concepts:
+  - Database observability combines metrics, logs, traces and database-native activity signals with explicit context and ownership.
+  - Alerting should be tied to service objectives, actionable symptoms and verified data freshness rather than isolated thresholds.
+claims:
+  - claim: OpenTelemetry defines interoperable signals and semantic conventions for metrics, logs and traces.
+    evidence_level: E2
+    sources: [SRC-000055]
+    state: VERIFIED
+    context: Official OpenTelemetry documentation.
+  - claim: Prometheus provides a metrics model, collection and query/alerting mechanisms with version-sensitive behavior.
+    evidence_level: E2
+    sources: [SRC-000056]
+    state: VERIFIED
+    context: Official Prometheus documentation.
+  - claim: PostgreSQL exposes database activity, statistics and lock information for operational monitoring.
+    evidence_level: E2
+    sources: [SRC-000054]
+    state: VERIFIED
+    context: Official PostgreSQL monitoring documentation.
+cautions: [Cardinality, sampling, retention, clock skew, exporter quality and version differences affect interpretation.]
+sources: [SRC-000054, SRC-000055, SRC-000056]

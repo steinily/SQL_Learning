@@ -1,0 +1,29 @@
+schema_version: 1
+module: M18
+title: Observability and Monitoring
+priority: P0
+required: true
+status: in_progress
+documents:
+  - [DBKB-OBS-0001, Observability and Monitoring Overview, overview]
+  - [DBKB-OBS-0002, Metrics Logs and Traces, concept]
+  - [DBKB-OBS-0003, Database Native Monitoring, technology]
+  - [DBKB-OBS-0004, OpenTelemetry for Databases, technology]
+  - [DBKB-OBS-0005, Prometheus Metrics for Databases, technology]
+  - [DBKB-OBS-0006, Golden Signals for Database Services, concept]
+  - [DBKB-OBS-0007, Service Level Objectives, concept]
+  - [DBKB-OBS-0008, Alert Design, playbook]
+  - [DBKB-OBS-0009, Alert Fatigue and Triage, troubleshooting]
+  - [DBKB-OBS-0010, Query Performance Telemetry, technology]
+  - [DBKB-OBS-0011, Lock and Blocking Monitoring, technology]
+  - [DBKB-OBS-0012, Replication Monitoring, technology]
+  - [DBKB-OBS-0013, Capacity and Storage Monitoring, technology]
+  - [DBKB-OBS-0014, Backup Monitoring, technology]
+  - [DBKB-OBS-0015, Data Freshness Monitoring, technology]
+  - [DBKB-OBS-0016, Dashboard Design, playbook]
+  - [DBKB-OBS-0017, Incident Telemetry, playbook]
+  - [DBKB-OBS-0018, Observability Security, technology]
+  - [DBKB-OBS-0019, Monitoring Cost and Cardinality, concept]
+  - [DBKB-OBS-0020, Synthetic Database Checks, playbook]
+  - [DBKB-OBS-0021, Observability Runbook, playbook]
+  - [DBKB-OBS-0022, Observability Exercise, exercise]

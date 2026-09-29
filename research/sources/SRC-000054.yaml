@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000054
+title: PostgreSQL Monitoring Database Activity
+publisher: PostgreSQL Global Development Group
+source_class: S1-primary
+url: https://www.postgresql.org/docs/current/monitoring.html
+technology: postgresql-observability
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Database activity monitoring, statistics views, locks, sessions and operational health signals.
+notes: View names, columns and statistics semantics are version-sensitive.
