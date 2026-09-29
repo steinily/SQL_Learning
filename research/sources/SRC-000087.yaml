@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000087
+title: Apache Kafka Documentation
+publisher: Apache Software Foundation
+source_class: S1-primary
+url: https://kafka.apache.org/documentation/
+technology: apache-kafka
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Distributed log, partitions, replication, consumer groups and delivery semantics.
+notes: Exact configuration behavior is version-sensitive.

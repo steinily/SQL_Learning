@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000086
+title: Apache Cassandra Documentation
+publisher: Apache Software Foundation
+source_class: S1-primary
+url: https://cassandra.apache.org/doc/latest/
+technology: apache-cassandra
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Distributed data model, replication, consistency, partitioning and operations.
+notes: Defaults and operational behavior are version-sensitive.

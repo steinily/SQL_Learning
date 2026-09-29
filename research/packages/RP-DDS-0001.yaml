@@ -1,0 +1,27 @@
+schema_version: 1
+id: RP-DDS-0001
+topic: distributed data systems
+status: READY
+verified_concepts:
+  - Distributed data systems partition data and coordinate replicas across failure domains.
+  - Cassandra documents partitioning, replication and tunable consistency concepts.
+  - Kafka documents partitions, replication and consumer group coordination.
+  - etcd documents a consistent replicated key-value service with watch and lease primitives.
+claims:
+  - claim: Apache Cassandra documentation covers partitioning, replication and consistency configuration.
+    evidence_level: E2
+    sources: [SRC-000086]
+    state: VERIFIED
+    context: Official Apache Cassandra documentation.
+  - claim: Apache Kafka documentation covers topics, partitions, replication and consumer groups.
+    evidence_level: E2
+    sources: [SRC-000087]
+    state: VERIFIED
+    context: Official Apache Kafka documentation.
+  - claim: etcd documentation covers Raft-backed consistency, leases and watch APIs.
+    evidence_level: E2
+    sources: [SRC-000088]
+    state: VERIFIED
+    context: Official etcd documentation.
+cautions: [Latency, failure behavior, consistency guarantees and configuration defaults vary by product and release; benchmark claims require execution evidence.]
+sources: [SRC-000086, SRC-000087, SRC-000088]

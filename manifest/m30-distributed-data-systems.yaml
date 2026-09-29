@@ -1,0 +1,27 @@
+schema_version: 1
+module: M30
+title: Distributed Data Systems
+priority: P2
+required: true
+status: in_progress
+documents:
+  - [DBKB-DDS-0001, Distributed Data Systems Overview, overview]
+  - [DBKB-DDS-0002, Distribution Models, concept]
+  - [DBKB-DDS-0003, Partitioning and Sharding, technology]
+  - [DBKB-DDS-0004, Replication Models, technology]
+  - [DBKB-DDS-0005, Consistency Models, concept]
+  - [DBKB-DDS-0006, Quorum and Tunable Consistency, technology]
+  - [DBKB-DDS-0007, CAP and PACELC Tradeoffs, concept]
+  - [DBKB-DDS-0008, Leader Election and Consensus, technology]
+  - [DBKB-DDS-0009, Raft-backed Services, technology]
+  - [DBKB-DDS-0010, Distributed Transactions, technology]
+  - [DBKB-DDS-0011, Idempotency and Retry, playbook]
+  - [DBKB-DDS-0012, Ordering and Delivery Semantics, technology]
+  - [DBKB-DDS-0013, Distributed Data Failure Modes, troubleshooting]
+  - [DBKB-DDS-0014, Rebalancing and Repair, playbook]
+  - [DBKB-DDS-0015, Geo-distribution, technology]
+  - [DBKB-DDS-0016, Distributed Caching, technology]
+  - [DBKB-DDS-0017, Distributed Locking, technology]
+  - [DBKB-DDS-0018, Distributed Data Security, technology]
+  - [DBKB-DDS-0019, Distributed Systems Operations Runbook, playbook]
+  - [DBKB-DDS-0020, Distributed Data Systems Exercise, exercise]

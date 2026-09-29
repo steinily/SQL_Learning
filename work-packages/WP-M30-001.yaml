@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M30-001
+title: Distributed data systems foundation
+state: READY
+manifest_items: [DBKB-DDS-0001, DBKB-DDS-0002, DBKB-DDS-0003, DBKB-DDS-0004, DBKB-DDS-0005]
+dependencies: [WP-M29-003]
+research_requirements: [distribution, partitioning, replication, consistency models]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
