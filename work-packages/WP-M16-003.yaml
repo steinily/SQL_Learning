@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M16-003
+title: Incident response and operational maturity
+state: DONE
+manifest_items: [DBKB-OPS-0015, DBKB-OPS-0016, DBKB-OPS-0017, DBKB-OPS-0018, DBKB-OPS-0019, DBKB-OPS-0020]
+dependencies: [WP-M16-002]
+research_requirements: [incident response, health checks, automation, promotion, anti-patterns and exercise design]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Six documents satisfy Document Definition of Done]
+rework_cycles: 0

@@ -3,7 +3,7 @@ module: M16
 title: Database Operations and Administration
 priority: P0
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-OPS-0001, Database Operations Overview, overview]
   - [DBKB-OPS-0002, Database Lifecycle, concept]
