@@ -444,6 +444,131 @@
     },
     {
       "operation": "CREATE",
+      "id": "DBKB-INT-0001",
+      "path": "content/10-database-internals/database-internals-overview.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0002",
+      "path": "content/10-database-internals/storage-engine-concepts.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0003",
+      "path": "content/10-database-internals/pages-and-tuples.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0004",
+      "path": "content/10-database-internals/heap-storage.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0005",
+      "path": "content/10-database-internals/write-ahead-logging.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0006",
+      "path": "content/10-database-internals/checkpoints-and-recovery.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0007",
+      "path": "content/10-database-internals/buffer-pool.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0008",
+      "path": "content/10-database-internals/shared-buffers.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0009",
+      "path": "content/10-database-internals/mvcc-internals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0010",
+      "path": "content/10-database-internals/transaction-ids.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0011",
+      "path": "content/10-database-internals/vacuum-internals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0012",
+      "path": "content/10-database-internals/visibility-map.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0013",
+      "path": "content/10-database-internals/free-space-map.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0014",
+      "path": "content/10-database-internals/toast-storage.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0015",
+      "path": "content/10-database-internals/table-and-index-bloat.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0016",
+      "path": "content/10-database-internals/wal-archiving.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0017",
+      "path": "content/10-database-internals/crash-recovery.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0018",
+      "path": "content/10-database-internals/replication-internals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0019",
+      "path": "content/10-database-internals/checksum-and-corruption.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0020",
+      "path": "content/10-database-internals/storage-parameters.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0021",
+      "path": "content/10-database-internals/system-catalogs.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0022",
+      "path": "content/10-database-internals/statistics-internals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0023",
+      "path": "content/10-database-internals/memory-contexts.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0024",
+      "path": "content/10-database-internals/internals-troubleshooting.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-INT-0025",
+      "path": "content/10-database-internals/internals-exercise.md"
+    },
+    {
+      "operation": "CREATE",
       "id": "DBKB-ISQL-0001",
       "path": "content/03-intermediate-sql/intermediate-sql-overview.md"
     },
@@ -709,6 +834,156 @@
     },
     {
       "operation": "CREATE",
+      "id": "DBKB-MY-0001",
+      "path": "content/13-mysql-and-mariadb/mysql-and-mariadb-overview.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0002",
+      "path": "content/13-mysql-and-mariadb/mysql-architecture.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0003",
+      "path": "content/13-mysql-and-mariadb/installation-and-configuration.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0004",
+      "path": "content/13-mysql-and-mariadb/databases-and-schemas.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0005",
+      "path": "content/13-mysql-and-mariadb/mysql-security.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0006",
+      "path": "content/13-mysql-and-mariadb/sql-modes.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0007",
+      "path": "content/13-mysql-and-mariadb/mysql-data-types.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0008",
+      "path": "content/13-mysql-and-mariadb/json-data.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0009",
+      "path": "content/13-mysql-and-mariadb/temporal-data-types.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0010",
+      "path": "content/13-mysql-and-mariadb/stored-programs.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0011",
+      "path": "content/13-mysql-and-mariadb/events-and-triggers.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0012",
+      "path": "content/13-mysql-and-mariadb/views.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0013",
+      "path": "content/13-mysql-and-mariadb/innodb.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0014",
+      "path": "content/13-mysql-and-mariadb/mysql-indexes.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0015",
+      "path": "content/13-mysql-and-mariadb/partitioning.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0016",
+      "path": "content/13-mysql-and-mariadb/optimizer-and-explain.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0017",
+      "path": "content/13-mysql-and-mariadb/transactions.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0018",
+      "path": "content/13-mysql-and-mariadb/isolation-and-locking.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0019",
+      "path": "content/13-mysql-and-mariadb/binary-log.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0020",
+      "path": "content/13-mysql-and-mariadb/replication.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0021",
+      "path": "content/13-mysql-and-mariadb/group-replication.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0022",
+      "path": "content/13-mysql-and-mariadb/backup-and-restore.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0023",
+      "path": "content/13-mysql-and-mariadb/recovery.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0024",
+      "path": "content/13-mysql-and-mariadb/performance-schema.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0025",
+      "path": "content/13-mysql-and-mariadb/slow-query-log.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0026",
+      "path": "content/13-mysql-and-mariadb/mysql-monitoring.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0027",
+      "path": "content/13-mysql-and-mariadb/mysql-performance.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0028",
+      "path": "content/13-mysql-and-mariadb/mysql-anti-patterns.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0029",
+      "path": "content/13-mysql-and-mariadb/mysql-exercise.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-MY-0030",
+      "path": "content/13-mysql-and-mariadb/mysql-review-checklist.md"
+    },
+    {
+      "operation": "CREATE",
       "id": "DBKB-PERF-0001",
       "path": "content/09-query-performance-and-optimization/query-performance-overview.md"
     },
@@ -884,6 +1159,206 @@
     },
     {
       "operation": "CREATE",
+      "id": "DBKB-PG-0001",
+      "path": "content/11-postgresql/postgresql-overview.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0002",
+      "path": "content/11-postgresql/postgresql-architecture.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0003",
+      "path": "content/11-postgresql/installation-and-initialization.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0004",
+      "path": "content/11-postgresql/server-configuration.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0005",
+      "path": "content/11-postgresql/roles-and-privileges.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0006",
+      "path": "content/11-postgresql/databases-and-schemas.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0007",
+      "path": "content/11-postgresql/postgresql-objects.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0008",
+      "path": "content/11-postgresql/data-types.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0009",
+      "path": "content/11-postgresql/date-and-time-types.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0010",
+      "path": "content/11-postgresql/jsonb.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0011",
+      "path": "content/11-postgresql/arrays.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0012",
+      "path": "content/11-postgresql/range-types.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0013",
+      "path": "content/11-postgresql/full-text-search.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0014",
+      "path": "content/11-postgresql/extensions.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0015",
+      "path": "content/11-postgresql/plpgsql.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0016",
+      "path": "content/11-postgresql/functions-and-procedures.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0017",
+      "path": "content/11-postgresql/triggers.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0018",
+      "path": "content/11-postgresql/views-and-materialized-views.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0019",
+      "path": "content/11-postgresql/foreign-data-wrappers.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0020",
+      "path": "content/11-postgresql/postgresql-security.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0021",
+      "path": "content/11-postgresql/row-level-security.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0022",
+      "path": "content/11-postgresql/authentication.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0023",
+      "path": "content/11-postgresql/ssl-and-tls.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0024",
+      "path": "content/11-postgresql/logging.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0025",
+      "path": "content/11-postgresql/monitoring-views.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0026",
+      "path": "content/11-postgresql/extensions-management.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0027",
+      "path": "content/11-postgresql/upgrade-strategies.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0028",
+      "path": "content/11-postgresql/logical-replication.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0029",
+      "path": "content/11-postgresql/streaming-replication.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0030",
+      "path": "content/11-postgresql/high-availability.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0031",
+      "path": "content/11-postgresql/backup-and-restore.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0032",
+      "path": "content/11-postgresql/pitr.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0033",
+      "path": "content/11-postgresql/postgresql-performance.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0034",
+      "path": "content/11-postgresql/postgresql-anti-patterns.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0035",
+      "path": "content/11-postgresql/postgresql-exercise-1.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0036",
+      "path": "content/11-postgresql/postgresql-exercise-2.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0037",
+      "path": "content/11-postgresql/postgresql-decision-record.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0038",
+      "path": "content/11-postgresql/postgresql-incident-runbook.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0039",
+      "path": "content/11-postgresql/postgresql-upgrade-checklist.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-PG-0040",
+      "path": "content/11-postgresql/postgresql-review-checklist.md"
+    },
+    {
+      "operation": "CREATE",
       "id": "DBKB-RDBE-0001",
       "path": "content/06-relational-database-engineering/relational-database-engineering-overview.md"
     },
@@ -981,6 +1456,41 @@
       "operation": "CREATE",
       "id": "DBKB-RDBE-0020",
       "path": "content/06-relational-database-engineering/relational-engineering-exercise.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQ-0001",
+      "path": "content/14-sqlite/sqlite-overview.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQ-0002",
+      "path": "content/14-sqlite/sqlite-architecture.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQ-0003",
+      "path": "content/14-sqlite/sqlite-file-format.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQ-0004",
+      "path": "content/14-sqlite/sqlite-typing.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQ-0005",
+      "path": "content/14-sqlite/sqlite-sql-dialect.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQ-0006",
+      "path": "content/14-sqlite/sqlite-transactions.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SQ-0007",
+      "path": "content/14-sqlite/sqlite-wal-mode.md"
     },
     {
       "operation": "CREATE",
@@ -1091,6 +1601,206 @@
       "operation": "CREATE",
       "id": "DBKB-SQL-0022",
       "path": "content/02-sql-fundamentals/ddl-fundamentals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0001",
+      "path": "content/12-sql-server-and-tsql/sql-server-overview.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0002",
+      "path": "content/12-sql-server-and-tsql/sql-server-architecture.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0003",
+      "path": "content/12-sql-server-and-tsql/installation-and-configuration.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0004",
+      "path": "content/12-sql-server-and-tsql/databases-and-schemas.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0005",
+      "path": "content/12-sql-server-and-tsql/sql-server-security.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0006",
+      "path": "content/12-sql-server-and-tsql/tsql-overview.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0007",
+      "path": "content/12-sql-server-and-tsql/tsql-select.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0008",
+      "path": "content/12-sql-server-and-tsql/tsql-data-types.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0009",
+      "path": "content/12-sql-server-and-tsql/tsql-variables.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0010",
+      "path": "content/12-sql-server-and-tsql/control-flow.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0011",
+      "path": "content/12-sql-server-and-tsql/stored-procedures.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0012",
+      "path": "content/12-sql-server-and-tsql/functions.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0013",
+      "path": "content/12-sql-server-and-tsql/triggers.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0014",
+      "path": "content/12-sql-server-and-tsql/views.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0015",
+      "path": "content/12-sql-server-and-tsql/ctes.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0016",
+      "path": "content/12-sql-server-and-tsql/temporary-tables.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0017",
+      "path": "content/12-sql-server-and-tsql/table-variables.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0018",
+      "path": "content/12-sql-server-and-tsql/sql-server-indexes.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0019",
+      "path": "content/12-sql-server-and-tsql/clustered-indexes.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0020",
+      "path": "content/12-sql-server-and-tsql/nonclustered-indexes.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0021",
+      "path": "content/12-sql-server-and-tsql/columnstore-indexes.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0022",
+      "path": "content/12-sql-server-and-tsql/query-store.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0023",
+      "path": "content/12-sql-server-and-tsql/execution-plans.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0024",
+      "path": "content/12-sql-server-and-tsql/sql-server-transactions.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0025",
+      "path": "content/12-sql-server-and-tsql/isolation-levels.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0026",
+      "path": "content/12-sql-server-and-tsql/locking-and-blocking.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0027",
+      "path": "content/12-sql-server-and-tsql/always-on-availability-groups.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0028",
+      "path": "content/12-sql-server-and-tsql/backup-and-restore.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0029",
+      "path": "content/12-sql-server-and-tsql/recovery-models.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0030",
+      "path": "content/12-sql-server-and-tsql/sql-server-agent.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0031",
+      "path": "content/12-sql-server-and-tsql/extended-events.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0032",
+      "path": "content/12-sql-server-and-tsql/sql-server-monitoring.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0033",
+      "path": "content/12-sql-server-and-tsql/sql-server-performance.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0034",
+      "path": "content/12-sql-server-and-tsql/sql-server-anti-patterns.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0035",
+      "path": "content/12-sql-server-and-tsql/tsql-exercise-1.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0036",
+      "path": "content/12-sql-server-and-tsql/tsql-exercise-2.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0037",
+      "path": "content/12-sql-server-and-tsql/sql-server-decision-record.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0038",
+      "path": "content/12-sql-server-and-tsql/sql-server-incident-runbook.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0039",
+      "path": "content/12-sql-server-and-tsql/sql-server-upgrade-checklist.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-SS-0040",
+      "path": "content/12-sql-server-and-tsql/sql-server-review-checklist.md"
     },
     {
       "operation": "CREATE",
@@ -1219,7 +1929,7 @@
     }
   ],
   "counts": {
-    "CREATE": 243
+    "CREATE": 385
   },
   "live_publish": "BLOCKED_CREDENTIALS_OR_API_NOT_CONFIGURED"
 }
