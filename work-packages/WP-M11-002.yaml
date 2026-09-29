@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M11-002
+title: PostgreSQL data types and extensions
+state: DONE
+manifest_items: [DBKB-PG-0008, DBKB-PG-0009, DBKB-PG-0010, DBKB-PG-0011, DBKB-PG-0012, DBKB-PG-0013, DBKB-PG-0014]
+dependencies: [WP-M11-001]
+research_requirements: [data types, date/time, JSONB, arrays, ranges, full-text search and extensions]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
