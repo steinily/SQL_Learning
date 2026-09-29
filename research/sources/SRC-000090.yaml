@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000090
+title: Redis Documentation
+publisher: Redis
+source_class: S1-primary
+url: https://redis.io/docs/latest/
+technology: redis
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Key-value data structures, persistence, replication, streams and cluster operations.
+notes: Feature availability and commands vary by release and distribution.

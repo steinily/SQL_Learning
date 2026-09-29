@@ -1,0 +1,27 @@
+schema_version: 1
+id: RP-NOSQL-0001
+topic: NoSQL data stores
+status: READY
+verified_concepts:
+  - NoSQL systems expose different data models and consistency/availability tradeoffs than relational systems.
+  - MongoDB documents document modeling, indexing, aggregation, transactions and replication.
+  - Redis documents key-value data structures, persistence, replication and cluster features.
+  - CouchDB documents JSON documents, HTTP access, replication and conflict handling.
+claims:
+  - claim: MongoDB Manual documents collections, indexes, aggregation and replication capabilities.
+    evidence_level: E2
+    sources: [SRC-000089]
+    state: VERIFIED
+    context: Official MongoDB Manual.
+  - claim: Redis Documentation documents data structures, persistence, replication and streams.
+    evidence_level: E2
+    sources: [SRC-000090]
+    state: VERIFIED
+    context: Official Redis documentation.
+  - claim: CouchDB documentation documents JSON documents, HTTP API and replication.
+    evidence_level: E2
+    sources: [SRC-000091]
+    state: VERIFIED
+    context: Official Apache CouchDB documentation.
+cautions: [NoSQL feature names, consistency guarantees and operational defaults are vendor- and version-specific; benchmark claims require execution evidence.]
+sources: [SRC-000089, SRC-000090, SRC-000091]

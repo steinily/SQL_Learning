@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000091
+title: Apache CouchDB Documentation
+publisher: Apache Software Foundation
+source_class: S1-primary
+url: https://docs.couchdb.org/
+technology: apache-couchdb
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: JSON documents, HTTP API, replication and conflict handling.
+notes: Replication and conflict behavior is release-sensitive.

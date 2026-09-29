@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000089
+title: MongoDB Manual
+publisher: MongoDB
+source_class: S1-primary
+url: https://www.mongodb.com/docs/manual/
+technology: mongodb
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Document data model, indexes, aggregation, transactions and replication.
+notes: Commands and guarantees are version-sensitive.

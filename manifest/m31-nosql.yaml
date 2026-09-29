@@ -1,0 +1,32 @@
+schema_version: 1
+module: M31
+title: NoSQL
+priority: P2
+required: true
+status: in_progress
+documents:
+  - [DBKB-NOSQL-0001, NoSQL Overview, overview]
+  - [DBKB-NOSQL-0002, Key Value Stores, technology]
+  - [DBKB-NOSQL-0003, Document Stores, technology]
+  - [DBKB-NOSQL-0004, Wide Column Stores, technology]
+  - [DBKB-NOSQL-0005, Graph Databases, technology]
+  - [DBKB-NOSQL-0006, NoSQL Data Modeling, concept]
+  - [DBKB-NOSQL-0007, Denormalization Patterns, technology]
+  - [DBKB-NOSQL-0008, Secondary Indexes, technology]
+  - [DBKB-NOSQL-0009, NoSQL Consistency, concept]
+  - [DBKB-NOSQL-0010, NoSQL Transactions, technology]
+  - [DBKB-NOSQL-0011, NoSQL Replication, technology]
+  - [DBKB-NOSQL-0012, NoSQL Partitioning, technology]
+  - [DBKB-NOSQL-0013, NoSQL Query Patterns, playbook]
+  - [DBKB-NOSQL-0014, Document Schema Evolution, playbook]
+  - [DBKB-NOSQL-0015, NoSQL Backup and Restore, playbook]
+  - [DBKB-NOSQL-0016, NoSQL Security, technology]
+  - [DBKB-NOSQL-0017, NoSQL Observability, technology]
+  - [DBKB-NOSQL-0018, NoSQL Troubleshooting, troubleshooting]
+  - [DBKB-NOSQL-0019, Redis Patterns, technology]
+  - [DBKB-NOSQL-0020, MongoDB Patterns, technology]
+  - [DBKB-NOSQL-0021, CouchDB Replication, technology]
+  - [DBKB-NOSQL-0022, NoSQL Anti-Patterns, error]
+  - [DBKB-NOSQL-0023, NoSQL Migration, playbook]
+  - [DBKB-NOSQL-0024, NoSQL Exercise, exercise]
+  - [DBKB-NOSQL-0025, NoSQL Reference, reference]
