@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M13-004
+title: MySQL reliability and observability
+state: DONE
+manifest_items: [DBKB-MY-0022, DBKB-MY-0023, DBKB-MY-0024, DBKB-MY-0025, DBKB-MY-0026, DBKB-MY-0027, DBKB-MY-0028]
+dependencies: [WP-M13-003]
+research_requirements: [backup, recovery, Performance Schema, slow query log, monitoring, performance and anti-patterns]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
