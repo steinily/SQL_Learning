@@ -1,0 +1,25 @@
+schema_version: 1
+id: RP-STOR-0001
+topic: M26 data storage and file formats
+status: READY
+verified_concepts:
+  - Storage and file format decisions balance schema, encoding, compression, interoperability, mutation, scan pattern and lifecycle requirements.
+  - Format guarantees are implementation and version sensitive; a file being readable does not prove semantic or operational suitability.
+claims:
+  - claim: Apache Parquet and ORC document columnar storage, encoding, compression and schema concepts.
+    evidence_level: E2
+    sources: [SRC-000068, SRC-000074]
+    state: VERIFIED
+    context: Official Apache format documentation.
+  - claim: Apache Arrow documents an in-memory columnar representation and interoperability interfaces.
+    evidence_level: E2
+    sources: [SRC-000075]
+    state: VERIFIED
+    context: Official Apache Arrow documentation.
+  - claim: JSON syntax and interoperability constraints are defined by RFC 8259.
+    evidence_level: E2
+    sources: [SRC-000076]
+    state: VERIFIED
+    context: IETF RFC 8259.
+cautions: [Compression ratio, predicate pushdown, schema evolution, random access and reader compatibility require target implementation tests.]
+sources: [SRC-000068, SRC-000071, SRC-000074, SRC-000075, SRC-000076]

@@ -1,0 +1,23 @@
+schema_version: 1
+module: M26
+title: Data Storage and File Formats
+priority: P1
+required: true
+status: in_progress
+documents:
+  - [DBKB-STOR-0001, Data Storage and File Formats Overview, overview]
+  - [DBKB-STOR-0002, Row and Column Storage, comparison]
+  - [DBKB-STOR-0003, Parquet Format, technology]
+  - [DBKB-STOR-0004, Avro Format, technology]
+  - [DBKB-STOR-0005, ORC Format, technology]
+  - [DBKB-STOR-0006, Apache Arrow and In Memory Data, technology]
+  - [DBKB-STOR-0007, JSON and Semi Structured Data, technology]
+  - [DBKB-STOR-0008, CSV and Delimited Files, technology]
+  - [DBKB-STOR-0009, Compression and Encoding, concept]
+  - [DBKB-STOR-0010, Schema Evolution in File Formats, playbook]
+  - [DBKB-STOR-0011, Small Files and Compaction, playbook]
+  - [DBKB-STOR-0012, Object Storage Layout, technology]
+  - [DBKB-STOR-0013, Storage Tiering and Lifecycle, concept]
+  - [DBKB-STOR-0014, File Format Interoperability, comparison]
+  - [DBKB-STOR-0015, Storage Testing, playbook]
+  - [DBKB-STOR-0016, Storage and File Formats Exercise, exercise]

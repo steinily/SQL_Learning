@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M26-001
+title: Storage and file format foundations
+state: DONE
+manifest_items: [DBKB-STOR-0001, DBKB-STOR-0002, DBKB-STOR-0003, DBKB-STOR-0004, DBKB-STOR-0005, DBKB-STOR-0006]
+dependencies: [WP-M25-003]
+research_requirements: [storage overview, row/column formats, Parquet, Avro, ORC and Arrow]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Six documents satisfy Document Definition of Done]
+rework_cycles: 0

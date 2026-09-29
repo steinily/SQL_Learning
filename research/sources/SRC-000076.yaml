@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000076
+title: RFC 8259 The JavaScript Object Notation (JSON) Data Interchange Format
+publisher: Internet Engineering Task Force
+source_class: S1-primary
+url: https://www.rfc-editor.org/rfc/rfc8259
+technology: json
+version: RFC 8259
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: JSON syntax, values, interoperability and encoding requirements.
+notes: JSON schema, ordering and application-specific semantics are outside the core format definition.

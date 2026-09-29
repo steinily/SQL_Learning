@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000074
+title: Apache ORC Documentation
+publisher: Apache Software Foundation
+source_class: S1-primary
+url: https://orc.apache.org/docs/
+technology: apache-orc
+version: current documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: ORC columnar storage, stripes, indexes, compression, schema evolution and ACID-related capabilities.
+notes: Reader/writer and engine support varies by ORC version and implementation.
