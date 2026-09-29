@@ -1,7 +1,7 @@
 <!-- GENERATED: scripts/generate_metrics.py; DO NOT EDIT -->
 # Project Status
 
-Generated at: `2026-09-29T13:29:20.709785+00:00`
+Generated at: `2026-09-29T13:30:51.675301+00:00`
 
 ## Baseline scope
 
@@ -13,8 +13,8 @@ Generated at: `2026-09-29T13:29:20.709785+00:00`
 
 ## Content and verification
 
-- Authored documents: **589** (64.16%)
-- Fully verified documents: **589** (64.16%)
+- Authored documents: **596** (64.92%)
+- Fully verified documents: **596** (64.92%)
 - Publishable documents: **385**
 - Execution-PASS document reports: **89 / 1000 minimum**
 

@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M25-002
+title: Analytical serving and warehouse performance
+state: DONE
+manifest_items: [DBKB-WH-0008, DBKB-WH-0009, DBKB-WH-0010, DBKB-WH-0011, DBKB-WH-0012, DBKB-WH-0013, DBKB-WH-0014]
+dependencies: [WP-M25-001]
+research_requirements: [OLAP, semantic layer, marts, partitioning, clustering, aggregates and BI serving]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
