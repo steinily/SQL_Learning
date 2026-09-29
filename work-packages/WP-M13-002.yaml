@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M13-002
+title: MySQL data and storage programming
+state: DONE
+manifest_items: [DBKB-MY-0008, DBKB-MY-0009, DBKB-MY-0010, DBKB-MY-0011, DBKB-MY-0012, DBKB-MY-0013, DBKB-MY-0014]
+dependencies: [WP-M13-001]
+research_requirements: [JSON, temporal data, stored programs, events, triggers, views, InnoDB and indexes]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
