@@ -16,7 +16,7 @@ documents:
   - [DBKB-IDX-0009, Unique Indexes, concept]
   - [DBKB-IDX-0010, Index Selectivity, concept]
   - [DBKB-IDX-0011, Cardinality and Statistics, concept]
-  - [DBKB-IDX-0012, Index Maintenance, operations]
+  - [DBKB-IDX-0012, Index Maintenance, troubleshooting]
   - [DBKB-IDX-0013, Index Bloat, troubleshooting]
   - [DBKB-IDX-0014, Concurrent Index Builds, technology]
   - [DBKB-IDX-0015, Clustered Indexes, comparison]
