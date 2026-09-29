@@ -3,7 +3,7 @@ module: M34
 title: Cloud Data Platforms
 priority: P2
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-CLOUD-0001, Cloud Data Platforms Overview, overview]
   - [DBKB-CLOUD-0002, Managed Storage and Compute, concept]
