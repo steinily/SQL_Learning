@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M09-003
+title: Query transformation and execution resources
+state: DONE
+manifest_items: [DBKB-PERF-0015, DBKB-PERF-0016, DBKB-PERF-0017, DBKB-PERF-0018, DBKB-PERF-0019, DBKB-PERF-0020, DBKB-PERF-0021]
+dependencies: [WP-M09-002]
+research_requirements: [sargability, CTEs, subqueries, memory, parallel and partition plans]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
