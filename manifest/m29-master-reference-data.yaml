@@ -3,7 +3,7 @@ module: M29
 title: Master and Reference Data
 priority: P1
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-MDM-0001, Master and Reference Data Overview, overview]
   - [DBKB-MDM-0002, Master Data Concepts, concept]
