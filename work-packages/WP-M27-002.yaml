@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M27-002
+title: Data quality monitoring and remediation
+state: DONE
+manifest_items: [DBKB-DQ-0007, DBKB-DQ-0008, DBKB-DQ-0009, DBKB-DQ-0010, DBKB-DQ-0011, DBKB-DQ-0012]
+dependencies: [WP-M27-001]
+research_requirements: [accuracy, validity, consistency, reconciliation, timeliness, monitoring, incident response and quarantine]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Six documents satisfy Document Definition of Done]
+rework_cycles: 0
