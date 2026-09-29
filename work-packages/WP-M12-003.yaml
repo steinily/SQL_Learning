@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M12-003
+title: SQL Server query structures and indexes
+state: DONE
+manifest_items: [DBKB-SS-0015, DBKB-SS-0016, DBKB-SS-0017, DBKB-SS-0018, DBKB-SS-0019, DBKB-SS-0020, DBKB-SS-0021]
+dependencies: [WP-M12-002]
+research_requirements: [CTEs, temporary objects, indexes, clustered, nonclustered and columnstore structures]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0
