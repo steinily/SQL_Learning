@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M33-002
+title: Contract compatibility and governance
+state: DONE
+manifest_items: [DBKB-CONTRACT-0006, DBKB-CONTRACT-0007, DBKB-CONTRACT-0008, DBKB-CONTRACT-0009, DBKB-CONTRACT-0010]
+dependencies: [WP-M33-001]
+research_requirements: [compatibility, contract testing, consumer-driven contracts, governance, security]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
