@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "document_id": "DBKB-TX-0003",
+  "run_id": "audit-3a70f896277a",
+  "document_sha256": "3ed5e0c2a6e83d0cad30c8a8152e343cf5e07424d520e7c3189bb3acb5b0b8a0",
+  "dimensions": {
+    "content": "PASS",
+    "sources": "PASS",
+    "facts": "PASS",
+    "syntax": "PASS",
+    "execution": "PASS",
+    "expected_results": "PASS",
+    "dialects": "PASS",
+    "metadata": "PASS",
+    "links": "PASS",
+    "duplication": "PASS",
+    "contradictions": "PASS",
+    "terminology": "PASS",
+    "docmost_compatibility": "PASS"
+  },
+  "findings": [],
+  "executed_at": "2026-09-29T10:33:07.778183+00:00"
+}

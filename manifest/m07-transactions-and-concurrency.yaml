@@ -1,0 +1,32 @@
+schema_version: 1
+module: M07
+title: Transactions and Concurrency
+priority: P0
+required: true
+status: complete
+documents:
+  - [DBKB-TX-0001, Transactions and Concurrency Overview, overview]
+  - [DBKB-TX-0002, Transaction Lifecycle, concept]
+  - [DBKB-TX-0003, BEGIN COMMIT and ROLLBACK, concept]
+  - [DBKB-TX-0004, Savepoints, concept]
+  - [DBKB-TX-0005, ACID Deep Dive, concept]
+  - [DBKB-TX-0006, Isolation Levels, concept]
+  - [DBKB-TX-0007, Read Anomalies, concept]
+  - [DBKB-TX-0008, Write Anomalies, concept]
+  - [DBKB-TX-0009, Locking Fundamentals, concept]
+  - [DBKB-TX-0010, Lock Modes, technology]
+  - [DBKB-TX-0011, Blocking and Lock Waits, troubleshooting]
+  - [DBKB-TX-0012, Deadlocks, troubleshooting]
+  - [DBKB-TX-0013, MVCC and Snapshots, technology]
+  - [DBKB-TX-0014, Snapshot Visibility, concept]
+  - [DBKB-TX-0015, Optimistic Concurrency, concept]
+  - [DBKB-TX-0016, Pessimistic Concurrency, concept]
+  - [DBKB-TX-0017, Transaction Boundaries, concept]
+  - [DBKB-TX-0018, Connection Pooling and Transactions, concept]
+  - [DBKB-TX-0019, Retryable Errors, concept]
+  - [DBKB-TX-0020, Idempotency Keys, concept]
+  - [DBKB-TX-0021, Exactly-Once Claims, comparison]
+  - [DBKB-TX-0022, Long Transactions, troubleshooting]
+  - [DBKB-TX-0023, Transaction Monitoring, concept]
+  - [DBKB-TX-0024, Concurrency Testing, playbook]
+  - [DBKB-TX-0025, Transaction Exercise, exercise]

@@ -1,0 +1,29 @@
+schema_version: 1
+id: RP-TX-0001
+topic: M07 transactions and concurrency
+status: READY
+verified_concepts:
+  - Transactions define atomic units of state change and commit/rollback boundaries.
+  - Isolation, locks, snapshots and retries are engine-specific mechanisms behind concurrency contracts.
+claims:
+  - claim: ACID names atomicity consistency isolation and durability as transaction properties.
+    evidence_level: E1
+    sources: [SRC-000007]
+    state: VERIFIED
+    context: IBM official transaction documentation.
+  - claim: PostgreSQL documents concurrent sessions, isolation, locking, deadlocks and MVCC behavior as product-specific concurrency control.
+    evidence_level: E2
+    sources: [SRC-000014]
+    state: VERIFIED
+    context: PostgreSQL 18.
+  - claim: Transaction isolation choices affect which concurrent phenomena are visible.
+    evidence_level: E2
+    sources: [SRC-000014]
+    state: VERIFIED
+    context: PostgreSQL 18 documentation scope.
+dialect_differences: [Isolation names, lock modes, MVCC implementation, error codes and retry semantics vary.]
+version_sensitive_claims: [PostgreSQL MVCC and isolation implementation is version-sensitive.]
+misconceptions: [A transaction does not automatically make an external side effect atomic; retry is not always safe.]
+candidate_examples: [SQLite rollback, savepoint release and optimistic version predicate fixtures.]
+sources: [SRC-000007, SRC-000014]
+cautions: [Do not claim production concurrency outcomes without actual multi-session execution.]

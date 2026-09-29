@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M07-001
+title: Transaction lifecycle and ACID
+state: DONE
+manifest_items: [DBKB-TX-0001, DBKB-TX-0002, DBKB-TX-0003, DBKB-TX-0004, DBKB-TX-0005, DBKB-TX-0006, DBKB-TX-0007]
+dependencies: [WP-M06-003]
+research_requirements: [transaction lifecycle, savepoints, ACID and isolation from authoritative sources]
+validation_requirements: [metadata, sources, facts, links, dialects, SQL execution]
+completion_criteria: [Seven documents satisfy Document Definition of Done, rollback/savepoint fixtures PASS]
+rework_cycles: 0

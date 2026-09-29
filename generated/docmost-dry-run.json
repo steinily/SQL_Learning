@@ -791,10 +791,135 @@
       "operation": "CREATE",
       "id": "DBKB-SQL-0022",
       "path": "content/02-sql-fundamentals/ddl-fundamentals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0001",
+      "path": "content/07-transactions-and-concurrency/transactions-and-concurrency-overview.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0002",
+      "path": "content/07-transactions-and-concurrency/transaction-lifecycle.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0003",
+      "path": "content/07-transactions-and-concurrency/begin-commit-and-rollback.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0004",
+      "path": "content/07-transactions-and-concurrency/savepoints.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0005",
+      "path": "content/07-transactions-and-concurrency/acid-deep-dive.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0006",
+      "path": "content/07-transactions-and-concurrency/isolation-levels.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0007",
+      "path": "content/07-transactions-and-concurrency/read-anomalies.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0008",
+      "path": "content/07-transactions-and-concurrency/write-anomalies.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0009",
+      "path": "content/07-transactions-and-concurrency/locking-fundamentals.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0010",
+      "path": "content/07-transactions-and-concurrency/lock-modes.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0011",
+      "path": "content/07-transactions-and-concurrency/blocking-and-lock-waits.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0012",
+      "path": "content/07-transactions-and-concurrency/deadlocks.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0013",
+      "path": "content/07-transactions-and-concurrency/mvcc-and-snapshots.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0014",
+      "path": "content/07-transactions-and-concurrency/snapshot-visibility.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0015",
+      "path": "content/07-transactions-and-concurrency/optimistic-concurrency.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0016",
+      "path": "content/07-transactions-and-concurrency/pessimistic-concurrency.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0017",
+      "path": "content/07-transactions-and-concurrency/transaction-boundaries.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0018",
+      "path": "content/07-transactions-and-concurrency/connection-pooling-and-transactions.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0019",
+      "path": "content/07-transactions-and-concurrency/retryable-errors.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0020",
+      "path": "content/07-transactions-and-concurrency/idempotency-keys.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0021",
+      "path": "content/07-transactions-and-concurrency/exactly-once-claims.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0022",
+      "path": "content/07-transactions-and-concurrency/long-transactions.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0023",
+      "path": "content/07-transactions-and-concurrency/transaction-monitoring.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0024",
+      "path": "content/07-transactions-and-concurrency/concurrency-testing.md"
+    },
+    {
+      "operation": "CREATE",
+      "id": "DBKB-TX-0025",
+      "path": "content/07-transactions-and-concurrency/transaction-exercise.md"
     }
   ],
   "counts": {
-    "CREATE": 158
+    "CREATE": 183
   },
   "live_publish": "BLOCKED_CREDENTIALS_OR_API_NOT_CONFIGURED"
 }

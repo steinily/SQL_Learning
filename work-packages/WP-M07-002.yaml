@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M07-002
+title: Locking MVCC and concurrency strategies
+state: DONE
+manifest_items: [DBKB-TX-0008, DBKB-TX-0009, DBKB-TX-0010, DBKB-TX-0011, DBKB-TX-0012, DBKB-TX-0013, DBKB-TX-0014, DBKB-TX-0015, DBKB-TX-0016, DBKB-TX-0017]
+dependencies: [WP-M07-001]
+research_requirements: [locking, deadlocks, MVCC, optimistic and pessimistic strategies]
+validation_requirements: [metadata, sources, facts, links, dialects, SQL execution]
+completion_criteria: [Ten documents satisfy Document Definition of Done, no fabricated multi-engine results]
+rework_cycles: 0

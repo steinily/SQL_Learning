@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M07-003
+title: Reliability and concurrency operations
+state: DONE
+manifest_items: [DBKB-TX-0018, DBKB-TX-0019, DBKB-TX-0020, DBKB-TX-0021, DBKB-TX-0022, DBKB-TX-0023, DBKB-TX-0024, DBKB-TX-0025]
+dependencies: [WP-M07-002]
+research_requirements: [pooling, retry, idempotency, monitoring and concurrency test evidence]
+validation_requirements: [metadata, sources, facts, links, dialects, SQL execution]
+completion_criteria: [Eight documents satisfy Document Definition of Done, M07 reaches 25 of 25]
+rework_cycles: 0
