@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M30-002
+title: Distributed data operations and assurance
+state: DONE
+manifest_items: [DBKB-DDS-0016, DBKB-DDS-0017, DBKB-DDS-0018, DBKB-DDS-0019, DBKB-DDS-0020]
+dependencies: [WP-M30-001]
+research_requirements: [cache, locking, security, operations runbook, exercise assessment]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0

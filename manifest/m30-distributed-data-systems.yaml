@@ -3,7 +3,7 @@ module: M30
 title: Distributed Data Systems
 priority: P2
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-DDS-0001, Distributed Data Systems Overview, overview]
   - [DBKB-DDS-0002, Distribution Models, concept]
