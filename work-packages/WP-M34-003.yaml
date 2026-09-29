@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M34-003
+title: Cloud migration sharing and assurance
+state: DONE
+manifest_items: [DBKB-CLOUD-0011, DBKB-CLOUD-0012, DBKB-CLOUD-0013, DBKB-CLOUD-0014, DBKB-CLOUD-0015]
+dependencies: [WP-M34-002]
+research_requirements: [migration, sharing, troubleshooting, exercise, reference checklist]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
