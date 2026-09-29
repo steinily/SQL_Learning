@@ -3,7 +3,7 @@ module: M28
 title: Metadata Catalog and Lineage
 priority: P1
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-META-0001, Metadata Catalog and Lineage Overview, overview]
   - [DBKB-META-0002, Technical Metadata, concept]

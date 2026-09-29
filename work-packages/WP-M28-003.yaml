@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M28-003
+title: Metadata security lifecycle and assurance
+state: DONE
+manifest_items: [DBKB-META-0011, DBKB-META-0012, DBKB-META-0013, DBKB-META-0014, DBKB-META-0015]
+dependencies: [WP-M28-002]
+research_requirements: [catalog security, metadata lifecycle, lineage troubleshooting, governance runbook and exercise design]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
