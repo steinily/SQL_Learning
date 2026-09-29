@@ -3,7 +3,7 @@ module: M31
 title: NoSQL
 priority: P2
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-NOSQL-0001, NoSQL Overview, overview]
   - [DBKB-NOSQL-0002, Key Value Stores, technology]
