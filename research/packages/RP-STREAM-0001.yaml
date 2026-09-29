@@ -1,0 +1,25 @@
+schema_version: 1
+id: RP-STREAM-0001
+topic: M24 streaming CDC and messaging
+status: READY
+verified_concepts:
+  - Streaming systems process unbounded data with explicit event-time, state, checkpoint, partition and delivery semantics.
+  - CDC and messaging guarantees depend on source, broker, connector, consumer, sink and failure configuration as one end-to-end path.
+claims:
+  - claim: Apache Kafka documents topics, partitions, consumers, offsets and delivery behavior.
+    evidence_level: E2
+    sources: [SRC-000069]
+    state: VERIFIED
+    context: Official Apache Kafka documentation.
+  - claim: Debezium documents change data capture snapshots, offsets and schema changes.
+    evidence_level: E2
+    sources: [SRC-000070]
+    state: VERIFIED
+    context: Official Debezium documentation.
+  - claim: Apache Flink documents stateful stream processing, event time, checkpoints and processing guarantees.
+    evidence_level: E2
+    sources: [SRC-000072]
+    state: VERIFIED
+    context: Official Apache Flink documentation.
+cautions: [Exactly-once and ordering claims require end-to-end connector and sink verification.]
+sources: [SRC-000069, SRC-000070, SRC-000072]

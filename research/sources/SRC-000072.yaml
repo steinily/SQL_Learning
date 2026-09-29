@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000072
+title: Apache Flink Documentation
+publisher: Apache Software Foundation
+source_class: S1-primary
+url: https://nightlies.apache.org/flink/flink-docs-stable/
+technology: apache-flink
+version: stable documentation on retrieval date
+retrieved_at: "2026-09-29"
+review_after: "2027-03-29"
+content_scope: Stateful stream processing, event time, windows, checkpoints, state and exactly-once processing concepts.
+notes: Guarantees depend on connector, sink, checkpoint and deployment configuration.

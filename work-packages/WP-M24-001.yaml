@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M24-001
+title: Streaming foundations and stateful processing
+state: DONE
+manifest_items: [DBKB-STREAM-0001, DBKB-STREAM-0002, DBKB-STREAM-0003, DBKB-STREAM-0004, DBKB-STREAM-0005, DBKB-STREAM-0006, DBKB-STREAM-0007]
+dependencies: [WP-M23-003]
+research_requirements: [streaming concepts, Kafka partitions/offsets, event time, windows, watermarks and state]
+validation_requirements: [metadata, sources, facts, links, dialects]
+completion_criteria: [Seven documents satisfy Document Definition of Done]
+rework_cycles: 0

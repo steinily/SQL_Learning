@@ -1,0 +1,27 @@
+schema_version: 1
+module: M24
+title: Streaming CDC and Messaging
+priority: P1
+required: true
+status: in_progress
+documents:
+  - [DBKB-STREAM-0001, Streaming CDC and Messaging Overview, overview]
+  - [DBKB-STREAM-0002, Streaming Concepts, concept]
+  - [DBKB-STREAM-0003, Kafka Topics and Partitions, technology]
+  - [DBKB-STREAM-0004, Consumer Groups and Offsets, technology]
+  - [DBKB-STREAM-0005, Event Time and Processing Time, concept]
+  - [DBKB-STREAM-0006, Windows and Watermarks, technology]
+  - [DBKB-STREAM-0007, Stateful Stream Processing, technology]
+  - [DBKB-STREAM-0008, Checkpoints and State, technology]
+  - [DBKB-STREAM-0009, Delivery Guarantees, concept]
+  - [DBKB-STREAM-0010, CDC Architecture, technology]
+  - [DBKB-STREAM-0011, CDC Snapshots and Offsets, technology]
+  - [DBKB-STREAM-0012, Stream Schema Evolution, technology]
+  - [DBKB-STREAM-0013, Stream Joins, technology]
+  - [DBKB-STREAM-0014, Backpressure and Flow Control, concept]
+  - [DBKB-STREAM-0015, Stream Replay and Recovery, playbook]
+  - [DBKB-STREAM-0016, Messaging Security, technology]
+  - [DBKB-STREAM-0017, Streaming Observability, technology]
+  - [DBKB-STREAM-0018, Streaming Testing, playbook]
+  - [DBKB-STREAM-0019, Streaming Troubleshooting, troubleshooting]
+  - [DBKB-STREAM-0020, Streaming Exercise, exercise]
