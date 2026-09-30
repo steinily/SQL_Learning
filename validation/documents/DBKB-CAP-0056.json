@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "document_id": "DBKB-CAP-0056",
+  "run_id": "audit-9967a8b441cd",
+  "document_sha256": "c9950f8d9b0527a62e345ba47b40767180f9c78a1979a1012d28e837023d0715",
+  "dimensions": {
+    "content": "PASS",
+    "sources": "PASS",
+    "facts": "PASS",
+    "syntax": "N/A",
+    "execution": "N/A",
+    "expected_results": "N/A",
+    "dialects": "PASS",
+    "metadata": "PASS",
+    "links": "PASS",
+    "duplication": "PASS",
+    "contradictions": "PASS",
+    "terminology": "PASS",
+    "docmost_compatibility": "PASS"
+  },
+  "findings": [],
+  "executed_at": "2026-09-30T06:17:00.363016+00:00"
+}
