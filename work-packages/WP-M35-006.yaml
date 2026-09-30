@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M35-006
+title: Database troubleshooting fundamentals
+state: DONE
+manifest_items: [DBKB-REC-0027, DBKB-REC-0028, DBKB-REC-0029, DBKB-REC-0030, DBKB-REC-0031]
+dependencies: [WP-M35-005]
+research_requirements: [slow query, lock contention, deadlock, connection, replication troubleshooting]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
