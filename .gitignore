@@ -10,4 +10,5 @@ build/
 dist/
 .cache/
 validation/runtime/
+generated/docmost-import/
 atlas/generated/large/

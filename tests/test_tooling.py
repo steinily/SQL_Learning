@@ -7,6 +7,7 @@ import pytest
 import yaml
 
 from scripts.atlas_validate import EXPECTED_COUNTS, validate_atlas
+from scripts.docmost_bundle import build_bundle
 from scripts.docmost_adapter import plan_sync
 from scripts.kb_core import (
     Document,
@@ -197,3 +198,17 @@ def test_docmost_dry_run_preserves_identity_and_never_deletes():
         "ARCHIVE_REVIEW_REQUIRED",
     ]
     assert "DELETE" not in json.dumps(plan)
+
+
+def test_docmost_bundle_contains_only_eligible_markdown_and_identity_marker(tmp_path: Path):
+    output = tmp_path / "bundle"
+    manifest = build_bundle(Path(__file__).resolve().parents[1], output, "2026-01-01T00:00:00+00:00")
+    assert manifest["document_count"] == 385
+    assert manifest["zip"]["path"] == "docmost-import.zip"
+    import zipfile
+
+    with zipfile.ZipFile(output / "docmost-import.zip") as archive:
+        assert len(archive.namelist()) == 385
+        sample = archive.read(archive.namelist()[0]).decode("utf-8")
+        assert sample.startswith("<!-- DBKB-ID: DBKB-")
+        assert "schema_version:" not in sample

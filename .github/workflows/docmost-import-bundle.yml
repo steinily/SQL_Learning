@@ -1,0 +1,49 @@
+name: Build Docmost import bundle
+
+"on":
+  push:
+    branches: [main]
+    paths:
+      - "content/**"
+      - "manifest/**"
+      - "scripts/docmost_adapter.py"
+      - "scripts/docmost_bundle.py"
+      - "docmost/**"
+      - ".github/workflows/docmost-import-bundle.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  bundle:
+    name: Validate and package Markdown import
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out canonical GitHub content
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install validation dependencies
+        run: python -m pip install -r requirements-dev.txt
+
+      - name: Validate repository contract
+        run: python scripts/validate_repo.py --report /tmp/repository-validation.json
+
+      - name: Build Docmost Markdown ZIP
+        run: python scripts/docmost_bundle.py --output-dir generated/docmost-import
+
+      - name: Upload Docmost import artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: docmost-import-${{ github.sha }}
+          path: |
+            generated/docmost-import/docmost-import.zip
+            generated/docmost-import/docmost-import-manifest.json
+          if-no-files-found: error
+          retention-days: 30
