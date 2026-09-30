@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M35-005
+title: Domain architecture recipes
+state: DONE
+manifest_items: [DBKB-REC-0021, DBKB-REC-0022, DBKB-REC-0023, DBKB-REC-0024, DBKB-REC-0025]
+dependencies: [WP-M35-004]
+research_requirements: [master data, distributed data, NoSQL, architecture, contracts]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
