@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "document_id": "DBKB-REC-0060",
+  "run_id": "audit-d77a1953c9ed",
+  "document_sha256": "0e600c62976d2ef29a34393a10e5948b9a8586914a8a82d8b972839ecd771636",
+  "dimensions": {
+    "content": "PASS",
+    "sources": "PASS",
+    "facts": "PASS",
+    "syntax": "N/A",
+    "execution": "N/A",
+    "expected_results": "N/A",
+    "dialects": "PASS",
+    "metadata": "PASS",
+    "links": "PASS",
+    "duplication": "PASS",
+    "contradictions": "PASS",
+    "terminology": "PASS",
+    "docmost_compatibility": "PASS"
+  },
+  "findings": [],
+  "executed_at": "2026-09-30T05:57:17.789172+00:00"
+}

@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M35-012
+title: Recipes closure
+state: DONE
+manifest_items: [DBKB-REC-0057, DBKB-REC-0058, DBKB-REC-0059, DBKB-REC-0060]
+dependencies: [WP-M35-011]
+research_requirements: [recovery decision, recipe validation, troubleshooting exercise, reference]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Four documents satisfy Document Definition of Done and M35 manifest is complete]
+rework_cycles: 0

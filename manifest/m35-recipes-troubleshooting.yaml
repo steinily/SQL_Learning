@@ -3,7 +3,7 @@ module: M35
 title: Recipes Troubleshooting and Anti-Patterns
 priority: P0
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-REC-0001, SQL Recipes Overview, overview]
   - [DBKB-REC-0002, DDL Recipes, cheatsheet]
