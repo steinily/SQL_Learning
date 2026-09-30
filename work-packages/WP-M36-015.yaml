@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M36-015
+title: Capstone database learning paths
+state: DONE
+manifest_items: [DBKB-CAP-0071, DBKB-CAP-0072, DBKB-CAP-0073, DBKB-CAP-0074, DBKB-CAP-0075]
+dependencies: [WP-M36-014]
+research_requirements: [PostgreSQL, SQL Server, MySQL/SQLite, reliability and performance learning paths]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
