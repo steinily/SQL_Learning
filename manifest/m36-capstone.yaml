@@ -3,7 +3,7 @@ module: M36
 title: Case Studies Exercises Reference and Learning Paths
 priority: P1
 required: true
-status: in_progress
+status: complete
 documents:
   - [DBKB-CAP-0001, Capstone Overview, overview]
   - [DBKB-CAP-0002, Relational Design Case Study, case-study]
