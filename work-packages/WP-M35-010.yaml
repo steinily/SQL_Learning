@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M35-010
+title: Platform anti-patterns
+state: DONE
+manifest_items: [DBKB-REC-0047, DBKB-REC-0048, DBKB-REC-0049, DBKB-REC-0050, DBKB-REC-0051]
+dependencies: [WP-M35-009]
+research_requirements: [metadata, cloud, distributed systems, NoSQL, architecture anti-patterns]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
