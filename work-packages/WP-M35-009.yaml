@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M35-009
+title: Core anti-patterns
+state: DONE
+manifest_items: [DBKB-REC-0042, DBKB-REC-0043, DBKB-REC-0044, DBKB-REC-0045, DBKB-REC-0046]
+dependencies: [WP-M35-008]
+research_requirements: [transaction, index, security, quality, pipeline anti-patterns]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
