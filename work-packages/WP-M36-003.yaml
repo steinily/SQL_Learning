@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M36-003
+title: Capstone data platform case studies
+state: DONE
+manifest_items: [DBKB-CAP-0011, DBKB-CAP-0012, DBKB-CAP-0013, DBKB-CAP-0014, DBKB-CAP-0015]
+dependencies: [WP-M36-002]
+research_requirements: [warehouse, quality, metadata, security, recovery scenarios]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
