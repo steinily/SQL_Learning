@@ -1,0 +1,12 @@
+schema_version: 1
+id: SRC-000101
+title: Oracle Database Documentation
+publisher: Oracle
+source_class: S1-primary
+url: https://docs.oracle.com/en/database/oracle/oracle-database/
+technology: oracle-database
+version: current documentation on retrieval date
+retrieved_at: "2026-09-30"
+review_after: "2027-03-30"
+content_scope: Oracle SQL, PL/SQL, transactions, indexing, backup, security, performance and operations.
+notes: Feature behavior depends on Oracle Database release and edition.

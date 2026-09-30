@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M35-013
+title: Cloud recipes completion
+state: DONE
+manifest_items: [DBKB-REC-0026]
+dependencies: [WP-M35-012]
+research_requirements: [cloud preflight, provider controls, rollback and evidence]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Cloud Recipes satisfies Document Definition of Done]
+rework_cycles: 0

@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M15-003
+title: Oracle assurance and closure
+state: DONE
+manifest_items: [DBKB-ORA-0011, DBKB-ORA-0012, DBKB-ORA-0013, DBKB-ORA-0014]
+dependencies: [WP-M15-002]
+research_requirements: [Oracle migration, troubleshooting, exercise and reference]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Four documents satisfy Document Definition of Done and M15 manifest is complete]
+rework_cycles: 0

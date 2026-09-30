@@ -1,0 +1,14 @@
+schema_version: 1
+id: RP-ORACLE-0001
+topic: Oracle Database fundamentals
+status: READY
+verified_concepts:
+  - Oracle Database documentation covers SQL, PL/SQL, transactions, indexing, backup, security and performance operations.
+claims:
+  - claim: Oracle Database documentation is the authoritative source for Oracle SQL, PL/SQL and release-specific administration behavior.
+    evidence_level: E2
+    sources: [SRC-000101]
+    state: VERIFIED
+    context: Official Oracle documentation.
+cautions: [Oracle syntax, optimizer, edition, licensing and operational behavior are release-sensitive; execution claims require actual runs.]
+sources: [SRC-000101]

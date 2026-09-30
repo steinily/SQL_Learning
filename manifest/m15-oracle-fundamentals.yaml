@@ -1,0 +1,21 @@
+schema_version: 1
+module: M15
+title: Oracle Fundamentals
+priority: P2
+required: true
+status: complete
+documents:
+  - [DBKB-ORA-0001, Oracle Fundamentals Overview, overview]
+  - [DBKB-ORA-0002, Oracle SQL and PL SQL, technology]
+  - [DBKB-ORA-0003, Oracle Data Types, concept]
+  - [DBKB-ORA-0004, Oracle Transactions and Isolation, technology]
+  - [DBKB-ORA-0005, Oracle Indexes and Execution Plans, technology]
+  - [DBKB-ORA-0006, Oracle Partitioning, technology]
+  - [DBKB-ORA-0007, Oracle Backup and Recovery, playbook]
+  - [DBKB-ORA-0008, Oracle Security, technology]
+  - [DBKB-ORA-0009, Oracle Performance, technology]
+  - [DBKB-ORA-0010, Oracle High Availability, technology]
+  - [DBKB-ORA-0011, Oracle Migration, playbook]
+  - [DBKB-ORA-0012, Oracle Troubleshooting, troubleshooting]
+  - [DBKB-ORA-0013, Oracle Exercise, exercise]
+  - [DBKB-ORA-0014, Oracle Reference, reference]

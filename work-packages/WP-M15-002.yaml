@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M15-002
+title: Oracle operations
+state: DONE
+manifest_items: [DBKB-ORA-0006, DBKB-ORA-0007, DBKB-ORA-0008, DBKB-ORA-0009, DBKB-ORA-0010]
+dependencies: [WP-M15-001]
+research_requirements: [Oracle partitioning, backup, security, performance and HA]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
