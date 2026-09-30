@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M36-009
+title: Capstone distributed and architecture exercises
+state: DONE
+manifest_items: [DBKB-CAP-0041, DBKB-CAP-0042, DBKB-CAP-0043, DBKB-CAP-0044, DBKB-CAP-0045]
+dependencies: [WP-M36-008]
+research_requirements: [distributed, NoSQL, cloud, contracts, architecture labs]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
