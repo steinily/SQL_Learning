@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M36-002
+title: Capstone case studies II
+state: DONE
+manifest_items: [DBKB-CAP-0006, DBKB-CAP-0007, DBKB-CAP-0008, DBKB-CAP-0009, DBKB-CAP-0010]
+dependencies: [WP-M36-001]
+research_requirements: [SQL Server, MySQL, SQLite, integration and streaming scenarios]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
