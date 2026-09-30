@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M35-003
+title: Vendor and quality recipes
+state: DONE
+manifest_items: [DBKB-REC-0011, DBKB-REC-0012, DBKB-REC-0013, DBKB-REC-0014, DBKB-REC-0015]
+dependencies: [WP-M35-002]
+research_requirements: [PostgreSQL, SQL Server, MySQL, SQLite, data quality]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
