@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M36-006
+title: Capstone database exercises
+state: DONE
+manifest_items: [DBKB-CAP-0026, DBKB-CAP-0027, DBKB-CAP-0028, DBKB-CAP-0029, DBKB-CAP-0030]
+dependencies: [WP-M36-005]
+research_requirements: [transactions, indexes, PostgreSQL, SQL Server, MySQL labs]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
