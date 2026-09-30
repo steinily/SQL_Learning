@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M35-011
+title: Incident playbooks
+state: DONE
+manifest_items: [DBKB-REC-0052, DBKB-REC-0053, DBKB-REC-0054, DBKB-REC-0055, DBKB-REC-0056]
+dependencies: [WP-M35-010]
+research_requirements: [contract, operations, security incident, data incident, change incident]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
