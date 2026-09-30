@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M35-007
+title: Data operations troubleshooting
+state: DONE
+manifest_items: [DBKB-REC-0032, DBKB-REC-0033, DBKB-REC-0034, DBKB-REC-0035, DBKB-REC-0036]
+dependencies: [WP-M35-006]
+research_requirements: [backup, migration, permissions, data quality, pipeline incidents]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
