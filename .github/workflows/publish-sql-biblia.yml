@@ -1,0 +1,86 @@
+name: Publish SQL Biblia projection
+
+"on":
+  push:
+    branches: [main]
+    paths:
+      - "content/**"
+      - "manifest/**"
+      - "scripts/docmost_bundle.py"
+      - "scripts/publication_export.py"
+      - ".github/workflows/publish-sql-biblia.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    name: Build and sync read-only projection
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out canonical source
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install validation dependencies
+        run: python -m pip install -r requirements-dev.txt
+
+      - name: Validate canonical repository
+        run: python scripts/validate_repo.py --report /tmp/repository-validation.json
+
+      - name: Build SQL Biblia projection
+        run: python scripts/publication_export.py --output-dir /tmp/sql-biblia
+
+      - name: Check target repository credential
+        id: target-auth
+        env:
+          TARGET_TOKEN: ${{ secrets.SQL_BIBLIA_TOKEN }}
+        run: |
+          if [ -n "$TARGET_TOKEN" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "SQL_BIBLIA_TOKEN is not configured; projection is available as an artifact only."
+          fi
+
+      - name: Upload projection artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sql-biblia-${{ github.sha }}
+          path: /tmp/sql-biblia
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Check out SQL Biblia repository
+        if: steps.target-auth.outputs.enabled == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: steinily/SQL_Biblia
+          token: ${{ secrets.SQL_BIBLIA_TOKEN }}
+          path: sql-biblia
+
+      - name: Replace generated projection
+        if: steps.target-auth.outputs.enabled == 'true'
+        run: |
+          find sql-biblia -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp -R /tmp/sql-biblia/. sql-biblia/
+
+      - name: Commit projection snapshot
+        if: steps.target-auth.outputs.enabled == 'true'
+        working-directory: sql-biblia
+        run: |
+          git config user.name "sql-biblia-publisher[bot]"
+          git config user.email "sql-biblia-publisher[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No publication changes"
+          else
+            git commit -m "chore: publish SQL Biblia from $GITHUB_SHA"
+            git push origin HEAD:main
+          fi

@@ -11,4 +11,5 @@ dist/
 .cache/
 validation/runtime/
 generated/docmost-import/
+generated/sql-biblia/
 atlas/generated/large/

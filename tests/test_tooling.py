@@ -9,6 +9,7 @@ import yaml
 from scripts.atlas_validate import EXPECTED_COUNTS, validate_atlas
 from scripts.docmost_bundle import build_bundle
 from scripts.docmost_adapter import plan_sync
+from scripts.publication_export import build_publication
 from scripts.kb_core import (
     Document,
     anchors,
@@ -212,3 +213,13 @@ def test_docmost_bundle_contains_only_eligible_markdown_and_identity_marker(tmp_
         sample = archive.read(archive.namelist()[0]).decode("utf-8")
         assert sample.startswith("<!-- DBKB-ID: DBKB-")
         assert "schema_version:" not in sample
+
+
+def test_sql_biblia_projection_contains_only_publishable_documents(tmp_path: Path):
+    output = tmp_path / "publication"
+    manifest = build_publication(Path(__file__).resolve().parents[1], output, "2026-01-01T00:00:00+00:00")
+    assert manifest["publication"] == "SQL_Biblia"
+    assert manifest["document_count"] == 385
+    assert (output / "README.md").is_file()
+    assert (output / "PUBLICATION_MANIFEST.json").is_file()
+    assert all((output / entry["publication_path"]).is_file() for entry in manifest["documents"])
