@@ -1,0 +1,10 @@
+schema_version: 1
+id: SQL-GC-0677
+document_id: DBKB-ISQL-0023
+dialect: portable
+environment: sqlite-local
+setup: []
+statement: WITH nums(v) AS (VALUES (677), (678)) SELECT SUM(v) FROM nums
+expectation:
+  rows:
+  - - 1355

@@ -1,0 +1,10 @@
+schema_version: 1
+id: SQL-GC-0580
+document_id: DBKB-ISQL-0015
+dialect: portable
+environment: sqlite-local
+setup: []
+statement: SELECT 580 AS case_id
+expectation:
+  rows:
+  - - 580

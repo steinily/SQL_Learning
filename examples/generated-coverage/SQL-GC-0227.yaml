@@ -1,0 +1,10 @@
+schema_version: 1
+id: SQL-GC-0227
+document_id: DBKB-ISQL-0018
+dialect: portable
+environment: sqlite-local
+setup: []
+statement: WITH nums(v) AS (VALUES (227), (228)) SELECT SUM(v) FROM nums
+expectation:
+  rows:
+  - - 455

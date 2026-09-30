@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-GC-0054
+document_id: DBKB-ISQL-0023
+dialect: portable
+environment: sqlite-local
+setup:
+- CREATE TABLE coverage_54 (id INTEGER PRIMARY KEY, label TEXT); INSERT INTO coverage_54
+  VALUES (54, 'x');
+statement: SELECT id, UPPER(label) FROM coverage_54
+expectation:
+  rows:
+  - - 54
+    - X

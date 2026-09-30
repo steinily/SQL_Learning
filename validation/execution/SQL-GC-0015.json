@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "example_id": "SQL-GC-0015",
+  "document_id": "DBKB-ASQL-0019",
+  "environment": "sqlite-local",
+  "engine": "sqlite",
+  "engine_version": "3.46.1",
+  "executed_at": "2026-09-30T06:38:06.276655+00:00",
+  "statement_sha256": "e80ba695cdf1186d604ac9b80a5a1298aff3e969490a7f2010833e8d9be53927",
+  "status": "PASS",
+  "actual_rows": [
+    [
+      1,
+      2
+    ]
+  ]
+}

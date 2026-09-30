@@ -1,0 +1,12 @@
+schema_version: 1
+id: SQL-GC-0291
+document_id: DBKB-FND-0011
+dialect: portable
+environment: sqlite-local
+setup:
+- CREATE TABLE coverage_291 (v INTEGER); INSERT INTO coverage_291 VALUES (291), (292);
+statement: SELECT COUNT(*), SUM(v) FROM coverage_291
+expectation:
+  rows:
+  - - 2
+    - 583

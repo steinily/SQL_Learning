@@ -1,0 +1,10 @@
+schema_version: 1
+id: SQL-GC-0700
+document_id: DBKB-SQL-0012
+dialect: portable
+environment: sqlite-local
+setup: []
+statement: SELECT 700 AS case_id
+expectation:
+  rows:
+  - - 700

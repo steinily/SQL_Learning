@@ -1,0 +1,17 @@
+schema_version: 1
+id: SQL-GC-0768
+document_id: DBKB-ISQL-0025
+dialect: portable
+environment: sqlite-local
+setup:
+- CREATE TABLE coverage_768 (v INTEGER); INSERT INTO coverage_768 VALUES (768), (769),
+  (770);
+statement: SELECT v, ROW_NUMBER() OVER (ORDER BY v) FROM coverage_768 ORDER BY v
+expectation:
+  rows:
+  - - 768
+    - 1
+  - - 769
+    - 2
+  - - 770
+    - 3

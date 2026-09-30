@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "document_id": "DBKB-ASQL-0011",
-  "run_id": "audit-6db482fef0a8",
+  "run_id": "audit-fcb040ec9812",
   "document_sha256": "95e5704ae686d176577500b9e8cc3e76e61cd92647a00ec63d8f50bf5a2b3f8c",
   "dimensions": {
     "content": "PASS",
@@ -19,5 +19,5 @@
     "docmost_compatibility": "PASS"
   },
   "findings": [],
-  "executed_at": "2026-09-30T06:33:45.193396+00:00"
+  "executed_at": "2026-09-30T06:38:25.477355+00:00"
 }

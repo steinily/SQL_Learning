@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "document_id": "DBKB-FND-0022",
-  "run_id": "audit-1df3bc19944d",
+  "run_id": "audit-03ff272f6d9b",
   "document_sha256": "cfd3466fc1182083df3adc725e983082aad3c4342bacb2df9ec9242fe55a1a30",
   "dimensions": {
     "content": "PASS",
@@ -19,5 +19,5 @@
     "docmost_compatibility": "PASS"
   },
   "findings": [],
-  "executed_at": "2026-09-30T06:33:45.186253+00:00"
+  "executed_at": "2026-09-30T06:38:25.459888+00:00"
 }

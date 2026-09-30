@@ -1,0 +1,12 @@
+schema_version: 1
+id: SQL-GC-0371
+document_id: DBKB-ASQL-0019
+dialect: portable
+environment: sqlite-local
+setup:
+- CREATE TABLE coverage_371 (v INTEGER); INSERT INTO coverage_371 VALUES (371), (372);
+statement: SELECT COUNT(*), SUM(v) FROM coverage_371
+expectation:
+  rows:
+  - - 2
+    - 743

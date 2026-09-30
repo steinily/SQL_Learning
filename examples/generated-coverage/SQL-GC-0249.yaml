@@ -1,0 +1,12 @@
+schema_version: 1
+id: SQL-GC-0249
+document_id: DBKB-SQL-0006
+dialect: portable
+environment: sqlite-local
+setup:
+- CREATE TABLE coverage_249 (v INTEGER CHECK (v >= 0)); INSERT INTO coverage_249 VALUES
+  (249);
+statement: SELECT v * 2 FROM coverage_249
+expectation:
+  rows:
+  - - 498

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "document_id": "DBKB-TX-0003",
-  "run_id": "audit-3a70f896277a",
+  "run_id": "audit-c1bdcc966722",
   "document_sha256": "3ed5e0c2a6e83d0cad30c8a8152e343cf5e07424d520e7c3189bb3acb5b0b8a0",
   "dimensions": {
     "content": "PASS",
@@ -19,5 +19,5 @@
     "docmost_compatibility": "PASS"
   },
   "findings": [],
-  "executed_at": "2026-09-30T06:33:45.199133+00:00"
+  "executed_at": "2026-09-30T06:38:25.489003+00:00"
 }

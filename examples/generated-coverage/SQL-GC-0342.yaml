@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-GC-0342
+document_id: DBKB-SQL-0010
+dialect: portable
+environment: sqlite-local
+setup:
+- CREATE TABLE coverage_342 (v INTEGER); INSERT INTO coverage_342 VALUES (342), (343),
+  (344);
+statement: SELECT v FROM coverage_342 WHERE v % 2 = 0 ORDER BY v
+expectation:
+  rows:
+  - - 342
+  - - 344

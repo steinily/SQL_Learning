@@ -1,0 +1,17 @@
+schema_version: 1
+id: SQL-GC-0888
+document_id: DBKB-SQL-0022
+dialect: portable
+environment: sqlite-local
+setup:
+- CREATE TABLE coverage_888 (v INTEGER); INSERT INTO coverage_888 VALUES (888), (889),
+  (890);
+statement: SELECT v, ROW_NUMBER() OVER (ORDER BY v) FROM coverage_888 ORDER BY v
+expectation:
+  rows:
+  - - 888
+    - 1
+  - - 889
+    - 2
+  - - 890
+    - 3

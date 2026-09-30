@@ -1,0 +1,17 @@
+schema_version: 1
+id: SQL-GC-0433
+document_id: DBKB-SQL-0012
+dialect: portable
+environment: sqlite-local
+setup:
+- CREATE TABLE coverage_433 (grp TEXT, v INTEGER); INSERT INTO coverage_433 VALUES
+  ('a', 433), ('a', 434), ('b', 435);
+statement: SELECT grp, COUNT(*), SUM(v) FROM coverage_433 GROUP BY grp ORDER BY grp
+expectation:
+  rows:
+  - - a
+    - 2
+    - 867
+  - - b
+    - 1
+    - 435

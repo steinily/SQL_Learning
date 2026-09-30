@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "document_id": "DBKB-MODL-0005",
-  "run_id": "audit-f1dcc6b9330b",
+  "run_id": "audit-9defbaa4ab40",
   "document_sha256": "d28aff6a808612ed2688321765b87afe27364958a13d3eb7e11ce7940e60ac03",
   "dimensions": {
     "content": "PASS",
@@ -19,5 +19,5 @@
     "docmost_compatibility": "PASS"
   },
   "findings": [],
-  "executed_at": "2026-09-30T06:33:45.196332+00:00"
+  "executed_at": "2026-09-30T06:38:25.484218+00:00"
 }

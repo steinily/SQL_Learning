@@ -1,0 +1,17 @@
+schema_version: 1
+id: SQL-GC-0568
+document_id: DBKB-ISQL-0003
+dialect: portable
+environment: sqlite-local
+setup:
+- CREATE TABLE coverage_568 (v INTEGER); INSERT INTO coverage_568 VALUES (568), (569),
+  (570);
+statement: SELECT v, ROW_NUMBER() OVER (ORDER BY v) FROM coverage_568 ORDER BY v
+expectation:
+  rows:
+  - - 568
+    - 1
+  - - 569
+    - 2
+  - - 570
+    - 3

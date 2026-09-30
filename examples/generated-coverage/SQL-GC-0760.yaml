@@ -1,0 +1,10 @@
+schema_version: 1
+id: SQL-GC-0760
+document_id: DBKB-ISQL-0017
+dialect: portable
+environment: sqlite-local
+setup: []
+statement: SELECT 760 AS case_id
+expectation:
+  rows:
+  - - 760

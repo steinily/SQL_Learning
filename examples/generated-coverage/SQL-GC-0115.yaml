@@ -1,0 +1,12 @@
+schema_version: 1
+id: SQL-GC-0115
+document_id: DBKB-FND-0016
+dialect: portable
+environment: sqlite-local
+setup:
+- CREATE TABLE coverage_115 (v INTEGER); INSERT INTO coverage_115 VALUES (115), (NULL);
+statement: SELECT COUNT(v), COUNT(*) FROM coverage_115
+expectation:
+  rows:
+  - - 1
+    - 2

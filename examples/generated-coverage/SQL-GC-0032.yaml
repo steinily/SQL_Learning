@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-GC-0032
+document_id: DBKB-FND-0026
+dialect: portable
+environment: sqlite-local
+setup:
+- CREATE TABLE coverage_32 (v INTEGER); INSERT INTO coverage_32 VALUES (32), (33),
+  (34);
+statement: SELECT v FROM coverage_32 WHERE v % 2 = 0 ORDER BY v
+expectation:
+  rows:
+  - - 32
+  - - 34

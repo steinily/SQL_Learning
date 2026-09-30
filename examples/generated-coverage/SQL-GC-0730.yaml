@@ -1,0 +1,10 @@
+schema_version: 1
+id: SQL-GC-0730
+document_id: DBKB-ASQL-0023
+dialect: portable
+environment: sqlite-local
+setup: []
+statement: SELECT 730 AS case_id
+expectation:
+  rows:
+  - - 730

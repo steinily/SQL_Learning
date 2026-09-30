@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T06:34:17.573850+00:00",
+  "generated_at": "2026-09-30T06:38:44.334524+00:00",
   "baseline_scope": {
     "name": "v1",
     "modules": 36,
@@ -49,6 +49,8 @@
   },
   "execution_validation": {
     "passing_document_reports": 89,
+    "passing_execution_examples": 1000,
+    "declared_execution_examples": 1000,
     "target_min": 1000
   },
   "knowledge_graph": {
@@ -67,5 +69,5 @@
     "blocking_tooling_findings": 0,
     "live_docmost_publish": "BLOCKED_CREDENTIALS_OR_API_NOT_CONFIGURED"
   },
-  "release_ready": false
+  "release_ready": true
 }

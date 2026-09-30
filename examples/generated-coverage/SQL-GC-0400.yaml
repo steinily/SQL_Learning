@@ -1,0 +1,10 @@
+schema_version: 1
+id: SQL-GC-0400
+document_id: DBKB-ISQL-0013
+dialect: portable
+environment: sqlite-local
+setup: []
+statement: SELECT 400 AS case_id
+expectation:
+  rows:
+  - - 400

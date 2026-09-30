@@ -1,0 +1,10 @@
+schema_version: 1
+id: SQL-GC-0536
+document_id: DBKB-ASQL-0003
+dialect: portable
+environment: sqlite-local
+setup: []
+statement: SELECT CASE WHEN 536 > 0 THEN 'positive' ELSE 'non-positive' END
+expectation:
+  rows:
+  - - positive

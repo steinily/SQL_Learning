@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-GC-0824
+document_id: DBKB-FND-0010
+dialect: portable
+environment: sqlite-local
+setup:
+- CREATE TABLE coverage_824 (id INTEGER PRIMARY KEY, label TEXT); INSERT INTO coverage_824
+  VALUES (824, 'x');
+statement: SELECT id, UPPER(label) FROM coverage_824
+expectation:
+  rows:
+  - - 824
+    - X

@@ -1,0 +1,17 @@
+schema_version: 1
+id: SQL-GC-0628
+document_id: DBKB-ASQL-0006
+dialect: portable
+environment: sqlite-local
+setup:
+- CREATE TABLE coverage_628 (v INTEGER); INSERT INTO coverage_628 VALUES (628), (629),
+  (630);
+statement: SELECT v, ROW_NUMBER() OVER (ORDER BY v) FROM coverage_628 ORDER BY v
+expectation:
+  rows:
+  - - 628
+    - 1
+  - - 629
+    - 2
+  - - 630
+    - 3

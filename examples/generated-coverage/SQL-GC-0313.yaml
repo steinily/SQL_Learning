@@ -1,0 +1,17 @@
+schema_version: 1
+id: SQL-GC-0313
+document_id: DBKB-ISQL-0015
+dialect: portable
+environment: sqlite-local
+setup:
+- CREATE TABLE coverage_313 (grp TEXT, v INTEGER); INSERT INTO coverage_313 VALUES
+  ('a', 313), ('a', 314), ('b', 315);
+statement: SELECT grp, COUNT(*), SUM(v) FROM coverage_313 GROUP BY grp ORDER BY grp
+expectation:
+  rows:
+  - - a
+    - 2
+    - 627
+  - - b
+    - 1
+    - 315

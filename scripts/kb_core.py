@@ -556,6 +556,27 @@ def generate_metrics(
     )
     severity = Counter(item.severity for item in findings)
     reports = validation_reports(root)
+    declared_examples: dict[str, dict[str, Any]] = {}
+    for path in sorted((root / "examples").rglob("SQL-*.yaml")):
+        try:
+            example = load_yaml(path)
+        except (OSError, yaml.YAMLError):
+            continue
+        if isinstance(example, dict) and example.get("id"):
+            declared_examples[str(example["id"])] = example
+    execution_evidence: dict[str, dict[str, Any]] = {}
+    for path in sorted((root / "validation" / "execution").glob("*.json")):
+        try:
+            evidence = load_json(path)
+        except (OSError, json.JSONDecodeError):
+            continue
+        if isinstance(evidence, dict) and evidence.get("example_id"):
+            execution_evidence[str(evidence["example_id"])] = evidence
+    passing_execution_examples = sum(
+        1
+        for example_id in declared_examples
+        if execution_evidence.get(example_id, {}).get("status") == "PASS"
+    )
     fully_verified = sum(
         1 for document in documents if document.metadata.get("verification") == "fully-verified"
     )
@@ -577,7 +598,7 @@ def generate_metrics(
         and len(documents) == baseline_total
         and fully_verified == baseline_total
         and blocking == 0
-        and executable >= int(v1["release_targets"]["executable_tests_target_min"])
+        and passing_execution_examples >= int(v1["release_targets"]["executable_tests_target_min"])
     )
     return {
         "schema_version": 1,
@@ -612,6 +633,8 @@ def generate_metrics(
         },
         "execution_validation": {
             "passing_document_reports": executable,
+            "passing_execution_examples": passing_execution_examples,
+            "declared_execution_examples": len(declared_examples),
             "target_min": int(v1["release_targets"]["executable_tests_target_min"]),
         },
         "knowledge_graph": {
@@ -660,7 +683,8 @@ Generated at: `{metrics['generated_at']}`
 - Authored documents: **{content['authored_documents']}** ({content['progress_percent']}%)
 - Fully verified documents: **{verification['fully_verified']}** ({verification['progress_percent']}%)
 - Publishable documents: **{content['publishable_documents']}**
-- Execution-PASS document reports: **{execution['passing_document_reports']} / {execution['target_min']} minimum**
+- Execution-PASS document reports: **{execution['passing_document_reports']}**
+- PASS execution evidence cases: **{execution['passing_execution_examples']} / {execution['target_min']} minimum**
 
 ## QA
 

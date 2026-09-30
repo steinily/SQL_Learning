@@ -1,0 +1,17 @@
+schema_version: 1
+id: SQL-GC-0738
+document_id: DBKB-FND-0016
+dialect: portable
+environment: sqlite-local
+setup:
+- CREATE TABLE coverage_738 (v INTEGER); INSERT INTO coverage_738 VALUES (738), (739),
+  (740);
+statement: SELECT v, ROW_NUMBER() OVER (ORDER BY v) FROM coverage_738 ORDER BY v
+expectation:
+  rows:
+  - - 738
+    - 1
+  - - 739
+    - 2
+  - - 740
+    - 3

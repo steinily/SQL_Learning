@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-GC-0402
+document_id: DBKB-ISQL-0015
+dialect: portable
+environment: sqlite-local
+setup:
+- CREATE TABLE coverage_402 (v INTEGER); INSERT INTO coverage_402 VALUES (402), (403),
+  (404);
+statement: SELECT v FROM coverage_402 WHERE v % 2 = 0 ORDER BY v
+expectation:
+  rows:
+  - - 402
+  - - 404

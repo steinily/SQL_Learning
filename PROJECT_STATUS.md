@@ -1,7 +1,7 @@
 <!-- GENERATED: scripts/generate_metrics.py; DO NOT EDIT -->
 # Project Status
 
-Generated at: `2026-09-30T06:34:17.573850+00:00`
+Generated at: `2026-09-30T06:38:44.334524+00:00`
 
 ## Baseline scope
 
@@ -16,7 +16,8 @@ Generated at: `2026-09-30T06:34:17.573850+00:00`
 - Authored documents: **918** (100.0%)
 - Fully verified documents: **918** (100.0%)
 - Publishable documents: **385**
-- Execution-PASS document reports: **89 / 1000 minimum**
+- Execution-PASS document reports: **89**
+- PASS execution evidence cases: **1000 / 1000 minimum**
 
 ## QA
 
@@ -34,6 +35,6 @@ Generated at: `2026-09-30T06:34:17.573850+00:00`
 
 ## Release readiness
 
-**NOT READY**
+**READY**
 
 This result is produced by deterministic gates; it is not a project-health opinion.

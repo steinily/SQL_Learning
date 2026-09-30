@@ -1,0 +1,13 @@
+schema_version: 1
+id: SQL-GC-0194
+document_id: DBKB-ASQL-0020
+dialect: portable
+environment: sqlite-local
+setup:
+- CREATE TABLE coverage_194 (id INTEGER PRIMARY KEY, label TEXT); INSERT INTO coverage_194
+  VALUES (194, 'x');
+statement: SELECT id, UPPER(label) FROM coverage_194
+expectation:
+  rows:
+  - - 194
+    - X

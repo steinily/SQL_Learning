@@ -1,0 +1,17 @@
+schema_version: 1
+id: SQL-GC-0203
+document_id: DBKB-FND-0013
+dialect: portable
+environment: sqlite-local
+setup:
+- CREATE TABLE coverage_203 (grp TEXT, v INTEGER); INSERT INTO coverage_203 VALUES
+  ('a', 203), ('a', 204), ('b', 205);
+statement: SELECT grp, COUNT(*), SUM(v) FROM coverage_203 GROUP BY grp ORDER BY grp
+expectation:
+  rows:
+  - - a
+    - 2
+    - 407
+  - - b
+    - 1
+    - 205

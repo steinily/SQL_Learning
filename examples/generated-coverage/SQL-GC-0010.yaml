@@ -1,0 +1,10 @@
+schema_version: 1
+id: SQL-GC-0010
+document_id: DBKB-ASQL-0011
+dialect: portable
+environment: sqlite-local
+setup: []
+statement: SELECT 10 AS case_id
+expectation:
+  rows:
+  - - 10

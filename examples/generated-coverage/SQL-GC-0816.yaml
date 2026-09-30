@@ -1,0 +1,10 @@
+schema_version: 1
+id: SQL-GC-0816
+document_id: DBKB-ASQL-0019
+dialect: portable
+environment: sqlite-local
+setup: []
+statement: SELECT CASE WHEN 816 > 0 THEN 'positive' ELSE 'non-positive' END
+expectation:
+  rows:
+  - - positive

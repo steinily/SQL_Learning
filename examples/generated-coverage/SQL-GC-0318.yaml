@@ -1,0 +1,17 @@
+schema_version: 1
+id: SQL-GC-0318
+document_id: DBKB-ISQL-0020
+dialect: portable
+environment: sqlite-local
+setup:
+- CREATE TABLE coverage_318 (v INTEGER); INSERT INTO coverage_318 VALUES (318), (319),
+  (320);
+statement: SELECT v, ROW_NUMBER() OVER (ORDER BY v) FROM coverage_318 ORDER BY v
+expectation:
+  rows:
+  - - 318
+    - 1
+  - - 319
+    - 2
+  - - 320
+    - 3
