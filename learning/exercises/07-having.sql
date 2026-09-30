@@ -1,0 +1,3 @@
+-- 1. Listázd azokat a városokat, ahol legalább két vevő lakik.
+-- 2. Listázd azokat a vevőket, akiknek legalább két nem törölt rendelésük van.
+-- 3. Listázd azokat a kategóriákat, amelyekben az átlagár legalább 5000.

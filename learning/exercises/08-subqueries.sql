@@ -1,0 +1,3 @@
+-- 1. Listázd az átlagárnál drágább termékeket.
+-- 2. Listázd azokat a vevőket, akiknek van paid státuszú rendelésük; használd az EXISTS-t.
+-- 3. Listázd azokat a termékeket, amelyek szerepeltek legalább egy rendelésben; oldd meg EXISTS-szel.

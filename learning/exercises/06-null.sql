@@ -1,0 +1,3 @@
+-- 1. Listázd minden vevő nevét és rendelési státuszát; rendelés nélküli vevőnél jelenjen meg: 'nincs rendelés'.
+-- 2. Listázd csak a rendelés nélküli vevőket.
+-- 3. Számold meg vevőnként a tényleges rendeléseket úgy, hogy a nulla is látszódjon.

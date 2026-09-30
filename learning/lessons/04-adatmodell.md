@@ -1,4 +1,4 @@
-# 4. Adatmodell és megszorítások
+# 8. Adatmodell és megszorítások
 
 Az adatmodell nem pusztán táblanevek listája: a kulcsok és a megszorítások (`constraints`) üzleti szabályokat védenek. A `NOT NULL`, `UNIQUE`, `CHECK`, `PRIMARY KEY` és `FOREIGN KEY` hibás állapotok létrejöttét akadályozza.
 

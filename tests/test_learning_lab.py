@@ -1,7 +1,7 @@
 from pathlib import Path
 import sqlite3
 
-from scripts.learning_runner import statements
+from scripts.learning_runner import LESSONS, statements
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -29,3 +29,8 @@ def test_learning_demo_queries_return_deterministic_results():
 def test_learning_runner_splits_learner_sql_statements():
     sql = "-- feladat\nSELECT 1;\nSELECT 2;\n"
     assert list(statements(sql)) == ["SELECT 1;", "SELECT 2;"]
+
+
+def test_all_learning_demos_are_declared():
+    for _, (_, filename) in LESSONS.items():
+        assert (ROOT / "learning/sql" / filename).is_file()

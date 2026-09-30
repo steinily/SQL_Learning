@@ -23,7 +23,7 @@ Az alaplaborhoz Python 3.10+ szükséges; nincs szükség adatbázis-szerverre v
 
 ## Mit tartalmaz?
 
-- `learning/lessons/` — vezetett leckék: cél, előfeltétel, magyarázat, kód és ellenőrző kérdések;
+- `learning/lessons/` — 12 lépéses vezetett útvonal (0–11): cél, előfeltétel, magyarázat, kód és ellenőrző kérdések;
 - `learning/exercises/` — önállóan megoldandó feladatok;
 - `learning/solutions/` — mintamegoldások, csak a feladat megkísérlése után;
 - `learning/ASSESSMENT.md` — önellenőrző kérdések és haladási szintek;
@@ -32,6 +32,8 @@ Az alaplaborhoz Python 3.10+ szükséges; nincs szükség adatbázis-szerverre v
 - `content/` — a részletes, kereshető referenciaanyag 36 tématerületen;
 - `scripts/learning_runner.py` — telepítésmentes gyakorlófuttató;
 - `tests/` és `Makefile` — a repó minőségi ellenőrzése.
+
+A feladatok részletes munkamenete a [learning/exercises/README.md](learning/exercises/README.md) fájlban található.
 
 ## Fontos: SQLite és production SQL
 

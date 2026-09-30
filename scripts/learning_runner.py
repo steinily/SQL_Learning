@@ -6,7 +6,17 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SQL_DIR = ROOT / "learning" / "sql"
-LESSONS = {1: ("SELECT, WHERE, ORDER BY", "demo_01_select.sql"), 2: ("JOIN és aggregáció", "demo_02_join.sql"), 3: ("CTE és ablakfüggvény", "demo_03_advanced.sql")}
+LESSONS = {
+    1: ("SELECT, WHERE, ORDER BY", "demo_01_select.sql"),
+    2: ("JOIN és aggregáció", "demo_02_join.sql"),
+    3: ("CTE és ablakfüggvény", "demo_03_advanced.sql"),
+    4: ("NULL és COALESCE", "demo_04_null.sql"),
+    5: ("HAVING", "demo_05_having.sql"),
+    6: ("Al-lekérdezések", "demo_06_subqueries.sql"),
+    7: ("CASE", "demo_07_case.sql"),
+    8: ("Biztonságos módosítás", "demo_08_modification.sql"),
+    9: ("Index és EXPLAIN QUERY PLAN", "demo_09_index.sql"),
+}
 
 def queries(text: str):
     current = []

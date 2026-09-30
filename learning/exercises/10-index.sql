@@ -1,0 +1,3 @@
+-- 1. Nézd meg az orders customer_id szerinti keresésének tervét index nélkül.
+-- 2. Hozd létre az idx_orders_customer_id indexet, majd futtasd újra az EXPLAIN QUERY PLAN-t.
+-- 3. Írd le: miért nem bizonyítja egy kis, négy soros tábla a production teljesítményt?

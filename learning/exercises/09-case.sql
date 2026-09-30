@@ -1,0 +1,3 @@
+-- 1. CASE segítségével jelöld a rendeléseket 'open', 'done' vagy 'cancelled' kategóriával.
+-- 2. Kategorizáld a termékeket: cheap (< 5000), standard (< 15000), premium.
+-- 3. Adj vissza egy 'has_discount' oszlopot: minden 10000 feletti termék 'yes', a többi 'no'.

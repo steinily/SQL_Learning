@@ -1,4 +1,4 @@
-# 5. Adatmódosítás és tranzakció
+# 9. Adatmódosítás és tranzakció
 
 Az `INSERT`, `UPDATE` és `DELETE` módosítja az adatot. Módosítás előtt ugyanazzal a feltétellel futtass ellenőrző `SELECT`-et, majd használd a `BEGIN` / `COMMIT` / `ROLLBACK` tranzakciós határokat.
 

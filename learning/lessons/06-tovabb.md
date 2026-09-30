@@ -1,4 +1,4 @@
-# 6. Hogyan folytasd?
+# 11. Hogyan folytasd?
 
 A kezdő útvonal után válassz fókuszt: adatmodellezés, PostgreSQL/SQL Server/MySQL, indexelés és execution plan, tranzakciók, vagy analitikai SQL.
 
