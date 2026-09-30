@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M35-008
+title: Troubleshooting evidence and SQL anti-patterns
+state: DONE
+manifest_items: [DBKB-REC-0037, DBKB-REC-0038, DBKB-REC-0039, DBKB-REC-0040, DBKB-REC-0041]
+dependencies: [WP-M35-007]
+research_requirements: [schema drift, cost, incident triage, evidence, SQL anti-patterns]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
