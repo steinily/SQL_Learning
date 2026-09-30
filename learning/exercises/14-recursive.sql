@@ -1,0 +1,4 @@
+-- A demo employees tábláját használd.
+-- 1. Írd ki minden dolgozó mélységét a hierarchiában.
+-- 2. Számold meg, hány közvetlen beosztottja van minden vezetőnek.
+-- 3. Írd le, milyen ciklusvédelmet adnál production megoldásban.

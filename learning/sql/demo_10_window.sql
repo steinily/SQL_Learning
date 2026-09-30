@@ -1,0 +1,2 @@
+-- query: futó rendelési érték
+SELECT o.order_id, o.order_date, SUM(oi.quantity * p.unit_price) AS order_total, SUM(SUM(oi.quantity * p.unit_price)) OVER (ORDER BY o.order_date, o.order_id ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS running_total FROM orders o JOIN order_items oi ON oi.order_id = o.order_id JOIN products p ON p.product_id = oi.product_id GROUP BY o.order_id, o.order_date ORDER BY o.order_date, o.order_id;

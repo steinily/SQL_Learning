@@ -1,0 +1,3 @@
+-- 1. Futtasd a scripts/locking_demo.py fájlt.
+-- 2. Írd le a blocking és deadlock közötti különbséget.
+-- 3. Sorolj fel három módszert a lock-idő csökkentésére.

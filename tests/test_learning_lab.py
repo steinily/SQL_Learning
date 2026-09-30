@@ -34,3 +34,9 @@ def test_learning_runner_splits_learner_sql_statements():
 def test_all_learning_demos_are_declared():
     for _, (_, filename) in LESSONS.items():
         assert (ROOT / "learning/sql" / filename).is_file()
+
+
+def test_locking_demo_is_present_and_isolated():
+    script = ROOT / "scripts/locking_demo.py"
+    assert script.is_file()
+    assert "TemporaryDirectory" in script.read_text(encoding="utf-8")

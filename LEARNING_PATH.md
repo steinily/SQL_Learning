@@ -17,7 +17,19 @@ Ez a javasolt sorrend annak, aki nulláról szeretne használható SQL-tudást s
 | 10. Index és terv | index, `EXPLAIN QUERY PLAN` | [10-index](learning/lessons/10-index-es-explain.md) | [Indexing Overview](content/08-indexing/indexing-overview.md) |
 | 11. Következő szint | dialektusok és projekt | [11-tovább](learning/lessons/06-tovabb.md) | [Query Performance](content/09-query-performance-and-optimization/query-performance-overview.md) |
 
-Az első tíz szakasz után a tanuló képes legyen egy kis üzleti kérdést táblákra és lekérdezésre bontani, az eredményt ellenőrizni és a biztonsági/teljesítménybeli következményeket felismerni. Ezután a `content/` megfelelő moduljaiban érdemes mélyíteni, nem mind a 919 cikket sorrendben elolvasni.
+## Haladó pálya
+
+| Szakasz | Mit tanulsz? | Lecke | Referencia |
+|---|---|---|---|
+| 12. Window function mélyebben | frame-ek, futó összeg, `LAG` | [12-window](learning/lessons/12-window-frames.md) | [Window Frames](content/04-advanced-sql/window-frames.md) |
+| 13. Top-N csoportonként | `ROW_NUMBER`, `RANK`, tie-kezelés | [13-top-N](learning/lessons/13-top-n-csoportonkent.md) | [Top-N per Group](content/04-advanced-sql/top-n-per-group.md) |
+| 14. Rekurzív CTE | hierarchiák és ciklusvédelem | [14-rekurzív CTE](learning/lessons/14-rekurziv-cte.md) | [Recursive CTE](content/03-intermediate-sql/recursive-cte-fundamentals-and-safety.md) |
+| 15. Query optimization | tervolvasás, sargability, cardinality | [15-optimalizálás](learning/lessons/15-query-optimalizalas.md) | [Query Tuning Workflow](content/09-query-performance-and-optimization/query-tuning-workflow.md) |
+| 16. Indexstratégiák | összetett, részleges és covering index | [16-indexstratégiák](learning/lessons/16-indexstrategiak.md) | [Composite Indexes](content/08-indexing/composite-indexes.md) |
+| 17. Locking és konkurencia | blocking, timeout, deadlock-alapok | [17-locking](learning/lessons/17-locking-es-konkurencia.md) | [Locking Fundamentals](content/07-transactions-and-concurrency/locking-fundamentals.md) |
+| 18. Haladó projekt | mérés, indoklás, trade-offok | [18-haladó projekt](learning/lessons/18-halado-projekt.md) | [Query Tuning Exercise](content/09-query-performance-and-optimization/query-tuning-exercise.md) |
+
+Az első tíz szakasz után a tanuló képes legyen egy kis üzleti kérdést táblákra és lekérdezésre bontani, az eredményt ellenőrizni és a biztonsági/teljesítménybeli következményeket felismerni. A 12–18. szakasz a production-közeli SQL-gondolkodást fejleszti. Ezután a `content/` megfelelő moduljaiban érdemes mélyíteni, nem mind a 919 cikket sorrendben elolvasni.
 
 ## Oktatónak
 

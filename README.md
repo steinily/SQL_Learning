@@ -23,7 +23,7 @@ Az alaplaborhoz Python 3.10+ szükséges; nincs szükség adatbázis-szerverre v
 
 ## Mit tartalmaz?
 
-- `learning/lessons/` — 12 lépéses vezetett útvonal (0–11): cél, előfeltétel, magyarázat, kód és ellenőrző kérdések;
+- `learning/lessons/` — 19 lépéses vezetett útvonal (0–18), alapozó és haladó pályával;
 - `learning/exercises/` — önállóan megoldandó feladatok;
 - `learning/solutions/` — mintamegoldások, csak a feladat megkísérlése után;
 - `learning/ASSESSMENT.md` — önellenőrző kérdések és haladási szintek;
@@ -31,9 +31,14 @@ Az alaplaborhoz Python 3.10+ szükséges; nincs szükség adatbázis-szerverre v
 - `learning/sql/` — közös, kis webshop-adatmodell és demo lekérdezések;
 - `content/` — a részletes, kereshető referenciaanyag 36 tématerületen;
 - `scripts/learning_runner.py` — telepítésmentes gyakorlófuttató;
+- `scripts/locking_demo.py` — izolált, kétkapcsolatos locking-demó;
 - `tests/` és `Makefile` — a repó minőségi ellenőrzése.
 
 A feladatok részletes munkamenete a [learning/exercises/README.md](learning/exercises/README.md) fájlban található.
+
+## Haladó tanulás
+
+Az alapozó pálya után folytasd a [haladó pályán](LEARNING_PATH.md#haladó-pálya). Itt már nem csak az a kérdés, hogy a query helyes-e: vizsgáld a result grainjét, a végrehajtási tervet, az index költségét, a lockingot és a dialektusfüggő viselkedést is.
 
 ## Fontos: SQLite és production SQL
 

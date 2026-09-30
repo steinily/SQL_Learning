@@ -1,0 +1,3 @@
+-- 1. Hozz létre összetett indexet status, order_date sorrendben.
+-- 2. Vizsgáld meg a status + order_date predicate tervét.
+-- 3. Magyarázd el, miért nem ugyanaz a status nélküli order_date keresés indexhasználata.

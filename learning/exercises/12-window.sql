@@ -1,0 +1,3 @@
+-- 1. Számíts futó darabszámot a rendelések dátum szerinti sorrendjében.
+-- 2. Használd a LAG-ot az előző rendelés értékének megjelenítésére.
+-- 3. Magyarázd el, miért kell order_id tie-breaker azonos dátumok esetén.

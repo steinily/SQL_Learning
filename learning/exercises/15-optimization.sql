@@ -1,0 +1,3 @@
+-- 1. Futtasd EXPLAIN QUERY PLAN-nel a customer_id szerinti keresést.
+-- 2. Hozz létre megfelelő indexet, majd hasonlítsd össze a tervet.
+-- 3. Írj egy rövid mérési jegyzetet: mi volt a változás és milyen adatméreten mérted?

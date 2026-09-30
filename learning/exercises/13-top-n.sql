@@ -1,0 +1,3 @@
+-- 1. Add vissza kategóriánként a legdrágább terméket.
+-- 2. Add vissza kategóriánként a két legdrágább terméket.
+-- 3. Írd le, mikor választanál RANK-ot ROW_NUMBER helyett.

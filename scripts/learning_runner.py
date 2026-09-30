@@ -16,6 +16,11 @@ LESSONS = {
     7: ("CASE", "demo_07_case.sql"),
     8: ("Biztonságos módosítás", "demo_08_modification.sql"),
     9: ("Index és EXPLAIN QUERY PLAN", "demo_09_index.sql"),
+    10: ("Window function frame-ek", "demo_10_window.sql"),
+    11: ("Top-N csoportonként", "demo_11_top_n.sql"),
+    12: ("Rekurzív CTE", "demo_12_recursive.sql"),
+    13: ("Query optimalizálás", "demo_13_optimization.sql"),
+    14: ("Indexstratégiák", "demo_14_index_strategy.sql"),
 }
 
 def queries(text: str):

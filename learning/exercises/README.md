@@ -29,6 +29,13 @@ A futtató minden alkalommal új adatbázist hoz létre, ezért a módosítási 
 | Al-lekérdezések | `08-subqueries.sql` |
 | Index és terv | `10-index.sql` |
 | Záróprojekt | `11-project.md` |
+| Window function | `12-window.sql` |
+| Top-N csoportonként | `13-top-n.sql` |
+| Rekurzív CTE | `14-recursive.sql` |
+| Query optimalizálás | `15-optimization.sql` |
+| Indexstratégia | `16-index-strategy.sql` |
+| Locking és konkurencia | `17-locking.sql` |
+| Haladó projekt | `18-advanced-project.md` |
 
 ## Mit jelent a jó válasz?
 
