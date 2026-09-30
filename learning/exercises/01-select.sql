@@ -1,0 +1,4 @@
+-- A schema.sql futtatása után oldd meg a feladatokat.
+-- 1. Listázd a legalább 10 000 árú termékek nevét és árát, ár szerint csökkenő sorrendben.
+-- 2. Listázd a budapesti vevőket név szerint.
+-- 3. Add vissza a három legolcsóbb terméket.

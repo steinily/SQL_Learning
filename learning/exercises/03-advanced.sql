@@ -1,0 +1,3 @@
+-- 1. CTE-vel számold ki minden vevő nem törölt rendelési értékét.
+-- 2. Rangsorold a termékeket kategóriánként ár szerint.
+-- 3. CASE segítségével jelöld a termékeket cheap (< 5000) vagy premium kategóriával.

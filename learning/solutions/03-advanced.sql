@@ -1,0 +1,3 @@
+WITH totals AS (SELECT o.customer_id, SUM(oi.quantity * p.unit_price) AS total FROM orders AS o JOIN order_items AS oi ON oi.order_id = o.order_id JOIN products AS p ON p.product_id = oi.product_id WHERE o.status <> 'cancelled' GROUP BY o.customer_id) SELECT c.name, COALESCE(t.total, 0) AS total FROM customers AS c LEFT JOIN totals AS t ON t.customer_id = c.customer_id ORDER BY total DESC;
+SELECT name, category, unit_price, RANK() OVER (PARTITION BY category ORDER BY unit_price DESC) AS category_rank FROM products;
+SELECT name, CASE WHEN unit_price < 5000 THEN 'cheap' ELSE 'premium' END AS price_band FROM products;

@@ -1,4 +1,4 @@
-.PHONY: validate test metrics qa audit atlas sql docmost docmost-bundle all
+.PHONY: validate test metrics qa audit atlas sql learn docmost docmost-bundle all
 
 PYTHON ?= .venv/bin/python
 
@@ -19,6 +19,9 @@ atlas:
 
 sql:
 	$(PYTHON) scripts/sql_harness.py --allow-destructive
+
+learn:
+	python3 scripts/learning_runner.py
 
 audit:
 	$(PYTHON) scripts/audit_documents.py

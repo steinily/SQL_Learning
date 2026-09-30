@@ -1,0 +1,3 @@
+-- 1. BEGIN után emeld 10%-kal a book termékek árát, ellenőrizd az új értéket, majd ROLLBACK.
+-- 2. BEGIN után szúrj be egy új terméket és COMMIT-tal véglegesítsd.
+-- 3. Írd le, miért veszélyes UPDATE-et futtatni WHERE feltétel nélkül.

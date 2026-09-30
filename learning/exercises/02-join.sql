@@ -1,0 +1,3 @@
+-- 1. Add vissza minden vevőt és a rendeléseik darabszámát, a rendelés nélküli vevőkkel együtt.
+-- 2. Számold ki a nem törölt rendelések teljes értékét.
+-- 3. Keresd meg azokat a vevőket, akiknek nincs rendelésük.

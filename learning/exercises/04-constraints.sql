@@ -1,0 +1,4 @@
+-- A schema.sql futtatása után dolgozz.
+-- 1. Írj lekérdezést, amely megmutatja az order_items oszlopait és NOT NULL szabályait.
+-- 2. Próbálj meg 0 mennyiségű order_itemet beszúrni. Milyen constraint hibát kapsz?
+-- 3. Próbálj meg nem létező customer_id-val rendelést beszúrni. Mi védi meg az adatmodellt?

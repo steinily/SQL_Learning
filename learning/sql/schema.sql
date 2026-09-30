@@ -1,0 +1,13 @@
+PRAGMA foreign_keys = ON;
+DROP TABLE IF EXISTS order_items;
+DROP TABLE IF EXISTS orders;
+DROP TABLE IF EXISTS products;
+DROP TABLE IF EXISTS customers;
+CREATE TABLE customers (customer_id INTEGER PRIMARY KEY, name TEXT NOT NULL, city TEXT NOT NULL, email TEXT UNIQUE NOT NULL);
+CREATE TABLE products (product_id INTEGER PRIMARY KEY, name TEXT NOT NULL, category TEXT NOT NULL, unit_price NUMERIC NOT NULL CHECK (unit_price >= 0));
+CREATE TABLE orders (order_id INTEGER PRIMARY KEY, customer_id INTEGER NOT NULL REFERENCES customers(customer_id), order_date TEXT NOT NULL, status TEXT NOT NULL CHECK (status IN ('new', 'paid', 'shipped', 'cancelled')));
+CREATE TABLE order_items (order_id INTEGER NOT NULL REFERENCES orders(order_id), product_id INTEGER NOT NULL REFERENCES products(product_id), quantity INTEGER NOT NULL CHECK (quantity > 0), PRIMARY KEY (order_id, product_id));
+INSERT INTO customers VALUES (1, 'Anna Kovács', 'Budapest', 'anna@example.com'), (2, 'Béla Nagy', 'Szeged', 'bela@example.com'), (3, 'Csilla Tóth', 'Budapest', 'csilla@example.com'), (4, 'Dávid Varga', 'Pécs', 'david@example.com');
+INSERT INTO products VALUES (1, 'SQL könyv', 'book', 12000), (2, 'Jegyzetfüzet', 'stationery', 2500), (3, 'Kávésbögre', 'accessory', 3500), (4, 'Adatbázis-poszter', 'accessory', 5000), (5, 'Online kurzus', 'course', 18000);
+INSERT INTO orders VALUES (1001, 1, '2026-01-10', 'paid'), (1002, 1, '2026-01-12', 'shipped'), (1003, 2, '2026-01-15', 'new'), (1004, 3, '2026-02-02', 'cancelled');
+INSERT INTO order_items VALUES (1001, 1, 1), (1001, 2, 2), (1002, 5, 1), (1003, 3, 2), (1003, 4, 1), (1004, 1, 1);

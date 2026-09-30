@@ -1,42 +1,44 @@
-# Data & Database Engineering Knowledge Base
+# SQL Learning
 
-A validated, version-aware knowledge base for SQL, relational databases, database engineering and data engineering.
+Tanulási célú SQL-repozitórium magyar magyarázatokkal, futtatható példákkal és ellenőrizhető gyakorlatokkal.
 
-## Project status
+## Hol kezdjem?
 
-- Architecture: **v1.0 — FROZEN**
-- Manifest: **v1.0 — FROZEN at topic-family level**
-- GitHub: **canonical source of truth**
-- Docmost: publishing/search projection
-- Content language: Hungarian explanations with original English technical terminology
-- Current phase: repository bootstrap and M01 pilot preparation
+Ha most tanulod az SQL-t, kövesd a [tanulási útvonalat](LEARNING_PATH.md), majd futtasd a helyi SQLite példákat:
 
-## Core principles
+```bash
+cd SQL_Learning
+python3 scripts/learning_runner.py
+```
 
-1. No unsupported claim becomes verified.
-2. No generated metric overrides observable evidence.
-3. No automation may silently expand, delete or redefine accepted scope.
-4. Content creation and verification are separate duties.
-5. Execution-tested means actually executed in a declared environment.
-6. Synthetic examples, benchmarks and case studies are explicitly labelled.
-7. New demo entities require teaching value.
+Nincs szükség adatbázis-szerverre vagy külső csomagra. A példák minden futáskor egy izolált, ideiglenes SQLite adatbázist építenek fel.
 
-## Architecture
+## Mit tartalmaz?
 
-The project has seven layers:
+- `learning/lessons/` — vezetett leckék: cél, előfeltétel, magyarázat, kód és ellenőrző kérdések;
+- `learning/exercises/` — önállóan megoldandó feladatok;
+- `learning/solutions/` — mintamegoldások, csak a feladat megkísérlése után;
+- `learning/ASSESSMENT.md` — önellenőrző kérdések és haladási szintek;
+- `INSTRUCTOR_GUIDE.md` — óraterv, differenciálás és értékelési rubrika;
+- `learning/sql/` — közös, kis webshop-adatmodell és demo lekérdezések;
+- `content/` — a részletes, kereshető referenciaanyag 36 tématerületen;
+- `scripts/learning_runner.py` — telepítésmentes gyakorlófuttató;
+- `tests/` és `Makefile` — a repó minőségi ellenőrzése.
 
-1. Knowledge Base Content
-2. Knowledge Graph
-3. Research & Sources
-4. Demo Data Ecosystem
-5. Validation & QA
-6. Governance & Metrics
-7. Delivery / Docmost
+## Tanulási modell
 
-See `docs/architecture/`, `manifest/`, `schemas/` and `governance/` as the repository is bootstrapped.
+Minden leckénél ezt a ciklust kövesd: olvasd el a célt, futtasd a példát, módosítsd a lekérdezést, oldd meg a feladatot, majd hasonlítsd össze a mintamegoldással.
 
-## Scope
+## A referenciaanyag használata
 
-V1 targets Foundations, SQL, relational database engineering, data modeling, transactions, indexing, performance, internals, PostgreSQL, SQL Server, MySQL/MariaDB, operations, security, observability, testing, migrations, data engineering, warehousing, data quality, practical troubleshooting, exercises and reference material, with shallower expansion coverage for NoSQL, distributed systems, cloud data platforms and related architecture.
+ A `content/` könyvtár nem kötelezően lineáris tankönyv, hanem fogalmi referencia. A tanulási útvonal minden szakaszán megadja, melyik részletes cikket érdemes elolvasni. Az alapleckék portable SQL/SQLite példákat használnak; a vendor-specifikus eltéréseket külön jelöljük.
 
-Mass content generation must not start until the bootstrap schemas, manifest and pilot validation workflow are stable.
+## Ellenőrzés
+
+```bash
+make learn
+make test
+make validate
+```
+
+Új leckéhez használd a [közreműködési útmutatót](CONTRIBUTING.md). A cél: minden új fogalomhoz legyen rövid magyarázat, futtatható példa, gyakorlófeladat és egyértelmű elvárt eredmény.
