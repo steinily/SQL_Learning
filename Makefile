@@ -1,4 +1,4 @@
-.PHONY: validate test metrics qa audit atlas sql docmost all
+.PHONY: validate test metrics qa audit atlas sql docmost docmost-bundle all
 
 PYTHON ?= .venv/bin/python
 
@@ -25,5 +25,8 @@ audit:
 
 docmost:
 	$(PYTHON) scripts/docmost_adapter.py --remote-state docmost/fixtures/empty-state.json
+
+docmost-bundle:
+	$(PYTHON) scripts/docmost_bundle.py --output-dir generated/docmost-import
 
 all: test atlas sql audit qa metrics docmost

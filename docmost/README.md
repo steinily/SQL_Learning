@@ -25,4 +25,6 @@ Lokális bundle készítés:
 
 ```bash
 .venv/bin/python scripts/docmost_bundle.py --output-dir generated/docmost-import
+# vagy
+make docmost-bundle
 ```
