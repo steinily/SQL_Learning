@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M36-013
+title: Capstone quality and platform references
+state: DONE
+manifest_items: [DBKB-CAP-0061, DBKB-CAP-0062, DBKB-CAP-0063, DBKB-CAP-0064, DBKB-CAP-0065]
+dependencies: [WP-M36-012]
+research_requirements: [quality, metadata, master data, distributed data, NoSQL references]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
