@@ -1,0 +1,10 @@
+schema_version: 1
+id: WP-M35-004
+title: Data platform recipes
+state: DONE
+manifest_items: [DBKB-REC-0016, DBKB-REC-0017, DBKB-REC-0018, DBKB-REC-0019, DBKB-REC-0020]
+dependencies: [WP-M35-003]
+research_requirements: [metadata, integration, streaming, warehouse, storage]
+validation_requirements: [metadata, sources, facts, links, prerequisites]
+completion_criteria: [Five documents satisfy Document Definition of Done]
+rework_cycles: 0
