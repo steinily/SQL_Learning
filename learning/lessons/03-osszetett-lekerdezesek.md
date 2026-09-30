@@ -18,4 +18,4 @@ SELECT * FROM totals;
 
 Az aggregáció egy csoportot egy sorra sűrít. A `RANK() OVER (...)` ezzel szemben minden terméksort megtart, és mellé rangot számol.
 
-Feladat: [`03-advanced.sql`](../exercises/03-advanced.sql). A referencia: [CTE Fundamentals](../../content/03-intermediate-sql/cte-fundamentals.md).
+Feladat: [`03-advanced.sql`](../exercises/03-advanced.sql). A saját SQL-edet a `python3 scripts/learning_runner.py --file my-answer.sql` paranccsal futtasd. A referencia: [CTE Fundamentals](../../content/03-intermediate-sql/cte-fundamentals.md).

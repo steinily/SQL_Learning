@@ -1,6 +1,8 @@
 from pathlib import Path
 import sqlite3
 
+from scripts.learning_runner import statements
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -22,3 +24,8 @@ def test_learning_demo_queries_return_deterministic_results():
             "WHERE o.order_id = 1001"
         ).fetchone()
         assert row == (17000,)
+
+
+def test_learning_runner_splits_learner_sql_statements():
+    sql = "-- feladat\nSELECT 1;\nSELECT 2;\n"
+    assert list(statements(sql)) == ["SELECT 1;", "SELECT 2;"]

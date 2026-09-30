@@ -15,7 +15,13 @@ Az SQL nem ígér sorrendet `ORDER BY` nélkül. Tartós lekérdezésben ne hasz
 
 ## Gyakorlat
 
-Nyisd meg a [`01-select.sql`](../exercises/01-select.sql) fájlt. Írd meg a három lekérdezést, majd ellenőrizd a [mintamegoldással](../solutions/01-select.sql).
+Másold le a [`01-select.sql`](../exercises/01-select.sql) fájlt, írd meg a három lekérdezést, majd futtasd:
+
+```bash
+python3 scripts/learning_runner.py --file my-answer.sql
+```
+
+Csak ezután ellenőrizd a [mintamegoldással](../solutions/01-select.sql).
 
 ## Tipikus hiba
 

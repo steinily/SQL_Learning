@@ -13,3 +13,5 @@ Nézd meg a [schema.sql](../sql/schema.sql) fájlt, és keresd meg benne mind az
 Írd le saját szavaiddal, mi romolna el, ha az `order_items` helyett egyetlen `product_id` oszlopot tennénk az `orders` táblába.
 
 Ezután oldd meg a [`04-constraints.sql`](../exercises/04-constraints.sql) feladatot, és ellenőrizd a [mintamegoldást](../solutions/04-constraints.sql).
+
+Megjegyzés: ebben a feladatban szándékosan kapsz constraint hibákat; a hiba megértése a cél, nem a hibás beszúrás sikeres végrehajtása.

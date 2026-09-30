@@ -9,3 +9,5 @@ python3 scripts/learning_runner.py --list
 ```
 
 A runner minden futáskor új memóriabeli SQLite adatbázissal indul. A feladatokat a `learning/exercises/` könyvtárban oldd meg; a mintamegoldásokat csak utána nyisd meg.
+
+Részletes feladatmenet: [exercises/README.md](exercises/README.md). A labor tanulási célra készült; production SQL előtt mindig ellenőrizd a cél-adatbázis dialectjét és verzióját.

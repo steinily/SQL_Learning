@@ -1,5 +1,5 @@
 BEGIN;
-UPDATE products SET unit_price = unit_price * 1.10 WHERE category = 'book';
+UPDATE products SET unit_price = ROUND(unit_price * 1.10, 2) WHERE category = 'book';
 SELECT name, unit_price FROM products WHERE category = 'book';
 ROLLBACK;
 
