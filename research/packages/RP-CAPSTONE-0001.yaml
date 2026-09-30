@@ -1,0 +1,16 @@
+schema_version: 1
+id: RP-CAPSTONE-0001
+topic: database engineering capstone cases exercises reference and learning paths
+status: READY
+verified_concepts:
+  - A case study must distinguish observed evidence, assumptions, decisions, outcomes and limitations.
+  - Exercises need explicit inputs, acceptance criteria, validation and reproducible evidence.
+  - Reference and learning-path documents must preserve prerequisite links and scope boundaries.
+claims:
+  - claim: Official vendor and standards sources in the module research packages provide authoritative technical references for capstone content.
+    evidence_level: E2
+    sources: [SRC-000001, SRC-000092, SRC-000098]
+    state: VERIFIED
+    context: Existing official repository source records.
+cautions: [Case studies in this module are bounded instructional scenarios unless actual execution or production evidence is explicitly attached.]
+sources: [SRC-000001, SRC-000092, SRC-000098]
